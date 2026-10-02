@@ -287,7 +287,7 @@ def finviz_quote(sym: str) -> dict:
         r = S.get(f"https://finviz.com/quote.ashx?t={sym.replace('-', '.')}&p=d", timeout=20)
         out["status"] = r.status_code
         html = r.text
-        m = re.search(r"Shs Float</td>.*?<b>(?:<span[^>]*>)?([\d\.]+)([KMB])", html, re.S)
+        m = re.search(r"Shs Float.{0,400}?>\s*([\d\.]+)\s*([KMB])\s*<", html, re.S)
         if m:
             mult = {"K": 1e3, "M": 1e6, "B": 1e9}[m.group(2)]
             out["float"] = float(m.group(1)) * mult

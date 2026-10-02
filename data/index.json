@@ -1,8 +1,14 @@
 [
  {
   "date": "2026-10-02",
-  "count": 0,
-  "tickers": [],
+  "count": 5,
+  "tickers": [
+   "NXL",
+   "EJH",
+   "LPA",
+   "VEEA",
+   "SHFS"
+  ],
   "market_closed": false
  }
 ]

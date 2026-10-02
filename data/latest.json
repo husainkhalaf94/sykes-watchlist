@@ -1,6 +1,6 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-10-02T09:07:04.659720-04:00",
+ "generated_at": "2026-10-02T09:14:05.824504-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -15,108 +15,17 @@
   "max_picks": 10,
   "pm_volume_share": 0.1
  },
- "picks": [],
- "near_misses": [
-  {
-   "symbol": "AISP",
-   "price": 2.26,
-   "prev_close": 2.22,
-   "gap_pct": 1.8,
-   "pm": {
-    "last": 2.26,
-    "high": 2.4,
-    "low": 2.2,
-    "vwap": 2.26,
-    "volume": 0
-   },
-   "avg_vol_20d": 216925,
-   "yday_vol": 41801000,
-   "rvol": 192.7,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 64.4,
-   "off_peak_pct": -21.0,
-   "atr14": 0.136,
-   "levels": {
-    "prev_high": 2.86,
-    "prev_low": 2.0,
-    "prev_close": 2.22,
-    "high_5d": 2.86,
-    "high_20d": 2.2,
-    "run_peak": 2.86,
-    "pm_high": 2.4,
-    "pm_low": 2.2,
-    "pm_vwap": 2.26
-   },
-   "green_streak": 3,
-   "setups": [
-    "Morning-panic dip-buy",
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Airship AI Holdings Inc. Class A Common Stock",
-   "sector": "Technology",
-   "industry": "Computer Software: Prepackaged Software",
-   "country": "United States",
-   "exchange": null,
-   "float": null,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Airship AI Announces $29.0M of Firm Fixed Price Brand Name Only Awards from Department of Homeland Security",
-     "url": "https://finviz.com/news/397808/airship-ai-announces-290m-of-firm-fixed-price-brand-name-only-awards-from-department-of-homeland-security",
-     "source": "Finviz",
-     "time": "2026-10-01T13:00:00+00:00"
-    },
-    {
-     "title": "Airship AI Reports Second Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/378707/airship-ai-reports-second-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-08-06T13:00:00+00:00"
-    },
-    {
-     "title": "Airship AI Secures Seven Figure Follow-On Contract Award with Fortune 100 Transportation &amp; E-Commerce Company",
-     "url": "https://finviz.com/news/363294/airship-ai-secures-seven-figure-follow-on-contract-award-with-fortune-100-transportation-e-commerce-company",
-     "source": "Finviz",
-     "time": "2026-06-23T12:00:00+00:00"
-    },
-    {
-     "title": "Airship AI Reports First Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/352939/airship-ai-reports-first-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-05-11T13:00:00+00:00"
-    }
-   ],
-   "news_age_h": 24.1,
-   "flags": [],
-   "plan": {
-    "entry": 2.002,
-    "stop": 1.766,
-    "target": 2.474,
-    "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+64.4% recently). Wait for an early panic flush into 1.86-2.15 (25-35% off the 2.86 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 74.7,
-   "failed": [
-    "float unknown"
-   ]
-  },
+ "picks": [
   {
    "symbol": "NXL",
-   "price": 5.851,
+   "price": 5.63,
    "prev_close": 7.55,
-   "gap_pct": -22.5,
+   "gap_pct": -25.4,
    "pm": {
-    "last": 5.851,
+    "last": 5.63,
     "high": 7.43,
-    "low": 5.85,
-    "vwap": 5.851,
+    "low": 5.56,
+    "vwap": 5.63,
     "volume": 0
    },
    "avg_vol_20d": 16865,
@@ -124,7 +33,7 @@
    "rvol": 3673.8,
    "rvol_basis": "yesterday",
    "run_pct_5d": 167.8,
-   "off_peak_pct": -46.7,
+   "off_peak_pct": -48.7,
    "atr14": 0.915,
    "levels": {
     "prev_high": 10.98,
@@ -134,8 +43,8 @@
     "high_20d": 6.8,
     "run_peak": 10.98,
     "pm_high": 7.43,
-    "pm_low": 5.85,
-    "pm_vwap": 5.851
+    "pm_low": 5.56,
+    "pm_vwap": 5.63
    },
    "green_streak": 1,
    "setups": [
@@ -153,7 +62,7 @@
    "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
    "country": "United States",
    "exchange": null,
-   "float": null,
+   "float": 650000.0,
    "short_pct_float": null,
    "news": [
     {
@@ -181,24 +90,21 @@
      "time": "2026-09-03T12:30:00+00:00"
     }
    ],
-   "news_age_h": 23.1,
+   "news_age_h": 23.2,
    "flags": [
     "Shelf/Registration S-1 filed 2026-09-03",
     "Offering 424B5 filed 2026-08-20",
     "Reverse split 1:30 on 2026-08-31"
    ],
    "plan": {
-    "entry": 5.617,
-    "stop": 5.114,
+    "entry": 5.405,
+    "stop": 4.921,
     "target": 7.55,
     "risk_pct": 9.0,
-    "rr": 3.8,
-    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.38-5.85 (47-51% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 4.4,
+    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.18-5.63 (49-53% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 70.5,
-   "failed": [
-    "float unknown"
-   ]
+   "score": 90.9
   },
   {
    "symbol": "EJH",
@@ -246,7 +152,7 @@
    "industry": "Other Consumer Services",
    "country": "China",
    "exchange": null,
-   "float": null,
+   "float": 2460000.0,
    "short_pct_float": null,
    "news": [
     {
@@ -274,7 +180,7 @@
      "time": "2026-03-16T07:53:00+00:00"
     }
    ],
-   "news_age_h": 25.9,
+   "news_age_h": 26.0,
    "flags": [
     "Reverse split 1:25 on 2026-03-30"
    ],
@@ -286,9 +192,552 @@
     "rr": 2.0,
     "note": "Former runner (+92.0% recently). Wait for an early panic flush into 1.41-1.63 (25-35% off the 2.17 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 66.3,
+   "score": 83.8
+  },
+  {
+   "symbol": "LPA",
+   "price": 2.958,
+   "prev_close": 2.91,
+   "gap_pct": 1.7,
+   "pm": {
+    "last": 2.958,
+    "high": 2.958,
+    "low": 2.73,
+    "vwap": 2.958,
+    "volume": 0
+   },
+   "avg_vol_20d": 176905,
+   "yday_vol": 1009000,
+   "rvol": 5.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 28.7,
+   "off_peak_pct": -13.2,
+   "atr14": 0.207,
+   "levels": {
+    "prev_high": 3.41,
+    "prev_low": 2.65,
+    "prev_close": 2.91,
+    "high_5d": 3.41,
+    "high_20d": 3.63,
+    "run_peak": 3.41,
+    "pm_high": 2.958,
+    "pm_low": 2.73,
+    "pm_vwap": 2.958
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Logistic Properties of the Americas Ordinary Shares",
+   "sector": "Finance",
+   "industry": "Real Estate",
+   "country": "",
+   "exchange": null,
+   "float": 5170000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Logistic Properties of the Americas Completes US$145 Million Asset Sale in Peru",
+     "url": "https://finviz.com/news/397322/logistic-properties-of-the-americas-completes-us145-million-asset-sale-in-peru",
+     "source": "Finviz",
+     "time": "2026-09-30T20:10:00+00:00"
+    },
+    {
+     "title": "Logistic Properties of the Americas Advances Capital Reallocation Strategy with Costa Rica Asset Sale",
+     "url": "https://finviz.com/news/393992/logistic-properties-of-the-americas-advances-capital-reallocation-strategy-with-costa-rica-asset-sale",
+     "source": "Finviz",
+     "time": "2026-09-21T20:30:00+00:00"
+    },
+    {
+     "title": "LPA to Present at Water Tower Research Virtual Insights Conference",
+     "url": "https://finviz.com/news/391831/lpa-to-present-at-water-tower-research-virtual-insights-conference",
+     "source": "Finviz",
+     "time": "2026-09-14T20:30:00+00:00"
+    },
+    {
+     "title": "Logistic Properties of the Americas Receives Definitive Regulatory Approval of $145 Million Asset Sale in Peru",
+     "url": "https://finviz.com/news/391248/logistic-properties-of-the-americas-receives-definitive-regulatory-approval-of-145-million-asset-sale-in-peru",
+     "source": "Finviz",
+     "time": "2026-09-11T13:25:00+00:00"
+    }
+   ],
+   "news_age_h": 41.1,
+   "flags": [],
+   "plan": {
+    "entry": 3.41,
+    "stop": 3.137,
+    "target": 3.956,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 26.4
+  },
+  {
+   "symbol": "VEEA",
+   "price": 3.43,
+   "prev_close": 3.47,
+   "gap_pct": -1.2,
+   "pm": {
+    "last": 3.43,
+    "high": 3.69,
+    "low": 3.26,
+    "vwap": 3.43,
+    "volume": 0
+   },
+   "avg_vol_20d": 13425400,
+   "yday_vol": 80329400,
+   "rvol": 6.0,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 96.2,
+   "off_peak_pct": -15.9,
+   "atr14": 1.397,
+   "levels": {
+    "prev_high": 4.08,
+    "prev_low": 2.91,
+    "prev_close": 3.47,
+    "high_5d": 4.08,
+    "high_20d": 8.88,
+    "run_peak": 4.08,
+    "pm_high": 3.69,
+    "pm_low": 3.26,
+    "pm_vwap": 3.43
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Veea Inc. Common Stock",
+   "sector": "Technology",
+   "industry": "EDP Services",
+   "country": "United States",
+   "exchange": null,
+   "float": 1590000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Veea Announces TROLLEE Agreement for Phased Deployment of VeeaONE to 1,000 Unattended Stores",
+     "url": "https://finviz.com/news/397646/veea-announces-trollee-agreement-for-phased-deployment-of-veeaone-to-1000-unattended-stores",
+     "source": "Finviz",
+     "time": "2026-10-01T12:00:00+00:00"
+    },
+    {
+     "title": "GEONOVA CAPITAL ANNOUNCES CORNERSTONE INVESTMENT IN NOVAGEN FOLLOWING PROPOSED BUSINESS COMBINATION WITH NASDAQ-LISTED VEEA",
+     "url": "https://finviz.com/news/393302/geonova-capital-announces-cornerstone-investment-in-novagen-following-proposed-business-combination-with-nasdaq-listed-veea",
+     "source": "Finviz",
+     "time": "2026-09-17T19:05:00+00:00"
+    },
+    {
+     "title": "Veea Inc. and NovaGen announce potential merger to launch an Edge AI-Powered Global Health Platform",
+     "url": "https://finviz.com/news/391832/veea-inc-and-novagen-announce-potential-merger-to-launch-an-edge-ai-powered-global-health-platform",
+     "source": "Finviz",
+     "time": "2026-09-14T20:42:00+00:00"
+    },
+    {
+     "title": "Veea Signs Telarus Distribution Agreement to Expand Channel Reach",
+     "url": "https://finviz.com/news/386311/veea-signs-telarus-distribution-agreement-to-expand-channel-reach",
+     "source": "Finviz",
+     "time": "2026-08-27T14:26:00+00:00"
+    }
+   ],
+   "news_age_h": 25.2,
+   "flags": [
+    "Offering 424B5 filed 2026-08-13",
+    "Shelf/Registration EFFECT filed 2026-07-01",
+    "Shelf/Registration S-3 filed 2026-06-26",
+    "Reverse split 1:20 on 2026-08-31"
+   ],
+   "plan": {
+    "entry": 2.856,
+    "stop": 2.519,
+    "target": 3.529,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+96.2% recently). Wait for an early panic flush into 2.65-3.06 (25-35% off the 4.08 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 23.5
+  },
+  {
+   "symbol": "SHFS",
+   "price": 1.24,
+   "prev_close": 1.3,
+   "gap_pct": -4.6,
+   "pm": {
+    "last": 1.24,
+    "high": 1.338,
+    "low": 1.21,
+    "vwap": 1.24,
+    "volume": 0
+   },
+   "avg_vol_20d": 123794,
+   "yday_vol": 831600,
+   "rvol": 6.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 78.9,
+   "off_peak_pct": -37.0,
+   "atr14": 0.269,
+   "levels": {
+    "prev_high": 1.36,
+    "prev_low": 1.1,
+    "prev_close": 1.3,
+    "high_5d": 1.968,
+    "high_20d": 2.124,
+    "run_peak": 1.968,
+    "pm_high": 1.338,
+    "pm_low": 1.21,
+    "pm_vwap": 1.24
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "SHF Holdings Inc. Class A Common Stock",
+   "sector": "Finance",
+   "industry": "Finance: Consumer Services",
+   "country": "United States",
+   "exchange": null,
+   "float": 610000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Safe Harbor Financial Announces the Implementation of a Reverse Stock Split",
+     "url": "https://finviz.com/news/395882/safe-harbor-financial-announces-the-implementation-of-a-reverse-stock-split",
+     "source": "Finviz",
+     "time": "2026-09-28T12:00:00+00:00"
+    },
+    {
+     "title": "Safe Harbor Institutional Named Top Business Solutions Company at 2026 PBC Cannabis Banking Conference",
+     "url": "https://finviz.com/news/392554/safe-harbor-institutional-named-top-business-solutions-company-at-2026-pbc-cannabis-banking-conference",
+     "source": "Finviz",
+     "time": "2026-09-16T12:00:00+00:00"
+    },
+    {
+     "title": "Safe Harbor to Address Banking and Capital Access for Colorado Cannabis Operators at IgniteIt Market Spotlight 2026",
+     "url": "https://finviz.com/news/392097/safe-harbor-to-address-banking-and-capital-access-for-colorado-cannabis-operators-at-igniteit-market-spotlight-2026",
+     "source": "Finviz",
+     "time": "2026-09-15T12:30:00+00:00"
+    },
+    {
+     "title": "Safe Harbor Institutional to Highlight Scalable Cannabis Banking Infrastructure at PBC Conference",
+     "url": "https://finviz.com/news/386185/safe-harbor-institutional-to-highlight-scalable-cannabis-banking-infrastructure-at-pbc-conference",
+     "source": "Finviz",
+     "time": "2026-08-27T12:30:00+00:00"
+    }
+   ],
+   "news_age_h": 97.2,
+   "flags": [
+    "Offering 424B7 filed 2026-08-11",
+    "Shelf/Registration EFFECT filed 2026-08-10",
+    "Shelf/Registration S-1 filed 2026-07-31",
+    "Shelf/Registration S-1/A filed 2026-07-31",
+    "Reverse split 1:12 on 2026-09-30"
+   ],
+   "plan": {
+    "entry": 1.19,
+    "stop": 1.084,
+    "target": 1.404,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+78.9% recently). Wait for an early panic flush into 1.14-1.24 (37-42% off the 1.97 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 18.3
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "AMOD",
+   "price": 3.038,
+   "prev_close": 1.17,
+   "gap_pct": 159.7,
+   "pm": {
+    "last": 3.038,
+    "high": 3.16,
+    "low": 1.82,
+    "vwap": 3.038,
+    "volume": 0
+   },
+   "avg_vol_20d": 120850,
+   "yday_vol": 8354500,
+   "rvol": 69.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 67.9,
+   "off_peak_pct": 61.6,
+   "atr14": 0.206,
+   "levels": {
+    "prev_high": 1.88,
+    "prev_low": 1.12,
+    "prev_close": 1.17,
+    "high_5d": 1.88,
+    "high_20d": 2.48,
+    "run_peak": 1.88,
+    "pm_high": 3.16,
+    "pm_low": 1.82,
+    "pm_vwap": 3.038
+   },
+   "green_streak": 0,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Alpha Modus Holdings Inc. Class A Common Stock",
+   "sector": "Miscellaneous",
+   "industry": "Multi-Sector Companies",
+   "country": "United States",
+   "exchange": null,
+   "float": 540000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Alpha Modus Granted 13th Patent Covering the Retail Media Handoff",
+     "url": "https://finviz.com/news/388694/alpha-modus-granted-13th-patent-covering-the-retail-media-handoff",
+     "source": "Finviz",
+     "time": "2026-09-03T12:57:00+00:00"
+    },
+    {
+     "title": "Alpha Modus Stock Falls 29% After $200M Bitcoin Treasury Plan",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alpha-modus-stock-falls-29-170500265.html",
+     "source": "Finviz",
+     "time": "2026-08-27T17:05:00+00:00"
+    },
+    {
+     "title": "Alpha Modus Advances Bitcoin Transaction to Add 3,170 BTC to Balance Sheet",
+     "url": "https://finviz.com/news/386310/alpha-modus-advances-bitcoin-transaction-to-add-3170-btc-to-balance-sheet",
+     "source": "Finviz",
+     "time": "2026-08-27T14:24:00+00:00"
+    },
+    {
+     "title": "Alpha Modus Advances Transaction to Add More Than $200 Million in Bitcoin Assets to Its Balance Sheet",
+     "url": "https://finviz.com/news/386219/alpha-modus-advances-transaction-to-add-more-than-200-million-in-bitcoin-assets-to-its-balance-sheet",
+     "source": "Finviz",
+     "time": "2026-08-27T12:53:00+00:00"
+    }
+   ],
+   "news_age_h": 696.3,
+   "flags": [
+    "Offering 424B3 filed 2026-08-27",
+    "Offering 424B1 filed 2026-07-28",
+    "Shelf/Registration EFFECT filed 2026-07-27",
+    "Shelf/Registration S-1 filed 2026-07-17",
+    "Reverse split 1:40 on 2026-06-15"
+   ],
+   "plan": {
+    "entry": 3.16,
+    "stop": 3.038,
+    "target": 3.404,
+    "risk_pct": 3.9,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 128.5,
    "failed": [
-    "float unknown"
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "LONA",
+   "price": 4.436,
+   "prev_close": 4.38,
+   "gap_pct": 1.3,
+   "pm": {
+    "last": 4.436,
+    "high": 4.655,
+    "low": 4.236,
+    "vwap": 4.436,
+    "volume": 0
+   },
+   "avg_vol_20d": 131570,
+   "yday_vol": 6264200,
+   "rvol": 47.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 153.2,
+   "off_peak_pct": -20.7,
+   "atr14": 0.979,
+   "levels": {
+    "prev_high": 5.34,
+    "prev_low": 3.42,
+    "prev_close": 4.38,
+    "high_5d": 5.595,
+    "high_20d": 8.27,
+    "run_peak": 5.595,
+    "pm_high": 4.655,
+    "pm_low": 4.236,
+    "pm_vwap": 4.436
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "LeonaBio Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+   "country": "United States",
+   "exchange": null,
+   "float": 6370000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "LeonaBio to Participate in Cantor Global Healthcare Conference 2026",
+     "url": "https://finviz.com/news/388496/leonabio-to-participate-in-cantor-global-healthcare-conference-2026",
+     "source": "Finviz",
+     "time": "2026-09-03T11:00:00+00:00"
+    },
+    {
+     "title": "LeonaBio beats Q2 loss forecast as Phase 3 ELAINE-3 trial advances",
+     "url": "https://finviz.com/news/382773/leonabio-beats-q2-loss-forecast-as-phase-3-elaine-3-trial-advances",
+     "source": "Finviz",
+     "time": "2026-08-17T12:26:00+00:00"
+    },
+    {
+     "title": "LeonaBio Reports Second Quarter 2026 Financial Results and Provides Business Update",
+     "url": "https://finviz.com/news/382480/leonabio-reports-second-quarter-2026-financial-results-and-provides-business-update",
+     "source": "Finviz",
+     "time": "2026-08-14T20:05:00+00:00"
+    },
+    {
+     "title": "LeonaBio to Highlight Lasofoxifene in ER-positive (ER+), HER2-negative, ESR1-mutated Metastatic Breast Cancer at DAVA Oncology's 4th Summit on Breast Cancer",
+     "url": "https://finviz.com/news/381033/leonabio-to-highlight-lasofoxifene-in-er-positive-er-her2-negative-esr1-mutated-metastatic-breast-cancer-at-dava-oncologys-4th-summit-on-breast-cancer",
+     "source": "Finviz",
+     "time": "2026-08-12T11:00:00+00:00"
+    }
+   ],
+   "news_age_h": 698.2,
+   "flags": [],
+   "plan": {
+    "entry": 3.917,
+    "stop": 3.455,
+    "target": 4.84,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+153.2% recently). Wait for an early panic flush into 3.64-4.20 (25-35% off the 5.59 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 79.3,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "AISP",
+   "price": 2.281,
+   "prev_close": 2.22,
+   "gap_pct": 2.7,
+   "pm": {
+    "last": 2.281,
+    "high": 2.4,
+    "low": 2.2,
+    "vwap": 2.281,
+    "volume": 0
+   },
+   "avg_vol_20d": 216925,
+   "yday_vol": 41801000,
+   "rvol": 192.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 64.4,
+   "off_peak_pct": -20.3,
+   "atr14": 0.136,
+   "levels": {
+    "prev_high": 2.86,
+    "prev_low": 2.0,
+    "prev_close": 2.22,
+    "high_5d": 2.86,
+    "high_20d": 2.2,
+    "run_peak": 2.86,
+    "pm_high": 2.4,
+    "pm_low": 2.2,
+    "pm_vwap": 2.281
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Airship AI Holdings Inc. Class A Common Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
+   "exchange": null,
+   "float": 24530000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Airship AI Announces $29.0M of Firm Fixed Price Brand Name Only Awards from Department of Homeland Security",
+     "url": "https://finviz.com/news/397808/airship-ai-announces-290m-of-firm-fixed-price-brand-name-only-awards-from-department-of-homeland-security",
+     "source": "Finviz",
+     "time": "2026-10-01T13:00:00+00:00"
+    },
+    {
+     "title": "Airship AI Reports Second Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/378707/airship-ai-reports-second-quarter-2026-financial-results",
+     "source": "Finviz",
+     "time": "2026-08-06T13:00:00+00:00"
+    },
+    {
+     "title": "Airship AI Secures Seven Figure Follow-On Contract Award with Fortune 100 Transportation &amp; E-Commerce Company",
+     "url": "https://finviz.com/news/363294/airship-ai-secures-seven-figure-follow-on-contract-award-with-fortune-100-transportation-e-commerce-company",
+     "source": "Finviz",
+     "time": "2026-06-23T12:00:00+00:00"
+    },
+    {
+     "title": "Airship AI Reports First Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/352939/airship-ai-reports-first-quarter-2026-financial-results",
+     "source": "Finviz",
+     "time": "2026-05-11T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 24.2,
+   "flags": [],
+   "plan": {
+    "entry": 2.002,
+    "stop": 1.766,
+    "target": 2.474,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+64.4% recently). Wait for an early panic flush into 1.86-2.15 (25-35% off the 2.86 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 75.0,
+   "failed": [
+    "float 24.5M > 20M"
    ]
   },
   {
@@ -337,7 +786,7 @@
    "industry": "Biotechnology: Pharmaceutical Preparations",
    "country": "United States",
    "exchange": null,
-   "float": null,
+   "float": 31310000.0,
    "short_pct_float": null,
    "news": [
     {
@@ -365,7 +814,7 @@
      "time": "2026-10-01T11:00:00+00:00"
     }
    ],
-   "news_age_h": 23.0,
+   "news_age_h": 23.1,
    "flags": [],
    "plan": {
     "entry": 2.562,
@@ -375,119 +824,115 @@
     "rr": 2.0,
     "note": "Former runner (+104.5% recently). Wait for an early panic flush into 2.38-2.75 (25-35% off the 3.66 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 45.9,
+   "score": 45.8,
    "failed": [
-    "float unknown"
+    "float 31.3M > 20M"
    ]
   },
   {
-   "symbol": "ABAT",
-   "price": 2.32,
-   "prev_close": 2.28,
-   "gap_pct": 1.8,
+   "symbol": "SDEV",
+   "price": 5.23,
+   "prev_close": 3.66,
+   "gap_pct": 42.9,
    "pm": {
-    "last": 2.32,
-    "high": 2.41,
-    "low": 2.25,
-    "vwap": 2.32,
+    "last": 5.23,
+    "high": 5.57,
+    "low": 4.36,
+    "vwap": 5.23,
     "volume": 0
    },
-   "avg_vol_20d": 3088895,
-   "yday_vol": 21476600,
-   "rvol": 7.0,
+   "avg_vol_20d": 13296550,
+   "yday_vol": 105359000,
+   "rvol": 7.9,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 11.1,
-   "off_peak_pct": -3.3,
-   "atr14": 0.136,
+   "run_pct_5d": 251.9,
+   "off_peak_pct": 15.2,
+   "atr14": 0.533,
    "levels": {
-    "prev_high": 2.4,
-    "prev_low": 2.22,
-    "prev_close": 2.28,
-    "high_5d": 2.4,
-    "high_20d": 2.885,
-    "run_peak": 2.4,
-    "pm_high": 2.41,
-    "pm_low": 2.25,
-    "pm_vwap": 2.32
+    "prev_high": 4.54,
+    "prev_low": 3.4,
+    "prev_close": 3.66,
+    "high_5d": 4.54,
+    "high_20d": 3.93,
+    "run_peak": 4.54,
+    "pm_high": 5.57,
+    "pm_low": 4.36,
+    "pm_vwap": 5.23
    },
-   "green_streak": 2,
+   "green_streak": 1,
    "setups": [
-    "Breakout / multi-day runner"
+    "Supernova gapper"
    ],
    "sources": {
     "yf_raw": 0,
     "yf": 0,
     "yahoo_search": 0,
-    "finviz": 18,
+    "finviz": 3,
     "finviz_http": 200
    },
-   "name": "American Battery Technology Company Common Stock",
-   "sector": "Industrials",
-   "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+   "name": "Stablecoin Development Corporation Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
    "country": "United States",
    "exchange": null,
-   "float": null,
+   "float": 1830000.0,
    "short_pct_float": null,
    "news": [
     {
-     "title": "American Battery Technology Shares Rise 10% After Receiving Export Approval",
-     "url": "https://finviz.com/news/397859/american-battery-technology-shares-rise-10-after-receiving-export-approval",
+     "title": "Stablecoin Development Corporation Reports Second Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/375589/stablecoin-development-corporation-reports-second-quarter-2026-financial-results",
      "source": "Finviz",
-     "time": "2026-10-01T13:26:00+00:00"
+     "time": "2026-07-31T12:30:00+00:00"
     },
     {
-     "title": "American Battery Technology Company Receives Approval for Sale of $100 Million of Exported Recycled Black Mass Critical Minerals with License from U.S. Department of Commerce",
-     "url": "https://finviz.com/news/397475/american-battery-technology-company-receives-approval-for-sale-of-100-million-of-exported-recycled-black-mass-critical-minerals-with-license-from-us-department-of-commerce",
+     "title": "Stablecoin Development Corporation Reports First Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/355931/stablecoin-development-corporation-reports-first-quarter-2026-financial-results",
      "source": "Finviz",
-     "time": "2026-10-01T10:00:00+00:00"
+     "time": "2026-05-20T12:30:00+00:00"
     },
     {
-     "title": "American Battery Technology Co (ABAT) (Q4 2026) Earnings Call Highlights: Record Revenue Growth ...",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/american-battery-technology-co-abat-070017870.html",
+     "title": "Tether Joins $134 Million SDEV Financing as Stablecoin Infrastructure Expands",
+     "url": "https://finance.yahoo.com/m/880ec6d3-926d-3d20-98f2-51cf946274b8/tether-joins-%24134-million.html",
      "source": "Finviz",
-     "time": "2026-09-22T07:00:00+00:00"
-    },
-    {
-     "title": "American Battery Technology Company Common Stock Q4 2026 Earnings Call Summary",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/american-battery-technology-company-common-123000033.html",
-     "source": "Finviz",
-     "time": "2026-09-15T12:30:00+00:00"
+     "time": "2026-04-15T16:08:00+00:00"
     }
    ],
-   "news_age_h": 23.7,
+   "news_age_h": 1512.7,
    "flags": [
-    "Shelf/Registration S-3/A filed 2026-09-30",
-    "Shelf/Registration S-3 filed 2026-09-18"
+    "Shelf/Registration S-3/A filed 2026-09-16",
+    "Shelf/Registration S-3 filed 2026-08-11",
+    "Reverse split 1:5 on 2026-02-23"
    ],
    "plan": {
-    "entry": 2.41,
-    "stop": 2.217,
-    "target": 2.796,
-    "risk_pct": 8.0,
+    "entry": 5.57,
+    "stop": 5.23,
+    "target": 6.25,
+    "risk_pct": 6.1,
     "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
    },
-   "score": 13.3,
+   "score": 39.8,
    "failed": [
-    "float unknown"
+    "no fresh news"
    ]
   }
  ],
  "stats": {
   "universe": 6683,
-  "with_history": 2732,
-  "scanned_premarket": 2261,
+  "with_history": 2734,
+  "scanned_premarket": 2263,
   "setup_candidates": 45,
-  "qualified": 0,
+  "qualified": 5,
   "news_sources": {
    "yf_raw": 0,
    "yf": 0,
    "yahoo_search": 0,
-   "finviz": 41
+   "finviz": 32
   },
   "finviz_http": [
    "200",
-   "404"
+   "404",
+   "429"
   ]
  }
 }

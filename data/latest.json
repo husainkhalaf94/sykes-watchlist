@@ -1,6 +1,6 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-10-02T09:14:05.824504-04:00",
+ "generated_at": "2026-10-02T09:41:00.973303-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -18,22 +18,22 @@
  "picks": [
   {
    "symbol": "NXL",
-   "price": 5.63,
+   "price": 5.57,
    "prev_close": 7.55,
-   "gap_pct": -25.4,
+   "gap_pct": -26.2,
    "pm": {
-    "last": 5.63,
+    "last": 5.57,
     "high": 7.43,
-    "low": 5.56,
-    "vwap": 5.63,
+    "low": 5.53,
+    "vwap": 5.57,
     "volume": 0
    },
-   "avg_vol_20d": 16865,
+   "avg_vol_20d": 16968,
    "yday_vol": 61958400,
-   "rvol": 3673.8,
+   "rvol": 3651.3,
    "rvol_basis": "yesterday",
    "run_pct_5d": 167.8,
-   "off_peak_pct": -48.7,
+   "off_peak_pct": -49.3,
    "atr14": 0.915,
    "levels": {
     "prev_high": 10.98,
@@ -43,8 +43,8 @@
     "high_20d": 6.8,
     "run_peak": 10.98,
     "pm_high": 7.43,
-    "pm_low": 5.56,
-    "pm_vwap": 5.63
+    "pm_low": 5.53,
+    "pm_vwap": 5.57
    },
    "green_streak": 1,
    "setups": [
@@ -90,40 +90,40 @@
      "time": "2026-09-03T12:30:00+00:00"
     }
    ],
-   "news_age_h": 23.2,
+   "news_age_h": 23.6,
    "flags": [
     "Shelf/Registration S-1 filed 2026-09-03",
     "Offering 424B5 filed 2026-08-20",
     "Reverse split 1:30 on 2026-08-31"
    ],
    "plan": {
-    "entry": 5.405,
-    "stop": 4.921,
+    "entry": 5.347,
+    "stop": 4.868,
     "target": 7.55,
     "risk_pct": 9.0,
-    "rr": 4.4,
-    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.18-5.63 (49-53% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 4.6,
+    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.12-5.57 (49-53% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 90.9
+   "score": 91.0
   },
   {
    "symbol": "EJH",
-   "price": 1.78,
+   "price": 1.77,
    "prev_close": 1.79,
-   "gap_pct": -0.6,
+   "gap_pct": -1.1,
    "pm": {
-    "last": 1.78,
+    "last": 1.77,
     "high": 1.78,
     "low": 1.514,
-    "vwap": 1.78,
+    "vwap": 1.77,
     "volume": 0
    },
-   "avg_vol_20d": 70550,
+   "avg_vol_20d": 20630,
    "yday_vol": 4143600,
-   "rvol": 58.7,
+   "rvol": 200.9,
    "rvol_basis": "yesterday",
    "run_pct_5d": 92.0,
-   "off_peak_pct": -18.0,
+   "off_peak_pct": -18.4,
    "atr14": 0.187,
    "levels": {
     "prev_high": 2.17,
@@ -134,7 +134,7 @@
     "run_peak": 2.17,
     "pm_high": 1.78,
     "pm_low": 1.514,
-    "pm_vwap": 1.78
+    "pm_vwap": 1.77
    },
    "green_streak": 1,
    "setups": [
@@ -180,7 +180,7 @@
      "time": "2026-03-16T07:53:00+00:00"
     }
    ],
-   "news_age_h": 26.0,
+   "news_age_h": 26.4,
    "flags": [
     "Reverse split 1:25 on 2026-03-30"
    ],
@@ -195,36 +195,304 @@
    "score": 83.8
   },
   {
-   "symbol": "LPA",
-   "price": 2.958,
-   "prev_close": 2.91,
-   "gap_pct": 1.7,
+   "symbol": "NAMM",
+   "price": 1.39,
+   "prev_close": 1.3,
+   "gap_pct": 6.9,
    "pm": {
-    "last": 2.958,
-    "high": 2.958,
-    "low": 2.73,
-    "vwap": 2.958,
+    "last": 1.39,
+    "high": 1.45,
+    "low": 1.26,
+    "vwap": 1.39,
     "volume": 0
    },
-   "avg_vol_20d": 176905,
-   "yday_vol": 1009000,
-   "rvol": 5.7,
+   "avg_vol_20d": 405725,
+   "yday_vol": 26938100,
+   "rvol": 66.4,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 28.7,
-   "off_peak_pct": -13.2,
-   "atr14": 0.207,
+   "run_pct_5d": 63.2,
+   "off_peak_pct": -10.3,
+   "atr14": 0.128,
    "levels": {
-    "prev_high": 3.41,
-    "prev_low": 2.65,
-    "prev_close": 2.91,
-    "high_5d": 3.41,
-    "high_20d": 3.63,
-    "run_peak": 3.41,
-    "pm_high": 2.958,
-    "pm_low": 2.73,
-    "pm_vwap": 2.958
+    "prev_high": 1.55,
+    "prev_low": 0.972,
+    "prev_close": 1.3,
+    "high_5d": 1.55,
+    "high_20d": 1.48,
+    "run_peak": 1.55,
+    "pm_high": 1.45,
+    "pm_low": 1.26,
+    "pm_vwap": 1.39
    },
-   "green_streak": 2,
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Namib Minerals Ordinary Shares",
+   "sector": "Basic Materials",
+   "industry": "Precious Metals",
+   "country": "Cayman Islands",
+   "exchange": null,
+   "float": 6750000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Namib Minerals Ordinary Shares Q2 2026 Earnings Call Summary",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/namib-minerals-ordinary-shares-q2-123000192.html",
+     "source": "Finviz",
+     "time": "2026-10-01T12:30:00+00:00"
+    },
+    {
+     "title": "Namib Minerals Reports First-Half 2026 Financial Results and Provides Business Update",
+     "url": "https://finviz.com/news/397627/namib-minerals-reports-first-half-2026-financial-results-and-provides-business-update",
+     "source": "Finviz",
+     "time": "2026-10-01T12:00:00+00:00"
+    },
+    {
+     "title": "Namib Minerals Announces Date of First Half 2026 Results and Business Update Call",
+     "url": "https://finviz.com/news/396847/namib-minerals-announces-date-of-first-half-2026-results-and-business-update-call",
+     "source": "Finviz",
+     "time": "2026-09-30T09:04:00+00:00"
+    },
+    {
+     "title": "Namib Minerals Secures US$6.5 Million Term Loan Facility to Partially Fund Resource Definition and Bankability",
+     "url": "https://finviz.com/news/396813/namib-minerals-secures-us65-million-term-loan-facility-to-partially-fund-resource-definition-and-bankability",
+     "source": "Finviz",
+     "time": "2026-09-29T23:26:00+00:00"
+    }
+   ],
+   "news_age_h": 25.2,
+   "flags": [
+    "Shelf/Registration EFFECT filed 2026-08-06",
+    "Offering 424B3 filed 2026-08-06",
+    "Shelf/Registration F-3 filed 2026-07-28"
+   ],
+   "plan": {
+    "entry": 1.085,
+    "stop": 0.957,
+    "target": 1.341,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+63.2% recently). Wait for an early panic flush into 1.01-1.16 (25-35% off the 1.55 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 76.4
+  },
+  {
+   "symbol": "DXST",
+   "price": 2.5,
+   "prev_close": 2.8,
+   "gap_pct": -10.7,
+   "pm": {
+    "last": 2.5,
+    "high": 2.945,
+    "low": 2.253,
+    "vwap": 2.5,
+    "volume": 0
+   },
+   "avg_vol_20d": 24790,
+   "yday_vol": 544600,
+   "rvol": 22.0,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 200.0,
+   "off_peak_pct": -56.1,
+   "atr14": 0.479,
+   "levels": {
+    "prev_high": 3.07,
+    "prev_low": 2.403,
+    "prev_close": 2.8,
+    "high_5d": 5.7,
+    "high_20d": 5.7,
+    "run_peak": 5.7,
+    "pm_high": 2.945,
+    "pm_low": 2.253,
+    "pm_vwap": 2.5
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Decent Holding Inc Class A Ordinary Shares",
+   "sector": "Industrials",
+   "industry": "Miscellaneous",
+   "country": "China",
+   "exchange": null,
+   "float": 1220000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Decent Holding Inc. Announces Pricing of $1.23 Million Follow-on Offering",
+     "url": "https://finviz.com/news/398313/decent-holding-inc-announces-pricing-of-123-million-follow-on-offering",
+     "source": "Finviz",
+     "time": "2026-10-02T13:20:00+00:00"
+    },
+    {
+     "title": "Decent Holding Provides Operational Update: Senior Care Operation Centers Expand to Approximately 700 Locations",
+     "url": "https://finviz.com/news/397867/decent-holding-provides-operational-update-senior-care-operation-centers-expand-to-approximately-700-locations",
+     "source": "Finviz",
+     "time": "2026-10-01T13:30:00+00:00"
+    },
+    {
+     "title": "Decent Holding Launches RMB 500 AI-Powered In-Home Senior Care Subscription Through SunCare",
+     "url": "https://finance.yahoo.com/healthcare/articles/decent-holding-launches-rmb-500-145351011.html",
+     "source": "Finviz",
+     "time": "2026-09-29T14:53:00+00:00"
+    },
+    {
+     "title": "Decent Holding's SunCare Launches AI-Powered In-Home Senior Care Service Through Strategic Collaboration with Ruilan International",
+     "url": "https://finviz.com/news/396620/decent-holdings-suncare-launches-ai-powered-in-home-senior-care-service-through-strategic-collaboration-with-ruilan-international",
+     "source": "Finviz",
+     "time": "2026-09-29T13:30:00+00:00"
+    }
+   ],
+   "news_age_h": 0.3,
+   "flags": [
+    "Shelf/Registration F-1 filed 2026-09-23",
+    "Reverse split 1:25 on 2026-03-16",
+    "Recent foreign IPO (China)"
+   ],
+   "plan": {
+    "entry": 2.4,
+    "stop": 2.185,
+    "target": 2.83,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+200.0% recently). Wait for an early panic flush into 2.30-2.50 (56-60% off the 5.70 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 62.3
+  },
+  {
+   "symbol": "BKYI",
+   "price": 2.11,
+   "prev_close": 2.29,
+   "gap_pct": -7.9,
+   "pm": {
+    "last": 2.11,
+    "high": 2.19,
+    "low": 2.03,
+    "vwap": 2.11,
+    "volume": 0
+   },
+   "avg_vol_20d": 49230,
+   "yday_vol": 894300,
+   "rvol": 18.2,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 185.9,
+   "off_peak_pct": -54.7,
+   "atr14": 0.514,
+   "levels": {
+    "prev_high": 2.8,
+    "prev_low": 2.2,
+    "prev_close": 2.29,
+    "high_5d": 4.66,
+    "high_20d": 4.66,
+    "run_peak": 4.66,
+    "pm_high": 2.19,
+    "pm_low": 2.03,
+    "pm_vwap": 2.11
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 12,
+    "finviz_http": 200
+   },
+   "name": "BIO-key International Inc. Common Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
+   "exchange": null,
+   "float": 1310000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "BIO-key Partners With Al Majlis Group to Expand Identity Security in UAE and Saudi Arabia",
+     "url": "https://finance.yahoo.com/technology/ai/articles/bio-key-partners-al-majlis-145248769.html",
+     "source": "Finviz",
+     "time": "2026-09-29T14:52:00+00:00"
+    },
+    {
+     "title": "BIO-key Partners with Al Majlis Group to Expand Identity Security Across Arabian Gulf",
+     "url": "https://finviz.com/news/396231/bio-key-partners-with-al-majlis-group-to-expand-identity-security-across-arabian-gulf",
+     "source": "Finviz",
+     "time": "2026-09-29T07:30:00+00:00"
+    },
+    {
+     "title": "BIO-key Receives FIDO Alliance Full Certification for Passkey:YOU Authentication, Unlocking New Markets Including Agentic AI Authenticated Controls",
+     "url": "https://finviz.com/news/394623/bio-key-receives-fido-alliance-full-certification-for-passkey-you-authentication-unlocking-new-markets-including-agentic-ai-authenticated-controls",
+     "source": "Finviz",
+     "time": "2026-09-23T11:59:00+00:00"
+    },
+    {
+     "title": "Biometric Identity Security Provider BIO-key Participates at H.C. Wainwright Global Investment Conference Sept. 15th and 17th",
+     "url": "https://finviz.com/news/387329/biometric-identity-security-provider-bio-key-participates-at-hc-wainwright-global-investment-conference-sept-15th-and-17th",
+     "source": "Finviz",
+     "time": "2026-09-01T11:59:00+00:00"
+    }
+   ],
+   "news_age_h": 70.8,
+   "flags": [
+    "Reverse split 1:10 on 2026-04-30"
+   ],
+   "plan": {
+    "entry": 2.026,
+    "stop": 1.844,
+    "target": 2.389,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+185.9% recently). Wait for an early panic flush into 1.94-2.11 (55-58% off the 4.66 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 44.7
+  },
+  {
+   "symbol": "NTWK",
+   "price": 5.95,
+   "prev_close": 5.75,
+   "gap_pct": 3.5,
+   "pm": {
+    "last": 5.95,
+    "high": 5.95,
+    "low": 5.75,
+    "vwap": 5.95,
+    "volume": 0
+   },
+   "avg_vol_20d": 23945,
+   "yday_vol": 142200,
+   "rvol": 5.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 32.8,
+   "off_peak_pct": 1.4,
+   "atr14": 0.369,
+   "levels": {
+    "prev_high": 5.87,
+    "prev_low": 5.47,
+    "prev_close": 5.75,
+    "high_5d": 5.87,
+    "high_20d": 5.7,
+    "run_peak": 5.87,
+    "pm_high": 5.95,
+    "pm_low": 5.75,
+    "pm_vwap": 5.95
+   },
+   "green_streak": 1,
    "setups": [
     "Breakout / multi-day runner"
    ],
@@ -235,69 +503,158 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Logistic Properties of the Americas Ordinary Shares",
-   "sector": "Finance",
-   "industry": "Real Estate",
-   "country": "",
+   "name": "NetSol Technologies Inc. Common  Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
    "exchange": null,
-   "float": 5170000.0,
+   "float": 8980000.0,
    "short_pct_float": null,
    "news": [
     {
-     "title": "Logistic Properties of the Americas Completes US$145 Million Asset Sale in Peru",
-     "url": "https://finviz.com/news/397322/logistic-properties-of-the-americas-completes-us145-million-asset-sale-in-peru",
+     "title": "NETSOL Technologies appoints Michael Ramsey as Vice President of Sales for Asset Finance in the Americas",
+     "url": "https://finviz.com/news/398230/netsol-technologies-appoints-michael-ramsey-as-vice-president-of-sales-for-asset-finance-in-the-americas",
      "source": "Finviz",
-     "time": "2026-09-30T20:10:00+00:00"
+     "time": "2026-10-02T12:00:00+00:00"
     },
     {
-     "title": "Logistic Properties of the Americas Advances Capital Reallocation Strategy with Costa Rica Asset Sale",
-     "url": "https://finviz.com/news/393992/logistic-properties-of-the-americas-advances-capital-reallocation-strategy-with-costa-rica-asset-sale",
+     "title": "NetSol Technologies, Inc. Q4 2026 Earnings Call Summary",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/netsol-technologies-inc-q4-2026-123000686.html",
      "source": "Finviz",
-     "time": "2026-09-21T20:30:00+00:00"
+     "time": "2026-09-29T12:30:00+00:00"
     },
     {
-     "title": "LPA to Present at Water Tower Research Virtual Insights Conference",
-     "url": "https://finviz.com/news/391831/lpa-to-present-at-water-tower-research-virtual-insights-conference",
+     "title": "NETSOL Technologies Inc (NTWK) (Q4 2026) Earnings Call Highlights: Record Revenue and Strong ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/netsol-technologies-inc-ntwk-q4-210033013.html",
      "source": "Finviz",
-     "time": "2026-09-14T20:30:00+00:00"
+     "time": "2026-09-28T21:00:00+00:00"
     },
     {
-     "title": "Logistic Properties of the Americas Receives Definitive Regulatory Approval of $145 Million Asset Sale in Peru",
-     "url": "https://finviz.com/news/391248/logistic-properties-of-the-americas-receives-definitive-regulatory-approval-of-145-million-asset-sale-in-peru",
+     "title": "NetSol Technologies, Inc. Q1 2027 Earnings Call Summary",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/netsol-technologies-inc-q1-2027-123000765.html",
      "source": "Finviz",
-     "time": "2026-09-11T13:25:00+00:00"
+     "time": "2026-09-28T12:30:00+00:00"
     }
    ],
-   "news_age_h": 41.1,
+   "news_age_h": 1.7,
    "flags": [],
    "plan": {
-    "entry": 3.41,
-    "stop": 3.137,
-    "target": 3.956,
-    "risk_pct": 8.0,
+    "entry": 5.95,
+    "stop": 5.577,
+    "target": 6.695,
+    "risk_pct": 6.3,
     "rr": 2.0,
     "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
    },
-   "score": 26.4
+   "score": 40.6
+  },
+  {
+   "symbol": "MSGY",
+   "price": 4.81,
+   "prev_close": 5.17,
+   "gap_pct": -7.0,
+   "pm": {
+    "last": 4.81,
+    "high": 5.06,
+    "low": 4.75,
+    "vwap": 4.81,
+    "volume": 0
+   },
+   "avg_vol_20d": 52900,
+   "yday_vol": 506700,
+   "rvol": 9.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 491.7,
+   "off_peak_pct": -57.9,
+   "atr14": 1.583,
+   "levels": {
+    "prev_high": 5.7,
+    "prev_low": 4.89,
+    "prev_close": 5.17,
+    "high_5d": 11.42,
+    "high_20d": 11.42,
+    "run_peak": 11.42,
+    "pm_high": 5.06,
+    "pm_low": 4.75,
+    "pm_vwap": 4.81
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 6,
+    "finviz_http": 200
+   },
+   "name": "Masonglory Limited Class A Ordinary Shares ",
+   "sector": "Consumer Discretionary",
+   "industry": "Engineering & Construction",
+   "country": "Hong Kong",
+   "exchange": null,
+   "float": 1490000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Masonglory Limited Announces US$1.0 Million Private Placement to Fund Continued Acquisition of Equity Interests in Beta Beteiligungs und Besitz GmbH",
+     "url": "https://finviz.com/news/396093/masonglory-limited-announces-us10-million-private-placement-to-fund-continued-acquisition-of-equity-interests-in-beta-beteiligungs-und-besitz-gmbh",
+     "source": "Finviz",
+     "time": "2026-09-28T17:05:00+00:00"
+    },
+    {
+     "title": "Masonglory Limited Announces Entry into Share Swap Agreement to Acquire a 20% Equity Interest in Beta Beteiligungs und Besitz GmbH",
+     "url": "https://finviz.com/news/381580/masonglory-limited-announces-entry-into-share-swap-agreement-to-acquire-a-20-equity-interest-in-beta-beteiligungs-und-besitz-gmbh",
+     "source": "Finviz",
+     "time": "2026-08-13T10:00:00+00:00"
+    },
+    {
+     "title": "Masonglory Limited Announces Share Consolidation and Share Reclassification",
+     "url": "https://finviz.com/news/378775/masonglory-limited-announces-share-consolidation-and-share-reclassification",
+     "source": "Finviz",
+     "time": "2026-08-06T14:45:00+00:00"
+    },
+    {
+     "title": "Masonglory Limited Announces Closing of the Underwriter's Over-Allotment Option in Connection with its Initial Public Offering",
+     "url": "https://finviz.com/news/114781/masonglory-limited-announces-closing-of-the-underwriters-over-allotment-option-in-connection-with-its-initial-public-offering",
+     "source": "Finviz",
+     "time": "2025-07-24T20:30:00+00:00"
+    }
+   ],
+   "news_age_h": 92.6,
+   "flags": [
+    "Reverse split 1:8 on 2026-08-11",
+    "Recent foreign IPO (Hong Kong)"
+   ],
+   "plan": {
+    "entry": 4.618,
+    "stop": 4.204,
+    "target": 5.445,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+491.7% recently). Wait for an early panic flush into 4.43-4.81 (58-61% off the 11.42 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 30.8
   },
   {
    "symbol": "VEEA",
-   "price": 3.43,
+   "price": 3.41,
    "prev_close": 3.47,
-   "gap_pct": -1.2,
+   "gap_pct": -1.7,
    "pm": {
-    "last": 3.43,
+    "last": 3.41,
     "high": 3.69,
     "low": 3.26,
-    "vwap": 3.43,
+    "vwap": 3.41,
     "volume": 0
    },
-   "avg_vol_20d": 13425400,
+   "avg_vol_20d": 13498913,
    "yday_vol": 80329400,
    "rvol": 6.0,
    "rvol_basis": "yesterday",
    "run_pct_5d": 96.2,
-   "off_peak_pct": -15.9,
+   "off_peak_pct": -16.4,
    "atr14": 1.397,
    "levels": {
     "prev_high": 4.08,
@@ -308,7 +665,7 @@
     "run_peak": 4.08,
     "pm_high": 3.69,
     "pm_low": 3.26,
-    "pm_vwap": 3.43
+    "pm_vwap": 3.41
    },
    "green_streak": 1,
    "setups": [
@@ -354,7 +711,7 @@
      "time": "2026-08-27T14:26:00+00:00"
     }
    ],
-   "news_age_h": 25.2,
+   "news_age_h": 25.7,
    "flags": [
     "Offering 424B5 filed 2026-08-13",
     "Shelf/Registration EFFECT filed 2026-07-01",
@@ -369,37 +726,125 @@
     "rr": 2.0,
     "note": "Former runner (+96.2% recently). Wait for an early panic flush into 2.65-3.06 (25-35% off the 4.08 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 23.5
+   "score": 23.4
   },
   {
-   "symbol": "SHFS",
-   "price": 1.24,
-   "prev_close": 1.3,
-   "gap_pct": -4.6,
+   "symbol": "SCYX",
+   "price": 5.44,
+   "prev_close": 5.37,
+   "gap_pct": 1.3,
    "pm": {
-    "last": 1.24,
-    "high": 1.338,
-    "low": 1.21,
-    "vwap": 1.24,
+    "last": 5.44,
+    "high": 5.44,
+    "low": 5.047,
+    "vwap": 5.44,
     "volume": 0
    },
-   "avg_vol_20d": 123794,
-   "yday_vol": 831600,
-   "rvol": 6.7,
+   "avg_vol_20d": 70665,
+   "yday_vol": 600500,
+   "rvol": 8.5,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 78.9,
-   "off_peak_pct": -37.0,
-   "atr14": 0.269,
+   "run_pct_5d": 26.0,
+   "off_peak_pct": -1.1,
+   "atr14": 0.436,
    "levels": {
-    "prev_high": 1.36,
-    "prev_low": 1.1,
-    "prev_close": 1.3,
-    "high_5d": 1.968,
-    "high_20d": 2.124,
-    "run_peak": 1.968,
-    "pm_high": 1.338,
-    "pm_low": 1.21,
-    "pm_vwap": 1.24
+    "prev_high": 5.5,
+    "prev_low": 4.86,
+    "prev_close": 5.37,
+    "high_5d": 5.5,
+    "high_20d": 5.45,
+    "run_peak": 5.5,
+    "pm_high": 5.44,
+    "pm_low": 5.047,
+    "pm_vwap": 5.44
+   },
+   "green_streak": 4,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "SCYNEXIS Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "United States",
+   "exchange": null,
+   "float": 9560000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Scynexis stock surges on $214M BARDA contract for SCY-247",
+     "url": "https://finance.yahoo.com/healthcare/articles/scynexis-stock-surges-214m-barda-135830821.html",
+     "source": "Finviz",
+     "time": "2026-09-28T13:58:00+00:00"
+    },
+    {
+     "title": "Scynexis Shares Rise 13.9% After BARDA Awards SCY-247 Development Contract",
+     "url": "https://finviz.com/news/395945/scynexis-shares-rise-139-after-barda-awards-scy-247-development-contract",
+     "source": "Finviz",
+     "time": "2026-09-28T12:10:00+00:00"
+    },
+    {
+     "title": "SCYNEXIS Awarded BARDA Contract Providing Up to $214 Million in Non-Dilutive Funding for the Development of SCY-247",
+     "url": "https://finviz.com/news/395852/scynexis-awarded-barda-contract-providing-up-to-214-million-in-non-dilutive-funding-for-the-development-of-scy-247",
+     "source": "Finviz",
+     "time": "2026-09-28T11:30:00+00:00"
+    },
+    {
+     "title": "SCYNEXIS Appoints Seasoned Industry Veteran Steven K. Burke, M.D., to its Board of Directors",
+     "url": "https://finviz.com/news/394179/scynexis-appoints-seasoned-industry-veteran-steven-k-burke-md-to-its-board-of-directors",
+     "source": "Finviz",
+     "time": "2026-09-22T12:00:00+00:00"
+    }
+   ],
+   "news_age_h": 95.7,
+   "flags": [
+    "Reverse split 1:8 on 2026-06-01"
+   ],
+   "plan": {
+    "entry": 5.5,
+    "stop": 5.209,
+    "target": 6.082,
+    "risk_pct": 5.3,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 22.2
+  },
+  {
+   "symbol": "BIYA",
+   "price": 1.64,
+   "prev_close": 1.62,
+   "gap_pct": 1.2,
+   "pm": {
+    "last": 1.64,
+    "high": 1.71,
+    "low": 1.58,
+    "vwap": 1.64,
+    "volume": 0
+   },
+   "avg_vol_20d": 39130,
+   "yday_vol": 366800,
+   "rvol": 9.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 59.0,
+   "off_peak_pct": -48.4,
+   "atr14": 0.209,
+   "levels": {
+    "prev_high": 1.725,
+    "prev_low": 1.56,
+    "prev_close": 1.62,
+    "high_5d": 3.18,
+    "high_20d": 3.18,
+    "run_peak": 3.18,
+    "pm_high": 1.71,
+    "pm_low": 1.58,
+    "pm_vwap": 1.64
    },
    "green_streak": 0,
    "setups": [
@@ -412,77 +857,77 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "SHF Holdings Inc. Class A Common Stock",
-   "sector": "Finance",
-   "industry": "Finance: Consumer Services",
-   "country": "United States",
+   "name": "Baiya International Group Inc Class A Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Diversified Commercial Services",
+   "country": "China",
    "exchange": null,
-   "float": 610000.0,
+   "float": 2700000.0,
    "short_pct_float": null,
    "news": [
     {
-     "title": "Safe Harbor Financial Announces the Implementation of a Reverse Stock Split",
-     "url": "https://finviz.com/news/395882/safe-harbor-financial-announces-the-implementation-of-a-reverse-stock-split",
+     "title": "Baiya International Group Inc. Announces First Half of Fiscal Year 2026 Financial Results",
+     "url": "https://finviz.com/news/396760/baiya-international-group-inc-announces-first-half-of-fiscal-year-2026-financial-results",
      "source": "Finviz",
-     "time": "2026-09-28T12:00:00+00:00"
+     "time": "2026-09-29T20:28:00+00:00"
     },
     {
-     "title": "Safe Harbor Institutional Named Top Business Solutions Company at 2026 PBC Cannabis Banking Conference",
-     "url": "https://finviz.com/news/392554/safe-harbor-institutional-named-top-business-solutions-company-at-2026-pbc-cannabis-banking-conference",
+     "title": "Baiya International Group Inc. Announces Additional $2 Million Strategic Investment in BNB, Bringing Total Strategic Investment to $3 Million",
+     "url": "https://finviz.com/news/380495/baiya-international-group-inc-announces-additional-2-million-strategic-investment-in-bnb-bringing-total-strategic-investment-to-3-million",
      "source": "Finviz",
-     "time": "2026-09-16T12:00:00+00:00"
+     "time": "2026-08-11T12:00:00+00:00"
     },
     {
-     "title": "Safe Harbor to Address Banking and Capital Access for Colorado Cannabis Operators at IgniteIt Market Spotlight 2026",
-     "url": "https://finviz.com/news/392097/safe-harbor-to-address-banking-and-capital-access-for-colorado-cannabis-operators-at-igniteit-market-spotlight-2026",
+     "title": "Baiya International Group Inc. Announces Reverse Split Record Date",
+     "url": "https://finviz.com/news/366611/baiya-international-group-inc-announces-reverse-split-record-date",
      "source": "Finviz",
-     "time": "2026-09-15T12:30:00+00:00"
+     "time": "2026-07-08T12:50:00+00:00"
     },
     {
-     "title": "Safe Harbor Institutional to Highlight Scalable Cannabis Banking Infrastructure at PBC Conference",
-     "url": "https://finviz.com/news/386185/safe-harbor-institutional-to-highlight-scalable-cannabis-banking-infrastructure-at-pbc-conference",
+     "title": "These Three Stocks Fell More Than 10% Today To Hit 52-Week Lows -- What's Driving The Investor Skepticism?",
+     "url": "https://finance.yahoo.com/m/b349bea8-6697-376a-a080-e95f291b20c3/these-three-stocks-fell-more.html",
      "source": "Finviz",
-     "time": "2026-08-27T12:30:00+00:00"
+     "time": "2026-06-26T17:54:00+00:00"
     }
    ],
-   "news_age_h": 97.2,
+   "news_age_h": 65.2,
    "flags": [
-    "Offering 424B7 filed 2026-08-11",
-    "Shelf/Registration EFFECT filed 2026-08-10",
-    "Shelf/Registration S-1 filed 2026-07-31",
-    "Shelf/Registration S-1/A filed 2026-07-31",
-    "Reverse split 1:12 on 2026-09-30"
+    "Shelf/Registration F-3/A filed 2026-08-21",
+    "Shelf/Registration F-3 filed 2026-07-23",
+    "Reverse split 1:25 on 2025-12-30",
+    "Reverse split 1:10 on 2026-07-13",
+    "Recent foreign IPO (China)"
    ],
    "plan": {
-    "entry": 1.19,
-    "stop": 1.084,
-    "target": 1.404,
+    "entry": 1.574,
+    "stop": 1.433,
+    "target": 1.856,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+78.9% recently). Wait for an early panic flush into 1.14-1.24 (37-42% off the 1.97 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+59.0% recently). Wait for an early panic flush into 1.51-1.64 (48-53% off the 3.18 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 18.3
+   "score": 18.1
   }
  ],
  "near_misses": [
   {
    "symbol": "AMOD",
-   "price": 3.038,
+   "price": 3.48,
    "prev_close": 1.17,
-   "gap_pct": 159.7,
+   "gap_pct": 197.4,
    "pm": {
-    "last": 3.038,
-    "high": 3.16,
+    "last": 3.48,
+    "high": 3.6,
     "low": 1.82,
-    "vwap": 3.038,
+    "vwap": 3.48,
     "volume": 0
    },
-   "avg_vol_20d": 120850,
+   "avg_vol_20d": 346075,
    "yday_vol": 8354500,
-   "rvol": 69.1,
+   "rvol": 24.1,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 67.9,
-   "off_peak_pct": 61.6,
+   "run_pct_5d": 28.8,
+   "off_peak_pct": 85.1,
    "atr14": 0.206,
    "levels": {
     "prev_high": 1.88,
@@ -491,9 +936,9 @@
     "high_5d": 1.88,
     "high_20d": 2.48,
     "run_peak": 1.88,
-    "pm_high": 3.16,
+    "pm_high": 3.6,
     "pm_low": 1.82,
-    "pm_vwap": 3.038
+    "pm_vwap": 3.48
    },
    "green_streak": 0,
    "setups": [
@@ -539,7 +984,7 @@
      "time": "2026-08-27T12:53:00+00:00"
     }
    ],
-   "news_age_h": 696.3,
+   "news_age_h": 696.7,
    "flags": [
     "Offering 424B3 filed 2026-08-27",
     "Offering 424B1 filed 2026-07-28",
@@ -548,36 +993,123 @@
     "Reverse split 1:40 on 2026-06-15"
    ],
    "plan": {
-    "entry": 3.16,
-    "stop": 3.038,
-    "target": 3.404,
-    "risk_pct": 3.9,
+    "entry": 3.6,
+    "stop": 3.48,
+    "target": 3.84,
+    "risk_pct": 3.3,
     "rr": 2.0,
     "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
    },
-   "score": 128.5,
+   "score": 97.4,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "SDEV",
+   "price": 5.01,
+   "prev_close": 3.66,
+   "gap_pct": 36.9,
+   "pm": {
+    "last": 5.01,
+    "high": 5.57,
+    "low": 4.36,
+    "vwap": 5.01,
+    "volume": 0
+   },
+   "avg_vol_20d": 709355,
+   "yday_vol": 105359000,
+   "rvol": 148.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 284.7,
+   "off_peak_pct": 10.4,
+   "atr14": 0.533,
+   "levels": {
+    "prev_high": 4.54,
+    "prev_low": 3.4,
+    "prev_close": 3.66,
+    "high_5d": 4.54,
+    "high_20d": 3.93,
+    "run_peak": 4.54,
+    "pm_high": 5.57,
+    "pm_low": 4.36,
+    "pm_vwap": 5.01
+   },
+   "green_streak": 1,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 3,
+    "finviz_http": 200
+   },
+   "name": "Stablecoin Development Corporation Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "United States",
+   "exchange": null,
+   "float": 1830000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Stablecoin Development Corporation Reports Second Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/375589/stablecoin-development-corporation-reports-second-quarter-2026-financial-results",
+     "source": "Finviz",
+     "time": "2026-07-31T12:30:00+00:00"
+    },
+    {
+     "title": "Stablecoin Development Corporation Reports First Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/355931/stablecoin-development-corporation-reports-first-quarter-2026-financial-results",
+     "source": "Finviz",
+     "time": "2026-05-20T12:30:00+00:00"
+    },
+    {
+     "title": "Tether Joins $134 Million SDEV Financing as Stablecoin Infrastructure Expands",
+     "url": "https://finance.yahoo.com/m/880ec6d3-926d-3d20-98f2-51cf946274b8/tether-joins-%24134-million.html",
+     "source": "Finviz",
+     "time": "2026-04-15T16:08:00+00:00"
+    }
+   ],
+   "news_age_h": 1513.2,
+   "flags": [
+    "Shelf/Registration S-3/A filed 2026-09-16",
+    "Shelf/Registration S-3 filed 2026-08-11",
+    "Reverse split 1:5 on 2026-02-23"
+   ],
+   "plan": {
+    "entry": 5.57,
+    "stop": 5.013,
+    "target": 6.684,
+    "risk_pct": 10.0,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 87.9,
    "failed": [
     "no fresh news"
    ]
   },
   {
    "symbol": "LONA",
-   "price": 4.436,
+   "price": 4.43,
    "prev_close": 4.38,
-   "gap_pct": 1.3,
+   "gap_pct": 1.1,
    "pm": {
-    "last": 4.436,
+    "last": 4.43,
     "high": 4.655,
     "low": 4.236,
-    "vwap": 4.436,
+    "vwap": 4.43,
     "volume": 0
    },
-   "avg_vol_20d": 131570,
+   "avg_vol_20d": 46500,
    "yday_vol": 6264200,
-   "rvol": 47.6,
+   "rvol": 134.7,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 153.2,
-   "off_peak_pct": -20.7,
+   "run_pct_5d": 14.2,
+   "off_peak_pct": -20.8,
    "atr14": 0.979,
    "levels": {
     "prev_high": 5.34,
@@ -588,11 +1120,10 @@
     "run_peak": 5.595,
     "pm_high": 4.655,
     "pm_low": 4.236,
-    "pm_vwap": 4.436
+    "pm_vwap": 4.43
    },
    "green_streak": 3,
    "setups": [
-    "Morning-panic dip-buy",
     "Breakout / multi-day runner"
    ],
    "sources": {
@@ -635,39 +1166,39 @@
      "time": "2026-08-12T11:00:00+00:00"
     }
    ],
-   "news_age_h": 698.2,
+   "news_age_h": 698.7,
    "flags": [],
    "plan": {
-    "entry": 3.917,
-    "stop": 3.455,
-    "target": 4.84,
-    "risk_pct": 11.8,
+    "entry": 5.34,
+    "stop": 4.913,
+    "target": 6.194,
+    "risk_pct": 8.0,
     "rr": 2.0,
-    "note": "Former runner (+153.2% recently). Wait for an early panic flush into 3.64-4.20 (25-35% off the 5.59 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
    },
-   "score": 79.3,
+   "score": 78.1,
    "failed": [
     "no fresh news"
    ]
   },
   {
    "symbol": "AISP",
-   "price": 2.281,
+   "price": 2.25,
    "prev_close": 2.22,
-   "gap_pct": 2.7,
+   "gap_pct": 1.4,
    "pm": {
-    "last": 2.281,
+    "last": 2.25,
     "high": 2.4,
     "low": 2.2,
-    "vwap": 2.281,
+    "vwap": 2.25,
     "volume": 0
    },
-   "avg_vol_20d": 216925,
+   "avg_vol_20d": 216565,
    "yday_vol": 41801000,
-   "rvol": 192.7,
+   "rvol": 193.0,
    "rvol_basis": "yesterday",
    "run_pct_5d": 64.4,
-   "off_peak_pct": -20.3,
+   "off_peak_pct": -21.3,
    "atr14": 0.136,
    "levels": {
     "prev_high": 2.86,
@@ -678,7 +1209,7 @@
     "run_peak": 2.86,
     "pm_high": 2.4,
     "pm_low": 2.2,
-    "pm_vwap": 2.281
+    "pm_vwap": 2.25
    },
    "green_streak": 3,
    "setups": [
@@ -725,7 +1256,7 @@
      "time": "2026-05-11T13:00:00+00:00"
     }
    ],
-   "news_age_h": 24.2,
+   "news_age_h": 24.7,
    "flags": [],
    "plan": {
     "entry": 2.002,
@@ -735,40 +1266,40 @@
     "rr": 2.0,
     "note": "Former runner (+64.4% recently). Wait for an early panic flush into 1.86-2.15 (25-35% off the 2.86 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 75.0,
+   "score": 74.2,
    "failed": [
     "float 24.5M > 20M"
    ]
   },
   {
-   "symbol": "FHTX",
-   "price": 2.88,
-   "prev_close": 2.92,
-   "gap_pct": -1.4,
+   "symbol": "TGE",
+   "price": 1.36,
+   "prev_close": 1.4,
+   "gap_pct": -2.9,
    "pm": {
-    "last": 2.88,
-    "high": 2.89,
-    "low": 2.8,
-    "vwap": 2.88,
+    "last": 1.36,
+    "high": 1.45,
+    "low": 1.33,
+    "vwap": 1.36,
     "volume": 0
    },
-   "avg_vol_20d": 460970,
-   "yday_vol": 13370600,
-   "rvol": 29.0,
+   "avg_vol_20d": 14400,
+   "yday_vol": 7086200,
+   "rvol": 492.1,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 104.5,
-   "off_peak_pct": -21.3,
-   "atr14": 0.318,
+   "run_pct_5d": 136.6,
+   "off_peak_pct": -28.4,
+   "atr14": 0.136,
    "levels": {
-    "prev_high": 3.21,
-    "prev_low": 1.79,
-    "prev_close": 2.92,
-    "high_5d": 3.66,
-    "high_20d": 5.89,
-    "run_peak": 3.66,
-    "pm_high": 2.89,
-    "pm_low": 2.8,
-    "pm_vwap": 2.88
+    "prev_high": 1.62,
+    "prev_low": 1.26,
+    "prev_close": 1.4,
+    "high_5d": 1.9,
+    "high_20d": 1.9,
+    "run_peak": 1.9,
+    "pm_high": 1.45,
+    "pm_low": 1.33,
+    "pm_vwap": 1.36
    },
    "green_streak": 0,
    "setups": [
@@ -781,158 +1312,72 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Foghorn Therapeutics Inc. Common Stock",
-   "sector": "Health Care",
-   "industry": "Biotechnology: Pharmaceutical Preparations",
-   "country": "United States",
+   "name": "The Generation Essentials Group Class A Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Newspapers/Magazines",
+   "country": "",
    "exchange": null,
-   "float": 31310000.0,
+   "float": 44180000.0,
    "short_pct_float": null,
    "news": [
     {
-     "title": "Foghorn Therapeutics Halts FHD-909 Development After Phase 1 Clinical Data Review",
-     "url": "https://finance.yahoo.com/healthcare/articles/foghorn-therapeutics-halts-fhd-909-140653723.html",
+     "title": "TGE's profit surged by 9.9 times, with total assets at US$1.8bn and net assets at US$932m",
+     "url": "https://finviz.com/news/396865/tges-profit-surged-by-99-times-with-total-assets-at-us18bn-and-net-assets-at-us932m",
      "source": "Finviz",
-     "time": "2026-10-01T14:06:00+00:00"
+     "time": "2026-09-30T10:27:00+00:00"
     },
     {
-     "title": "FHTX Stock On Track For Record Low  Why Did Foghorn And Lilly Pull The Plug On Cancer Drug?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/fhtx-stock-track-record-low-132334595.html",
+     "title": "AMTD Appoints Benjamin Sutton as Global Editor-in-Chief of The Art Newspaper",
+     "url": "https://finviz.com/news/384239/amtd-appoints-benjamin-sutton-as-global-editor-in-chief-of-the-art-newspaper",
      "source": "Finviz",
-     "time": "2026-10-01T13:23:00+00:00"
+     "time": "2026-08-20T14:01:00+00:00"
     },
     {
-     "title": "Foghorn to Slash 40% of Jobs as Lilly Cancer Partnership Falls Apart",
-     "url": "https://www.barrons.com/articles/foghorn-therapeutics-stock-lilly-cancer-job-cuts-d43e6a0f?mod=bar_FV",
+     "title": "Dao by Dorsett AMTD Singapore Honoured with Tripadvisor Travellers' Choice 2026, Recognised Among the Top 10% of Properties Worldwide",
+     "url": "https://finviz.com/news/368507/dao-by-dorsett-amtd-singapore-honoured-with-tripadvisor-travellers-choice-2026-recognised-among-the-top-10-of-properties-worldwide",
      "source": "Finviz",
-     "time": "2026-10-01T11:40:00+00:00"
+     "time": "2026-07-15T12:54:00+00:00"
     },
     {
-     "title": "Foghorn Therapeutics Provides Update on FHD-909 and Strategic Priorities",
-     "url": "https://finviz.com/news/397564/foghorn-therapeutics-provides-update-on-fhd-909-and-strategic-priorities",
+     "title": "TGE Highlights Significant Progress in Building Its Global AMTD-Branded Hotels Network",
+     "url": "https://finviz.com/news/366365/tge-highlights-significant-progress-in-building-its-global-amtd-branded-hotels-network",
      "source": "Finviz",
-     "time": "2026-10-01T11:00:00+00:00"
+     "time": "2026-07-07T13:19:00+00:00"
     }
    ],
-   "news_age_h": 23.1,
-   "flags": [],
-   "plan": {
-    "entry": 2.562,
-    "stop": 2.26,
-    "target": 3.166,
-    "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+104.5% recently). Wait for an early panic flush into 2.38-2.75 (25-35% off the 3.66 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 45.8,
-   "failed": [
-    "float 31.3M > 20M"
-   ]
-  },
-  {
-   "symbol": "SDEV",
-   "price": 5.23,
-   "prev_close": 3.66,
-   "gap_pct": 42.9,
-   "pm": {
-    "last": 5.23,
-    "high": 5.57,
-    "low": 4.36,
-    "vwap": 5.23,
-    "volume": 0
-   },
-   "avg_vol_20d": 13296550,
-   "yday_vol": 105359000,
-   "rvol": 7.9,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 251.9,
-   "off_peak_pct": 15.2,
-   "atr14": 0.533,
-   "levels": {
-    "prev_high": 4.54,
-    "prev_low": 3.4,
-    "prev_close": 3.66,
-    "high_5d": 4.54,
-    "high_20d": 3.93,
-    "run_peak": 4.54,
-    "pm_high": 5.57,
-    "pm_low": 4.36,
-    "pm_vwap": 5.23
-   },
-   "green_streak": 1,
-   "setups": [
-    "Supernova gapper"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 3,
-    "finviz_http": 200
-   },
-   "name": "Stablecoin Development Corporation Common Stock",
-   "sector": "Health Care",
-   "industry": "Biotechnology: Pharmaceutical Preparations",
-   "country": "United States",
-   "exchange": null,
-   "float": 1830000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Stablecoin Development Corporation Reports Second Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/375589/stablecoin-development-corporation-reports-second-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-07-31T12:30:00+00:00"
-    },
-    {
-     "title": "Stablecoin Development Corporation Reports First Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/355931/stablecoin-development-corporation-reports-first-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-05-20T12:30:00+00:00"
-    },
-    {
-     "title": "Tether Joins $134 Million SDEV Financing as Stablecoin Infrastructure Expands",
-     "url": "https://finance.yahoo.com/m/880ec6d3-926d-3d20-98f2-51cf946274b8/tether-joins-%24134-million.html",
-     "source": "Finviz",
-     "time": "2026-04-15T16:08:00+00:00"
-    }
-   ],
-   "news_age_h": 1512.7,
+   "news_age_h": 51.2,
    "flags": [
-    "Shelf/Registration S-3/A filed 2026-09-16",
-    "Shelf/Registration S-3 filed 2026-08-11",
-    "Reverse split 1:5 on 2026-02-23"
+    "Offering 424B3 filed 2026-06-08"
    ],
    "plan": {
-    "entry": 5.57,
-    "stop": 5.23,
-    "target": 6.25,
-    "risk_pct": 6.1,
+    "entry": 1.297,
+    "stop": 1.173,
+    "target": 1.546,
+    "risk_pct": 9.6,
     "rr": 2.0,
-    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+    "note": "Former runner (+136.6% recently). Wait for an early panic flush into 1.23-1.36 (28-35% off the 1.90 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 39.8,
+   "score": 62.2,
    "failed": [
-    "no fresh news"
+    "float 44.2M > 20M"
    ]
   }
  ],
  "stats": {
   "universe": 6683,
-  "with_history": 2734,
+  "with_history": 2735,
   "scanned_premarket": 2263,
   "setup_candidates": 45,
-  "qualified": 5,
+  "qualified": 10,
   "news_sources": {
    "yf_raw": 0,
    "yf": 0,
    "yahoo_search": 0,
-   "finviz": 32
+   "finviz": 42
   },
   "finviz_http": [
    "200",
-   "404",
-   "429"
+   "404"
   ]
  }
 }

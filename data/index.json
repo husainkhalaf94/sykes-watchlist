@@ -1,13 +1,18 @@
 [
  {
   "date": "2026-10-02",
-  "count": 5,
+  "count": 10,
   "tickers": [
    "NXL",
    "EJH",
-   "LPA",
+   "NAMM",
+   "DXST",
+   "BKYI",
+   "NTWK",
+   "MSGY",
    "VEEA",
-   "SHFS"
+   "SCYX",
+   "BIYA"
   ],
   "market_closed": false
  }

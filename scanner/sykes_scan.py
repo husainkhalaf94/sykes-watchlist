@@ -284,7 +284,11 @@ def finviz_quote(sym: str) -> dict:
     """Float + news headlines from the Finviz quote page (fallback / supplement)."""
     out = {"float": None, "news": [], "status": None}
     try:
-        r = S.get(f"https://finviz.com/quote.ashx?t={sym.replace('-', '.')}&p=d", timeout=20)
+        for attempt in range(4):
+            r = S.get(f"https://finviz.com/quote.ashx?t={sym.replace('-', '.')}&p=d", timeout=20)
+            if r.status_code != 429:
+                break
+            time.sleep(3 * (attempt + 1))
         out["status"] = r.status_code
         html = r.text
         m = re.search(r"Shs Float.{0,400}?>\s*([\d\.]+)\s*([KMB])\s*<", html, re.S)
@@ -628,7 +632,7 @@ def main():
         c["flags"] = flags
         return c
 
-    with ThreadPoolExecutor(max_workers=6) as ex:
+    with ThreadPoolExecutor(max_workers=3) as ex:
         enriched = list(ex.map(lambda c: _safe(enrich, c), cands))
     enriched = [c for c in enriched if c]
 

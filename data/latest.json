@@ -1,0 +1,328 @@
+{
+ "date": "2026-10-02",
+ "generated_at": "2026-10-02T08:58:15.738900-04:00",
+ "market_closed": false,
+ "rules": {
+  "price_min": 1.0,
+  "price_max": 10.0,
+  "float_max": 20000000,
+  "rvol_min": 5.0,
+  "gap_min_pct": 20.0,
+  "runner_min_pct": 50.0,
+  "runner_lookback_days": 5,
+  "news_max_age_hours": 36,
+  "news_max_age_hours_runner": 120,
+  "max_picks": 10,
+  "pm_volume_share": 0.1
+ },
+ "picks": [],
+ "near_misses": [
+  {
+   "symbol": "AMOD",
+   "price": 2.859,
+   "prev_close": 1.17,
+   "gap_pct": 144.3,
+   "pm": {
+    "last": 2.859,
+    "high": 2.95,
+    "low": 1.82,
+    "vwap": 2.859,
+    "volume": 0
+   },
+   "avg_vol_20d": 120850,
+   "yday_vol": 8354500,
+   "rvol": 69.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 67.9,
+   "off_peak_pct": 52.1,
+   "atr14": 0.206,
+   "levels": {
+    "prev_high": 1.88,
+    "prev_low": 1.12,
+    "prev_close": 1.17,
+    "high_5d": 1.88,
+    "high_20d": 2.48,
+    "run_peak": 1.88,
+    "pm_high": 2.95,
+    "pm_low": 1.82,
+    "pm_vwap": 2.859
+   },
+   "green_streak": 0,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "name": "Alpha Modus Holdings, Inc.",
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 630935.0,
+   "short_pct_float": 0.9,
+   "news": [],
+   "news_age_h": null,
+   "flags": [
+    "Offering 424B3 filed 2026-08-27",
+    "Offering 424B1 filed 2026-07-28",
+    "Shelf/Registration EFFECT filed 2026-07-27",
+    "Shelf/Registration S-1 filed 2026-07-17",
+    "Reverse split 1:40 on 2026-06-15"
+   ],
+   "plan": {
+    "entry": 2.95,
+    "stop": 2.859,
+    "target": 3.132,
+    "risk_pct": 3.1,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 126.1,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "NXL",
+   "price": 5.86,
+   "prev_close": 7.55,
+   "gap_pct": -22.4,
+   "pm": {
+    "last": 5.86,
+    "high": 7.43,
+    "low": 5.85,
+    "vwap": 5.86,
+    "volume": 0
+   },
+   "avg_vol_20d": 16865,
+   "yday_vol": 61958400,
+   "rvol": 3673.8,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 167.8,
+   "off_peak_pct": -46.6,
+   "atr14": 0.915,
+   "levels": {
+    "prev_high": 10.98,
+    "prev_low": 6.8,
+    "prev_close": 7.55,
+    "high_5d": 10.98,
+    "high_20d": 6.8,
+    "run_peak": 10.98,
+    "pm_high": 7.43,
+    "pm_low": 5.85,
+    "pm_vwap": 5.86
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "name": "Nexalin Technology, Inc.",
+   "sector": "Healthcare",
+   "industry": "Medical Devices",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 530680.0,
+   "short_pct_float": 1.6,
+   "news": [],
+   "news_age_h": null,
+   "flags": [
+    "Shelf/Registration S-1 filed 2026-09-03",
+    "Offering 424B5 filed 2026-08-20",
+    "Reverse split 1:30 on 2026-08-31"
+   ],
+   "plan": {
+    "entry": 5.626,
+    "stop": 5.122,
+    "target": 7.55,
+    "risk_pct": 9.0,
+    "rr": 3.8,
+    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.39-5.86 (47-51% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 83.4,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "LONA",
+   "price": 4.56,
+   "prev_close": 4.38,
+   "gap_pct": 4.1,
+   "pm": {
+    "last": 4.56,
+    "high": 4.655,
+    "low": 4.236,
+    "vwap": 4.56,
+    "volume": 0
+   },
+   "avg_vol_20d": 131570,
+   "yday_vol": 6264200,
+   "rvol": 47.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 153.2,
+   "off_peak_pct": -18.5,
+   "atr14": 0.979,
+   "levels": {
+    "prev_high": 5.34,
+    "prev_low": 3.42,
+    "prev_close": 4.38,
+    "high_5d": 5.595,
+    "high_20d": 8.27,
+    "run_peak": 5.595,
+    "pm_high": 4.655,
+    "pm_low": 4.236,
+    "pm_vwap": 4.56
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "name": "LeonaBio, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 4730429.0,
+   "short_pct_float": 0.3,
+   "news": [],
+   "news_age_h": null,
+   "flags": [],
+   "plan": {
+    "entry": 3.917,
+    "stop": 3.455,
+    "target": 4.84,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+153.2% recently). Wait for an early panic flush into 3.64-4.20 (25-35% off the 5.59 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 82.0,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "EJH",
+   "price": 1.74,
+   "prev_close": 1.79,
+   "gap_pct": -2.8,
+   "pm": {
+    "last": 1.74,
+    "high": 1.74,
+    "low": 1.514,
+    "vwap": 1.74,
+    "volume": 0
+   },
+   "avg_vol_20d": 70550,
+   "yday_vol": 4143600,
+   "rvol": 58.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 92.0,
+   "off_peak_pct": -19.8,
+   "atr14": 0.187,
+   "levels": {
+    "prev_high": 2.17,
+    "prev_low": 1.46,
+    "prev_close": 1.79,
+    "high_5d": 2.17,
+    "high_20d": 1.73,
+    "run_peak": 2.17,
+    "pm_high": 1.74,
+    "pm_low": 1.514,
+    "pm_vwap": 1.74
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "name": "E-Home Household Service Holdin",
+   "sector": "Consumer Cyclical",
+   "industry": "Personal Services",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 2455862.0,
+   "short_pct_float": 0.3,
+   "news": [],
+   "news_age_h": null,
+   "flags": [
+    "Reverse split 1:25 on 2026-03-30"
+   ],
+   "plan": {
+    "entry": 1.519,
+    "stop": 1.34,
+    "target": 1.877,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+92.0% recently). Wait for an early panic flush into 1.41-1.63 (25-35% off the 2.17 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 79.7,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "BGM",
+   "price": 7.66,
+   "prev_close": 7.82,
+   "gap_pct": -2.0,
+   "pm": {
+    "last": 7.66,
+    "high": 7.721,
+    "low": 7.63,
+    "vwap": 7.66,
+    "volume": 0
+   },
+   "avg_vol_20d": 2256,
+   "yday_vol": 38600,
+   "rvol": 17.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 67.4,
+   "off_peak_pct": -29.1,
+   "atr14": 1.074,
+   "levels": {
+    "prev_high": 10.8,
+    "prev_low": 6.45,
+    "prev_close": 7.82,
+    "high_5d": 10.8,
+    "high_20d": 9.9,
+    "run_peak": 10.8,
+    "pm_high": 7.721,
+    "pm_low": 7.63,
+    "pm_vwap": 7.66
+   },
+   "green_streak": 4,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "name": "BGM Group Ltd.",
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - Specialty & Generic",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 4443201.0,
+   "short_pct_float": 0.0,
+   "news": [],
+   "news_age_h": null,
+   "flags": [
+    "Reverse split 1:30 on 2026-10-01"
+   ],
+   "plan": {
+    "entry": 7.34,
+    "stop": 6.669,
+    "target": 8.682,
+    "risk_pct": 9.1,
+    "rr": 2.0,
+    "note": "Former runner (+67.4% recently). Wait for an early panic flush into 7.02-7.66 (29-35% off the 10.80 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 37.9,
+   "failed": [
+    "no fresh news"
+   ]
+  }
+ ],
+ "stats": {
+  "universe": 6683,
+  "with_history": 2734,
+  "scanned_premarket": 2263,
+  "setup_candidates": 45,
+  "qualified": 0
+ }
+}

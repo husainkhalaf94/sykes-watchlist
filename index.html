@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sykes Pre-Market Watchlist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a single trading-desk column. Status strip, date tape, then one ticket per pick; reference material folds away below. */
+:root{
+  --bg:#f3f5f8; --panel:#ffffff; --ink:#141a24; --muted:#5b6778; --line:#dde3ec;
+  --accent:#c77a00; --accent-soft:#fff3dd;
+  --up:#0f8a4b; --up-soft:#e2f5ea; --down:#c4332b; --down-soft:#fbe7e5; --warn:#9a6400; --warn-soft:#fff1d1;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1118; --panel:#151b25; --ink:#e7ecf3; --muted:#8a97a8; --line:#253041;
+  --accent:#f0a830; --accent-soft:#2b2210;
+  --up:#3ccf86; --up-soft:#11291d; --down:#ff6b61; --down-soft:#2e1513; --warn:#f0b54a; --warn-soft:#2b2210; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d1118; --panel:#151b25; --ink:#e7ecf3; --muted:#8a97a8; --line:#253041;
+  --accent:#f0a830; --accent-soft:#2b2210;
+  --up:#3ccf86; --up-soft:#11291d; --down:#ff6b61; --down-soft:#2e1513; --warn:#f0b54a; --warn-soft:#2b2210; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+.wrap{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:18px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 20px}
+h1{font:700 2.1rem/1 var(--display);letter-spacing:.01em;margin:0;text-transform:uppercase;text-wrap:balance}
+h1 span{color:var(--accent)}
+.sub{color:var(--muted);font-size:.85rem;margin-top:4px}
+.status{font:500 .78rem/1.4 var(--mono);color:var(--muted);text-align:right}
+.status b{color:var(--ink);font-weight:600}
+.tape{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.tape button{flex:0 0 auto;font:500 .78rem var(--mono);background:var(--panel);color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer;display:grid;gap:1px;text-align:left}
+.tape button small{font-size:.68rem;opacity:.8}
+.tape button[aria-pressed="true"]{border-color:var(--accent);color:var(--ink);background:var(--accent-soft)}
+.tape button:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;font:500 .78rem var(--mono);color:var(--muted);border-block:1px solid var(--line);padding-block:8px}
+.stats b{color:var(--ink)}
+.picks{display:grid;gap:14px}
+.ticket{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:12px;min-width:0}
+.t-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.rank{font:600 .8rem var(--mono);color:var(--muted)}
+.sym{font:700 2rem/1 var(--display);letter-spacing:.02em}
+.sym a{color:inherit;text-decoration:none}
+.sym a:hover{text-decoration:underline}
+.cname{color:var(--muted);font-size:.85rem;min-width:0}
+.px{margin-left:auto;font:600 1.1rem var(--mono);display:flex;gap:10px;align-items:baseline}
+.chg{font-size:.9rem;padding:1px 6px;border-radius:4px}
+.chg.up{color:var(--up);background:var(--up-soft)} .chg.down{color:var(--down);background:var(--down-soft)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font:600 .72rem var(--body);letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line);color:var(--ink)}
+.tag.setup{border-color:var(--accent);color:var(--accent)}
+.tag.flag{background:var(--warn-soft);color:var(--warn);border-color:transparent;text-transform:none;letter-spacing:0}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+.m{border-left:2px solid var(--line);padding-left:8px}
+.m dt{font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.m dd{margin:0;font:600 .95rem var(--mono);font-variant-numeric:tabular-nums}
+.plan{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;background:var(--bg);border-radius:8px;padding:10px 12px}
+.plan .m{border-left-width:3px}
+.plan .entry{border-color:var(--accent)} .plan .stop{border-color:var(--down)} .plan .target{border-color:var(--up)}
+.note{font-size:.88rem;color:var(--ink);max-width:70ch}
+.news{display:grid;gap:4px;font-size:.88rem;min-width:0}
+.news a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:3px}
+.news a:hover{text-decoration-color:var(--accent)}
+.news .meta{font:400 .72rem var(--mono);color:var(--muted)}
+details.lv{font-size:.85rem}
+details summary{cursor:pointer;color:var(--muted);font-weight:500}
+.lvtable{overflow-x:auto;margin-top:6px}
+table{border-collapse:collapse;width:100%;font:500 .8rem var(--mono);font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:5px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font:600 .68rem var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+section h2{font:600 1.25rem var(--display);text-transform:uppercase;letter-spacing:.04em;margin:8px 0 6px}
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:28px 18px;text-align:center;color:var(--muted)}
+.empty strong{display:block;color:var(--ink);font:600 1.2rem var(--display);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.rules{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
+.rules ul{margin:8px 0 0;padding-left:18px;display:grid;gap:4px;font-size:.88rem;max-width:75ch}
+.fine{font-size:.75rem;color:var(--muted);max-width:75ch}
+@media (max-width:520px){.px{margin-left:0;width:100%}.status{text-align:left}}
+</style>
+</head><body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Sykes <span>Pre-Market</span> Watchlist</h1>
+      <div class="sub">US small caps · $1–$10 · float under 20M · fresh news · 5x relative volume</div>
+    </div>
+    <div class="status" id="status">Connecting to the daily list…</div>
+  </header>
+
+  <div class="tape" id="tape" role="group" aria-label="Choose a day"></div>
+  <div class="stats" id="stats" hidden></div>
+
+  <div class="picks" id="picks">
+    <div class="empty"><strong>Waiting for the first scan</strong>The list fills in every US trading day about an hour before the open (4:30pm Bahrain now, 3:30pm after the US clocks change on Nov 1).</div>
+  </div>
+
+  <section id="missWrap" hidden>
+    <h2>Near misses</h2>
+    <div class="fine" style="margin-bottom:6px">Failed exactly one rule. Not trade candidates, but worth a glance if the rule they missed changes at the open.</div>
+    <div class="lvtable"><table id="miss"></table></div>
+  </section>
+
+  <details class="rules">
+    <summary>How stocks are selected</summary>
+    <ul>
+      <li><b>Universe:</b> NASDAQ, NYSE and AMEX listed stocks priced $1–$10 in pre-market, float under 20M shares.</li>
+      <li><b>Catalyst:</b> a news headline within 36 hours for gappers, within 5 days for runners and dip-buys.</li>
+      <li><b>Relative volume ≥ 5x:</b> pre-market volume against a normal pre-market (10% of the 20-day average daily volume), or yesterday's volume against its 20-day average, whichever is higher.</li>
+      <li><b>Supernova gapper:</b> up 20%+ pre-market. Plan: buy the break of the pre-market high, stop near pre-market VWAP.</li>
+      <li><b>Morning-panic dip-buy:</b> ran 50%+ within the last 1–5 sessions and is now 10%+ off its peak. Plan: wait for the early flush, buy the first strong bounce.</li>
+      <li><b>Breakout / multi-day runner:</b> closed at a 20-day high or 2+ green days in a row on 3x+ volume, and holding up pre-market. Plan: buy the break of yesterday's high.</li>
+      <li><b>Red flags</b> (shelf or offering filings in the last 120 days, reverse splits, foreign IPOs under a year old, SPACs, warrants) are shown as amber badges and cost points in the ranking. They are not excluded.</li>
+      <li>Top 10 by score: gap size, relative volume, smaller float, fresher news, number of setups, minus red flags.</li>
+    </ul>
+  </details>
+  <p class="fine">Data from Yahoo Finance, Finviz, Nasdaq and SEC EDGAR via a scheduled GitHub Actions scan. Pre-market data can be delayed or incomplete. Levels and plans are mechanical starting points, not advice: confirm on your own chart before you trade.</p>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmt = (v, d=2) => v==null || isNaN(v) ? "–" : Number(v).toFixed(d);
+const big = v => v==null ? "–" : v>=1e6 ? (v/1e6).toFixed(1)+"M" : v>=1e3 ? (v/1e3).toFixed(0)+"K" : String(Math.round(v));
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u||"") ? u : null;
+let lists = [], selected = null, followLatest = true;
+
+function ago(iso){
+  if(!iso) return "";
+  const h = (Date.now() - new Date(iso).getTime())/36e5;
+  return h < 1 ? Math.round(h*60)+"m ago" : h < 48 ? Math.round(h)+"h ago" : Math.round(h/24)+"d ago";
+}
+function tz(iso, zone){
+  try { return new Date(iso).toLocaleString("en-GB",{timeZone:zone,weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}); }
+  catch(e){ return iso; }
+}
+
+function renderTape(){
+  const t = $("#tape"); t.innerHTML = "";
+  lists.forEach(l => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("aria-pressed", l.date === selected ? "true" : "false");
+    const d = new Date(l.date+"T12:00:00Z");
+    b.innerHTML = `${d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",timeZone:"UTC"})}<small>${l.market_closed ? "closed" : (l.picks||[]).length+" picks"}</small>`;
+    b.onclick = () => { selected = l.date; followLatest = (l.date === lists[0].date); render(); };
+    t.appendChild(b);
+  });
+}
+
+function ticket(p, i){
+  const up = (p.gap_pct||0) >= 0;
+  const yh = `https://finance.yahoo.com/quote/${encodeURIComponent(p.symbol)}`;
+  const tv = `https://www.tradingview.com/chart/?symbol=${encodeURIComponent(p.symbol)}`;
+  const L = p.levels || {}, P = p.plan || {};
+  const news = (p.news||[]).slice(0,3).map(n => {
+    const u = safeUrl(n.url);
+    const title = esc(n.title);
+    return `<div>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${title}</a>` : title} <span class="meta">${esc(n.source||"")} · ${ago(n.time)}</span></div>`;
+  }).join("") || `<div class="meta">No headline found</div>`;
+  return `<article class="ticket">
+    <div class="t-head">
+      <span class="rank">#${i+1}</span>
+      <span class="sym"><a href="${tv}" target="_blank" rel="noopener" title="Open chart in TradingView">${esc(p.symbol)}</a></span>
+      <span class="cname">${esc(p.name||"")}${p.sector ? " · "+esc(p.sector) : ""}</span>
+      <span class="px">$${fmt(p.price, p.price<2?3:2)} <span class="chg ${up?"up":"down"}">${up?"+":""}${fmt(p.gap_pct,1)}%</span></span>
+    </div>
+    <div class="tags">
+      ${(p.setups||[]).map(s=>`<span class="tag setup">${esc(s)}</span>`).join("")}
+      ${(p.flags||[]).map(f=>`<span class="tag flag">⚑ ${esc(f)}</span>`).join("")}
+    </div>
+    <dl class="metrics">
+      <div class="m"><dt>Rel. volume</dt><dd>${fmt(p.rvol,1)}x <small style="font-weight:400;color:var(--muted)">${esc(p.rvol_basis==="yesterday"?"yday":"PM")}</small></dd></div>
+      <div class="m"><dt>Float</dt><dd>${big(p.float)}</dd></div>
+      <div class="m"><dt>PM volume</dt><dd>${big(p.pm && p.pm.volume)}</dd></div>
+      <div class="m"><dt>5-day run</dt><dd>${p.run_pct_5d!=null?"+"+fmt(p.run_pct_5d,0)+"%":"–"}</dd></div>
+      <div class="m"><dt>Score</dt><dd>${fmt(p.score,0)}</dd></div>
+    </dl>
+    <dl class="plan">
+      <div class="m entry"><dt>Entry</dt><dd>$${fmt(P.entry,P.entry<2?3:2)}</dd></div>
+      <div class="m stop"><dt>Stop</dt><dd>$${fmt(P.stop,P.stop<2?3:2)} <small style="font-weight:400;color:var(--muted)">−${fmt(P.risk_pct,1)}%</small></dd></div>
+      <div class="m target"><dt>Target</dt><dd>$${fmt(P.target,P.target<2?3:2)}</dd></div>
+      <div class="m"><dt>Reward : risk</dt><dd>${P.rr!=null?fmt(P.rr,1)+" : 1":"–"}</dd></div>
+    </dl>
+    <div class="note">${esc(P.note||"")}</div>
+    <div class="news">${news}</div>
+    <details class="lv"><summary>Key levels</summary>
+      <div class="lvtable"><table>
+        <tr><th>Prev close</th><th>Prev high</th><th>Prev low</th><th>PM high</th><th>PM low</th><th>PM VWAP</th><th>5-day high</th><th>20-day high</th></tr>
+        <tr><td>${fmt(L.prev_close,3)}</td><td>${fmt(L.prev_high,3)}</td><td>${fmt(L.prev_low,3)}</td><td>${fmt(L.pm_high,3)}</td><td>${fmt(L.pm_low,3)}</td><td>${fmt(L.pm_vwap,3)}</td><td>${fmt(L.high_5d,3)}</td><td>${fmt(L.high_20d,3)}</td></tr>
+      </table></div>
+      <div class="meta" style="margin-top:6px"><a href="${yh}" target="_blank" rel="noopener">Yahoo Finance</a> · <a href="${tv}" target="_blank" rel="noopener">TradingView</a></div>
+    </details>
+  </article>`;
+}
+
+function render(){
+  renderTape();
+  const l = lists.find(x => x.date === selected);
+  const picks = $("#picks"), stats = $("#stats"), mw = $("#missWrap");
+  if(!l){ return; }
+  $("#status").innerHTML = l.generated_at
+    ? `Scanned <b>${tz(l.generated_at,"America/New_York")} ET</b><br>${tz(l.generated_at,"Asia/Bahrain")} Bahrain`
+    : "";
+  const s = l.stats || {};
+  stats.hidden = !!l.market_closed;
+  stats.innerHTML = `<span>Universe <b>${s.universe??"–"}</b></span><span>Scanned pre-market <b>${s.scanned_premarket??"–"}</b></span><span>Setup matches <b>${s.setup_candidates??"–"}</b></span><span>Passed every rule <b>${s.qualified??"–"}</b></span>`;
+  if(l.market_closed){
+    picks.innerHTML = `<div class="empty"><strong>Market closed</strong>No scan on weekends and US market holidays.</div>`;
+  } else if(!(l.picks||[]).length){
+    picks.innerHTML = `<div class="empty"><strong>No stock passed every rule today</strong>That happens on quiet mornings. Sykes' advice applies: no setup, no trade. Check the near misses below.</div>`;
+  } else {
+    picks.innerHTML = l.picks.map(ticket).join("");
+  }
+  const m = l.near_misses || [];
+  mw.hidden = !m.length;
+  $("#miss").innerHTML = `<tr><th>Ticker</th><th>Setup</th><th>Price</th><th>Gap</th><th>RVOL</th><th>Float</th><th>Missed</th></tr>` +
+    m.map(p => `<tr><td><b>${esc(p.symbol)}</b></td><td>${esc((p.setups||[])[0]||"")}</td><td>${fmt(p.price)}</td><td>${fmt(p.gap_pct,1)}%</td><td>${fmt(p.rvol,1)}x</td><td>${big(p.float)}</td><td>${esc((p.failed||[]).join(", "))}</td></tr>`).join("");
+}
+
+async function load(){
+  try{
+    const idx = await (await fetch("data/index.json?t="+Date.now())).json();
+    const dates = idx.slice(0,30).map(i=>i.date);
+    lists = (await Promise.all(dates.map(d => fetch(`data/${d}.json?t=${Date.now()}`).then(r=>r.ok?r.json():null).catch(()=>null)))).filter(Boolean);
+    lists.sort((a,b)=>a.date<b.date?1:-1);
+    if(!lists.length){ $("#status").textContent = "No scans yet"; return; }
+    if(followLatest || !lists.some(l => l.date === selected)) selected = lists[0].date;
+    render();
+  }catch(e){ $("#status").textContent = "No scans yet. The first one appears after the next pre-market run."; }
+}
+load();
+setInterval(load, 5*60*1000);
+</script>
+</body></html>

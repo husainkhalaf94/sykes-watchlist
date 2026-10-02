@@ -1,6 +1,6 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-10-02T08:58:15.738900-04:00",
+ "generated_at": "2026-10-02T09:07:04.659720-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -18,78 +18,105 @@
  "picks": [],
  "near_misses": [
   {
-   "symbol": "AMOD",
-   "price": 2.859,
-   "prev_close": 1.17,
-   "gap_pct": 144.3,
+   "symbol": "AISP",
+   "price": 2.26,
+   "prev_close": 2.22,
+   "gap_pct": 1.8,
    "pm": {
-    "last": 2.859,
-    "high": 2.95,
-    "low": 1.82,
-    "vwap": 2.859,
+    "last": 2.26,
+    "high": 2.4,
+    "low": 2.2,
+    "vwap": 2.26,
     "volume": 0
    },
-   "avg_vol_20d": 120850,
-   "yday_vol": 8354500,
-   "rvol": 69.1,
+   "avg_vol_20d": 216925,
+   "yday_vol": 41801000,
+   "rvol": 192.7,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 67.9,
-   "off_peak_pct": 52.1,
-   "atr14": 0.206,
+   "run_pct_5d": 64.4,
+   "off_peak_pct": -21.0,
+   "atr14": 0.136,
    "levels": {
-    "prev_high": 1.88,
-    "prev_low": 1.12,
-    "prev_close": 1.17,
-    "high_5d": 1.88,
-    "high_20d": 2.48,
-    "run_peak": 1.88,
-    "pm_high": 2.95,
-    "pm_low": 1.82,
-    "pm_vwap": 2.859
+    "prev_high": 2.86,
+    "prev_low": 2.0,
+    "prev_close": 2.22,
+    "high_5d": 2.86,
+    "high_20d": 2.2,
+    "run_peak": 2.86,
+    "pm_high": 2.4,
+    "pm_low": 2.2,
+    "pm_vwap": 2.26
    },
-   "green_streak": 0,
+   "green_streak": 3,
    "setups": [
-    "Supernova gapper"
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
    ],
-   "name": "Alpha Modus Holdings, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "country": "United States",
-   "exchange": "NCM",
-   "float": 630935.0,
-   "short_pct_float": 0.9,
-   "news": [],
-   "news_age_h": null,
-   "flags": [
-    "Offering 424B3 filed 2026-08-27",
-    "Offering 424B1 filed 2026-07-28",
-    "Shelf/Registration EFFECT filed 2026-07-27",
-    "Shelf/Registration S-1 filed 2026-07-17",
-    "Reverse split 1:40 on 2026-06-15"
-   ],
-   "plan": {
-    "entry": 2.95,
-    "stop": 2.859,
-    "target": 3.132,
-    "risk_pct": 3.1,
-    "rr": 2.0,
-    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
    },
-   "score": 126.1,
+   "name": "Airship AI Holdings Inc. Class A Common Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
+   "exchange": null,
+   "float": null,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Airship AI Announces $29.0M of Firm Fixed Price Brand Name Only Awards from Department of Homeland Security",
+     "url": "https://finviz.com/news/397808/airship-ai-announces-290m-of-firm-fixed-price-brand-name-only-awards-from-department-of-homeland-security",
+     "source": "Finviz",
+     "time": "2026-10-01T13:00:00+00:00"
+    },
+    {
+     "title": "Airship AI Reports Second Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/378707/airship-ai-reports-second-quarter-2026-financial-results",
+     "source": "Finviz",
+     "time": "2026-08-06T13:00:00+00:00"
+    },
+    {
+     "title": "Airship AI Secures Seven Figure Follow-On Contract Award with Fortune 100 Transportation &amp; E-Commerce Company",
+     "url": "https://finviz.com/news/363294/airship-ai-secures-seven-figure-follow-on-contract-award-with-fortune-100-transportation-e-commerce-company",
+     "source": "Finviz",
+     "time": "2026-06-23T12:00:00+00:00"
+    },
+    {
+     "title": "Airship AI Reports First Quarter 2026 Financial Results",
+     "url": "https://finviz.com/news/352939/airship-ai-reports-first-quarter-2026-financial-results",
+     "source": "Finviz",
+     "time": "2026-05-11T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 24.1,
+   "flags": [],
+   "plan": {
+    "entry": 2.002,
+    "stop": 1.766,
+    "target": 2.474,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+64.4% recently). Wait for an early panic flush into 1.86-2.15 (25-35% off the 2.86 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 74.7,
    "failed": [
-    "no fresh news"
+    "float unknown"
    ]
   },
   {
    "symbol": "NXL",
-   "price": 5.86,
+   "price": 5.851,
    "prev_close": 7.55,
-   "gap_pct": -22.4,
+   "gap_pct": -22.5,
    "pm": {
-    "last": 5.86,
+    "last": 5.851,
     "high": 7.43,
     "low": 5.85,
-    "vwap": 5.86,
+    "vwap": 5.851,
     "volume": 0
    },
    "avg_vol_20d": 16865,
@@ -97,7 +124,7 @@
    "rvol": 3673.8,
    "rvol_basis": "yesterday",
    "run_pct_5d": 167.8,
-   "off_peak_pct": -46.6,
+   "off_peak_pct": -46.7,
    "atr14": 0.915,
    "levels": {
     "prev_high": 10.98,
@@ -108,107 +135,81 @@
     "run_peak": 10.98,
     "pm_high": 7.43,
     "pm_low": 5.85,
-    "pm_vwap": 5.86
+    "pm_vwap": 5.851
    },
    "green_streak": 1,
    "setups": [
     "Morning-panic dip-buy"
    ],
-   "name": "Nexalin Technology, Inc.",
-   "sector": "Healthcare",
-   "industry": "Medical Devices",
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Nexalin Technology Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
    "country": "United States",
-   "exchange": "NCM",
-   "float": 530680.0,
-   "short_pct_float": 1.6,
-   "news": [],
-   "news_age_h": null,
+   "exchange": null,
+   "float": null,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Nexalin Technology Signs South America Distribution Agreement for Nexalin Sync Commercialization",
+     "url": "https://finance.yahoo.com/healthcare/articles/nexalin-technology-signs-south-america-140309049.html",
+     "source": "Finviz",
+     "time": "2026-10-01T14:03:00+00:00"
+    },
+    {
+     "title": "Nexalin Technology Signs Definitive Exclusive Distribution and Local Manufacturing Agreement for Brazil and South America, Marking a Major Step in its Transition Toward Commercial Revenue Generation",
+     "url": "https://finviz.com/news/397725/nexalin-technology-signs-definitive-exclusive-distribution-and-local-manufacturing-agreement-for-brazil-and-south-america-marking-a-major-step-in-its-transition-toward-commercial-revenue-generation",
+     "source": "Finviz",
+     "time": "2026-10-01T12:30:00+00:00"
+    },
+    {
+     "title": "Nexalin Technology Taps Neuromodulation Commercial Executive Robert DiTota to Advise on its Global Commercialization Strategy",
+     "url": "https://finviz.com/news/396568/nexalin-technology-taps-neuromodulation-commercial-executive-robert-ditota-to-advise-on-its-global-commercialization-strategy",
+     "source": "Finviz",
+     "time": "2026-09-29T13:00:00+00:00"
+    },
+    {
+     "title": "Nexalin Technology Announces New Secondary Analysis of Previously Published Clinical Trial Data Reveals Previously Unreported Improvements in Memory, Comprehension and Language Function in Alzheimer's Patients; ADAS-Cog Subscale Analysis to Guide Design of Planned U.S. Alzheimer's Pilot Study",
+     "url": "https://finviz.com/news/388662/nexalin-technology-announces-new-secondary-analysis-of-previously-published-clinical-trial-data-reveals-previously-unreported-improvements-in-memory-comprehension-and-language-function-in-alzheimers-patients-adas-cog-subscale-analysis-to-guide-design-of-planned-us-alzheimers-pilot-study",
+     "source": "Finviz",
+     "time": "2026-09-03T12:30:00+00:00"
+    }
+   ],
+   "news_age_h": 23.1,
    "flags": [
     "Shelf/Registration S-1 filed 2026-09-03",
     "Offering 424B5 filed 2026-08-20",
     "Reverse split 1:30 on 2026-08-31"
    ],
    "plan": {
-    "entry": 5.626,
-    "stop": 5.122,
+    "entry": 5.617,
+    "stop": 5.114,
     "target": 7.55,
     "risk_pct": 9.0,
     "rr": 3.8,
-    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.39-5.86 (47-51% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+167.8% recently). Wait for an early panic flush into 5.38-5.85 (47-51% off the 10.98 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 83.4,
+   "score": 70.5,
    "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "LONA",
-   "price": 4.56,
-   "prev_close": 4.38,
-   "gap_pct": 4.1,
-   "pm": {
-    "last": 4.56,
-    "high": 4.655,
-    "low": 4.236,
-    "vwap": 4.56,
-    "volume": 0
-   },
-   "avg_vol_20d": 131570,
-   "yday_vol": 6264200,
-   "rvol": 47.6,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 153.2,
-   "off_peak_pct": -18.5,
-   "atr14": 0.979,
-   "levels": {
-    "prev_high": 5.34,
-    "prev_low": 3.42,
-    "prev_close": 4.38,
-    "high_5d": 5.595,
-    "high_20d": 8.27,
-    "run_peak": 5.595,
-    "pm_high": 4.655,
-    "pm_low": 4.236,
-    "pm_vwap": 4.56
-   },
-   "green_streak": 3,
-   "setups": [
-    "Morning-panic dip-buy",
-    "Breakout / multi-day runner"
-   ],
-   "name": "LeonaBio, Inc.",
-   "sector": "Healthcare",
-   "industry": "Biotechnology",
-   "country": "United States",
-   "exchange": "NCM",
-   "float": 4730429.0,
-   "short_pct_float": 0.3,
-   "news": [],
-   "news_age_h": null,
-   "flags": [],
-   "plan": {
-    "entry": 3.917,
-    "stop": 3.455,
-    "target": 4.84,
-    "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+153.2% recently). Wait for an early panic flush into 3.64-4.20 (25-35% off the 5.59 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 82.0,
-   "failed": [
-    "no fresh news"
+    "float unknown"
    ]
   },
   {
    "symbol": "EJH",
-   "price": 1.74,
+   "price": 1.78,
    "prev_close": 1.79,
-   "gap_pct": -2.8,
+   "gap_pct": -0.6,
    "pm": {
-    "last": 1.74,
-    "high": 1.74,
+    "last": 1.78,
+    "high": 1.78,
     "low": 1.514,
-    "vwap": 1.74,
+    "vwap": 1.78,
     "volume": 0
    },
    "avg_vol_20d": 70550,
@@ -216,7 +217,7 @@
    "rvol": 58.7,
    "rvol_basis": "yesterday",
    "run_pct_5d": 92.0,
-   "off_peak_pct": -19.8,
+   "off_peak_pct": -18.0,
    "atr14": 0.187,
    "levels": {
     "prev_high": 2.17,
@@ -225,23 +226,55 @@
     "high_5d": 2.17,
     "high_20d": 1.73,
     "run_peak": 2.17,
-    "pm_high": 1.74,
+    "pm_high": 1.78,
     "pm_low": 1.514,
-    "pm_vwap": 1.74
+    "pm_vwap": 1.78
    },
    "green_streak": 1,
    "setups": [
     "Morning-panic dip-buy"
    ],
-   "name": "E-Home Household Service Holdin",
-   "sector": "Consumer Cyclical",
-   "industry": "Personal Services",
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "E-Home Household Service Holdings Limited Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Other Consumer Services",
    "country": "China",
-   "exchange": "NCM",
-   "float": 2455862.0,
-   "short_pct_float": 0.3,
-   "news": [],
-   "news_age_h": null,
+   "exchange": null,
+   "float": null,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "E-Home Launches a Dedicated AI Service Robot for China's Household Services Market",
+     "url": "https://finviz.com/news/397575/e-home-launches-a-dedicated-ai-service-robot-for-chinas-household-services-market",
+     "source": "Finviz",
+     "time": "2026-10-01T11:15:00+00:00"
+    },
+    {
+     "title": "E-Home Household Services Holdings Limited has added a property management system to integrate community-based lead generation with back-end home services",
+     "url": "https://finviz.com/news/377630/e-home-household-services-holdings-limited-has-added-a-property-management-system-to-integrate-community-based-lead-generation-with-back-end-home-services",
+     "source": "Finviz",
+     "time": "2026-08-05T13:00:00+00:00"
+    },
+    {
+     "title": "E-Home Household Services Holdings Limited has recently won bids for several community service centers, with the total value of the newly added services amounting to approximately 5 million RMB",
+     "url": "https://finviz.com/news/339594/e-home-household-services-holdings-limited-has-recently-won-bids-for-several-community-service-centers-with-the-total-value-of-the-newly-added-services-amounting-to-approximately-5-million-rmb",
+     "source": "Finviz",
+     "time": "2026-03-24T13:00:00+00:00"
+    },
+    {
+     "title": "Is Rollins Stock Underperforming the S&amp;P 500?",
+     "url": "https://finance.yahoo.com/m/0b978c99-b491-3a77-9097-aee39e686ac8/is-rollins-stock.html",
+     "source": "Finviz",
+     "time": "2026-03-16T07:53:00+00:00"
+    }
+   ],
+   "news_age_h": 25.9,
    "flags": [
     "Reverse split 1:25 on 2026-03-30"
    ],
@@ -253,76 +286,208 @@
     "rr": 2.0,
     "note": "Former runner (+92.0% recently). Wait for an early panic flush into 1.41-1.63 (25-35% off the 2.17 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 79.7,
+   "score": 66.3,
    "failed": [
-    "no fresh news"
+    "float unknown"
    ]
   },
   {
-   "symbol": "BGM",
-   "price": 7.66,
-   "prev_close": 7.82,
-   "gap_pct": -2.0,
+   "symbol": "FHTX",
+   "price": 2.88,
+   "prev_close": 2.92,
+   "gap_pct": -1.4,
    "pm": {
-    "last": 7.66,
-    "high": 7.721,
-    "low": 7.63,
-    "vwap": 7.66,
+    "last": 2.88,
+    "high": 2.89,
+    "low": 2.8,
+    "vwap": 2.88,
     "volume": 0
    },
-   "avg_vol_20d": 2256,
-   "yday_vol": 38600,
-   "rvol": 17.1,
+   "avg_vol_20d": 460970,
+   "yday_vol": 13370600,
+   "rvol": 29.0,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 67.4,
-   "off_peak_pct": -29.1,
-   "atr14": 1.074,
+   "run_pct_5d": 104.5,
+   "off_peak_pct": -21.3,
+   "atr14": 0.318,
    "levels": {
-    "prev_high": 10.8,
-    "prev_low": 6.45,
-    "prev_close": 7.82,
-    "high_5d": 10.8,
-    "high_20d": 9.9,
-    "run_peak": 10.8,
-    "pm_high": 7.721,
-    "pm_low": 7.63,
-    "pm_vwap": 7.66
+    "prev_high": 3.21,
+    "prev_low": 1.79,
+    "prev_close": 2.92,
+    "high_5d": 3.66,
+    "high_20d": 5.89,
+    "run_peak": 3.66,
+    "pm_high": 2.89,
+    "pm_low": 2.8,
+    "pm_vwap": 2.88
    },
-   "green_streak": 4,
+   "green_streak": 0,
    "setups": [
     "Morning-panic dip-buy"
    ],
-   "name": "BGM Group Ltd.",
-   "sector": "Healthcare",
-   "industry": "Drug Manufacturers - Specialty & Generic",
-   "country": "China",
-   "exchange": "NCM",
-   "float": 4443201.0,
-   "short_pct_float": 0.0,
-   "news": [],
-   "news_age_h": null,
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Foghorn Therapeutics Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "United States",
+   "exchange": null,
+   "float": null,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Foghorn Therapeutics Halts FHD-909 Development After Phase 1 Clinical Data Review",
+     "url": "https://finance.yahoo.com/healthcare/articles/foghorn-therapeutics-halts-fhd-909-140653723.html",
+     "source": "Finviz",
+     "time": "2026-10-01T14:06:00+00:00"
+    },
+    {
+     "title": "FHTX Stock On Track For Record Low  Why Did Foghorn And Lilly Pull The Plug On Cancer Drug?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/fhtx-stock-track-record-low-132334595.html",
+     "source": "Finviz",
+     "time": "2026-10-01T13:23:00+00:00"
+    },
+    {
+     "title": "Foghorn to Slash 40% of Jobs as Lilly Cancer Partnership Falls Apart",
+     "url": "https://www.barrons.com/articles/foghorn-therapeutics-stock-lilly-cancer-job-cuts-d43e6a0f?mod=bar_FV",
+     "source": "Finviz",
+     "time": "2026-10-01T11:40:00+00:00"
+    },
+    {
+     "title": "Foghorn Therapeutics Provides Update on FHD-909 and Strategic Priorities",
+     "url": "https://finviz.com/news/397564/foghorn-therapeutics-provides-update-on-fhd-909-and-strategic-priorities",
+     "source": "Finviz",
+     "time": "2026-10-01T11:00:00+00:00"
+    }
+   ],
+   "news_age_h": 23.0,
+   "flags": [],
+   "plan": {
+    "entry": 2.562,
+    "stop": 2.26,
+    "target": 3.166,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+104.5% recently). Wait for an early panic flush into 2.38-2.75 (25-35% off the 3.66 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 45.9,
+   "failed": [
+    "float unknown"
+   ]
+  },
+  {
+   "symbol": "ABAT",
+   "price": 2.32,
+   "prev_close": 2.28,
+   "gap_pct": 1.8,
+   "pm": {
+    "last": 2.32,
+    "high": 2.41,
+    "low": 2.25,
+    "vwap": 2.32,
+    "volume": 0
+   },
+   "avg_vol_20d": 3088895,
+   "yday_vol": 21476600,
+   "rvol": 7.0,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 11.1,
+   "off_peak_pct": -3.3,
+   "atr14": 0.136,
+   "levels": {
+    "prev_high": 2.4,
+    "prev_low": 2.22,
+    "prev_close": 2.28,
+    "high_5d": 2.4,
+    "high_20d": 2.885,
+    "run_peak": 2.4,
+    "pm_high": 2.41,
+    "pm_low": 2.25,
+    "pm_vwap": 2.32
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "American Battery Technology Company Common Stock",
+   "sector": "Industrials",
+   "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+   "country": "United States",
+   "exchange": null,
+   "float": null,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "American Battery Technology Shares Rise 10% After Receiving Export Approval",
+     "url": "https://finviz.com/news/397859/american-battery-technology-shares-rise-10-after-receiving-export-approval",
+     "source": "Finviz",
+     "time": "2026-10-01T13:26:00+00:00"
+    },
+    {
+     "title": "American Battery Technology Company Receives Approval for Sale of $100 Million of Exported Recycled Black Mass Critical Minerals with License from U.S. Department of Commerce",
+     "url": "https://finviz.com/news/397475/american-battery-technology-company-receives-approval-for-sale-of-100-million-of-exported-recycled-black-mass-critical-minerals-with-license-from-us-department-of-commerce",
+     "source": "Finviz",
+     "time": "2026-10-01T10:00:00+00:00"
+    },
+    {
+     "title": "American Battery Technology Co (ABAT) (Q4 2026) Earnings Call Highlights: Record Revenue Growth ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/american-battery-technology-co-abat-070017870.html",
+     "source": "Finviz",
+     "time": "2026-09-22T07:00:00+00:00"
+    },
+    {
+     "title": "American Battery Technology Company Common Stock Q4 2026 Earnings Call Summary",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/american-battery-technology-company-common-123000033.html",
+     "source": "Finviz",
+     "time": "2026-09-15T12:30:00+00:00"
+    }
+   ],
+   "news_age_h": 23.7,
    "flags": [
-    "Reverse split 1:30 on 2026-10-01"
+    "Shelf/Registration S-3/A filed 2026-09-30",
+    "Shelf/Registration S-3 filed 2026-09-18"
    ],
    "plan": {
-    "entry": 7.34,
-    "stop": 6.669,
-    "target": 8.682,
-    "risk_pct": 9.1,
+    "entry": 2.41,
+    "stop": 2.217,
+    "target": 2.796,
+    "risk_pct": 8.0,
     "rr": 2.0,
-    "note": "Former runner (+67.4% recently). Wait for an early panic flush into 7.02-7.66 (29-35% off the 10.80 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
    },
-   "score": 37.9,
+   "score": 13.3,
    "failed": [
-    "no fresh news"
+    "float unknown"
    ]
   }
  ],
  "stats": {
   "universe": 6683,
-  "with_history": 2734,
-  "scanned_premarket": 2263,
+  "with_history": 2732,
+  "scanned_premarket": 2261,
   "setup_candidates": 45,
-  "qualified": 0
+  "qualified": 0,
+  "news_sources": {
+   "yf_raw": 0,
+   "yf": 0,
+   "yahoo_search": 0,
+   "finviz": 41
+  },
+  "finviz_http": [
+   "200",
+   "404"
+  ]
  }
 }

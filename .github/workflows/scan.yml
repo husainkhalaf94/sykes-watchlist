@@ -1,0 +1,39 @@
+name: Sykes pre-market scan
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even on weekends/holidays (1 = yes)"
+        default: "0"
+  schedule:
+    # 12:05 and 13:05 UTC on weekdays = 8:05 ET in summer (EDT) and winter (EST).
+    # The scanner skips whichever run falls outside 07:45-08:59 ET.
+    - cron: "5 12 * * 1-5"
+    - cron: "5 13 * * 1-5"
+permissions:
+  contents: write
+concurrency:
+  group: scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run scanner
+        env:
+          FORCE_RUN: ${{ github.event.inputs.force || '0' }}
+          SCHEDULED: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: python scanner/sykes_scan.py
+      - name: Save results
+        run: |
+          git config user.name "sykes-scan-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data || true
+          git diff --cached --quiet || git commit -m "Watchlist $(TZ=America/New_York date +%F)"
+          git pull --rebase -q && git push

@@ -282,40 +282,70 @@ def parse_news(raw: list) -> list[dict]:
 
 def finviz_quote(sym: str) -> dict:
     """Float + news headlines from the Finviz quote page (fallback / supplement)."""
-    out = {"float": None, "news": []}
+    out = {"float": None, "news": [], "status": None}
     try:
-        html = S.get(f"https://finviz.com/quote.ashx?t={sym.replace('-', '.')}", timeout=20).text
+        r = S.get(f"https://finviz.com/quote.ashx?t={sym.replace('-', '.')}&p=d", timeout=20)
+        out["status"] = r.status_code
+        html = r.text
         m = re.search(r"Shs Float</td>.*?<b>(?:<span[^>]*>)?([\d\.]+)([KMB])", html, re.S)
         if m:
             mult = {"K": 1e3, "M": 1e6, "B": 1e9}[m.group(2)]
             out["float"] = float(m.group(1)) * mult
-        # news table rows: date cell then link
+        tm_ = re.search(r'id="news-table"(.*?)</table>', html, re.S)
+        if not tm_:
+            return out
         now = datetime.now(ET)
         cur_date = None
-        for row in re.findall(r'<tr[^>]*class="[^"]*news_table-row[^"]*".*?</tr>', html, re.S)[:15]:
-            dm = re.search(r'<td[^>]*width="130"[^>]*>\s*([^<]+?)\s*</td>', row)
-            lm = re.search(r'<a[^>]*href="([^"]+)"[^>]*class="tab-link-news"[^>]*>([^<]+)</a>', row)
-            if not (dm and lm):
+        for row in re.findall(r"<tr[^>]*>(.*?)</tr>", tm_.group(1), re.S)[:20]:
+            td = re.search(r"<td[^>]*>(.*?)</td>", row, re.S)
+            a = re.search(r"<a\s+([^>]*tab-link-news[^>]*)>(.*?)</a>", row, re.S)
+            if not (td and a):
                 continue
-            stamp = dm.group(1).strip()
-            parts = stamp.split()
+            stamp = re.sub(r"<[^>]+>", " ", td.group(1)).split()
             try:
-                if len(parts) == 2:
-                    d = now.date() if parts[0] == "Today" else datetime.strptime(parts[0], "%b-%d-%y").date()
-                    cur_date, tm = d, parts[1]
+                if len(stamp) >= 2:
+                    d = now.date() if stamp[0].lower() == "today" else datetime.strptime(stamp[0], "%b-%d-%y").date()
+                    cur_date, tm = d, stamp[1]
                 else:
-                    tm = parts[0]
+                    tm = stamp[0]
+                if cur_date is None:
+                    cur_date = now.date()
                 dt = datetime.strptime(f"{cur_date} {tm}", "%Y-%m-%d %I:%M%p").replace(tzinfo=ET)
             except Exception:
                 continue
-            url = lm.group(1)
-            if url.startswith("/"):
+            href = re.search(r'href="([^"]+)"', a.group(1))
+            url = href.group(1) if href else None
+            if url and url.startswith("/"):
                 url = "https://finviz.com" + url
-            out["news"].append({"title": lm.group(2).strip(), "url": url, "source": "Finviz",
+            title = re.sub(r"<[^>]+>", "", a.group(2)).strip()
+            out["news"].append({"title": title, "url": url, "source": "Finviz",
                                 "time": dt.astimezone(timezone.utc).isoformat()})
     except Exception as e:
         log("finviz quote fail", sym, e)
     return out
+
+
+def yahoo_search_news(sym: str) -> list[dict]:
+    """Headlines from Yahoo's public search endpoint (independent of yfinance)."""
+    items = []
+    for host in ("query2", "query1"):
+        try:
+            r = S.get(f"https://{host}.finance.yahoo.com/v1/finance/search",
+                      params={"q": sym, "newsCount": 10, "quotesCount": 0}, timeout=15)
+            if r.status_code != 200:
+                continue
+            for n in r.json().get("news", []):
+                ts = n.get("providerPublishTime")
+                if not (ts and n.get("title")):
+                    continue
+                if n.get("relatedTickers") and sym not in n["relatedTickers"]:
+                    continue
+                items.append({"title": n["title"], "url": n.get("link"), "source": n.get("publisher"),
+                              "time": datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()})
+            break
+        except Exception:
+            continue
+    return items
 
 
 _CIK = None
@@ -553,11 +583,14 @@ def main():
         yd = yahoo_detail(s)
         info = yd["info"]
         fl = num(info.get("floatShares"))
-        news = parse_news(yd["news"])
+        yn = parse_news(yd["news"])
+        ys = yahoo_search_news(s)
         fv = finviz_quote(s)
         if fl is None:
             fl = fv["float"]
-        news = sorted({n["title"]: n for n in news + fv["news"]}.values(), key=lambda x: x["time"], reverse=True)
+        c["sources"] = {"yf_raw": len(yd["news"]), "yf": len(yn), "yahoo_search": len(ys),
+                        "finviz": len(fv["news"]), "finviz_http": fv["status"]}
+        news = sorted({n["title"]: n for n in yn + ys + fv["news"]}.values(), key=lambda x: x["time"], reverse=True)
         c["name"] = info.get("shortName") or u.get("name") or s
         c["sector"] = info.get("sector") or u.get("sector")
         c["industry"] = info.get("industry") or u.get("industry")
@@ -626,7 +659,10 @@ def main():
         "date": today.isoformat(), "generated_at": datetime.now(ET).isoformat(), "market_closed": False,
         "rules": RULES, "picks": picks[:RULES["max_picks"]], "near_misses": misses[:5],
         "stats": {"universe": len(uni), "with_history": len(hist), "scanned_premarket": len(stage2),
-                  "setup_candidates": len(cands), "qualified": len(picks)},
+                  "setup_candidates": len(cands), "qualified": len(picks),
+                  "news_sources": {k: sum(1 for c in enriched if (c.get("sources") or {}).get(k))
+                                   for k in ("yf_raw", "yf", "yahoo_search", "finviz")},
+                  "finviz_http": sorted({str((c.get("sources") or {}).get("finviz_http")) for c in enriched})},
     }
     write_output(result)
     log(f"done: {len(picks)} picks, {len(misses)} near misses")

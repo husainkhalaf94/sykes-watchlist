@@ -415,24 +415,27 @@ def rel_volume(pm_vol: float | None, avg_vol: float, yday_vol: float) -> tuple[f
 
 def classify(sym, d: pd.DataFrame, pm: dict | None, today):
     d = d[d.index.date < today] if hasattr(d.index, "date") else d
-    if len(d) < 22:
+    lb = RULES["runner_lookback_days"]
+    if len(d) < 20 + lb + 1:
         return None
     c, h, l, v = d["Close"], d["High"], d["Low"], d["Volume"]
     prev_close = float(c.iloc[-1])
     prev_high, prev_low = float(h.iloc[-1]), float(l.iloc[-1])
-    avg_vol = float(v.iloc[-21:-1].mean()) or 1.0
+    # volume baseline = 20 sessions BEFORE the recent window, so a run in the
+    # last few days doesn't inflate the "normal" volume it is compared against
+    avg_vol = float(v.iloc[-(20 + lb + 1):-(lb + 1)].mean()) or 1.0
     yday_vol = float(v.iloc[-1])
     last = pm["last"] if pm else prev_close
     gap = (last / prev_close - 1) * 100
     tr = pd.concat([h - l, (h - c.shift()).abs(), (l - c.shift()).abs()], axis=1).max(axis=1)
     atr = float(tr.iloc[-14:].mean())
 
-    # run-up in last 1-5 sessions: max high in window vs lowest close before the run
-    lb = RULES["runner_lookback_days"]
-    win = d.iloc[-lb:]
-    base = float(c.iloc[-lb - 1:-lb].iloc[0]) if len(c) > lb else float(c.iloc[0])
-    base = min(base, float(win["Low"].min()))
-    peak = float(win["High"].max())
+    # run-up in the last 1-5 sessions: the peak must come AFTER the low it is
+    # measured from (a crash from a high to a low is not a run)
+    seg = d.iloc[-(lb + 1):]                       # day before the window + window
+    p = int(seg["High"].iloc[1:].to_numpy().argmax()) + 1   # peak day (inside window)
+    peak = float(seg["High"].iloc[p])
+    base = min(float(seg["Low"].iloc[:p].min()), float(seg["Open"].iloc[p]))
     run_pct = (peak / base - 1) * 100 if base > 0 else 0
     off_peak = (last / peak - 1) * 100 if peak else 0
 

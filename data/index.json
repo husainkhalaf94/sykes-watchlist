@@ -1,5 +1,19 @@
 [
  {
+  "date": "2026-10-06",
+  "count": 7,
+  "tickers": [
+   "DXST",
+   "TGE",
+   "APT",
+   "NXL",
+   "VEEA",
+   "AIFA",
+   "NTWK"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-05",
   "count": 6,
   "tickers": [

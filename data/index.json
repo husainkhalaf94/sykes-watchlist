@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-10-12",
+  "count": 5,
+  "tickers": [
+   "WORX",
+   "SAIQ",
+   "VIVK",
+   "LPCN",
+   "AIFA"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-09",
   "count": 8,
   "tickers": [

@@ -1,6 +1,6 @@
 {
- "date": "2026-10-13",
- "generated_at": "2026-10-13T08:34:06.374278-04:00",
+ "date": "2026-10-14",
+ "generated_at": "2026-10-14T08:43:15.297821-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -17,38 +17,39 @@
  },
  "picks": [
   {
-   "symbol": "PFAI",
-   "price": 6.46,
-   "prev_close": 2.61,
-   "gap_pct": 147.5,
+   "symbol": "TCRT",
+   "price": 3.54,
+   "prev_close": 3.03,
+   "gap_pct": 16.8,
    "pm": {
-    "last": 6.46,
-    "high": 8.808,
-    "low": 2.5,
-    "vwap": 6.46,
+    "last": 3.54,
+    "high": 4.17,
+    "low": 3.0,
+    "vwap": 3.54,
     "volume": 0
    },
-   "avg_vol_20d": 1540,
-   "yday_vol": 47200,
-   "rvol": 30.6,
+   "avg_vol_20d": 2503470,
+   "yday_vol": 253305900,
+   "rvol": 101.2,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 200.0,
-   "off_peak_pct": -8.0,
-   "atr14": 0.729,
+   "run_pct_5d": 500.0,
+   "off_peak_pct": -18.1,
+   "atr14": 0.329,
    "levels": {
-    "prev_high": 2.971,
-    "prev_low": 2.6,
-    "prev_close": 2.61,
-    "high_5d": 7.02,
-    "high_20d": 7.02,
-    "run_peak": 7.02,
-    "pm_high": 8.808,
-    "pm_low": 2.5,
-    "pm_vwap": 6.46
+    "prev_high": 4.32,
+    "prev_low": 1.51,
+    "prev_close": 3.03,
+    "high_5d": 4.32,
+    "high_20d": 1.65,
+    "run_peak": 4.32,
+    "pm_high": 4.17,
+    "pm_low": 3.0,
+    "pm_vwap": 3.54
    },
-   "green_streak": 0,
+   "green_streak": 3,
    "setups": [
-    "Supernova gapper"
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
    ],
    "sources": {
     "yf_raw": 0,
@@ -57,14 +58,108 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Pinnacle Food Group Limited Class A Common Shares",
-   "sector": "Consumer Staples",
-   "industry": "Farming/Seeds/Milling",
-   "country": "Canada",
-   "exchange": null,
-   "float": 3590000.0,
-   "short_pct_float": null,
+   "name": "Alaunos Therapeutics, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 1891413.0,
+   "short_pct_float": 0.4,
    "news": [
+    {
+     "title": "Another Paragon spinout goes public through reverse merger",
+     "url": "https://finance.yahoo.com/healthcare/articles/another-paragon-spinout-goes-public-203500877.html",
+     "source": "Finviz",
+     "time": "2026-10-13T20:35:00+00:00"
+    },
+    {
+     "title": "Alaunos Therapeutics Announces Acquisition of Velaris Therapeutics",
+     "url": "https://finviz.com/news/401927/alaunos-therapeutics-announces-acquisition-of-velaris-therapeutics",
+     "source": "Finviz",
+     "time": "2026-10-13T14:31:00+00:00"
+    },
+    {
+     "title": "Paragon Labs Expands Leadership Team with Former Apogee Executives; Velaris Therapeutics Acquired by Alaunos Therapeutics, Inc.",
+     "url": "https://finviz.com/news/401569/paragon-labs-expands-leadership-team-with-former-apogee-executives-velaris-therapeutics-acquired-by-alaunos-therapeutics-inc",
+     "source": "Finviz",
+     "time": "2026-10-13T11:00:00+00:00"
+    },
+    {
+     "title": "Alaunos Therapeutics, Inc. Announces Pricing of Registered Direct Offering priced at-the-market under Nasdaq rules",
+     "url": "https://finviz.com/news/393531/alaunos-therapeutics-inc-announces-pricing-of-registered-direct-offering-priced-at-the-market-under-nasdaq-rules",
+     "source": "Finviz",
+     "time": "2026-09-18T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 16.1,
+   "flags": [
+    "Offering 424B3 filed 2026-09-21"
+   ],
+   "plan": {
+    "entry": 3.024,
+    "stop": 2.668,
+    "target": 3.737,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+500.0% recently). Wait for an early panic flush into 2.81-3.24 (25-35% off the 4.32 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 99.8
+  },
+  {
+   "symbol": "PFAI",
+   "price": 3.845,
+   "prev_close": 4.7,
+   "gap_pct": -18.2,
+   "pm": {
+    "last": 3.845,
+    "high": 4.36,
+    "low": 3.36,
+    "vwap": 3.845,
+    "volume": 0
+   },
+   "avg_vol_20d": 1445,
+   "yday_vol": 38312600,
+   "rvol": 26513.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 200.0,
+   "off_peak_pct": -45.2,
+   "atr14": 0.962,
+   "levels": {
+    "prev_high": 6.01,
+    "prev_low": 3.97,
+    "prev_close": 4.7,
+    "high_5d": 7.02,
+    "high_20d": 7.02,
+    "run_peak": 7.02,
+    "pm_high": 4.36,
+    "pm_low": 3.36,
+    "pm_vwap": 3.845
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Pinnacle Food Group Limited",
+   "sector": "Consumer Defensive",
+   "industry": "Farm Products",
+   "country": "Canada",
+   "exchange": "NCM",
+   "float": 3566629.0,
+   "short_pct_float": 0.2,
+   "news": [
+    {
+     "title": "Pinnacle Food Group Completes First Bench-Scale Fermentation of Recombinant Human Lactoferrin",
+     "url": "https://finviz.com/news/401908/pinnacle-food-group-completes-first-bench-scale-fermentation-of-recombinant-human-lactoferrin",
+     "source": "Finviz",
+     "time": "2026-10-13T13:54:00+00:00"
+    },
     {
      "title": "Pinnacle Food Group Limited Completes First Bench-Scale Fermentation of Recombinant Human Lactoferrin (rhLF) Using Methanol-Free Pichia Fermentation",
      "url": "https://finviz.com/news/401727/pinnacle-food-group-limited-completes-first-bench-scale-fermentation-of-recombinant-human-lactoferrin-rhlf-using-methanol-free-pichia-fermentation",
@@ -82,59 +177,51 @@
      "url": "https://finviz.com/news/368439/pinnacle-food-group-limited-completes-key-development-milestone-and-commences-construction-of-commercial-scale-microalgae-based-astaxanthin-facility-in-canada",
      "source": "Finviz",
      "time": "2026-07-15T12:10:00+00:00"
-    },
-    {
-     "title": "Pinnacle Food Group Shares Ease After Finance Leadership Transition (PFAI)",
-     "url": "https://finance.yahoo.com/m/0ae1d39d-965a-3996-b15f-5b5fedba413d/pinnacle-food-group-shares.html",
-     "source": "Finviz",
-     "time": "2026-06-05T14:26:00+00:00"
     }
    ],
-   "news_age_h": 0.3,
-   "flags": [
-    "Recent foreign IPO (Canada)"
-   ],
+   "news_age_h": 22.8,
+   "flags": [],
    "plan": {
-    "entry": 8.808,
-    "stop": 7.927,
-    "target": 10.57,
-    "risk_pct": 10.0,
-    "rr": 2.0,
-    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+    "entry": 3.691,
+    "stop": 3.361,
+    "target": 4.7,
+    "risk_pct": 9.0,
+    "rr": 3.1,
+    "note": "Former runner (+200.0% recently). Wait for an early panic flush into 3.54-3.85 (45-50% off the 7.02 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 131.0
+   "score": 94.3
   },
   {
    "symbol": "CLWT",
-   "price": 1.56,
-   "prev_close": 2.15,
-   "gap_pct": -27.4,
+   "price": 1.42,
+   "prev_close": 1.57,
+   "gap_pct": -9.6,
    "pm": {
-    "last": 1.56,
-    "high": 1.7,
-    "low": 1.53,
-    "vwap": 1.56,
+    "last": 1.42,
+    "high": 1.52,
+    "low": 1.41,
+    "vwap": 1.42,
     "volume": 0
    },
-   "avg_vol_20d": 11325,
-   "yday_vol": 70965900,
-   "rvol": 6266.3,
+   "avg_vol_20d": 11160,
+   "yday_vol": 1221200,
+   "rvol": 109.4,
    "rvol_basis": "yesterday",
    "run_pct_5d": 87.2,
-   "off_peak_pct": -33.3,
-   "atr14": 0.131,
+   "off_peak_pct": -39.3,
+   "atr14": 0.183,
    "levels": {
-    "prev_high": 2.34,
-    "prev_low": 1.63,
-    "prev_close": 2.15,
+    "prev_high": 1.66,
+    "prev_low": 1.41,
+    "prev_close": 1.57,
     "high_5d": 2.34,
-    "high_20d": 1.61,
+    "high_20d": 2.34,
     "run_peak": 2.34,
-    "pm_high": 1.7,
-    "pm_low": 1.53,
-    "pm_vwap": 1.56
+    "pm_high": 1.52,
+    "pm_low": 1.41,
+    "pm_vwap": 1.42
    },
-   "green_streak": 3,
+   "green_streak": 0,
    "setups": [
     "Morning-panic dip-buy"
    ],
@@ -145,13 +232,13 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Euro Tech Holdings Company Limited Common Stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Professional and commerical equipment",
+   "name": "Euro Tech Holdings Company Limi",
+   "sector": "Industrials",
+   "industry": "Pollution & Treatment Controls",
    "country": "Hong Kong",
-   "exchange": null,
-   "float": 3080000.0,
-   "short_pct_float": null,
+   "exchange": "NCM",
+   "float": 2946650.0,
+   "short_pct_float": 0.1,
    "news": [
     {
      "title": "Euro Tech Holdings Signs 50/50 Norway Joint Venture to Expand Ballast Water Treatment Business",
@@ -178,49 +265,49 @@
      "time": "2026-06-17T11:00:00+00:00"
     }
    ],
-   "news_age_h": 21.7,
+   "news_age_h": 45.8,
    "flags": [],
    "plan": {
-    "entry": 1.498,
-    "stop": 1.363,
-    "target": 2.15,
+    "entry": 1.363,
+    "stop": 1.241,
+    "target": 1.607,
     "risk_pct": 9.0,
-    "rr": 4.9,
-    "note": "Former runner (+87.2% recently). Wait for an early panic flush into 1.44-1.56 (33-39% off the 2.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.0,
+    "note": "Former runner (+87.2% recently). Wait for an early panic flush into 1.31-1.42 (39-44% off the 2.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 99.0
+   "score": 84.9
   },
   {
    "symbol": "GIXI",
-   "price": 4.26,
-   "prev_close": 4.72,
-   "gap_pct": -9.7,
+   "price": 4.261,
+   "prev_close": 3.87,
+   "gap_pct": 10.1,
    "pm": {
-    "last": 4.26,
-    "high": 4.48,
-    "low": 3.55,
-    "vwap": 4.26,
+    "last": 4.261,
+    "high": 4.5,
+    "low": 3.68,
+    "vwap": 4.261,
     "volume": 0
    },
-   "avg_vol_20d": 29855,
-   "yday_vol": 38875100,
-   "rvol": 1302.1,
+   "avg_vol_20d": 26070,
+   "yday_vol": 544300,
+   "rvol": 20.9,
    "rvol_basis": "yesterday",
    "run_pct_5d": 134.3,
    "off_peak_pct": -48.9,
-   "atr14": 0.701,
+   "atr14": 0.751,
    "levels": {
-    "prev_high": 8.34,
-    "prev_low": 4.2,
-    "prev_close": 4.72,
+    "prev_high": 4.38,
+    "prev_low": 3.6,
+    "prev_close": 3.87,
     "high_5d": 8.34,
-    "high_20d": 6.0,
+    "high_20d": 8.34,
     "run_peak": 8.34,
-    "pm_high": 4.48,
-    "pm_low": 3.55,
-    "pm_vwap": 4.26
+    "pm_high": 4.5,
+    "pm_low": 3.68,
+    "pm_vwap": 4.261
    },
-   "green_streak": 2,
+   "green_streak": 0,
    "setups": [
     "Morning-panic dip-buy"
    ],
@@ -231,12 +318,12 @@
     "finviz": 3,
     "finviz_http": 200
    },
-   "name": "Gix Internet Ltd. Ordinary Shares",
+   "name": "Gix Internet Ltd.",
    "sector": "Technology",
-   "industry": "Computer Software: Prepackaged Software",
+   "industry": "Software - Infrastructure",
    "country": "Israel",
-   "exchange": null,
-   "float": 2490000.0,
+   "exchange": "NCM",
+   "float": 631799.0,
    "short_pct_float": null,
    "news": [
     {
@@ -258,47 +345,49 @@
      "time": "2026-09-10T13:22:00+00:00"
     }
    ],
-   "news_age_h": 25.0,
-   "flags": [],
+   "news_age_h": 49.2,
+   "flags": [
+    "Recent foreign IPO (Israel)"
+   ],
    "plan": {
-    "entry": 4.09,
-    "stop": 3.723,
-    "target": 4.822,
+    "entry": 4.091,
+    "stop": 3.724,
+    "target": 4.823,
     "risk_pct": 9.0,
     "rr": 2.0,
     "note": "Former runner (+134.3% recently). Wait for an early panic flush into 3.92-4.26 (49-53% off the 8.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 90.9
+   "score": 49.5
   },
   {
-   "symbol": "YMAT",
-   "price": 2.34,
-   "prev_close": 2.91,
-   "gap_pct": -19.6,
+   "symbol": "BKYI",
+   "price": 2.5,
+   "prev_close": 2.83,
+   "gap_pct": -11.7,
    "pm": {
-    "last": 2.34,
-    "high": 2.58,
-    "low": 2.23,
-    "vwap": 2.34,
+    "last": 2.5,
+    "high": 2.9,
+    "low": 2.35,
+    "vwap": 2.5,
     "volume": 0
    },
-   "avg_vol_20d": 3874075,
-   "yday_vol": 85100500,
-   "rvol": 22.0,
+   "avg_vol_20d": 8736975,
+   "yday_vol": 81306700,
+   "rvol": 9.3,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 250.8,
-   "off_peak_pct": -47.9,
-   "atr14": 0.446,
+   "run_pct_5d": 177.4,
+   "off_peak_pct": -41.9,
+   "atr14": 0.695,
    "levels": {
-    "prev_high": 4.49,
-    "prev_low": 1.95,
-    "prev_close": 2.91,
-    "high_5d": 4.49,
-    "high_20d": 2.14,
-    "run_peak": 4.49,
-    "pm_high": 2.58,
-    "pm_low": 2.23,
-    "pm_vwap": 2.34
+    "prev_high": 4.3,
+    "prev_low": 2.69,
+    "prev_close": 2.83,
+    "high_5d": 4.3,
+    "high_20d": 4.66,
+    "run_peak": 4.3,
+    "pm_high": 2.9,
+    "pm_low": 2.35,
+    "pm_vwap": 2.5
    },
    "green_streak": 1,
    "setups": [
@@ -308,89 +397,86 @@
     "yf_raw": 0,
     "yf": 0,
     "yahoo_search": 0,
-    "finviz": 18,
+    "finviz": 15,
     "finviz_http": 200
    },
-   "name": "J-Star Holding Co. Ltd. Class A Ordinary Shares",
-   "sector": "Consumer Discretionary",
-   "industry": "Recreational Games/Products/Toys",
-   "country": "Taiwan",
-   "exchange": null,
-   "float": 1580000.0,
-   "short_pct_float": null,
+   "name": "BIO-key International, Inc.",
+   "sector": "Industrials",
+   "industry": "Security & Protection Services",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 1335843.0,
+   "short_pct_float": 49.9,
    "news": [
     {
-     "title": "J-Star Holding Co., Ltd. Highlights Capital Initiatives to Fund Planned U.S. Expansion for Drone Frame Manufacturing in Houston, Texas",
-     "url": "https://finviz.com/news/400968/j-star-holding-co-ltd-highlights-capital-initiatives-to-fund-planned-us-expansion-for-drone-frame-manufacturing-in-houston-texas",
+     "title": "BIO-key Appoints Stephen Morrow President of PortalGuard to Advance IAM Platform Growth",
+     "url": "https://finviz.com/news/401907/bio-key-appoints-stephen-morrow-president-of-portalguard-to-advance-iam-platform-growth",
      "source": "Finviz",
-     "time": "2026-10-09T20:05:00+00:00"
+     "time": "2026-10-13T13:53:00+00:00"
     },
     {
-     "title": "J-Star Holding Co., Ltd. Chairman and CEO Jonathan Chiang to Relocate to the United States to Lead Growth Initiatives",
-     "url": "https://finviz.com/news/396456/j-star-holding-co-ltd-chairman-and-ceo-jonathan-chiang-to-relocate-to-the-united-states-to-lead-growth-initiatives",
+     "title": "BIO-key Names Cybersecurity Veteran Stephen Morrow President of PortalGuard to Drive Accelerated Adoption of its Innovative IAM Solution",
+     "url": "https://finviz.com/news/401740/bio-key-names-cybersecurity-veteran-stephen-morrow-president-of-portalguard-to-drive-accelerated-adoption-of-its-innovative-iam-solution",
      "source": "Finviz",
-     "time": "2026-09-29T12:26:00+00:00"
+     "time": "2026-10-13T12:29:00+00:00"
     },
     {
-     "title": "J-Star Holding Co., Ltd Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-     "url": "https://finviz.com/news/375528/j-star-holding-co-ltd-regains-compliance-with-nasdaq-minimum-bid-price-requirement",
+     "title": "BIO-key Adds New Middle East Government Security Agency Customer, Expanding Regional Footprint",
+     "url": "https://finviz.com/news/401493/bio-key-adds-new-middle-east-government-security-agency-customer-expanding-regional-footprint",
      "source": "Finviz",
-     "time": "2026-07-31T11:47:00+00:00"
+     "time": "2026-10-13T08:01:00+00:00"
     },
     {
-     "title": "J-Star Holding Holding Co., Ltd Announces 1-for-5 Share Consolidation",
-     "url": "https://finviz.com/news/366495/j-star-holding-holding-co-ltd-announces-1-for-5-share-consolidation",
+     "title": "BIO-key Partners With Al Majlis Group to Expand Identity Security in UAE and Saudi Arabia",
+     "url": "https://finance.yahoo.com/technology/ai/articles/bio-key-partners-al-majlis-145248769.html",
      "source": "Finviz",
-     "time": "2026-07-08T10:00:00+00:00"
+     "time": "2026-09-29T14:52:00+00:00"
     }
    ],
-   "news_age_h": 88.5,
+   "news_age_h": 22.8,
    "flags": [
-    "Shelf/Registration EFFECT filed 2026-09-23",
-    "Shelf/Registration F-3/A filed 2026-09-14",
-    "Shelf/Registration F-3 filed 2026-09-04",
-    "Reverse split 1:5 on 2026-07-10",
-    "Recent foreign IPO (Taiwan)"
+    "Shelf/Registration S-1 filed 2026-10-09",
+    "Reverse split 1:10 on 2026-04-30"
    ],
    "plan": {
-    "entry": 2.246,
-    "stop": 2.045,
-    "target": 2.91,
+    "entry": 2.4,
+    "stop": 2.185,
+    "target": 2.83,
     "risk_pct": 9.0,
-    "rr": 3.3,
-    "note": "Former runner (+250.8% recently). Wait for an early panic flush into 2.15-2.34 (48-52% off the 4.49 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.0,
+    "note": "Former runner (+177.4% recently). Wait for an early panic flush into 2.30-2.50 (42-47% off the 4.30 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 41.7
+   "score": 39.1
   },
   {
    "symbol": "VIVK",
-   "price": 1.85,
-   "prev_close": 2.17,
-   "gap_pct": -14.7,
+   "price": 1.84,
+   "prev_close": 1.85,
+   "gap_pct": -0.5,
    "pm": {
-    "last": 1.85,
-    "high": 1.9,
-    "low": 1.75,
-    "vwap": 1.85,
+    "last": 1.84,
+    "high": 1.91,
+    "low": 1.78,
+    "vwap": 1.84,
     "volume": 0
    },
-   "avg_vol_20d": 79149,
-   "yday_vol": 1377000,
-   "rvol": 17.4,
+   "avg_vol_20d": 79201,
+   "yday_vol": 487500,
+   "rvol": 6.2,
    "rvol_basis": "yesterday",
    "run_pct_5d": 107.0,
-   "off_peak_pct": -77.7,
-   "atr14": 1.117,
+   "off_peak_pct": -77.8,
+   "atr14": 1.082,
    "levels": {
-    "prev_high": 2.7,
-    "prev_low": 2.14,
-    "prev_close": 2.17,
+    "prev_high": 1.98,
+    "prev_low": 1.75,
+    "prev_close": 1.85,
     "high_5d": 8.3,
-    "high_20d": 11.55,
+    "high_20d": 10.605,
     "run_peak": 8.3,
-    "pm_high": 1.9,
-    "pm_low": 1.75,
-    "pm_vwap": 1.85
+    "pm_high": 1.91,
+    "pm_low": 1.78,
+    "pm_vwap": 1.84
    },
    "green_streak": 0,
    "setups": [
@@ -436,7 +522,7 @@
      "time": "2026-10-06T13:00:00+00:00"
     }
    ],
-   "news_age_h": 93.5,
+   "news_age_h": 117.7,
    "flags": [
     "Offering 424B3 filed 2026-07-21",
     "Shelf/Registration EFFECT filed 2026-07-16",
@@ -446,134 +532,137 @@
     "Reverse split 1:15 on 2026-10-05"
    ],
    "plan": {
-    "entry": 1.776,
-    "stop": 1.617,
-    "target": 2.17,
+    "entry": 1.766,
+    "stop": 1.608,
+    "target": 2.083,
     "risk_pct": 9.0,
-    "rr": 2.5,
-    "note": "Former runner (+107.0% recently). Wait for an early panic flush into 1.70-1.85 (78-79% off the 8.30 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.0,
+    "note": "Former runner (+107.0% recently). Wait for an early panic flush into 1.69-1.84 (78-80% off the 8.30 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 32.2
-  },
-  {
-   "symbol": "SMXT",
-   "price": 4.6,
-   "prev_close": 4.84,
-   "gap_pct": -5.0,
-   "pm": {
-    "last": 4.6,
-    "high": 4.6,
-    "low": 4.6,
-    "vwap": 4.6,
-    "volume": 0
-   },
-   "avg_vol_20d": 22245,
-   "yday_vol": 140600,
-   "rvol": 6.3,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 149.5,
-   "off_peak_pct": -16.2,
-   "atr14": 0.571,
-   "levels": {
-    "prev_high": 5.49,
-    "prev_low": 4.15,
-    "prev_close": 4.84,
-    "high_5d": 5.49,
-    "high_20d": 4.95,
-    "run_peak": 5.49,
-    "pm_high": 4.6,
-    "pm_low": 4.6,
-    "pm_vwap": 4.6
-   },
-   "green_streak": 1,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Solarmax Technology Inc.",
-   "sector": "Technology",
-   "industry": "Solar",
-   "country": "United States",
-   "exchange": "NCM",
-   "float": 3265598.0,
-   "short_pct_float": 0.7,
-   "news": [
-    {
-     "title": "SolarMax Technology Reports Second Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/400690/solarmax-technology-reports-second-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-10-08T20:52:00+00:00"
-    },
-    {
-     "title": "SolarMax Technology Receives Nasdaq Notice Regarding Delayed Form 10-Q Filing",
-     "url": "https://finviz.com/news/384609/solarmax-technology-receives-nasdaq-notice-regarding-delayed-form-10-q-filing",
-     "source": "Finviz",
-     "time": "2026-08-21T21:00:00+00:00"
-    },
-    {
-     "title": "SolarMax Technology Announces Reverse Stock Split to Support Effort to Regain Compliance with Nasdaq's Minimum Bid Price Requirement",
-     "url": "https://finviz.com/news/380577/solarmax-technology-announces-reverse-stock-split-to-support-effort-to-regain-compliance-with-nasdaqs-minimum-bid-price-requirement",
-     "source": "Finviz",
-     "time": "2026-08-11T12:30:00+00:00"
-    },
-    {
-     "title": "SolarMax Technology Reports First Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/355245/solarmax-technology-reports-first-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-05-18T13:00:00+00:00"
-    }
-   ],
-   "news_age_h": 111.7,
-   "flags": [
-    "Reverse split 1:12 on 2026-08-13"
-   ],
-   "plan": {
-    "entry": 3.843,
-    "stop": 3.39,
-    "target": 4.84,
-    "risk_pct": 11.8,
-    "rr": 2.2,
-    "note": "Former runner (+149.5% recently). Wait for an early panic flush into 3.57-4.12 (25-35% off the 5.49 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 27.3
+   "score": 13.1
   }
  ],
  "near_misses": [
   {
-   "symbol": "MNDR",
-   "price": 2.02,
-   "prev_close": 3.04,
-   "gap_pct": -33.5,
+   "symbol": "JBDI",
+   "price": 2.47,
+   "prev_close": 3.43,
+   "gap_pct": -28.0,
    "pm": {
-    "last": 2.02,
-    "high": 2.64,
-    "low": 1.81,
-    "vwap": 2.02,
+    "last": 2.47,
+    "high": 3.0,
+    "low": 2.201,
+    "vwap": 2.47,
     "volume": 0
    },
-   "avg_vol_20d": 165900,
-   "yday_vol": 191671400,
-   "rvol": 1155.3,
+   "avg_vol_20d": 17665,
+   "yday_vol": 92018300,
+   "rvol": 5209.1,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 646.1,
-   "off_peak_pct": -64.4,
-   "atr14": 0.526,
+   "run_pct_5d": 1083.1,
+   "off_peak_pct": -74.0,
+   "atr14": 0.681,
    "levels": {
-    "prev_high": 5.67,
-    "prev_low": 2.3,
-    "prev_close": 3.04,
-    "high_5d": 5.67,
-    "high_20d": 1.76,
-    "run_peak": 5.67,
-    "pm_high": 2.64,
-    "pm_low": 1.81,
-    "pm_vwap": 2.02
+    "prev_high": 9.5,
+    "prev_low": 1.98,
+    "prev_close": 3.43,
+    "high_5d": 9.5,
+    "high_20d": 1.25,
+    "run_peak": 9.5,
+    "pm_high": 3.0,
+    "pm_low": 2.201,
+    "pm_vwap": 2.47
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 12,
+    "finviz_http": 200
+   },
+   "name": "JBDI Holdings Limited",
+   "sector": "Consumer Cyclical",
+   "industry": "Specialty Retail",
+   "country": "Singapore",
+   "exchange": "NCM",
+   "float": 5041655.0,
+   "short_pct_float": 1.5,
+   "news": [
+    {
+     "title": "JBDI HOLDINGS ANNOUNCES RECEIPT OF NASDAQ DETERMINATION LETTER",
+     "url": "https://finviz.com/news/368656/jbdi-holdings-announces-receipt-of-nasdaq-determination-letter",
+     "source": "Finviz",
+     "time": "2026-07-15T18:03:00+00:00"
+    },
+    {
+     "title": "JBDI Holdings Limited Announces Reverse Stock Split",
+     "url": "https://finviz.com/news/362117/jbdi-holdings-limited-announces-reverse-stock-split",
+     "source": "Finviz",
+     "time": "2026-06-16T14:45:00+00:00"
+    },
+    {
+     "title": "JBDI Holdings Announces Receipt of Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard",
+     "url": "https://finviz.com/news/276606/jbdi-holdings-announces-receipt-of-notice-of-delisting-or-failure-to-satisfy-a-continued-listing-rule-or-standard",
+     "source": "Finviz",
+     "time": "2026-01-14T18:52:00+00:00"
+    },
+    {
+     "title": "JBDI Holdings Reports Financial Results for Fiscal Year Ended May 31, 2025",
+     "url": "https://finviz.com/news/193094/jbdi-holdings-reports-financial-results-for-fiscal-year-ended-may-31-2025",
+     "source": "Finviz",
+     "time": "2025-10-15T11:00:00+00:00"
+    }
+   ],
+   "news_age_h": 2178.7,
+   "flags": [
+    "Reverse split 1:2 on 2026-06-30"
+   ],
+   "plan": {
+    "entry": 2.371,
+    "stop": 2.159,
+    "target": 3.43,
+    "risk_pct": 9.0,
+    "rr": 5.0,
+    "note": "Former runner (+1083.1% recently). Wait for an early panic flush into 2.27-2.47 (74-76% off the 9.50 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 87.2,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "IZM",
+   "price": 1.04,
+   "prev_close": 1.26,
+   "gap_pct": -17.5,
+   "pm": {
+    "last": 1.04,
+    "high": 1.27,
+    "low": 0.971,
+    "vwap": 1.04,
+    "volume": 0
+   },
+   "avg_vol_20d": 149187,
+   "yday_vol": 21253900,
+   "rvol": 142.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 78.1,
+   "off_peak_pct": -32.0,
+   "atr14": 0.184,
+   "levels": {
+    "prev_high": 1.53,
+    "prev_low": 0.85,
+    "prev_close": 1.26,
+    "high_5d": 1.53,
+    "high_20d": 1.8,
+    "run_peak": 1.53,
+    "pm_high": 1.27,
+    "pm_low": 0.971,
+    "pm_vwap": 1.04
    },
    "green_streak": 1,
    "setups": [
@@ -586,87 +675,87 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Mobile-health Network Solutions Class A Ordinary Shares",
+   "name": "ICZOOM Group Inc.",
    "sector": "Technology",
-   "industry": "Computer Software: Prepackaged Software",
-   "country": "Singapore",
-   "exchange": null,
-   "float": 430000.0,
-   "short_pct_float": null,
+   "industry": "Electronics & Computer Distribution",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 1554278.0,
+   "short_pct_float": 1.9,
    "news": [
     {
-     "title": "Mobile-health Network Solutions Advances AI-Powered Lab Data Analysis to Transform Clinical Decision-Making",
-     "url": "https://www.newsfilecorp.com/release/308821/Mobilehealth-Network-Solutions-Advances-AIPowered-Lab-Data-Analysis-to-Transform-Clinical-DecisionMaking",
+     "title": "ICZOOM Group Inc. to Effect Share Consolidation on September 15, 2026",
+     "url": "https://finviz.com/news/391231/iczoom-group-inc-to-effect-share-consolidation-on-september-15-2026",
      "source": "Finviz",
-     "time": "2026-08-10T13:00:00+00:00"
+     "time": "2026-09-11T13:00:00+00:00"
     },
     {
-     "title": "MNDR and Jospong Form Exclusive Joint Venture to Launch AI-Powered Digital Healthcare Ecosystem in Ghana",
-     "url": "https://www.newsfilecorp.com/release/306612/MNDR-and-Jospong-Form-Exclusive-Joint-Venture-to-Launch-AIPowered-Digital-Healthcare-Ecosystem-in-Ghana",
+     "title": "ICZOOM Group Inc. Announces Receipt of Nasdaq Continued Listing Deficiency Letter",
+     "url": "https://finviz.com/news/369270/iczoom-group-inc-announces-receipt-of-nasdaq-continued-listing-deficiency-letter",
      "source": "Finviz",
-     "time": "2026-07-27T13:25:00+00:00"
+     "time": "2026-07-16T20:00:00+00:00"
     },
     {
-     "title": "MNDR Wins 2026 Technology for Good Award, Featuring Aiko in Its AI Intelligent Healthcare Ecosystem",
-     "url": "https://www.newsfilecorp.com/release/306081/MNDR-Wins-2026-Technology-for-Good-Award-Featuring-Aiko-in-Its-AI-Intelligent-Healthcare-Ecosystem",
+     "title": "ICZOOM Group Inc. Appoints Mr. Yi Wang as a Director",
+     "url": "https://finviz.com/news/359788/iczoom-group-inc-appoints-mr-yi-wang-as-a-director",
      "source": "Finviz",
-     "time": "2026-07-22T12:38:00+00:00"
+     "time": "2026-06-04T20:15:00+00:00"
     },
     {
-     "title": "Mobile-health Network Solutions Announces Effective Date of Reverse Stock Split",
-     "url": "https://www.newsfilecorp.com/release/302674/Mobilehealth-Network-Solutions-Announces-Effective-Date-of-Reverse-Stock-Split",
+     "title": "ICZOOM Group Inc. Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency",
+     "url": "https://finviz.com/news/344568/iczoom-group-inc-announces-receipt-of-nasdaq-notification-regarding-minimum-bid-price-deficiency",
      "source": "Finviz",
-     "time": "2026-06-25T13:00:00+00:00"
+     "time": "2026-04-14T20:15:00+00:00"
     }
    ],
-   "news_age_h": 1535.6,
+   "news_age_h": 791.7,
    "flags": [
-    "Reverse split 1:6 on 2026-06-29"
+    "Reverse split 1:5 on 2026-09-15"
    ],
    "plan": {
-    "entry": 1.939,
-    "stop": 1.765,
-    "target": 3.04,
+    "entry": 0.998,
+    "stop": 0.909,
+    "target": 1.26,
     "risk_pct": 9.0,
-    "rr": 6.3,
-    "note": "Former runner (+646.1% recently). Wait for an early panic flush into 1.86-2.02 (64-67% off the 5.67 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.9,
+    "note": "Former runner (+78.1% recently). Wait for an early panic flush into 0.96-1.04 (32-37% off the 1.53 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 94.0,
+   "score": 86.4,
    "failed": [
     "no fresh news"
    ]
   },
   {
-   "symbol": "LNKS",
-   "price": 1.54,
-   "prev_close": 2.27,
-   "gap_pct": -32.2,
+   "symbol": "YJ",
+   "price": 1.901,
+   "prev_close": 2.07,
+   "gap_pct": -8.1,
    "pm": {
-    "last": 1.54,
-    "high": 1.79,
-    "low": 1.43,
-    "vwap": 1.54,
+    "last": 1.901,
+    "high": 2.293,
+    "low": 1.88,
+    "vwap": 1.901,
     "volume": 0
    },
-   "avg_vol_20d": 19230,
-   "yday_vol": 149123400,
-   "rvol": 7754.7,
+   "avg_vol_20d": 96405,
+   "yday_vol": 25084500,
+   "rvol": 260.2,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 333.5,
-   "off_peak_pct": -55.9,
-   "atr14": 0.256,
+   "run_pct_5d": 64.3,
+   "off_peak_pct": -26.3,
+   "atr14": 0.193,
    "levels": {
-    "prev_high": 3.49,
-    "prev_low": 1.23,
-    "prev_close": 2.27,
-    "high_5d": 3.49,
-    "high_20d": 1.051,
-    "run_peak": 3.49,
-    "pm_high": 1.79,
-    "pm_low": 1.43,
-    "pm_vwap": 1.54
+    "prev_high": 2.58,
+    "prev_low": 1.83,
+    "prev_close": 2.07,
+    "high_5d": 2.58,
+    "high_20d": 2.1,
+    "run_peak": 2.58,
+    "pm_high": 2.293,
+    "pm_low": 1.88,
+    "pm_vwap": 1.901
    },
-   "green_streak": 2,
+   "green_streak": 3,
    "setups": [
     "Morning-panic dip-buy"
    ],
@@ -674,182 +763,88 @@
     "yf_raw": 0,
     "yf": 0,
     "yahoo_search": 0,
-    "finviz": 15,
+    "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Linkers Industries Limited Class A Ordinary Shares",
-   "sector": "Technology",
-   "industry": "Electrical Products",
-   "country": "Malaysia",
-   "exchange": null,
-   "float": 1500000.0,
-   "short_pct_float": null,
+   "name": "Yunji Inc. - American Depositor",
+   "sector": "Consumer Cyclical",
+   "industry": "Internet Retail",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 1871018.0,
+   "short_pct_float": 9.7,
    "news": [
     {
-     "title": "Four Small-Cap Stocks Report New Developments (CHGA, QNRX, MYSE, LNKS)",
-     "url": "https://finviz.com/news/395310/four-small-cap-stocks-report-new-developments-chga-qnrx-myse-lnks",
+     "title": "Yunji Inc (YJ) (H1 2026) Earnings Call Highlights: Strategic Pivot to Private Label Drives ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/yunji-inc-yj-h1-2026-190259640.html",
      "source": "Finviz",
-     "time": "2026-09-24T13:50:00+00:00"
+     "time": "2026-08-20T19:02:00+00:00"
     },
     {
-     "title": "Linkers Industries Announces Full Exercise of Cashless Warrants",
-     "url": "https://finviz.com/news/343819/linkers-industries-announces-full-exercise-of-cashless-warrants",
+     "title": "Yunji Announces First Half 2026 Unaudited Financial Results",
+     "url": "https://finviz.com/news/384031/yunji-announces-first-half-2026-unaudited-financial-results",
      "source": "Finviz",
-     "time": "2026-04-10T13:00:00+00:00"
+     "time": "2026-08-20T11:20:00+00:00"
     },
     {
-     "title": "Linkers Industries Announces 1-for-250 Reverse Share Split Effective April 6, 2026",
-     "url": "https://finviz.com/news/341751/linkers-industries-announces-1-for-250-reverse-share-split-effective-april-6-2026",
+     "title": "Yunji to Report First Half 2026 Financial Results on August 20, 2026",
+     "url": "https://finviz.com/news/381692/yunji-to-report-first-half-2026-financial-results-on-august-20-2026",
      "source": "Finviz",
-     "time": "2026-04-01T13:00:00+00:00"
+     "time": "2026-08-13T11:30:00+00:00"
     },
     {
-     "title": "Linkers Industries Announces Potential Acquisition in Thailand",
-     "url": "https://finviz.com/news/339872/linkers-industries-announces-potential-acquisition-in-thailand",
+     "title": "Yunji Files 2025 Annual Report on Form 20-F",
+     "url": "https://finviz.com/news/347498/yunji-files-2025-annual-report-on-form-20-f",
      "source": "Finviz",
-     "time": "2026-03-25T12:00:00+00:00"
+     "time": "2026-04-24T11:30:00+00:00"
     }
    ],
-   "news_age_h": 454.7,
-   "flags": [
-    "Reverse split 1:250 on 2026-04-06"
-   ],
+   "news_age_h": 1313.7,
+   "flags": [],
    "plan": {
-    "entry": 1.478,
-    "stop": 1.346,
-    "target": 2.27,
-    "risk_pct": 9.0,
-    "rr": 6.0,
-    "note": "Former runner (+333.5% recently). Wait for an early panic flush into 1.42-1.54 (56-59% off the 3.49 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 92.4,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "BKYI",
-   "price": 3.75,
-   "prev_close": 1.65,
-   "gap_pct": 127.3,
-   "pm": {
-    "last": 3.75,
-    "high": 6.42,
-    "low": 1.64,
-    "vwap": 3.75,
-    "volume": 0
-   },
-   "avg_vol_20d": 8721190,
-   "yday_vol": 71800,
-   "rvol": 0.0,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 9.6,
-   "off_peak_pct": 92.3,
-   "atr14": 0.529,
-   "levels": {
-    "prev_high": 1.7,
-    "prev_low": 1.55,
-    "prev_close": 1.65,
-    "high_5d": 1.95,
-    "high_20d": 4.66,
-    "run_peak": 1.95,
-    "pm_high": 6.42,
-    "pm_low": 1.64,
-    "pm_vwap": 3.75
-   },
-   "green_streak": 0,
-   "setups": [
-    "Supernova gapper"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 14,
-    "finviz_http": 200
-   },
-   "name": "BIO-key International Inc. Common Stock",
-   "sector": "Technology",
-   "industry": "Computer Software: Prepackaged Software",
-   "country": "United States",
-   "exchange": null,
-   "float": 1310000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "BIO-key Names Cybersecurity Veteran Stephen Morrow President of PortalGuard to Drive Accelerated Adoption of its Innovative IAM Solution",
-     "url": "https://finviz.com/news/401740/bio-key-names-cybersecurity-veteran-stephen-morrow-president-of-portalguard-to-drive-accelerated-adoption-of-its-innovative-iam-solution",
-     "source": "Finviz",
-     "time": "2026-10-13T12:29:00+00:00"
-    },
-    {
-     "title": "BIO-key Adds New Middle East Government Security Agency Customer, Expanding Regional Footprint",
-     "url": "https://finviz.com/news/401493/bio-key-adds-new-middle-east-government-security-agency-customer-expanding-regional-footprint",
-     "source": "Finviz",
-     "time": "2026-10-13T08:01:00+00:00"
-    },
-    {
-     "title": "BIO-key Partners With Al Majlis Group to Expand Identity Security in UAE and Saudi Arabia",
-     "url": "https://finance.yahoo.com/technology/ai/articles/bio-key-partners-al-majlis-145248769.html",
-     "source": "Finviz",
-     "time": "2026-09-29T14:52:00+00:00"
-    },
-    {
-     "title": "BIO-key Partners with Al Majlis Group to Expand Identity Security Across Arabian Gulf",
-     "url": "https://finviz.com/news/396231/bio-key-partners-with-al-majlis-group-to-expand-identity-security-across-arabian-gulf",
-     "source": "Finviz",
-     "time": "2026-09-29T07:30:00+00:00"
-    }
-   ],
-   "news_age_h": 0.1,
-   "flags": [
-    "Shelf/Registration S-1 filed 2026-10-09",
-    "Reverse split 1:10 on 2026-04-30"
-   ],
-   "plan": {
-    "entry": 6.42,
-    "stop": 5.778,
-    "target": 7.704,
-    "risk_pct": 10.0,
+    "entry": 1.789,
+    "stop": 1.593,
+    "target": 2.181,
+    "risk_pct": 10.9,
     "rr": 2.0,
-    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+    "note": "Former runner (+64.3% recently). Wait for an early panic flush into 1.68-1.90 (26-35% off the 2.58 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 85.6,
+   "score": 85.4,
    "failed": [
-    "RVOL 0.0x < 5x"
+    "no fresh news"
    ]
   },
   {
-   "symbol": "WORX",
-   "price": 2.55,
-   "prev_close": 3.16,
-   "gap_pct": -19.3,
+   "symbol": "JYD",
+   "price": 1.34,
+   "prev_close": 1.46,
+   "gap_pct": -8.2,
    "pm": {
-    "last": 2.55,
-    "high": 6.99,
-    "low": 2.41,
-    "vwap": 2.55,
+    "last": 1.34,
+    "high": 1.42,
+    "low": 1.23,
+    "vwap": 1.34,
     "volume": 0
    },
-   "avg_vol_20d": 1345,
-   "yday_vol": 166100,
-   "rvol": 123.5,
+   "avg_vol_20d": 123135,
+   "yday_vol": 34707600,
+   "rvol": 281.9,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 108.4,
-   "off_peak_pct": -65.9,
-   "atr14": 1.089,
+   "run_pct_5d": 154.0,
+   "off_peak_pct": -35.0,
+   "atr14": 0.166,
    "levels": {
-    "prev_high": 3.42,
-    "prev_low": 2.91,
-    "prev_close": 3.16,
-    "high_5d": 7.48,
-    "high_20d": 7.48,
-    "run_peak": 7.48,
-    "pm_high": 6.99,
-    "pm_low": 2.41,
-    "pm_vwap": 2.55
+    "prev_high": 2.06,
+    "prev_low": 0.985,
+    "prev_close": 1.46,
+    "high_5d": 2.06,
+    "high_20d": 1.05,
+    "run_peak": 2.06,
+    "pm_high": 1.42,
+    "pm_low": 1.23,
+    "pm_vwap": 1.34
    },
-   "green_streak": 0,
+   "green_streak": 4,
    "setups": [
     "Morning-panic dip-buy"
    ],
@@ -857,140 +852,153 @@
     "yf_raw": 0,
     "yf": 0,
     "yahoo_search": 0,
-    "finviz": 1,
+    "finviz": 18,
     "finviz_http": 200
    },
-   "name": "SCWorx Corp. Common Stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Services-Misc. Amusement & Recreation",
-   "country": "United States",
-   "exchange": null,
-   "float": 520000.0,
-   "short_pct_float": null,
+   "name": "Jayud Global Logistics Limited",
+   "sector": "Industrials",
+   "industry": "Integrated Freight & Logistics",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 3076582.0,
+   "short_pct_float": 0.3,
    "news": [
     {
-     "title": "SCWorx Announces Resumption of Nasdaq Trading and Highlights Improved Operating Performance and Growth Strategy",
-     "url": "https://finviz.com/news/399985/scworx-announces-resumption-of-nasdaq-trading-and-highlights-improved-operating-performance-and-growth-strategy",
+     "title": "Jayud Global Logistics Announces Pricing of $6.7 Million Registered Direct Offering",
+     "url": "https://finviz.com/news/337295/jayud-global-logistics-announces-pricing-of-67-million-registered-direct-offering",
      "source": "Finviz",
-     "time": "2026-10-07T18:23:00+00:00"
+     "time": "2026-03-13T21:00:00+00:00"
+    },
+    {
+     "title": "Correction: Jayud Global Logistics Signs 3-Year Partnership with DBG Technology Subsidiary Guanghong Electronics",
+     "url": "https://finviz.com/news/306095/correction-jayud-global-logistics-signs-3-year-partnership-with-dbg-technology-subsidiary-guanghong-electronics",
+     "source": "Finviz",
+     "time": "2026-02-10T17:11:00+00:00"
+    },
+    {
+     "title": "Jayud Global Logistics Signs 3-Year Partnership with DBG Technology Subsidiary Guangdong Electronics",
+     "url": "https://finviz.com/news/305523/jayud-global-logistics-signs-3-year-partnership-with-dbg-technology-subsidiary-guangdong-electronics",
+     "source": "Finviz",
+     "time": "2026-02-10T13:30:00+00:00"
+    },
+    {
+     "title": "Jayud Global Logistics Certified as Alibaba Verified Supplier",
+     "url": "https://finviz.com/news/297225/jayud-global-logistics-certified-as-alibaba-verified-supplier",
+     "source": "Finviz",
+     "time": "2026-02-03T13:30:00+00:00"
     }
    ],
-   "news_age_h": 138.2,
-   "flags": [
-    "Reverse split 1:15 on 2026-04-10",
-    "Reverse split 1:12 on 2026-08-04"
-   ],
+   "news_age_h": 5151.7,
+   "flags": [],
    "plan": {
-    "entry": 2.448,
-    "stop": 2.229,
-    "target": 3.16,
+    "entry": 1.286,
+    "stop": 1.171,
+    "target": 1.517,
     "risk_pct": 9.0,
-    "rr": 3.2,
-    "note": "Former runner (+108.4% recently). Wait for an early panic flush into 2.35-2.55 (66-69% off the 7.48 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.0,
+    "note": "Former runner (+154.0% recently). Wait for an early panic flush into 1.23-1.34 (35-40% off the 2.06 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 85.2,
+   "score": 84.2,
    "failed": [
     "no fresh news"
    ]
   },
   {
-   "symbol": "FCHL",
-   "price": 1.28,
-   "prev_close": 1.0,
-   "gap_pct": 28.0,
+   "symbol": "ILAG",
+   "price": 3.123,
+   "prev_close": 3.38,
+   "gap_pct": -7.6,
    "pm": {
-    "last": 1.28,
-    "high": 2.26,
-    "low": 1.21,
-    "vwap": 1.28,
+    "last": 3.123,
+    "high": 3.29,
+    "low": 3.08,
+    "vwap": 3.123,
     "volume": 0
    },
-   "avg_vol_20d": 444550,
-   "yday_vol": 21656100,
-   "rvol": 48.7,
+   "avg_vol_20d": 3785,
+   "yday_vol": 4021300,
+   "rvol": 1062.4,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 34.4,
-   "off_peak_pct": 17.4,
-   "atr14": 0.096,
+   "run_pct_5d": 57.3,
+   "off_peak_pct": -15.1,
+   "atr14": 0.227,
    "levels": {
-    "prev_high": 1.09,
-    "prev_low": 0.874,
-    "prev_close": 1.0,
-    "high_5d": 1.09,
-    "high_20d": 1.26,
-    "run_peak": 1.09,
-    "pm_high": 2.26,
-    "pm_low": 1.21,
-    "pm_vwap": 1.28
+    "prev_high": 3.68,
+    "prev_low": 2.3,
+    "prev_close": 3.38,
+    "high_5d": 3.68,
+    "high_20d": 3.39,
+    "run_peak": 3.68,
+    "pm_high": 3.29,
+    "pm_low": 3.08,
+    "pm_vwap": 3.123
    },
    "green_streak": 1,
    "setups": [
-    "Supernova gapper"
+    "Morning-panic dip-buy"
    ],
    "sources": {
     "yf_raw": 0,
     "yf": 0,
     "yahoo_search": 0,
-    "finviz": 15,
+    "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Fitness Champs Holdings Limited Common Stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Services-Misc. Amusement & Recreation",
-   "country": "Singapore",
-   "exchange": null,
-   "float": 1270000.0,
-   "short_pct_float": null,
+   "name": "Intelligent Living Application ",
+   "sector": "Industrials",
+   "industry": "Building Products & Equipment",
+   "country": "Hong Kong",
+   "exchange": "NCM",
+   "float": 986446.0,
+   "short_pct_float": 0.2,
    "news": [
     {
-     "title": "FCHL to Hold Extraordinary General Meeting on June 29, 2026",
-     "url": "https://finviz.com/news/361033/fchl-to-hold-extraordinary-general-meeting-on-june-29-2026",
+     "title": "Intelligent Living Application Group Inc. Announces 1-for-10 Share Consolidation (Reverse Stock Split)",
+     "url": "https://finviz.com/news/262591/intelligent-living-application-group-inc-announces-1-for-10-share-consolidation-reverse-stock-split",
      "source": "Finviz",
-     "time": "2026-06-11T01:51:00+00:00"
+     "time": "2025-12-26T16:30:00+00:00"
     },
     {
-     "title": "FCHL Receives Nasdaq Deficiency Notice on May 26, 2026",
-     "url": "https://finviz.com/news/358237/fchl-receives-nasdaq-deficiency-notice-on-may-26-2026",
+     "title": "Intelligent Living Application Group Inc. Announces First Half 2025 Unaudited Financial Results",
+     "url": "https://finviz.com/news/260458/intelligent-living-application-group-inc-announces-first-half-2025-unaudited-financial-results",
      "source": "Finviz",
-     "time": "2026-05-29T23:15:00+00:00"
+     "time": "2025-12-22T22:00:00+00:00"
     },
     {
-     "title": "FCHL to Effect Share Consolidation on May 4, 2026",
-     "url": "https://finviz.com/news/349456/fchl-to-effect-share-consolidation-on-may-4-2026",
+     "title": "Intelligent Living Application Group Inc. Announces the Launch of its Smart Lock to Play a Role in $4.95 Billion Market",
+     "url": "https://www.prnewswire.com/news-releases/intelligent-living-application-group-inc-announces-the-launch-of-its-smart-lock-to-play-a-role-in-4-95-billion-market-302394592.html",
      "source": "Finviz",
-     "time": "2026-04-30T15:45:00+00:00"
+     "time": "2025-03-06T13:30:00+00:00"
     },
     {
-     "title": "BC-Most Active Stocks",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143018596.html",
+     "title": "Intelligent Living Application Group Inc. Announces Closing of $600,000 Public Offering of Ordinary Shares",
+     "url": "https://www.prnewswire.com/news-releases/intelligent-living-application-group-inc-announces-closing-of-600-000-public-offering-of-ordinary-shares-302387588.html",
      "source": "Finviz",
-     "time": "2026-04-20T14:30:00+00:00"
+     "time": "2025-02-27T21:30:00+00:00"
     }
    ],
-   "news_age_h": 2986.7,
+   "news_age_h": 7004.2,
    "flags": [
-    "Reverse split 1:15 on 2026-03-23",
-    "Reverse split 1:30 on 2026-05-04",
-    "Recent foreign IPO (Singapore)"
+    "Reverse split 1:10 on 2025-12-30"
    ],
    "plan": {
-    "entry": 2.26,
-    "stop": 2.034,
-    "target": 2.712,
-    "risk_pct": 10.0,
-    "rr": 2.0,
-    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+    "entry": 2.576,
+    "stop": 2.272,
+    "target": 3.38,
+    "risk_pct": 11.8,
+    "rr": 2.6,
+    "note": "Former runner (+57.3% recently). Wait for an early panic flush into 2.39-2.76 (25-35% off the 3.68 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 83.4,
+   "score": 83.1,
    "failed": [
     "no fresh news"
    ]
   }
  ],
  "stats": {
-  "universe": 6629,
-  "with_history": 2768,
-  "scanned_premarket": 2244,
+  "universe": 6612,
+  "with_history": 2731,
+  "scanned_premarket": 2231,
   "setup_candidates": 45,
   "qualified": 6,
   "news_sources": {

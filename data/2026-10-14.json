@@ -1,0 +1,1014 @@
+{
+ "date": "2026-10-14",
+ "generated_at": "2026-10-14T08:43:15.297821-04:00",
+ "market_closed": false,
+ "rules": {
+  "price_min": 1.0,
+  "price_max": 10.0,
+  "float_max": 20000000,
+  "rvol_min": 5.0,
+  "gap_min_pct": 20.0,
+  "runner_min_pct": 50.0,
+  "runner_lookback_days": 5,
+  "news_max_age_hours": 36,
+  "news_max_age_hours_runner": 120,
+  "max_picks": 10,
+  "pm_volume_share": 0.1
+ },
+ "picks": [
+  {
+   "symbol": "TCRT",
+   "price": 3.54,
+   "prev_close": 3.03,
+   "gap_pct": 16.8,
+   "pm": {
+    "last": 3.54,
+    "high": 4.17,
+    "low": 3.0,
+    "vwap": 3.54,
+    "volume": 0
+   },
+   "avg_vol_20d": 2503470,
+   "yday_vol": 253305900,
+   "rvol": 101.2,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 500.0,
+   "off_peak_pct": -18.1,
+   "atr14": 0.329,
+   "levels": {
+    "prev_high": 4.32,
+    "prev_low": 1.51,
+    "prev_close": 3.03,
+    "high_5d": 4.32,
+    "high_20d": 1.65,
+    "run_peak": 4.32,
+    "pm_high": 4.17,
+    "pm_low": 3.0,
+    "pm_vwap": 3.54
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Alaunos Therapeutics, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 1891413.0,
+   "short_pct_float": 0.4,
+   "news": [
+    {
+     "title": "Another Paragon spinout goes public through reverse merger",
+     "url": "https://finance.yahoo.com/healthcare/articles/another-paragon-spinout-goes-public-203500877.html",
+     "source": "Finviz",
+     "time": "2026-10-13T20:35:00+00:00"
+    },
+    {
+     "title": "Alaunos Therapeutics Announces Acquisition of Velaris Therapeutics",
+     "url": "https://finviz.com/news/401927/alaunos-therapeutics-announces-acquisition-of-velaris-therapeutics",
+     "source": "Finviz",
+     "time": "2026-10-13T14:31:00+00:00"
+    },
+    {
+     "title": "Paragon Labs Expands Leadership Team with Former Apogee Executives; Velaris Therapeutics Acquired by Alaunos Therapeutics, Inc.",
+     "url": "https://finviz.com/news/401569/paragon-labs-expands-leadership-team-with-former-apogee-executives-velaris-therapeutics-acquired-by-alaunos-therapeutics-inc",
+     "source": "Finviz",
+     "time": "2026-10-13T11:00:00+00:00"
+    },
+    {
+     "title": "Alaunos Therapeutics, Inc. Announces Pricing of Registered Direct Offering priced at-the-market under Nasdaq rules",
+     "url": "https://finviz.com/news/393531/alaunos-therapeutics-inc-announces-pricing-of-registered-direct-offering-priced-at-the-market-under-nasdaq-rules",
+     "source": "Finviz",
+     "time": "2026-09-18T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 16.1,
+   "flags": [
+    "Offering 424B3 filed 2026-09-21"
+   ],
+   "plan": {
+    "entry": 3.024,
+    "stop": 2.668,
+    "target": 3.737,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+500.0% recently). Wait for an early panic flush into 2.81-3.24 (25-35% off the 4.32 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 99.8
+  },
+  {
+   "symbol": "PFAI",
+   "price": 3.845,
+   "prev_close": 4.7,
+   "gap_pct": -18.2,
+   "pm": {
+    "last": 3.845,
+    "high": 4.36,
+    "low": 3.36,
+    "vwap": 3.845,
+    "volume": 0
+   },
+   "avg_vol_20d": 1445,
+   "yday_vol": 38312600,
+   "rvol": 26513.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 200.0,
+   "off_peak_pct": -45.2,
+   "atr14": 0.962,
+   "levels": {
+    "prev_high": 6.01,
+    "prev_low": 3.97,
+    "prev_close": 4.7,
+    "high_5d": 7.02,
+    "high_20d": 7.02,
+    "run_peak": 7.02,
+    "pm_high": 4.36,
+    "pm_low": 3.36,
+    "pm_vwap": 3.845
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Pinnacle Food Group Limited",
+   "sector": "Consumer Defensive",
+   "industry": "Farm Products",
+   "country": "Canada",
+   "exchange": "NCM",
+   "float": 3566629.0,
+   "short_pct_float": 0.2,
+   "news": [
+    {
+     "title": "Pinnacle Food Group Completes First Bench-Scale Fermentation of Recombinant Human Lactoferrin",
+     "url": "https://finviz.com/news/401908/pinnacle-food-group-completes-first-bench-scale-fermentation-of-recombinant-human-lactoferrin",
+     "source": "Finviz",
+     "time": "2026-10-13T13:54:00+00:00"
+    },
+    {
+     "title": "Pinnacle Food Group Limited Completes First Bench-Scale Fermentation of Recombinant Human Lactoferrin (rhLF) Using Methanol-Free Pichia Fermentation",
+     "url": "https://finviz.com/news/401727/pinnacle-food-group-limited-completes-first-bench-scale-fermentation-of-recombinant-human-lactoferrin-rhlf-using-methanol-free-pichia-fermentation",
+     "source": "Finviz",
+     "time": "2026-10-13T12:15:00+00:00"
+    },
+    {
+     "title": "Pinnacle Food Group Limited Appoints Mr. Martin Ngai Lam Cheung as Independent Director",
+     "url": "https://finviz.com/news/376363/pinnacle-food-group-limited-appoints-mr-martin-ngai-lam-cheung-as-independent-director",
+     "source": "Finviz",
+     "time": "2026-08-03T20:35:00+00:00"
+    },
+    {
+     "title": "Pinnacle Food Group Limited Completes Key Development Milestone and Commences Construction of Commercial-Scale Microalgae-Based Astaxanthin Facility in Canada",
+     "url": "https://finviz.com/news/368439/pinnacle-food-group-limited-completes-key-development-milestone-and-commences-construction-of-commercial-scale-microalgae-based-astaxanthin-facility-in-canada",
+     "source": "Finviz",
+     "time": "2026-07-15T12:10:00+00:00"
+    }
+   ],
+   "news_age_h": 22.8,
+   "flags": [],
+   "plan": {
+    "entry": 3.691,
+    "stop": 3.361,
+    "target": 4.7,
+    "risk_pct": 9.0,
+    "rr": 3.1,
+    "note": "Former runner (+200.0% recently). Wait for an early panic flush into 3.54-3.85 (45-50% off the 7.02 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 94.3
+  },
+  {
+   "symbol": "CLWT",
+   "price": 1.42,
+   "prev_close": 1.57,
+   "gap_pct": -9.6,
+   "pm": {
+    "last": 1.42,
+    "high": 1.52,
+    "low": 1.41,
+    "vwap": 1.42,
+    "volume": 0
+   },
+   "avg_vol_20d": 11160,
+   "yday_vol": 1221200,
+   "rvol": 109.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 87.2,
+   "off_peak_pct": -39.3,
+   "atr14": 0.183,
+   "levels": {
+    "prev_high": 1.66,
+    "prev_low": 1.41,
+    "prev_close": 1.57,
+    "high_5d": 2.34,
+    "high_20d": 2.34,
+    "run_peak": 2.34,
+    "pm_high": 1.52,
+    "pm_low": 1.41,
+    "pm_vwap": 1.42
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Euro Tech Holdings Company Limi",
+   "sector": "Industrials",
+   "industry": "Pollution & Treatment Controls",
+   "country": "Hong Kong",
+   "exchange": "NCM",
+   "float": 2946650.0,
+   "short_pct_float": 0.1,
+   "news": [
+    {
+     "title": "Euro Tech Holdings Signs 50/50 Norway Joint Venture to Expand Ballast Water Treatment Business",
+     "url": "https://finviz.com/news/401324/euro-tech-holdings-signs-5050-norway-joint-venture-to-expand-ballast-water-treatment-business",
+     "source": "Finviz",
+     "time": "2026-10-12T14:53:00+00:00"
+    },
+    {
+     "title": "Euro Tech Holdings Company Limited Announces The Company has signed a 50/50 Joint Venture Agreement With Sea Clean AS In Norway",
+     "url": "https://finviz.com/news/401115/euro-tech-holdings-company-limited-announces-the-company-has-signed-a-5050-joint-venture-agreement-with-sea-clean-as-in-norway",
+     "source": "Finviz",
+     "time": "2026-10-12T11:00:00+00:00"
+    },
+    {
+     "title": "CLWT Stock Surges To 4.5 Year Highs - What Is Euro Techs Norwegian Partnership About?",
+     "url": "https://finance.yahoo.com/m/c3c3b6de-3aae-330d-a1cc-c4bbdebb4360/clwt-stock-surges-to-4.5-year.html",
+     "source": "Finviz",
+     "time": "2026-06-17T15:09:00+00:00"
+    },
+    {
+     "title": "Euro Tech Holdings Company Limited Announces The Appointment Of Strategic Partner To Launch Next-Generation Mobile Hybrid Facility For Enhanced Ballast Water Treatment",
+     "url": "https://finviz.com/news/362259/euro-tech-holdings-company-limited-announces-the-appointment-of-strategic-partner-to-launch-next-generation-mobile-hybrid-facility-for-enhanced-ballast-water-treatment",
+     "source": "Finviz",
+     "time": "2026-06-17T11:00:00+00:00"
+    }
+   ],
+   "news_age_h": 45.8,
+   "flags": [],
+   "plan": {
+    "entry": 1.363,
+    "stop": 1.241,
+    "target": 1.607,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+87.2% recently). Wait for an early panic flush into 1.31-1.42 (39-44% off the 2.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 84.9
+  },
+  {
+   "symbol": "GIXI",
+   "price": 4.261,
+   "prev_close": 3.87,
+   "gap_pct": 10.1,
+   "pm": {
+    "last": 4.261,
+    "high": 4.5,
+    "low": 3.68,
+    "vwap": 4.261,
+    "volume": 0
+   },
+   "avg_vol_20d": 26070,
+   "yday_vol": 544300,
+   "rvol": 20.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 134.3,
+   "off_peak_pct": -48.9,
+   "atr14": 0.751,
+   "levels": {
+    "prev_high": 4.38,
+    "prev_low": 3.6,
+    "prev_close": 3.87,
+    "high_5d": 8.34,
+    "high_20d": 8.34,
+    "run_peak": 8.34,
+    "pm_high": 4.5,
+    "pm_low": 3.68,
+    "pm_vwap": 4.261
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 3,
+    "finviz_http": 200
+   },
+   "name": "Gix Internet Ltd.",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "country": "Israel",
+   "exchange": "NCM",
+   "float": 631799.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Gix Internet Brings Physical AI to Life-Saving Logistics as Robots Begin Delivering Blood and Bone Marrow at One of the World's Top 10 Hospitals",
+     "url": "https://finviz.com/news/401152/gix-internet-brings-physical-ai-to-life-saving-logistics-as-robots-begin-delivering-blood-and-bone-marrow-at-one-of-the-worlds-top-10-hospitals",
+     "source": "Finviz",
+     "time": "2026-10-12T11:32:00+00:00"
+    },
+    {
+     "title": "Gix Makes Strategic Investment in Ottonomy, a Physical AI, L4 Autonomy and Robotics Technology Company",
+     "url": "https://finviz.com/news/392102/gix-makes-strategic-investment-in-ottonomy-a-physical-ai-l4-autonomy-and-robotics-technology-company",
+     "source": "Finviz",
+     "time": "2026-09-15T12:34:00+00:00"
+    },
+    {
+     "title": "Gix Internet Launches New Corporate Website Presenting Its Vision for One Intelligent Management Layer for Robots, People and Autonomous Systems",
+     "url": "https://finviz.com/news/390860/gix-internet-launches-new-corporate-website-presenting-its-vision-for-one-intelligent-management-layer-for-robots-people-and-autonomous-systems",
+     "source": "Finviz",
+     "time": "2026-09-10T13:22:00+00:00"
+    }
+   ],
+   "news_age_h": 49.2,
+   "flags": [
+    "Recent foreign IPO (Israel)"
+   ],
+   "plan": {
+    "entry": 4.091,
+    "stop": 3.724,
+    "target": 4.823,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+134.3% recently). Wait for an early panic flush into 3.92-4.26 (49-53% off the 8.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 49.5
+  },
+  {
+   "symbol": "BKYI",
+   "price": 2.5,
+   "prev_close": 2.83,
+   "gap_pct": -11.7,
+   "pm": {
+    "last": 2.5,
+    "high": 2.9,
+    "low": 2.35,
+    "vwap": 2.5,
+    "volume": 0
+   },
+   "avg_vol_20d": 8736975,
+   "yday_vol": 81306700,
+   "rvol": 9.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 177.4,
+   "off_peak_pct": -41.9,
+   "atr14": 0.695,
+   "levels": {
+    "prev_high": 4.3,
+    "prev_low": 2.69,
+    "prev_close": 2.83,
+    "high_5d": 4.3,
+    "high_20d": 4.66,
+    "run_peak": 4.3,
+    "pm_high": 2.9,
+    "pm_low": 2.35,
+    "pm_vwap": 2.5
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 15,
+    "finviz_http": 200
+   },
+   "name": "BIO-key International, Inc.",
+   "sector": "Industrials",
+   "industry": "Security & Protection Services",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 1335843.0,
+   "short_pct_float": 49.9,
+   "news": [
+    {
+     "title": "BIO-key Appoints Stephen Morrow President of PortalGuard to Advance IAM Platform Growth",
+     "url": "https://finviz.com/news/401907/bio-key-appoints-stephen-morrow-president-of-portalguard-to-advance-iam-platform-growth",
+     "source": "Finviz",
+     "time": "2026-10-13T13:53:00+00:00"
+    },
+    {
+     "title": "BIO-key Names Cybersecurity Veteran Stephen Morrow President of PortalGuard to Drive Accelerated Adoption of its Innovative IAM Solution",
+     "url": "https://finviz.com/news/401740/bio-key-names-cybersecurity-veteran-stephen-morrow-president-of-portalguard-to-drive-accelerated-adoption-of-its-innovative-iam-solution",
+     "source": "Finviz",
+     "time": "2026-10-13T12:29:00+00:00"
+    },
+    {
+     "title": "BIO-key Adds New Middle East Government Security Agency Customer, Expanding Regional Footprint",
+     "url": "https://finviz.com/news/401493/bio-key-adds-new-middle-east-government-security-agency-customer-expanding-regional-footprint",
+     "source": "Finviz",
+     "time": "2026-10-13T08:01:00+00:00"
+    },
+    {
+     "title": "BIO-key Partners With Al Majlis Group to Expand Identity Security in UAE and Saudi Arabia",
+     "url": "https://finance.yahoo.com/technology/ai/articles/bio-key-partners-al-majlis-145248769.html",
+     "source": "Finviz",
+     "time": "2026-09-29T14:52:00+00:00"
+    }
+   ],
+   "news_age_h": 22.8,
+   "flags": [
+    "Shelf/Registration S-1 filed 2026-10-09",
+    "Reverse split 1:10 on 2026-04-30"
+   ],
+   "plan": {
+    "entry": 2.4,
+    "stop": 2.185,
+    "target": 2.83,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+177.4% recently). Wait for an early panic flush into 2.30-2.50 (42-47% off the 4.30 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 39.1
+  },
+  {
+   "symbol": "VIVK",
+   "price": 1.84,
+   "prev_close": 1.85,
+   "gap_pct": -0.5,
+   "pm": {
+    "last": 1.84,
+    "high": 1.91,
+    "low": 1.78,
+    "vwap": 1.84,
+    "volume": 0
+   },
+   "avg_vol_20d": 79201,
+   "yday_vol": 487500,
+   "rvol": 6.2,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 107.0,
+   "off_peak_pct": -77.8,
+   "atr14": 1.082,
+   "levels": {
+    "prev_high": 1.98,
+    "prev_low": 1.75,
+    "prev_close": 1.85,
+    "high_5d": 8.3,
+    "high_20d": 10.605,
+    "run_peak": 8.3,
+    "pm_high": 1.91,
+    "pm_low": 1.78,
+    "pm_vwap": 1.84
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Vivakor, Inc.",
+   "sector": "Energy",
+   "industry": "Oil & Gas Integrated",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 542045.0,
+   "short_pct_float": 11.5,
+   "news": [
+    {
+     "title": "VIVK Stock Rockets Today: Retail Eyes Over 12X Upside After Vivakor Unveils Proposed Direct Midstream Deal",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/vivk-stock-rockets-today-retail-150459241.html",
+     "source": "Finviz",
+     "time": "2026-10-09T15:04:00+00:00"
+    },
+    {
+     "title": "Vivakor Signs LOI for Proposed $40 Million Direct Midstream Acquisition in Permian Basin",
+     "url": "https://finviz.com/news/400897/vivakor-signs-loi-for-proposed-40-million-direct-midstream-acquisition-in-permian-basin",
+     "source": "Finviz",
+     "time": "2026-10-09T13:52:00+00:00"
+    },
+    {
+     "title": "Vivakor Signs LOI for Proposed $40 Million Acquisition of Direct Midstream",
+     "url": "https://finviz.com/news/400869/vivakor-signs-loi-for-proposed-40-million-acquisition-of-direct-midstream",
+     "source": "Finviz",
+     "time": "2026-10-09T13:00:00+00:00"
+    },
+    {
+     "title": "Vivakor Enters into Indication of Interest to Acquire Direct Midstream",
+     "url": "https://finviz.com/news/399317/vivakor-enters-into-indication-of-interest-to-acquire-direct-midstream",
+     "source": "Finviz",
+     "time": "2026-10-06T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 117.7,
+   "flags": [
+    "Offering 424B3 filed 2026-07-21",
+    "Shelf/Registration EFFECT filed 2026-07-16",
+    "Shelf/Registration S-1/A filed 2026-06-25",
+    "Reverse split 1:200 on 2026-03-24",
+    "Reverse split 1:20 on 2026-07-17",
+    "Reverse split 1:15 on 2026-10-05"
+   ],
+   "plan": {
+    "entry": 1.766,
+    "stop": 1.608,
+    "target": 2.083,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+107.0% recently). Wait for an early panic flush into 1.69-1.84 (78-80% off the 8.30 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 13.1
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "JBDI",
+   "price": 2.47,
+   "prev_close": 3.43,
+   "gap_pct": -28.0,
+   "pm": {
+    "last": 2.47,
+    "high": 3.0,
+    "low": 2.201,
+    "vwap": 2.47,
+    "volume": 0
+   },
+   "avg_vol_20d": 17665,
+   "yday_vol": 92018300,
+   "rvol": 5209.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 1083.1,
+   "off_peak_pct": -74.0,
+   "atr14": 0.681,
+   "levels": {
+    "prev_high": 9.5,
+    "prev_low": 1.98,
+    "prev_close": 3.43,
+    "high_5d": 9.5,
+    "high_20d": 1.25,
+    "run_peak": 9.5,
+    "pm_high": 3.0,
+    "pm_low": 2.201,
+    "pm_vwap": 2.47
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 12,
+    "finviz_http": 200
+   },
+   "name": "JBDI Holdings Limited",
+   "sector": "Consumer Cyclical",
+   "industry": "Specialty Retail",
+   "country": "Singapore",
+   "exchange": "NCM",
+   "float": 5041655.0,
+   "short_pct_float": 1.5,
+   "news": [
+    {
+     "title": "JBDI HOLDINGS ANNOUNCES RECEIPT OF NASDAQ DETERMINATION LETTER",
+     "url": "https://finviz.com/news/368656/jbdi-holdings-announces-receipt-of-nasdaq-determination-letter",
+     "source": "Finviz",
+     "time": "2026-07-15T18:03:00+00:00"
+    },
+    {
+     "title": "JBDI Holdings Limited Announces Reverse Stock Split",
+     "url": "https://finviz.com/news/362117/jbdi-holdings-limited-announces-reverse-stock-split",
+     "source": "Finviz",
+     "time": "2026-06-16T14:45:00+00:00"
+    },
+    {
+     "title": "JBDI Holdings Announces Receipt of Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard",
+     "url": "https://finviz.com/news/276606/jbdi-holdings-announces-receipt-of-notice-of-delisting-or-failure-to-satisfy-a-continued-listing-rule-or-standard",
+     "source": "Finviz",
+     "time": "2026-01-14T18:52:00+00:00"
+    },
+    {
+     "title": "JBDI Holdings Reports Financial Results for Fiscal Year Ended May 31, 2025",
+     "url": "https://finviz.com/news/193094/jbdi-holdings-reports-financial-results-for-fiscal-year-ended-may-31-2025",
+     "source": "Finviz",
+     "time": "2025-10-15T11:00:00+00:00"
+    }
+   ],
+   "news_age_h": 2178.7,
+   "flags": [
+    "Reverse split 1:2 on 2026-06-30"
+   ],
+   "plan": {
+    "entry": 2.371,
+    "stop": 2.159,
+    "target": 3.43,
+    "risk_pct": 9.0,
+    "rr": 5.0,
+    "note": "Former runner (+1083.1% recently). Wait for an early panic flush into 2.27-2.47 (74-76% off the 9.50 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 87.2,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "IZM",
+   "price": 1.04,
+   "prev_close": 1.26,
+   "gap_pct": -17.5,
+   "pm": {
+    "last": 1.04,
+    "high": 1.27,
+    "low": 0.971,
+    "vwap": 1.04,
+    "volume": 0
+   },
+   "avg_vol_20d": 149187,
+   "yday_vol": 21253900,
+   "rvol": 142.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 78.1,
+   "off_peak_pct": -32.0,
+   "atr14": 0.184,
+   "levels": {
+    "prev_high": 1.53,
+    "prev_low": 0.85,
+    "prev_close": 1.26,
+    "high_5d": 1.53,
+    "high_20d": 1.8,
+    "run_peak": 1.53,
+    "pm_high": 1.27,
+    "pm_low": 0.971,
+    "pm_vwap": 1.04
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "ICZOOM Group Inc.",
+   "sector": "Technology",
+   "industry": "Electronics & Computer Distribution",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 1554278.0,
+   "short_pct_float": 1.9,
+   "news": [
+    {
+     "title": "ICZOOM Group Inc. to Effect Share Consolidation on September 15, 2026",
+     "url": "https://finviz.com/news/391231/iczoom-group-inc-to-effect-share-consolidation-on-september-15-2026",
+     "source": "Finviz",
+     "time": "2026-09-11T13:00:00+00:00"
+    },
+    {
+     "title": "ICZOOM Group Inc. Announces Receipt of Nasdaq Continued Listing Deficiency Letter",
+     "url": "https://finviz.com/news/369270/iczoom-group-inc-announces-receipt-of-nasdaq-continued-listing-deficiency-letter",
+     "source": "Finviz",
+     "time": "2026-07-16T20:00:00+00:00"
+    },
+    {
+     "title": "ICZOOM Group Inc. Appoints Mr. Yi Wang as a Director",
+     "url": "https://finviz.com/news/359788/iczoom-group-inc-appoints-mr-yi-wang-as-a-director",
+     "source": "Finviz",
+     "time": "2026-06-04T20:15:00+00:00"
+    },
+    {
+     "title": "ICZOOM Group Inc. Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency",
+     "url": "https://finviz.com/news/344568/iczoom-group-inc-announces-receipt-of-nasdaq-notification-regarding-minimum-bid-price-deficiency",
+     "source": "Finviz",
+     "time": "2026-04-14T20:15:00+00:00"
+    }
+   ],
+   "news_age_h": 791.7,
+   "flags": [
+    "Reverse split 1:5 on 2026-09-15"
+   ],
+   "plan": {
+    "entry": 0.998,
+    "stop": 0.909,
+    "target": 1.26,
+    "risk_pct": 9.0,
+    "rr": 2.9,
+    "note": "Former runner (+78.1% recently). Wait for an early panic flush into 0.96-1.04 (32-37% off the 1.53 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 86.4,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "YJ",
+   "price": 1.901,
+   "prev_close": 2.07,
+   "gap_pct": -8.1,
+   "pm": {
+    "last": 1.901,
+    "high": 2.293,
+    "low": 1.88,
+    "vwap": 1.901,
+    "volume": 0
+   },
+   "avg_vol_20d": 96405,
+   "yday_vol": 25084500,
+   "rvol": 260.2,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 64.3,
+   "off_peak_pct": -26.3,
+   "atr14": 0.193,
+   "levels": {
+    "prev_high": 2.58,
+    "prev_low": 1.83,
+    "prev_close": 2.07,
+    "high_5d": 2.58,
+    "high_20d": 2.1,
+    "run_peak": 2.58,
+    "pm_high": 2.293,
+    "pm_low": 1.88,
+    "pm_vwap": 1.901
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Yunji Inc. - American Depositor",
+   "sector": "Consumer Cyclical",
+   "industry": "Internet Retail",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 1871018.0,
+   "short_pct_float": 9.7,
+   "news": [
+    {
+     "title": "Yunji Inc (YJ) (H1 2026) Earnings Call Highlights: Strategic Pivot to Private Label Drives ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/yunji-inc-yj-h1-2026-190259640.html",
+     "source": "Finviz",
+     "time": "2026-08-20T19:02:00+00:00"
+    },
+    {
+     "title": "Yunji Announces First Half 2026 Unaudited Financial Results",
+     "url": "https://finviz.com/news/384031/yunji-announces-first-half-2026-unaudited-financial-results",
+     "source": "Finviz",
+     "time": "2026-08-20T11:20:00+00:00"
+    },
+    {
+     "title": "Yunji to Report First Half 2026 Financial Results on August 20, 2026",
+     "url": "https://finviz.com/news/381692/yunji-to-report-first-half-2026-financial-results-on-august-20-2026",
+     "source": "Finviz",
+     "time": "2026-08-13T11:30:00+00:00"
+    },
+    {
+     "title": "Yunji Files 2025 Annual Report on Form 20-F",
+     "url": "https://finviz.com/news/347498/yunji-files-2025-annual-report-on-form-20-f",
+     "source": "Finviz",
+     "time": "2026-04-24T11:30:00+00:00"
+    }
+   ],
+   "news_age_h": 1313.7,
+   "flags": [],
+   "plan": {
+    "entry": 1.789,
+    "stop": 1.593,
+    "target": 2.181,
+    "risk_pct": 10.9,
+    "rr": 2.0,
+    "note": "Former runner (+64.3% recently). Wait for an early panic flush into 1.68-1.90 (26-35% off the 2.58 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 85.4,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "JYD",
+   "price": 1.34,
+   "prev_close": 1.46,
+   "gap_pct": -8.2,
+   "pm": {
+    "last": 1.34,
+    "high": 1.42,
+    "low": 1.23,
+    "vwap": 1.34,
+    "volume": 0
+   },
+   "avg_vol_20d": 123135,
+   "yday_vol": 34707600,
+   "rvol": 281.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 154.0,
+   "off_peak_pct": -35.0,
+   "atr14": 0.166,
+   "levels": {
+    "prev_high": 2.06,
+    "prev_low": 0.985,
+    "prev_close": 1.46,
+    "high_5d": 2.06,
+    "high_20d": 1.05,
+    "run_peak": 2.06,
+    "pm_high": 1.42,
+    "pm_low": 1.23,
+    "pm_vwap": 1.34
+   },
+   "green_streak": 4,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Jayud Global Logistics Limited",
+   "sector": "Industrials",
+   "industry": "Integrated Freight & Logistics",
+   "country": "China",
+   "exchange": "NCM",
+   "float": 3076582.0,
+   "short_pct_float": 0.3,
+   "news": [
+    {
+     "title": "Jayud Global Logistics Announces Pricing of $6.7 Million Registered Direct Offering",
+     "url": "https://finviz.com/news/337295/jayud-global-logistics-announces-pricing-of-67-million-registered-direct-offering",
+     "source": "Finviz",
+     "time": "2026-03-13T21:00:00+00:00"
+    },
+    {
+     "title": "Correction: Jayud Global Logistics Signs 3-Year Partnership with DBG Technology Subsidiary Guanghong Electronics",
+     "url": "https://finviz.com/news/306095/correction-jayud-global-logistics-signs-3-year-partnership-with-dbg-technology-subsidiary-guanghong-electronics",
+     "source": "Finviz",
+     "time": "2026-02-10T17:11:00+00:00"
+    },
+    {
+     "title": "Jayud Global Logistics Signs 3-Year Partnership with DBG Technology Subsidiary Guangdong Electronics",
+     "url": "https://finviz.com/news/305523/jayud-global-logistics-signs-3-year-partnership-with-dbg-technology-subsidiary-guangdong-electronics",
+     "source": "Finviz",
+     "time": "2026-02-10T13:30:00+00:00"
+    },
+    {
+     "title": "Jayud Global Logistics Certified as Alibaba Verified Supplier",
+     "url": "https://finviz.com/news/297225/jayud-global-logistics-certified-as-alibaba-verified-supplier",
+     "source": "Finviz",
+     "time": "2026-02-03T13:30:00+00:00"
+    }
+   ],
+   "news_age_h": 5151.7,
+   "flags": [],
+   "plan": {
+    "entry": 1.286,
+    "stop": 1.171,
+    "target": 1.517,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+154.0% recently). Wait for an early panic flush into 1.23-1.34 (35-40% off the 2.06 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 84.2,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "ILAG",
+   "price": 3.123,
+   "prev_close": 3.38,
+   "gap_pct": -7.6,
+   "pm": {
+    "last": 3.123,
+    "high": 3.29,
+    "low": 3.08,
+    "vwap": 3.123,
+    "volume": 0
+   },
+   "avg_vol_20d": 3785,
+   "yday_vol": 4021300,
+   "rvol": 1062.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 57.3,
+   "off_peak_pct": -15.1,
+   "atr14": 0.227,
+   "levels": {
+    "prev_high": 3.68,
+    "prev_low": 2.3,
+    "prev_close": 3.38,
+    "high_5d": 3.68,
+    "high_20d": 3.39,
+    "run_peak": 3.68,
+    "pm_high": 3.29,
+    "pm_low": 3.08,
+    "pm_vwap": 3.123
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Intelligent Living Application ",
+   "sector": "Industrials",
+   "industry": "Building Products & Equipment",
+   "country": "Hong Kong",
+   "exchange": "NCM",
+   "float": 986446.0,
+   "short_pct_float": 0.2,
+   "news": [
+    {
+     "title": "Intelligent Living Application Group Inc. Announces 1-for-10 Share Consolidation (Reverse Stock Split)",
+     "url": "https://finviz.com/news/262591/intelligent-living-application-group-inc-announces-1-for-10-share-consolidation-reverse-stock-split",
+     "source": "Finviz",
+     "time": "2025-12-26T16:30:00+00:00"
+    },
+    {
+     "title": "Intelligent Living Application Group Inc. Announces First Half 2025 Unaudited Financial Results",
+     "url": "https://finviz.com/news/260458/intelligent-living-application-group-inc-announces-first-half-2025-unaudited-financial-results",
+     "source": "Finviz",
+     "time": "2025-12-22T22:00:00+00:00"
+    },
+    {
+     "title": "Intelligent Living Application Group Inc. Announces the Launch of its Smart Lock to Play a Role in $4.95 Billion Market",
+     "url": "https://www.prnewswire.com/news-releases/intelligent-living-application-group-inc-announces-the-launch-of-its-smart-lock-to-play-a-role-in-4-95-billion-market-302394592.html",
+     "source": "Finviz",
+     "time": "2025-03-06T13:30:00+00:00"
+    },
+    {
+     "title": "Intelligent Living Application Group Inc. Announces Closing of $600,000 Public Offering of Ordinary Shares",
+     "url": "https://www.prnewswire.com/news-releases/intelligent-living-application-group-inc-announces-closing-of-600-000-public-offering-of-ordinary-shares-302387588.html",
+     "source": "Finviz",
+     "time": "2025-02-27T21:30:00+00:00"
+    }
+   ],
+   "news_age_h": 7004.2,
+   "flags": [
+    "Reverse split 1:10 on 2025-12-30"
+   ],
+   "plan": {
+    "entry": 2.576,
+    "stop": 2.272,
+    "target": 3.38,
+    "risk_pct": 11.8,
+    "rr": 2.6,
+    "note": "Former runner (+57.3% recently). Wait for an early panic flush into 2.39-2.76 (25-35% off the 3.68 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 83.1,
+   "failed": [
+    "no fresh news"
+   ]
+  }
+ ],
+ "stats": {
+  "universe": 6612,
+  "with_history": 2731,
+  "scanned_premarket": 2231,
+  "setup_candidates": 45,
+  "qualified": 6,
+  "news_sources": {
+   "yf_raw": 0,
+   "yf": 0,
+   "yahoo_search": 0,
+   "finviz": 42
+  },
+  "finviz_http": [
+   "200"
+  ]
+ }
+}

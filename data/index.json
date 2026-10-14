@@ -1,5 +1,18 @@
 [
  {
+  "date": "2026-10-14",
+  "count": 6,
+  "tickers": [
+   "TCRT",
+   "PFAI",
+   "CLWT",
+   "GIXI",
+   "BKYI",
+   "VIVK"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-13",
   "count": 6,
   "tickers": [

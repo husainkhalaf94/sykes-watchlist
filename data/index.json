@@ -1,5 +1,19 @@
 [
  {
+  "date": "2026-10-15",
+  "count": 7,
+  "tickers": [
+   "PFAI",
+   "NXGL",
+   "GENK",
+   "XCH",
+   "CLWT",
+   "TCRT",
+   "GIXI"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-14",
   "count": 6,
   "tickers": [

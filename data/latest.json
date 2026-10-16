@@ -1,6 +1,6 @@
 {
- "date": "2026-10-15",
- "generated_at": "2026-10-15T08:45:32.026001-04:00",
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T08:43:31.614929-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -17,34 +17,28 @@
  },
  "picks": [
   {
-   "symbol": "PFAI",
-   "price": 4.578,
-   "prev_close": 4.7,
-   "gap_pct": -2.6,
-   "pm": {
-    "last": 4.578,
-    "high": 4.578,
-    "low": 4.25,
-    "vwap": 4.578,
-    "volume": 0
-   },
-   "avg_vol_20d": 1475,
-   "yday_vol": 783600,
-   "rvol": 531.3,
+   "symbol": "JG",
+   "price": 7.9,
+   "prev_close": 7.9,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 3880,
+   "yday_vol": 140700,
+   "rvol": 36.3,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 170.7,
+   "run_pct_5d": 62.0,
    "off_peak_pct": -23.8,
-   "atr14": 1.058,
+   "atr14": 0.774,
    "levels": {
-    "prev_high": 5.13,
-    "prev_low": 3.785,
-    "prev_close": 4.7,
-    "high_5d": 6.01,
-    "high_20d": 7.02,
-    "run_peak": 6.01,
-    "pm_high": 4.578,
-    "pm_low": 4.25,
-    "pm_vwap": 4.578
+    "prev_high": 10.37,
+    "prev_low": 6.85,
+    "prev_close": 7.9,
+    "high_5d": 10.37,
+    "high_20d": 8.96,
+    "run_peak": 10.37,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
    },
    "green_streak": 0,
    "setups": [
@@ -57,171 +51,82 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Pinnacle Food Group Limited",
-   "sector": "Consumer Defensive",
-   "industry": "Farm Products",
-   "country": "Canada",
-   "exchange": "NCM",
-   "float": 3566629.0,
-   "short_pct_float": 0.2,
+   "name": "Aurora Mobile Limited American Depositary Shares",
+   "sector": "Technology",
+   "industry": "Computer Software: Programming Data Processing",
+   "country": "China",
+   "exchange": null,
+   "float": 4240000.0,
+   "short_pct_float": null,
    "news": [
     {
-     "title": "Pinnacle Food Group Completes First Bench-Scale Fermentation of Recombinant Human Lactoferrin",
-     "url": "https://finviz.com/news/401908/pinnacle-food-group-completes-first-bench-scale-fermentation-of-recombinant-human-lactoferrin",
+     "title": "Aurora Mobile's JPush Enhances Channel Communications and End-User Reach for Prinx Chengshan",
+     "url": "https://finviz.com/news/403506/aurora-mobiles-jpush-enhances-channel-communications-and-end-user-reach-for-prinx-chengshan",
      "source": "Finviz",
-     "time": "2026-10-13T13:54:00+00:00"
+     "time": "2026-10-16T11:00:00+00:00"
     },
     {
-     "title": "Pinnacle Food Group Limited Completes First Bench-Scale Fermentation of Recombinant Human Lactoferrin (rhLF) Using Methanol-Free Pichia Fermentation",
-     "url": "https://finviz.com/news/401727/pinnacle-food-group-limited-completes-first-bench-scale-fermentation-of-recombinant-human-lactoferrin-rhlf-using-methanol-free-pichia-fermentation",
+     "title": "Aurora Mobile's GPTBots.ai Helps NTS Turn 38 Years of Contact Center Expertise into Human-Led AI",
+     "url": "https://finviz.com/news/402857/aurora-mobiles-gptbotsai-helps-nts-turn-38-years-of-contact-center-expertise-into-human-led-ai",
      "source": "Finviz",
-     "time": "2026-10-13T12:15:00+00:00"
+     "time": "2026-10-15T11:00:00+00:00"
     },
     {
-     "title": "Pinnacle Food Group Limited Appoints Mr. Martin Ngai Lam Cheung as Independent Director",
-     "url": "https://finviz.com/news/376363/pinnacle-food-group-limited-appoints-mr-martin-ngai-lam-cheung-as-independent-director",
+     "title": "Aurora Mobile's JPush Strengthens Shennong Group's Messaging Infrastructure to Support Timely Delivery of Critical Business Information",
+     "url": "https://finviz.com/news/400780/aurora-mobiles-jpush-strengthens-shennong-groups-messaging-infrastructure-to-support-timely-delivery-of-critical-business-information",
      "source": "Finviz",
-     "time": "2026-08-03T20:35:00+00:00"
+     "time": "2026-10-09T11:00:00+00:00"
     },
     {
-     "title": "Pinnacle Food Group Limited Completes Key Development Milestone and Commences Construction of Commercial-Scale Microalgae-Based Astaxanthin Facility in Canada",
-     "url": "https://finviz.com/news/368439/pinnacle-food-group-limited-completes-key-development-milestone-and-commences-construction-of-commercial-scale-microalgae-based-astaxanthin-facility-in-canada",
+     "title": "Aurora Mobile's GPTBots.ai Helps Ruko Cut Support Ticket Response Time from Two Hours to Under 10 Minutes",
+     "url": "https://finviz.com/news/396304/aurora-mobiles-gptbotsai-helps-ruko-cut-support-ticket-response-time-from-two-hours-to-under-10-minutes",
      "source": "Finviz",
-     "time": "2026-07-15T12:10:00+00:00"
+     "time": "2026-09-29T11:00:00+00:00"
     }
    ],
-   "news_age_h": 46.9,
+   "news_age_h": 1.7,
    "flags": [],
    "plan": {
-    "entry": 4.207,
-    "stop": 3.711,
-    "target": 5.199,
+    "entry": 7.259,
+    "stop": 6.403,
+    "target": 8.97,
     "risk_pct": 11.8,
     "rr": 2.0,
-    "note": "Former runner (+170.7% recently). Wait for an early panic flush into 3.91-4.51 (25-35% off the 6.01 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+62.0% recently). Wait for an early panic flush into 6.74-7.78 (25-35% off the 10.37 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 81.5
-  },
-  {
-   "symbol": "NXGL",
-   "price": 4.99,
-   "prev_close": 5.46,
-   "gap_pct": -8.6,
-   "pm": {
-    "last": 4.99,
-    "high": 5.05,
-    "low": 4.29,
-    "vwap": 4.99,
-    "volume": 0
-   },
-   "avg_vol_20d": 23665,
-   "yday_vol": 3279300,
-   "rvol": 138.6,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 141.7,
-   "off_peak_pct": -31.2,
-   "atr14": 0.836,
-   "levels": {
-    "prev_high": 7.25,
-    "prev_low": 3.91,
-    "prev_close": 5.46,
-    "high_5d": 7.25,
-    "high_20d": 5.68,
-    "run_peak": 7.25,
-    "pm_high": 5.05,
-    "pm_low": 4.29,
-    "pm_vwap": 4.99
-   },
-   "green_streak": 2,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "NexGel, Inc",
-   "sector": "Healthcare",
-   "industry": "Medical Instruments & Supplies",
-   "country": "United States",
-   "exchange": "NCM",
-   "float": 383887.0,
-   "short_pct_float": 3.9,
-   "news": [
-    {
-     "title": "NEXGEL Announces 1-for-20 Reverse Stock Split Effectiveness",
-     "url": "https://finviz.com/news/401225/nexgel-announces-1-for-20-reverse-stock-split-effectiveness",
-     "source": "Finviz",
-     "time": "2026-10-12T12:30:00+00:00"
-    },
-    {
-     "title": "NEXGEL Announces Dial-In Details for Investor Update Call",
-     "url": "https://finviz.com/news/394798/nexgel-announces-dial-in-details-for-investor-update-call",
-     "source": "Finviz",
-     "time": "2026-09-23T13:29:00+00:00"
-    },
-    {
-     "title": "NEXGEL Announces Date for Investor Update Call",
-     "url": "https://finviz.com/news/392712/nexgel-announces-date-for-investor-update-call",
-     "source": "Finviz",
-     "time": "2026-09-16T13:29:00+00:00"
-    },
-    {
-     "title": "NEXGEL ANNOUNCES LEADERSHIP TRANSITION AND STRATEGIC REVIEW INITIATIVE",
-     "url": "https://finviz.com/news/384330/nexgel-announces-leadership-transition-and-strategic-review-initiative",
-     "source": "Finviz",
-     "time": "2026-08-20T20:05:00+00:00"
-    }
-   ],
-   "news_age_h": 72.3,
-   "flags": [
-    "Shelf/Registration S-1 filed 2026-08-20",
-    "Reverse split 1:20 on 2026-10-12"
-   ],
-   "plan": {
-    "entry": 4.79,
-    "stop": 4.361,
-    "target": 5.649,
-    "risk_pct": 9.0,
-    "rr": 2.0,
-    "note": "Former runner (+141.7% recently). Wait for an early panic flush into 4.59-4.99 (31-37% off the 7.25 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 81.1
+   "score": 80.5
   },
   {
    "symbol": "GENK",
-   "price": 1.62,
+   "price": 1.63,
    "prev_close": 1.69,
-   "gap_pct": -4.1,
+   "gap_pct": -3.6,
    "pm": {
-    "last": 1.62,
-    "high": 1.73,
-    "low": 1.57,
-    "vwap": 1.62,
+    "last": 1.63,
+    "high": 1.63,
+    "low": 1.58,
+    "vwap": 1.63,
     "volume": 0
    },
-   "avg_vol_20d": 36710,
-   "yday_vol": 56761400,
-   "rvol": 1546.2,
+   "avg_vol_20d": 37365,
+   "yday_vol": 2296100,
+   "rvol": 61.5,
    "rvol_basis": "yesterday",
    "run_pct_5d": 82.7,
-   "off_peak_pct": -36.0,
-   "atr14": 0.192,
+   "off_peak_pct": -35.6,
+   "atr14": 0.204,
    "levels": {
-    "prev_high": 2.53,
-    "prev_low": 1.58,
+    "prev_high": 1.84,
+    "prev_low": 1.49,
     "prev_close": 1.69,
     "high_5d": 2.53,
-    "high_20d": 1.875,
+    "high_20d": 2.53,
     "run_peak": 2.53,
-    "pm_high": 1.73,
-    "pm_low": 1.57,
-    "pm_vwap": 1.62
+    "pm_high": 1.63,
+    "pm_low": 1.58,
+    "pm_vwap": 1.63
    },
-   "green_streak": 1,
+   "green_streak": 0,
    "setups": [
     "Morning-panic dip-buy"
    ],
@@ -232,14 +137,26 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "GEN Restaurant Group, Inc.",
-   "sector": "Consumer Cyclical",
+   "name": "GEN Restaurant Group Inc. Class A Common Stock",
+   "sector": "Consumer Discretionary",
    "industry": "Restaurants",
    "country": "United States",
-   "exchange": "NGM",
-   "float": 4784941.0,
-   "short_pct_float": 4.2,
+   "exchange": null,
+   "float": 6560000.0,
+   "short_pct_float": null,
    "news": [
+    {
+     "title": "Chubby Group Closes $50M Series A Led by Prysm Capital at $500M Valuation; Signs Deal to Purchase 47 GEN Korean BBQ Restaurants",
+     "url": "https://finviz.com/news/403195/chubby-group-closes-50m-series-a-led-by-prysm-capital-at-500m-valuation-signs-deal-to-purchase-47-gen-korean-bbq-restaurants",
+     "source": "Finviz",
+     "time": "2026-10-15T14:53:00+00:00"
+    },
+    {
+     "title": "GEN signs $100m restaurant deal with Chubby Group",
+     "url": "https://finance.yahoo.com/news/gen-signs-100m-restaurant-deal-135122206.html",
+     "source": "Finviz",
+     "time": "2026-10-15T13:51:00+00:00"
+    },
     {
      "title": "Gen Korean restaurants will be sold to Chubby Cattle Group for $100 million",
      "url": "https://www.nrn.com/mergers-acquisitions/gen-korean-restaurants-will-be-sold-to-chubby-cattle-group-for-100-million",
@@ -251,21 +168,9 @@
      "url": "https://finance.yahoo.com/small-business/articles/gen-restaurant-group-sells-47-123900361.html",
      "source": "Finviz",
      "time": "2026-10-14T12:39:00+00:00"
-    },
-    {
-     "title": "GEN Restaurant Group Board Approves Binding LOI with Chubby Group for $100 Million Restaurant Transaction",
-     "url": "https://finviz.com/news/402414/gen-restaurant-group-board-approves-binding-loi-with-chubby-group-for-100-million-restaurant-transaction",
-     "source": "Finviz",
-     "time": "2026-10-14T12:31:00+00:00"
-    },
-    {
-     "title": "GEN Restaurant Group Expands Distribution with Vallarta Supermarkets, UCLA University Dining, SoFi Stadium and Ole City Market",
-     "url": "https://finviz.com/news/395210/gen-restaurant-group-expands-distribution-with-vallarta-supermarkets-ucla-university-dining-sofi-stadium-and-ole-city-market",
-     "source": "Finviz",
-     "time": "2026-09-24T12:31:00+00:00"
     }
    ],
-   "news_age_h": 23.2,
+   "news_age_h": 21.8,
    "flags": [
     "Shelf/Registration EFFECT filed 2026-10-08",
     "Offering 424B3 filed 2026-10-08",
@@ -273,44 +178,44 @@
     "Offering 424B5 filed 2026-08-10"
    ],
    "plan": {
-    "entry": 1.555,
-    "stop": 1.416,
-    "target": 1.834,
+    "entry": 1.565,
+    "stop": 1.425,
+    "target": 1.845,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+82.7% recently). Wait for an early panic flush into 1.49-1.62 (36-41% off the 2.53 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+82.7% recently). Wait for an early panic flush into 1.50-1.63 (36-41% off the 2.53 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 75.3
+   "score": 74.0
   },
   {
-   "symbol": "XCH",
-   "price": 2.05,
-   "prev_close": 2.21,
-   "gap_pct": -7.2,
+   "symbol": "CLWT",
+   "price": 1.437,
+   "prev_close": 1.45,
+   "gap_pct": -0.9,
    "pm": {
-    "last": 2.05,
-    "high": 2.15,
-    "low": 2.05,
-    "vwap": 2.05,
+    "last": 1.437,
+    "high": 1.51,
+    "low": 1.426,
+    "vwap": 1.437,
     "volume": 0
    },
-   "avg_vol_20d": 47835,
-   "yday_vol": 1299700,
-   "rvol": 27.2,
+   "avg_vol_20d": 10475,
+   "yday_vol": 260000,
+   "rvol": 24.8,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 111.6,
-   "off_peak_pct": -37.5,
-   "atr14": 0.527,
+   "run_pct_5d": 84.3,
+   "off_peak_pct": -38.6,
+   "atr14": 0.212,
    "levels": {
-    "prev_high": 3.28,
-    "prev_low": 2.01,
-    "prev_close": 2.21,
-    "high_5d": 3.28,
-    "high_20d": 3.83,
-    "run_peak": 3.28,
-    "pm_high": 2.15,
-    "pm_low": 2.05,
-    "pm_vwap": 2.05
+    "prev_high": 1.64,
+    "prev_low": 1.33,
+    "prev_close": 1.45,
+    "high_5d": 2.34,
+    "high_20d": 2.34,
+    "run_peak": 2.34,
+    "pm_high": 1.51,
+    "pm_low": 1.426,
+    "pm_vwap": 1.437
    },
    "green_streak": 1,
    "setups": [
@@ -323,102 +228,13 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "XCHG Limited",
-   "sector": "Industrials",
-   "industry": "Electrical Equipment & Parts",
-   "country": "Germany",
-   "exchange": "NGM",
-   "float": 1286410.0,
-   "short_pct_float": 0.0,
-   "news": [
-    {
-     "title": "XCharge Issues Statement Regarding Recent Share Price Volatility",
-     "url": "https://finviz.com/news/402273/xcharge-issues-statement-regarding-recent-share-price-volatility",
-     "source": "Finviz",
-     "time": "2026-10-14T11:30:00+00:00"
-    },
-    {
-     "title": "EnBW Deploys XCharge C7 480 kW Fast Chargers Across Its Nationwide Charging Network in Germany",
-     "url": "https://finviz.com/news/393748/enbw-deploys-xcharge-c7-480-kw-fast-chargers-across-its-nationwide-charging-network-in-germany",
-     "source": "Finviz",
-     "time": "2026-09-21T11:30:00+00:00"
-    },
-    {
-     "title": "XCharge Reports First Half 2026 Unaudited Financial Results",
-     "url": "https://finviz.com/news/393607/xcharge-reports-first-half-2026-unaudited-financial-results",
-     "source": "Finviz",
-     "time": "2026-09-18T20:05:00+00:00"
-    },
-    {
-     "title": "XCharge Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-     "url": "https://finviz.com/news/390084/xcharge-regains-compliance-with-nasdaq-minimum-bid-price-requirement",
-     "source": "Finviz",
-     "time": "2026-09-09T11:30:00+00:00"
-    }
-   ],
-   "news_age_h": 25.3,
-   "flags": [
-    "Offering 424B5 filed 2026-06-29",
-    "Reverse split 1:20 on 2026-08-21"
-   ],
-   "plan": {
-    "entry": 1.968,
-    "stop": 1.792,
-    "target": 2.321,
-    "risk_pct": 9.0,
-    "rr": 2.0,
-    "note": "Former runner (+111.6% recently). Wait for an early panic flush into 1.89-2.05 (38-43% off the 3.28 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 57.6
-  },
-  {
-   "symbol": "CLWT",
-   "price": 1.47,
-   "prev_close": 1.42,
-   "gap_pct": 3.5,
-   "pm": {
-    "last": 1.47,
-    "high": 1.5,
-    "low": 1.34,
-    "vwap": 1.47,
-    "volume": 0
-   },
-   "avg_vol_20d": 10050,
-   "yday_vol": 266100,
-   "rvol": 26.5,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 87.2,
-   "off_peak_pct": -37.2,
-   "atr14": 0.196,
-   "levels": {
-    "prev_high": 1.69,
-    "prev_low": 1.42,
-    "prev_close": 1.42,
-    "high_5d": 2.34,
-    "high_20d": 2.34,
-    "run_peak": 2.34,
-    "pm_high": 1.5,
-    "pm_low": 1.34,
-    "pm_vwap": 1.47
-   },
-   "green_streak": 0,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Euro Tech Holdings Company Limi",
-   "sector": "Industrials",
-   "industry": "Pollution & Treatment Controls",
+   "name": "Euro Tech Holdings Company Limited Common Stock",
+   "sector": "Consumer Discretionary",
+   "industry": "Professional and commerical equipment",
    "country": "Hong Kong",
-   "exchange": "NCM",
-   "float": 2946650.0,
-   "short_pct_float": 0.1,
+   "exchange": null,
+   "float": 3080000.0,
+   "short_pct_float": null,
    "news": [
     {
      "title": "Euro Tech Holdings Signs 50/50 Norway Joint Venture to Expand Ballast Water Treatment Business",
@@ -445,47 +261,217 @@
      "time": "2026-06-17T11:00:00+00:00"
     }
    ],
-   "news_age_h": 69.9,
+   "news_age_h": 93.8,
    "flags": [],
    "plan": {
-    "entry": 1.411,
-    "stop": 1.285,
-    "target": 1.664,
+    "entry": 1.38,
+    "stop": 1.256,
+    "target": 1.627,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+87.2% recently). Wait for an early panic flush into 1.35-1.47 (37-42% off the 2.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+84.3% recently). Wait for an early panic flush into 1.32-1.44 (39-44% off the 2.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 54.3
+   "score": 51.0
   },
   {
-   "symbol": "TCRT",
-   "price": 2.09,
-   "prev_close": 2.07,
-   "gap_pct": 1.0,
+   "symbol": "WETO",
+   "price": 1.11,
+   "prev_close": 1.22,
+   "gap_pct": -9.0,
    "pm": {
-    "last": 2.09,
-    "high": 2.22,
-    "low": 1.67,
-    "vwap": 2.09,
+    "last": 1.11,
+    "high": 1.18,
+    "low": 1.08,
+    "vwap": 1.11,
     "volume": 0
    },
-   "avg_vol_20d": 2508830,
-   "yday_vol": 68350100,
-   "rvol": 27.2,
+   "avg_vol_20d": 6746730,
+   "yday_vol": 110617200,
+   "rvol": 16.4,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 511.1,
-   "off_peak_pct": -52.5,
-   "atr14": 0.505,
+   "run_pct_5d": 76.3,
+   "off_peak_pct": -24.0,
+   "atr14": 0.25,
    "levels": {
-    "prev_high": 4.4,
-    "prev_low": 1.88,
-    "prev_close": 2.07,
-    "high_5d": 4.4,
-    "high_20d": 4.32,
-    "run_peak": 4.4,
-    "pm_high": 2.22,
-    "pm_low": 1.67,
-    "pm_vwap": 2.09
+    "prev_high": 1.46,
+    "prev_low": 1.01,
+    "prev_close": 1.22,
+    "high_5d": 1.46,
+    "high_20d": 2.21,
+    "run_peak": 1.46,
+    "pm_high": 1.18,
+    "pm_low": 1.08,
+    "pm_vwap": 1.11
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Wetour Robotics Limited Ordinary Shares",
+   "sector": "Industrials",
+   "industry": "Other Transportation",
+   "country": "China",
+   "exchange": null,
+   "float": 910000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Wetour Robotics Announces Temporary Pause of ATM Share Sales",
+     "url": "https://finviz.com/news/402944/wetour-robotics-announces-temporary-pause-of-atm-share-sales",
+     "source": "Finviz",
+     "time": "2026-10-15T12:00:00+00:00"
+    },
+    {
+     "title": "Wetour Robotics Launches Vantrapower to Enter Texas AI Power Infrastructure Market",
+     "url": "https://finance.yahoo.com/technology/ai/articles/wetour-robotics-launches-vantrapower-enter-142215237.html",
+     "source": "Finviz",
+     "time": "2026-09-17T14:22:00+00:00"
+    },
+    {
+     "title": "Wetour Robotics Launches Vantrapower to Expand into Intelligent Power Infrastructure for AI Industrial and Energy Markets in Texas",
+     "url": "https://finviz.com/news/393175/wetour-robotics-launches-vantrapower-to-expand-into-intelligent-power-infrastructure-for-ai-industrial-and-energy-markets-in-texas",
+     "source": "Finviz",
+     "time": "2026-09-17T13:00:00+00:00"
+    },
+    {
+     "title": "Wetour Robotics Demonstrates sEMG-Vision System for Physical AI Training",
+     "url": "https://finance.yahoo.com/technology/ai/articles/wetour-robotics-demonstrates-semg-vision-150122813.html",
+     "source": "Finviz",
+     "time": "2026-09-01T15:01:00+00:00"
+    }
+   ],
+   "news_age_h": 24.7,
+   "flags": [
+    "Offering 424B5 filed 2026-08-26",
+    "Reverse split 1:100 on 2026-08-03",
+    "Recent foreign IPO (China)"
+   ],
+   "plan": {
+    "entry": 1.022,
+    "stop": 0.902,
+    "target": 1.263,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+76.3% recently). Wait for an early panic flush into 0.95-1.09 (25-35% off the 1.46 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 43.0
+  },
+  {
+   "symbol": "NWTG",
+   "price": 1.0,
+   "prev_close": 1.0,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 108790,
+   "yday_vol": 697400,
+   "rvol": 6.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 21.2,
+   "off_peak_pct": -27.0,
+   "atr14": 0.175,
+   "levels": {
+    "prev_high": 1.04,
+    "prev_low": 0.918,
+    "prev_close": 1.0,
+    "high_5d": 1.37,
+    "high_20d": 1.37,
+    "run_peak": 1.37,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Newton Golf Company Inc. Common Stock",
+   "sector": "Consumer Discretionary",
+   "industry": "Recreational Games/Products/Toys",
+   "country": "United States",
+   "exchange": null,
+   "float": 3390000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Emerging Growth Research Issues Flash Report on Newton Golf Company, Inc.",
+     "url": "https://finviz.com/news/402121/emerging-growth-research-issues-flash-report-on-newton-golf-company-inc",
+     "source": "Finviz",
+     "time": "2026-10-13T20:50:00+00:00"
+    },
+    {
+     "title": "Newton Golf Acquires Option on Nevada Beryllium-Tungsten Project, Marking Entry into U.S. Critical Minerals Sector",
+     "url": "https://www.businesswire.com/news/home/20260924031008/en/",
+     "source": "Finviz",
+     "time": "2026-09-24T12:00:00+00:00"
+    },
+    {
+     "title": "CORRECTION: Emerging Growth Research Issues Quarterly Update on Newton Golf Company, Inc.",
+     "url": "https://finviz.com/news/393392/correction-emerging-growth-research-issues-quarterly-update-on-newton-golf-company-inc",
+     "source": "Finviz",
+     "time": "2026-09-17T20:40:00+00:00"
+    },
+    {
+     "title": "Emerging Growth Research Issues Quarterly Update on Newton Golf Company, Inc.",
+     "url": "https://finviz.com/news/392885/emerging-growth-research-issues-quarterly-update-on-newton-golf-company-inc",
+     "source": "Finviz",
+     "time": "2026-09-16T21:10:00+00:00"
+    }
+   ],
+   "news_age_h": 63.9,
+   "flags": [],
+   "plan": {
+    "entry": 1.04,
+    "stop": 0.97,
+    "target": 1.18,
+    "risk_pct": 6.7,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 28.3
+  },
+  {
+   "symbol": "NXGL",
+   "price": 5.25,
+   "prev_close": 5.18,
+   "gap_pct": 1.4,
+   "pm": {
+    "last": 5.25,
+    "high": 5.25,
+    "low": 5.0,
+    "vwap": 5.25,
+    "volume": 0
+   },
+   "avg_vol_20d": 24987,
+   "yday_vol": 164600,
+   "rvol": 6.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 141.7,
+   "off_peak_pct": -27.6,
+   "atr14": 0.79,
+   "levels": {
+    "prev_high": 5.53,
+    "prev_low": 4.064,
+    "prev_close": 5.18,
+    "high_5d": 7.25,
+    "high_20d": 7.25,
+    "run_peak": 7.25,
+    "pm_high": 5.25,
+    "pm_low": 5.0,
+    "pm_vwap": 5.25
    },
    "green_streak": 0,
    "setups": [
@@ -498,170 +484,86 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Alaunos Therapeutics, Inc.",
-   "sector": "Healthcare",
-   "industry": "Biotechnology",
+   "name": "NexGel Inc Common Stock",
+   "sector": "Health Care",
+   "industry": "Medical/Dental Instruments",
    "country": "United States",
-   "exchange": "NCM",
-   "float": 1891413.0,
-   "short_pct_float": 0.4,
-   "news": [
-    {
-     "title": "Another Paragon spinout goes public through reverse merger",
-     "url": "https://finance.yahoo.com/healthcare/articles/another-paragon-spinout-goes-public-203500877.html",
-     "source": "Finviz",
-     "time": "2026-10-13T20:35:00+00:00"
-    },
-    {
-     "title": "Alaunos Therapeutics Announces Acquisition of Velaris Therapeutics",
-     "url": "https://finviz.com/news/401927/alaunos-therapeutics-announces-acquisition-of-velaris-therapeutics",
-     "source": "Finviz",
-     "time": "2026-10-13T14:31:00+00:00"
-    },
-    {
-     "title": "Paragon Labs Expands Leadership Team with Former Apogee Executives; Velaris Therapeutics Acquired by Alaunos Therapeutics, Inc.",
-     "url": "https://finviz.com/news/401569/paragon-labs-expands-leadership-team-with-former-apogee-executives-velaris-therapeutics-acquired-by-alaunos-therapeutics-inc",
-     "source": "Finviz",
-     "time": "2026-10-13T11:00:00+00:00"
-    },
-    {
-     "title": "Alaunos Therapeutics, Inc. Announces Pricing of Registered Direct Offering priced at-the-market under Nasdaq rules",
-     "url": "https://finviz.com/news/393531/alaunos-therapeutics-inc-announces-pricing-of-registered-direct-offering-priced-at-the-market-under-nasdaq-rules",
-     "source": "Finviz",
-     "time": "2026-09-18T13:00:00+00:00"
-    }
-   ],
-   "news_age_h": 40.2,
-   "flags": [
-    "Offering 424B3 filed 2026-09-21"
-   ],
-   "plan": {
-    "entry": 2.006,
-    "stop": 1.827,
-    "target": 2.366,
-    "risk_pct": 9.0,
-    "rr": 2.0,
-    "note": "Former runner (+511.1% recently). Wait for an early panic flush into 1.92-2.09 (53-56% off the 4.40 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 52.1
-  },
-  {
-   "symbol": "GIXI",
-   "price": 4.0,
-   "prev_close": 4.14,
-   "gap_pct": -3.4,
-   "pm": {
-    "last": 4.0,
-    "high": 4.06,
-    "low": 3.936,
-    "vwap": 4.0,
-    "volume": 0
-   },
-   "avg_vol_20d": 22210,
-   "yday_vol": 329100,
-   "rvol": 14.8,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 134.3,
-   "off_peak_pct": -52.0,
-   "atr14": 0.784,
-   "levels": {
-    "prev_high": 4.69,
-    "prev_low": 3.97,
-    "prev_close": 4.14,
-    "high_5d": 8.34,
-    "high_20d": 8.34,
-    "run_peak": 8.34,
-    "pm_high": 4.06,
-    "pm_low": 3.936,
-    "pm_vwap": 4.0
-   },
-   "green_streak": 1,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 3,
-    "finviz_http": 200
-   },
-   "name": "Gix Internet Ltd.",
-   "sector": "Technology",
-   "industry": "Software - Infrastructure",
-   "country": "Israel",
-   "exchange": "NCM",
-   "float": 621714.0,
+   "exchange": null,
+   "float": 420000.0,
    "short_pct_float": null,
    "news": [
     {
-     "title": "Gix Internet Brings Physical AI to Life-Saving Logistics as Robots Begin Delivering Blood and Bone Marrow at One of the World's Top 10 Hospitals",
-     "url": "https://finviz.com/news/401152/gix-internet-brings-physical-ai-to-life-saving-logistics-as-robots-begin-delivering-blood-and-bone-marrow-at-one-of-the-worlds-top-10-hospitals",
+     "title": "NEXGEL Announces 1-for-20 Reverse Stock Split Effectiveness",
+     "url": "https://finviz.com/news/401225/nexgel-announces-1-for-20-reverse-stock-split-effectiveness",
      "source": "Finviz",
-     "time": "2026-10-12T11:32:00+00:00"
+     "time": "2026-10-12T12:30:00+00:00"
     },
     {
-     "title": "Gix Makes Strategic Investment in Ottonomy, a Physical AI, L4 Autonomy and Robotics Technology Company",
-     "url": "https://finviz.com/news/392102/gix-makes-strategic-investment-in-ottonomy-a-physical-ai-l4-autonomy-and-robotics-technology-company",
+     "title": "NEXGEL Announces Dial-In Details for Investor Update Call",
+     "url": "https://finviz.com/news/394798/nexgel-announces-dial-in-details-for-investor-update-call",
      "source": "Finviz",
-     "time": "2026-09-15T12:34:00+00:00"
+     "time": "2026-09-23T13:29:00+00:00"
     },
     {
-     "title": "Gix Internet Launches New Corporate Website Presenting Its Vision for One Intelligent Management Layer for Robots, People and Autonomous Systems",
-     "url": "https://finviz.com/news/390860/gix-internet-launches-new-corporate-website-presenting-its-vision-for-one-intelligent-management-layer-for-robots-people-and-autonomous-systems",
+     "title": "NEXGEL Announces Date for Investor Update Call",
+     "url": "https://finviz.com/news/392712/nexgel-announces-date-for-investor-update-call",
      "source": "Finviz",
-     "time": "2026-09-10T13:22:00+00:00"
+     "time": "2026-09-16T13:29:00+00:00"
+    },
+    {
+     "title": "NEXGEL ANNOUNCES LEADERSHIP TRANSITION AND STRATEGIC REVIEW INITIATIVE",
+     "url": "https://finviz.com/news/384330/nexgel-announces-leadership-transition-and-strategic-review-initiative",
+     "source": "Finviz",
+     "time": "2026-08-20T20:05:00+00:00"
     }
    ],
-   "news_age_h": 73.2,
+   "news_age_h": 96.2,
    "flags": [
-    "Recent foreign IPO (Israel)"
+    "Shelf/Registration S-1 filed 2026-08-20",
+    "Reverse split 1:20 on 2026-10-12"
    ],
    "plan": {
-    "entry": 3.84,
-    "stop": 3.496,
-    "target": 4.528,
-    "risk_pct": 9.0,
+    "entry": 4.981,
+    "stop": 4.477,
+    "target": 5.99,
+    "risk_pct": 10.1,
     "rr": 2.0,
-    "note": "Former runner (+134.3% recently). Wait for an early panic flush into 3.68-4.00 (52-56% off the 8.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+141.7% recently). Wait for an early panic flush into 4.71-5.25 (28-35% off the 7.25 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 39.5
-  }
- ],
- "near_misses": [
+   "score": 26.1
+  },
   {
-   "symbol": "FLYE",
-   "price": 3.66,
-   "prev_close": 3.6,
-   "gap_pct": 1.7,
+   "symbol": "NRXS",
+   "price": 7.83,
+   "prev_close": 7.74,
+   "gap_pct": 1.2,
    "pm": {
-    "last": 3.66,
-    "high": 4.52,
-    "low": 3.39,
-    "vwap": 3.66,
+    "last": 7.83,
+    "high": 7.83,
+    "low": 7.8,
+    "vwap": 7.83,
     "volume": 0
    },
-   "avg_vol_20d": 106340,
-   "yday_vol": 5217000,
-   "rvol": 49.1,
+   "avg_vol_20d": 165700,
+   "yday_vol": 1125700,
+   "rvol": 6.8,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 417.2,
-   "off_peak_pct": -42.0,
-   "atr14": 0.646,
+   "run_pct_5d": 30.7,
+   "off_peak_pct": -0.1,
+   "atr14": 0.555,
    "levels": {
-    "prev_high": 3.92,
-    "prev_low": 3.18,
-    "prev_close": 3.6,
-    "high_5d": 6.31,
-    "high_20d": 6.31,
-    "run_peak": 6.31,
-    "pm_high": 4.52,
-    "pm_low": 3.39,
-    "pm_vwap": 3.66
+    "prev_high": 7.84,
+    "prev_low": 6.8,
+    "prev_close": 7.74,
+    "high_5d": 7.84,
+    "high_20d": 8.06,
+    "run_peak": 7.84,
+    "pm_high": 7.83,
+    "pm_low": 7.8,
+    "pm_vwap": 7.83
    },
    "green_streak": 2,
    "setups": [
-    "Morning-panic dip-buy",
     "Breakout / multi-day runner"
    ],
    "sources": {
@@ -671,13 +573,469 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Fly-E Group, Inc.",
-   "sector": "Consumer Cyclical",
-   "industry": "Auto Manufacturers",
+   "name": "Neuraxis Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
    "country": "United States",
-   "exchange": "NCM",
-   "float": 1555386.0,
-   "short_pct_float": 2.8,
+   "exchange": null,
+   "float": 8550000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "NeurAxis Announces Medical Policy Coverage Milestone, Expanding Access to 26 Million Additional Covered Lives",
+     "url": "https://finviz.com/news/403128/neuraxis-announces-medical-policy-coverage-milestone-expanding-access-to-26-million-additional-covered-lives",
+     "source": "Finviz",
+     "time": "2026-10-15T13:18:00+00:00"
+    },
+    {
+     "title": "NeurAxis Positions for Next Phase of Commercial Growth with Appointment of Craig Blanchard as Chief Commercial Officer",
+     "url": "https://finviz.com/news/396306/neuraxis-positions-for-next-phase-of-commercial-growth-with-appointment-of-craig-blanchard-as-chief-commercial-officer",
+     "source": "Finviz",
+     "time": "2026-09-29T11:00:00+00:00"
+    },
+    {
+     "title": "NeurAxis Announces Medical Coverage Policy Milestone, Expanding Access to Over 18 million additional Covered Lives",
+     "url": "https://finviz.com/news/392673/neuraxis-announces-medical-coverage-policy-milestone-expanding-access-to-over-18-million-additional-covered-lives",
+     "source": "Finviz",
+     "time": "2026-09-16T13:00:00+00:00"
+    },
+    {
+     "title": "NeurAxis to Participate in the Lytham Partners Fall 2026 Investor Conference",
+     "url": "https://finviz.com/news/392523/neuraxis-to-participate-in-the-lytham-partners-fall-2026-investor-conference",
+     "source": "Finviz",
+     "time": "2026-09-16T11:00:00+00:00"
+    }
+   ],
+   "news_age_h": 23.4,
+   "flags": [
+    "Offering 424B3 filed 2026-08-06",
+    "Shelf/Registration EFFECT filed 2026-08-03",
+    "Shelf/Registration S-3/A filed 2026-07-30",
+    "Shelf/Registration S-3 filed 2026-07-23"
+   ],
+   "plan": {
+    "entry": 7.84,
+    "stop": 7.508,
+    "target": 8.504,
+    "risk_pct": 4.2,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 18.4
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "TC",
+   "price": 1.352,
+   "prev_close": 1.39,
+   "gap_pct": -2.7,
+   "pm": {
+    "last": 1.352,
+    "high": 1.43,
+    "low": 1.3,
+    "vwap": 1.352,
+    "volume": 0
+   },
+   "avg_vol_20d": 19400,
+   "yday_vol": 7034200,
+   "rvol": 362.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 219.2,
+   "off_peak_pct": -67.4,
+   "atr14": 0.313,
+   "levels": {
+    "prev_high": 1.48,
+    "prev_low": 1.2,
+    "prev_close": 1.39,
+    "high_5d": 4.15,
+    "high_20d": 4.15,
+    "run_peak": 4.15,
+    "pm_high": 1.43,
+    "pm_low": 1.3,
+    "pm_vwap": 1.352
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Token Cat Limited American Depositary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Business Services",
+   "country": "China",
+   "exchange": null,
+   "float": 1380000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "AZI Plans to Subscribe for US$100 Million of Token Cat Limited Shares at US$30 per Share, Strengthening Automotive Group-Buying Channels and Supporting AZI's Global Expansion Strategy",
+     "url": "https://finviz.com/news/255989/azi-plans-to-subscribe-for-us100-million-of-token-cat-limited-shares-at-us30-per-share-strengthening-automotive-group-buying-channels-and-supporting-azis-global-expansion-strategy",
+     "source": "Finviz",
+     "time": "2025-12-17T12:15:00+00:00"
+    },
+    {
+     "title": "Token Cat Limited Announces Execution of a Master Service Agreement with Better Now New York Inc to Develop a 30MW AI Data Center in the United States",
+     "url": "https://finviz.com/news/254932/token-cat-limited-announces-execution-of-a-master-service-agreement-with-better-now-new-york-inc-to-develop-a-30mw-ai-data-center-in-the-united-states",
+     "source": "Finviz",
+     "time": "2025-12-16T12:15:00+00:00"
+    },
+    {
+     "title": "Following the Appointment of Sav Persico as Chief Operating Officer, Token Cat Limited Board Approves $1 Billion Crypto Asset Investment Policy",
+     "url": "https://finviz.com/news/242971/following-the-appointment-of-sav-persico-as-chief-operating-officer-token-cat-limited-board-approves-1-billion-crypto-asset-investment-policy",
+     "source": "Finviz",
+     "time": "2025-12-02T12:15:00+00:00"
+    },
+    {
+     "title": "Token Cat Limited Appoints Renowned Blockchain Expert Sav Persico as Chief Operating Officer to Accelerate the Company's Cryptocurrency and crypto Asset Transformation Strategy",
+     "url": "https://finviz.com/news/239366/token-cat-limited-appoints-renowned-blockchain-expert-sav-persico-as-chief-operating-officer-to-accelerate-the-companys-cryptocurrency-and-crypto-asset-transformation-strategy",
+     "source": "Finviz",
+     "time": "2025-11-26T12:15:00+00:00"
+    }
+   ],
+   "news_age_h": 7272.5,
+   "flags": [],
+   "plan": {
+    "entry": 1.298,
+    "stop": 1.182,
+    "target": 1.53,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+219.2% recently). Wait for an early panic flush into 1.24-1.35 (67-70% off the 4.15 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 83.7,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "RYOJ",
+   "price": 2.7,
+   "prev_close": 2.95,
+   "gap_pct": -8.5,
+   "pm": {
+    "last": 2.7,
+    "high": 2.8,
+    "low": 2.58,
+    "vwap": 2.7,
+    "volume": 0
+   },
+   "avg_vol_20d": 13160,
+   "yday_vol": 2124100,
+   "rvol": 161.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 90.0,
+   "off_peak_pct": -47.2,
+   "atr14": 0.475,
+   "levels": {
+    "prev_high": 5.11,
+    "prev_low": 2.05,
+    "prev_close": 2.95,
+    "high_5d": 5.11,
+    "high_20d": 4.089,
+    "run_peak": 5.11,
+    "pm_high": 2.8,
+    "pm_low": 2.58,
+    "pm_vwap": 2.7
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 12,
+    "finviz_http": 200
+   },
+   "name": "rYojbaba Co. Ltd. Common Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Professional Services",
+   "country": "Japan",
+   "exchange": null,
+   "float": 2300000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "rYojbaba Rings the Nasdaq Stock Market Opening Bell,  Celebrating Its Mission to \"Fight Poverty\" on the Global Stage",
+     "url": "https://finviz.com/news/357948/ryojbaba-rings-the-nasdaq-stock-market-opening-bell-celebrating-its-mission-to-fight-poverty-on-the-global-stage",
+     "source": "Finviz",
+     "time": "2026-05-28T20:05:00+00:00"
+    },
+    {
+     "title": "rYojbaba announce $3.2M Comprehensive Agreement on International Labor Support",
+     "url": "https://finance.yahoo.com/news/ryojbaba-announce-3-2m-comprehensive-134817068.html",
+     "source": "Finviz",
+     "time": "2026-03-04T13:48:00+00:00"
+    },
+    {
+     "title": "rYojbaba Announces $3.2 Million Comprehensive Global Labor Support and Union Infrastructure Development Agreement with International Labor Union",
+     "url": "https://finviz.com/news/328129/ryojbaba-announces-32-million-comprehensive-global-labor-support-and-union-infrastructure-development-agreement-with-international-labor-union",
+     "source": "Finviz",
+     "time": "2026-03-03T13:30:00+00:00"
+    },
+    {
+     "title": "rYojbaba participates in the Guardian Girls Aikido project",
+     "url": "https://finance.yahoo.com/news/ryojbaba-participates-guardian-girls-aikido-135115543.html",
+     "source": "Finviz",
+     "time": "2026-02-24T13:51:00+00:00"
+    }
+   ],
+   "news_age_h": 3376.6,
+   "flags": [
+    "Recent foreign IPO (Japan)"
+   ],
+   "plan": {
+    "entry": 2.592,
+    "stop": 2.36,
+    "target": 3.056,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+90.0% recently). Wait for an early panic flush into 2.48-2.70 (47-51% off the 5.11 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 82.1,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "MB",
+   "price": 3.99,
+   "prev_close": 4.45,
+   "gap_pct": -10.3,
+   "pm": {
+    "last": 3.99,
+    "high": 4.011,
+    "low": 3.99,
+    "vwap": 3.99,
+    "volume": 0
+   },
+   "avg_vol_20d": 6645,
+   "yday_vol": 755500,
+   "rvol": 113.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 99.3,
+   "off_peak_pct": -41.4,
+   "atr14": 0.43,
+   "levels": {
+    "prev_high": 6.81,
+    "prev_low": 3.51,
+    "prev_close": 4.45,
+    "high_5d": 6.81,
+    "high_20d": 4.4,
+    "run_peak": 6.81,
+    "pm_high": 4.011,
+    "pm_low": 3.99,
+    "pm_vwap": 3.99
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 12,
+    "finviz_http": 200
+   },
+   "name": "MasterBeef Group Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Restaurants",
+   "country": "Hong Kong",
+   "exchange": null,
+   "float": 4690000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "MASTERBEEF GROUP Announces Strategic Franchise Partnership to Introduce Premium Thai Tea Beverage and Dessert Franchise in Hong Kong and Macau",
+     "url": "https://finviz.com/news/369141/masterbeef-group-announces-strategic-franchise-partnership-to-introduce-premium-thai-tea-beverage-and-dessert-franchise-in-hong-kong-and-macau",
+     "source": "Finviz",
+     "time": "2026-07-16T13:00:00+00:00"
+    },
+    {
+     "title": "MASTERBEEF GROUP Announces Planned Launch of Premium Thai Tea Beverage and Dessert Franchise in Hong Kong and Macau",
+     "url": "https://finviz.com/news/353431/masterbeef-group-announces-planned-launch-of-premium-thai-tea-beverage-and-dessert-franchise-in-hong-kong-and-macau",
+     "source": "Finviz",
+     "time": "2026-05-12T13:00:00+00:00"
+    },
+    {
+     "title": "MASTERBEEF GROUP Announces Entry into Franchise Agreement to Develop Gelato Shops in Hong Kong",
+     "url": "https://finviz.com/news/335035/masterbeef-group-announces-entry-into-franchise-agreement-to-develop-gelato-shops-in-hong-kong",
+     "source": "Finviz",
+     "time": "2026-03-10T13:00:00+00:00"
+    },
+    {
+     "title": "MasterBeef Group Announces Annual General Meeting Results",
+     "url": "https://finviz.com/news/255057/masterbeef-group-announces-annual-general-meeting-results",
+     "source": "Finviz",
+     "time": "2025-12-16T13:30:00+00:00"
+    }
+   ],
+   "news_age_h": 2207.7,
+   "flags": [
+    "Recent foreign IPO (Hong Kong)"
+   ],
+   "plan": {
+    "entry": 3.83,
+    "stop": 3.487,
+    "target": 4.517,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+99.3% recently). Wait for an early panic flush into 3.67-3.99 (41-46% off the 6.81 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 80.4,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "XLAB",
+   "price": 1.74,
+   "prev_close": 1.36,
+   "gap_pct": 27.9,
+   "pm": {
+    "last": 1.74,
+    "high": 1.87,
+    "low": 1.4,
+    "vwap": 1.74,
+    "volume": 0
+   },
+   "avg_vol_20d": 86800,
+   "yday_vol": 15872600,
+   "rvol": 182.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 74.1,
+   "off_peak_pct": 20.0,
+   "atr14": 0.3,
+   "levels": {
+    "prev_high": 1.45,
+    "prev_low": 0.778,
+    "prev_close": 1.36,
+    "high_5d": 1.45,
+    "high_20d": 3.24,
+    "run_peak": 1.45,
+    "pm_high": 1.87,
+    "pm_low": 1.4,
+    "pm_vwap": 1.74
+   },
+   "green_streak": 1,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 4,
+    "finviz_http": 200
+   },
+   "name": "Exascale Labs Holdings Inc. Class A Common Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
+   "exchange": null,
+   "float": 14270000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Exascale Labs Holdings Inc. Reports 111% Revenue Growth for Full Fiscal Year 2026 and Provides Business Update Following Successful Nasdaq Listing",
+     "url": "https://finviz.com/news/396163/exascale-labs-holdings-inc-reports-111-revenue-growth-for-full-fiscal-year-2026-and-provides-business-update-following-successful-nasdaq-listing",
+     "source": "Finviz",
+     "time": "2026-09-28T20:30:00+00:00"
+    },
+    {
+     "title": "Exascale Labs Announces Post-Closing Board of Directors Featuring Nobel Laureate David Card",
+     "url": "https://finviz.com/news/393807/exascale-labs-announces-post-closing-board-of-directors-featuring-nobel-laureate-david-card",
+     "source": "Finviz",
+     "time": "2026-09-21T12:30:00+00:00"
+    },
+    {
+     "title": "Exascale and Compal Sign Letter of Intent to Build Data-Center-Grade Native 800 VDC Validation Platform",
+     "url": "https://finviz.com/news/391590/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform",
+     "source": "Finviz",
+     "time": "2026-09-14T12:30:00+00:00"
+    },
+    {
+     "title": "Exascale and EnergyBank Sign MOU to Develop AI Compute Powered by Full-Scale Floating Offshore Wind Turbine",
+     "url": "https://finviz.com/news/386927/exascale-and-energybank-sign-mou-to-develop-ai-compute-powered-by-full-scale-floating-offshore-wind-turbine",
+     "source": "Finviz",
+     "time": "2026-08-31T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 424.2,
+   "flags": [
+    "Offering 424B3 filed 2026-07-07",
+    "Shelf/Registration EFFECT filed 2026-07-01"
+   ],
+   "plan": {
+    "entry": 1.87,
+    "stop": 1.74,
+    "target": 2.13,
+    "risk_pct": 7.0,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 74.9,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "FLYE",
+   "price": 3.49,
+   "prev_close": 3.38,
+   "gap_pct": 3.3,
+   "pm": {
+    "last": 3.49,
+    "high": 3.5,
+    "low": 3.401,
+    "vwap": 3.49,
+    "volume": 0
+   },
+   "avg_vol_20d": 103065,
+   "yday_vol": 2122100,
+   "rvol": 20.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 223.6,
+   "off_peak_pct": -44.7,
+   "atr14": 0.686,
+   "levels": {
+    "prev_high": 4.12,
+    "prev_low": 3.36,
+    "prev_close": 3.38,
+    "high_5d": 6.31,
+    "high_20d": 6.31,
+    "run_peak": 6.31,
+    "pm_high": 3.5,
+    "pm_low": 3.401,
+    "pm_vwap": 3.49
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Fly-E Group Inc. Common Stock",
+   "sector": "Industrials",
+   "industry": "Aerospace",
+   "country": "United States",
+   "exchange": null,
+   "float": 1560000.0,
+   "short_pct_float": null,
    "news": [
     {
      "title": "Fly-E Group, Inc. Announces First Quarter of Fiscal Year 2027 Financial Results",
@@ -704,334 +1062,39 @@
      "time": "2026-04-21T23:00:00+00:00"
     }
    ],
-   "news_age_h": 1047.1,
+   "news_age_h": 1071.1,
    "flags": [
     "Reverse split 1:20 on 2025-11-04"
    ],
    "plan": {
-    "entry": 3.514,
-    "stop": 3.199,
-    "target": 4.143,
+    "entry": 3.35,
+    "stop": 3.05,
+    "target": 3.951,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+417.2% recently). Wait for an early panic flush into 3.37-3.66 (42-47% off the 6.31 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+223.6% recently). Wait for an early panic flush into 3.21-3.49 (45-49% off the 6.31 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 83.0,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "JBDI",
-   "price": 2.48,
-   "prev_close": 2.51,
-   "gap_pct": -1.2,
-   "pm": {
-    "last": 2.48,
-    "high": 3.74,
-    "low": 2.18,
-    "vwap": 2.48,
-    "volume": 0
-   },
-   "avg_vol_20d": 17900,
-   "yday_vol": 3874700,
-   "rvol": 216.5,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 1083.1,
-   "off_peak_pct": -73.9,
-   "atr14": 0.775,
-   "levels": {
-    "prev_high": 2.75,
-    "prev_low": 2.054,
-    "prev_close": 2.51,
-    "high_5d": 9.5,
-    "high_20d": 9.5,
-    "run_peak": 9.5,
-    "pm_high": 3.74,
-    "pm_low": 2.18,
-    "pm_vwap": 2.48
-   },
-   "green_streak": 0,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 12,
-    "finviz_http": 200
-   },
-   "name": "JBDI Holdings Limited",
-   "sector": "Consumer Cyclical",
-   "industry": "Specialty Retail",
-   "country": "Singapore",
-   "exchange": "NCM",
-   "float": 5041655.0,
-   "short_pct_float": 0.5,
-   "news": [
-    {
-     "title": "JBDI HOLDINGS ANNOUNCES RECEIPT OF NASDAQ DETERMINATION LETTER",
-     "url": "https://finviz.com/news/368656/jbdi-holdings-announces-receipt-of-nasdaq-determination-letter",
-     "source": "Finviz",
-     "time": "2026-07-15T18:03:00+00:00"
-    },
-    {
-     "title": "JBDI Holdings Limited Announces Reverse Stock Split",
-     "url": "https://finviz.com/news/362117/jbdi-holdings-limited-announces-reverse-stock-split",
-     "source": "Finviz",
-     "time": "2026-06-16T14:45:00+00:00"
-    },
-    {
-     "title": "JBDI Holdings Announces Receipt of Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard",
-     "url": "https://finviz.com/news/276606/jbdi-holdings-announces-receipt-of-notice-of-delisting-or-failure-to-satisfy-a-continued-listing-rule-or-standard",
-     "source": "Finviz",
-     "time": "2026-01-14T18:52:00+00:00"
-    },
-    {
-     "title": "JBDI Holdings Reports Financial Results for Fiscal Year Ended May 31, 2025",
-     "url": "https://finviz.com/news/193094/jbdi-holdings-reports-financial-results-for-fiscal-year-ended-may-31-2025",
-     "source": "Finviz",
-     "time": "2025-10-15T11:00:00+00:00"
-    }
-   ],
-   "news_age_h": 2202.7,
-   "flags": [
-    "Reverse split 1:2 on 2026-06-30"
-   ],
-   "plan": {
-    "entry": 2.381,
-    "stop": 2.168,
-    "target": 2.807,
-    "risk_pct": 9.0,
-    "rr": 2.0,
-    "note": "Former runner (+1083.1% recently). Wait for an early panic flush into 2.28-2.48 (74-76% off the 9.50 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 76.4,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "SUMA",
-   "price": 9.96,
-   "prev_close": 9.96,
-   "gap_pct": 0.0,
-   "pm": null,
-   "avg_vol_20d": 3515,
-   "yday_vol": 300300,
-   "rvol": 85.4,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 0.2,
-   "off_peak_pct": -0.1,
-   "atr14": 0.004,
-   "levels": {
-    "prev_high": 9.97,
-    "prev_low": 9.96,
-    "prev_close": 9.96,
-    "high_5d": 9.97,
-    "high_20d": 9.97,
-    "run_peak": 9.97,
-    "pm_high": null,
-    "pm_low": null,
-    "pm_vwap": null
-   },
-   "green_streak": 0,
-   "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 0,
-    "finviz_http": 200
-   },
-   "name": "SUMA Acquisition Corporation",
-   "sector": "Financial Services",
-   "industry": "Shell Companies",
-   "country": "United States",
-   "exchange": "NGM",
-   "float": 13244318.0,
-   "short_pct_float": null,
-   "news": [],
-   "news_age_h": null,
-   "flags": [
-    "SPAC"
-   ],
-   "plan": {
-    "entry": 9.97,
-    "stop": 9.661,
-    "target": 10.588,
-    "risk_pct": 3.1,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 67.8,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "ILAG",
-   "price": 3.16,
-   "prev_close": 3.16,
-   "gap_pct": 0.0,
-   "pm": null,
-   "avg_vol_20d": 1315,
-   "yday_vol": 49700,
-   "rvol": 37.8,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 57.3,
-   "off_peak_pct": -14.1,
-   "atr14": 0.279,
-   "levels": {
-    "prev_high": 3.216,
-    "prev_low": 2.6,
-    "prev_close": 3.16,
-    "high_5d": 3.68,
-    "high_20d": 3.68,
-    "run_peak": 3.68,
-    "pm_high": null,
-    "pm_low": null,
-    "pm_vwap": null
-   },
-   "green_streak": 0,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Intelligent Living Application ",
-   "sector": "Industrials",
-   "industry": "Building Products & Equipment",
-   "country": "Hong Kong",
-   "exchange": "NCM",
-   "float": 986446.0,
-   "short_pct_float": 0.2,
-   "news": [
-    {
-     "title": "Intelligent Living Application Group Inc. Announces 1-for-10 Share Consolidation (Reverse Stock Split)",
-     "url": "https://finviz.com/news/262591/intelligent-living-application-group-inc-announces-1-for-10-share-consolidation-reverse-stock-split",
-     "source": "Finviz",
-     "time": "2025-12-26T16:30:00+00:00"
-    },
-    {
-     "title": "Intelligent Living Application Group Inc. Announces First Half 2025 Unaudited Financial Results",
-     "url": "https://finviz.com/news/260458/intelligent-living-application-group-inc-announces-first-half-2025-unaudited-financial-results",
-     "source": "Finviz",
-     "time": "2025-12-22T22:00:00+00:00"
-    },
-    {
-     "title": "Intelligent Living Application Group Inc. Announces the Launch of its Smart Lock to Play a Role in $4.95 Billion Market",
-     "url": "https://www.prnewswire.com/news-releases/intelligent-living-application-group-inc-announces-the-launch-of-its-smart-lock-to-play-a-role-in-4-95-billion-market-302394592.html",
-     "source": "Finviz",
-     "time": "2025-03-06T13:30:00+00:00"
-    },
-    {
-     "title": "Intelligent Living Application Group Inc. Announces Closing of $600,000 Public Offering of Ordinary Shares",
-     "url": "https://www.prnewswire.com/news-releases/intelligent-living-application-group-inc-announces-closing-of-600-000-public-offering-of-ordinary-shares-302387588.html",
-     "source": "Finviz",
-     "time": "2025-02-27T21:30:00+00:00"
-    }
-   ],
-   "news_age_h": 7028.3,
-   "flags": [
-    "Reverse split 1:10 on 2025-12-30"
-   ],
-   "plan": {
-    "entry": 2.576,
-    "stop": 2.272,
-    "target": 3.183,
-    "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+57.3% recently). Wait for an early panic flush into 2.39-2.76 (25-35% off the 3.68 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 65.4,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "AACO",
-   "price": 9.98,
-   "prev_close": 9.98,
-   "gap_pct": 0.0,
-   "pm": null,
-   "avg_vol_20d": 5890,
-   "yday_vol": 340000,
-   "rvol": 57.7,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 0.0,
-   "off_peak_pct": 0.0,
-   "atr14": 0.002,
-   "levels": {
-    "prev_high": 9.98,
-    "prev_low": 9.98,
-    "prev_close": 9.98,
-    "high_5d": 9.98,
-    "high_20d": 10.0,
-    "run_peak": 9.98,
-    "pm_high": null,
-    "pm_low": null,
-    "pm_vwap": null
-   },
-   "green_streak": 0,
-   "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 0,
-    "finviz_http": 200
-   },
-   "name": "Abony Acquisition Corp. I",
-   "sector": "Financial Services",
-   "industry": "Shell Companies",
-   "country": "United States",
-   "exchange": "NGM",
-   "float": 19479986.0,
-   "short_pct_float": null,
-   "news": [],
-   "news_age_h": null,
-   "flags": [
-    "SPAC"
-   ],
-   "plan": {
-    "entry": 9.98,
-    "stop": 9.681,
-    "target": 10.579,
-    "risk_pct": 3.0,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 61.5,
+   "score": 45.5,
    "failed": [
     "no fresh news"
    ]
   }
  ],
  "stats": {
-  "universe": 6634,
-  "with_history": 2736,
-  "scanned_premarket": 2254,
+  "universe": 6617,
+  "with_history": 2710,
+  "scanned_premarket": 2250,
   "setup_candidates": 45,
   "qualified": 7,
   "news_sources": {
    "yf_raw": 0,
    "yf": 0,
    "yahoo_search": 0,
-   "finviz": 36
+   "finviz": 33
   },
   "finviz_http": [
-   "200"
+   "200",
+   "404"
   ]
  }
 }

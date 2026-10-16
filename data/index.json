@@ -1,5 +1,19 @@
 [
  {
+  "date": "2026-10-16",
+  "count": 7,
+  "tickers": [
+   "JG",
+   "GENK",
+   "CLWT",
+   "WETO",
+   "NWTG",
+   "NXGL",
+   "NRXS"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-15",
   "count": 7,
   "tickers": [

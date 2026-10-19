@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-10-19",
+  "count": 4,
+  "tickers": [
+   "POAS",
+   "MRKR",
+   "JG",
+   "GENK"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-16",
   "count": 7,
   "tickers": [

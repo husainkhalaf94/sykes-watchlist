@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-10-20",
+  "count": 5,
+  "tickers": [
+   "WORX",
+   "EXYN",
+   "YHC",
+   "LCU",
+   "YMAT"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-19",
   "count": 4,
   "tickers": [

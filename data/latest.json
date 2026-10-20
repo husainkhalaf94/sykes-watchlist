@@ -1,6 +1,6 @@
 {
- "date": "2026-10-19",
- "generated_at": "2026-10-19T08:46:08.797765-04:00",
+ "date": "2026-10-20",
+ "generated_at": "2026-10-20T08:45:08.034574-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -17,34 +17,112 @@
  },
  "picks": [
   {
-   "symbol": "POAS",
-   "price": 2.568,
-   "prev_close": 2.65,
-   "gap_pct": -3.1,
+   "symbol": "WORX",
+   "price": 4.04,
+   "prev_close": 2.68,
+   "gap_pct": 50.7,
    "pm": {
-    "last": 2.568,
-    "high": 2.8,
-    "low": 2.512,
-    "vwap": 2.568,
+    "last": 4.04,
+    "high": 4.29,
+    "low": 3.12,
+    "vwap": 4.04,
     "volume": 0
    },
-   "avg_vol_20d": 13378,
-   "yday_vol": 887400,
-   "rvol": 66.3,
+   "avg_vol_20d": 165095,
+   "yday_vol": 118069600,
+   "rvol": 715.2,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 70.9,
-   "off_peak_pct": -18.5,
-   "atr14": 0.393,
+   "run_pct_5d": 100.5,
+   "off_peak_pct": 7.2,
+   "atr14": 1.437,
    "levels": {
-    "prev_high": 3.15,
-    "prev_low": 2.1,
-    "prev_close": 2.65,
-    "high_5d": 3.15,
-    "high_20d": 2.805,
-    "run_peak": 3.15,
-    "pm_high": 2.8,
-    "pm_low": 2.512,
-    "pm_vwap": 2.568
+    "prev_high": 3.77,
+    "prev_low": 1.35,
+    "prev_close": 2.68,
+    "high_5d": 3.77,
+    "high_20d": 7.48,
+    "run_peak": 3.77,
+    "pm_high": 4.29,
+    "pm_low": 3.12,
+    "pm_vwap": 4.04
+   },
+   "green_streak": 1,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 2,
+    "finviz_http": 200
+   },
+   "name": "SCWorx Corp. Common Stock",
+   "sector": "Consumer Discretionary",
+   "industry": "Services-Misc. Amusement & Recreation",
+   "country": "United States",
+   "exchange": null,
+   "float": 550000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "SCWorx Announces New Agreement with Healthcare System",
+     "url": "https://finviz.com/news/404085/scworx-announces-new-agreement-with-healthcare-system",
+     "source": "Finviz",
+     "time": "2026-10-19T14:10:00+00:00"
+    },
+    {
+     "title": "SCWorx Announces Resumption of Nasdaq Trading and Highlights Improved Operating Performance and Growth Strategy",
+     "url": "https://finviz.com/news/399985/scworx-announces-resumption-of-nasdaq-trading-and-highlights-improved-operating-performance-and-growth-strategy",
+     "source": "Finviz",
+     "time": "2026-10-07T18:23:00+00:00"
+    }
+   ],
+   "news_age_h": 22.6,
+   "flags": [
+    "Shelf/Registration S-3 filed 2026-10-16",
+    "Reverse split 1:15 on 2026-04-10",
+    "Reverse split 1:12 on 2026-08-04"
+   ],
+   "plan": {
+    "entry": 4.29,
+    "stop": 4.04,
+    "target": 4.79,
+    "risk_pct": 5.8,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 101.4
+  },
+  {
+   "symbol": "EXYN",
+   "price": 2.62,
+   "prev_close": 2.72,
+   "gap_pct": -3.7,
+   "pm": {
+    "last": 2.62,
+    "high": 2.75,
+    "low": 2.55,
+    "vwap": 2.62,
+    "volume": 0
+   },
+   "avg_vol_20d": 72795,
+   "yday_vol": 23175800,
+   "rvol": 318.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 86.0,
+   "off_peak_pct": -21.3,
+   "atr14": 0.345,
+   "levels": {
+    "prev_high": 3.33,
+    "prev_low": 1.94,
+    "prev_close": 2.72,
+    "high_5d": 3.33,
+    "high_20d": 2.89,
+    "run_peak": 3.33,
+    "pm_high": 2.75,
+    "pm_low": 2.55,
+    "pm_vwap": 2.62
    },
    "green_streak": 1,
    "setups": [
@@ -54,614 +132,175 @@
     "yf_raw": 0,
     "yf": 0,
     "yahoo_search": 0,
-    "finviz": 12,
+    "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Phaos Technology Holdings (Cayman) Limited Class A Ordinary Shares",
-   "sector": "Industrials",
-   "industry": "Industrial Machinery/Components",
-   "country": "",
+   "name": "Exyn Technologies Inc. Common Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
    "exchange": null,
-   "float": 770000.0,
+   "float": 4139999.9999999995,
    "short_pct_float": null,
    "news": [
     {
-     "title": "Phaos Technology Holdings (Cayman) Limited Announces Filing of Annual Report on Form 20-F for Fiscal Year 2026",
-     "url": "https://finviz.com/news/403711/phaos-technology-holdings-cayman-limited-announces-filing-of-annual-report-on-form-20-f-for-fiscal-year-2026",
+     "title": "Exyn Technologies Interim CEO Ben Williams to Appear Today on FOX Business Network's \"Varney &amp; Company\" at Approximately 9:50 a.m. ET",
+     "url": "https://finviz.com/news/404063/exyn-technologies-interim-ceo-ben-williams-to-appear-today-on-fox-business-networks-varney-company-at-approximately-9-50-am-et",
+     "source": "Finviz",
+     "time": "2026-10-19T13:30:00+00:00"
+    },
+    {
+     "title": "Exyn Technologies Joins National Laboratory-Led Autonomous Mining Project Selected Under DOE's $29.5 Million Mine of the Future Initiative",
+     "url": "https://finviz.com/news/404026/exyn-technologies-joins-national-laboratory-led-autonomous-mining-project-selected-under-does-295-million-mine-of-the-future-initiative",
+     "source": "Finviz",
+     "time": "2026-10-19T13:00:00+00:00"
+    },
+    {
+     "title": "Exyn Technologies CEO Letter Highlights Growing Pipeline and Accelerating Momentum in Defense and Physical AI",
+     "url": "https://finviz.com/news/396009/exyn-technologies-ceo-letter-highlights-growing-pipeline-and-accelerating-momentum-in-defense-and-physical-ai",
+     "source": "Finviz",
+     "time": "2026-09-28T13:05:00+00:00"
+    },
+    {
+     "title": "Exyn Technologies Extends ExynAI Autonomy to CHCNAV's X500 Drone, Expanding Its Third-Party Robotics Ecosystem",
+     "url": "https://finviz.com/news/392236/exyn-technologies-extends-exynai-autonomy-to-chcnavs-x500-drone-expanding-its-third-party-robotics-ecosystem",
+     "source": "Finviz",
+     "time": "2026-09-15T13:45:00+00:00"
+    }
+   ],
+   "news_age_h": 23.2,
+   "flags": [
+    "Offering 424B3 filed 2026-08-20",
+    "Shelf/Registration EFFECT filed 2026-07-02",
+    "Shelf/Registration S-1 filed 2026-06-29"
+   ],
+   "plan": {
+    "entry": 2.331,
+    "stop": 2.056,
+    "target": 2.88,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+86.0% recently). Wait for an early panic flush into 2.16-2.50 (25-35% off the 3.33 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 78.7
+  },
+  {
+   "symbol": "YHC",
+   "price": 1.86,
+   "prev_close": 1.98,
+   "gap_pct": -6.1,
+   "pm": {
+    "last": 1.86,
+    "high": 1.95,
+    "low": 1.847,
+    "vwap": 1.86,
+    "volume": 0
+   },
+   "avg_vol_20d": 86750,
+   "yday_vol": 3597100,
+   "rvol": 41.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 72.4,
+   "off_peak_pct": -15.1,
+   "atr14": 0.242,
+   "levels": {
+    "prev_high": 2.19,
+    "prev_low": 1.43,
+    "prev_close": 1.98,
+    "high_5d": 2.19,
+    "high_20d": 2.19,
+    "run_peak": 2.19,
+    "pm_high": 1.95,
+    "pm_low": 1.847,
+    "pm_vwap": 1.86
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "LQR House Inc. Common Stock",
+   "sector": "Consumer Staples",
+   "industry": "Beverages (Production/Distribution)",
+   "country": "United States",
+   "exchange": null,
+   "float": 1270000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "LQR House Announces One-Year Agreement for the Purchase of up to $3 Million in OpenAI Computing Resources to Enhance Fusion Five Continents Securities' Research and Quantitative Capabilities",
+     "url": "https://www.newsfilecorp.com/release/319686/LQR-House-Announces-OneYear-Agreement-for-the-Purchase-of-up-to-3-Million-in-OpenAI-Computing-Resources-to-Enhance-Fusion-Five-Continents-Securities-Research-and-Quantitative-Capabilities",
+     "source": "Finviz",
+     "time": "2026-10-19T13:13:00+00:00"
+    },
+    {
+     "title": "LQR House Inc. Announces CEO Transition",
+     "url": "https://finviz.com/news/403713/lqr-house-inc-announces-ceo-transition",
      "source": "Finviz",
      "time": "2026-10-16T22:30:00+00:00"
     },
     {
-     "title": "Phaos Technology Holdings (Cayman) Limited Announces One-For-Fifteen Reverse Stock Split",
-     "url": "https://finviz.com/news/398270/phaos-technology-holdings-cayman-limited-announces-one-for-fifteen-reverse-stock-split",
+     "title": "LQR House Inc. Announces 1-for-100 Reverse Stock Split",
+     "url": "https://www.businesswire.com/news/home/20260709914468/en/",
      "source": "Finviz",
-     "time": "2026-10-02T12:30:00+00:00"
+     "time": "2026-07-09T12:45:00+00:00"
     },
     {
-     "title": "Phaos Technology Holdings (Cayman) Limited Announces Entry Into Securities Purchase Agreement for an Equity Facility of Up to US$10 Million",
-     "url": "https://finviz.com/news/397888/phaos-technology-holdings-cayman-limited-announces-entry-into-securities-purchase-agreement-for-an-equity-facility-of-up-to-us10-million",
+     "title": "LQR House Signs Two-Year ByteDance Agreement Deploying AI Compute to Power Quantitative Research at Fusion Five Continents Securities",
+     "url": "https://www.businesswire.com/news/home/20260630264325/en/",
      "source": "Finviz",
-     "time": "2026-10-01T14:04:00+00:00"
-    },
-    {
-     "title": "Phaos Technology Holdings (Cayman) Limited Announces Update on Involvement of Related Parties",
-     "url": "https://finviz.com/news/393521/phaos-technology-holdings-cayman-limited-announces-update-on-involvement-of-related-parties",
-     "source": "Finviz",
-     "time": "2026-09-18T12:58:00+00:00"
+     "time": "2026-06-30T12:06:00+00:00"
     }
    ],
-   "news_age_h": 62.3,
+   "news_age_h": 23.5,
    "flags": [
-    "Shelf/Registration F-1/A filed 2026-08-11",
-    "Reverse split 1:15 on 2026-10-12"
+    "Reverse split 1:100 on 2026-07-13"
    ],
    "plan": {
-    "entry": 2.205,
-    "stop": 1.945,
-    "target": 2.725,
+    "entry": 1.533,
+    "stop": 1.352,
+    "target": 1.98,
     "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+70.9% recently). Wait for an early panic flush into 2.05-2.36 (25-35% off the 3.15 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.5,
+    "note": "Former runner (+72.4% recently). Wait for an early panic flush into 1.42-1.64 (25-35% off the 2.19 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 78.5
+   "score": 78.2
   },
   {
-   "symbol": "MRKR",
-   "price": 1.074,
-   "prev_close": 1.04,
-   "gap_pct": 3.3,
+   "symbol": "LCU",
+   "price": 4.95,
+   "prev_close": 5.7,
+   "gap_pct": -13.2,
    "pm": {
-    "last": 1.074,
-    "high": 1.17,
-    "low": 1.06,
-    "vwap": 1.074,
+    "last": 4.95,
+    "high": 5.44,
+    "low": 4.639,
+    "vwap": 4.95,
     "volume": 0
    },
-   "avg_vol_20d": 66900,
-   "yday_vol": 1146100,
-   "rvol": 17.1,
+   "avg_vol_20d": 3955,
+   "yday_vol": 75700,
+   "rvol": 19.1,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 36.4,
-   "off_peak_pct": -10.5,
-   "atr14": 0.089,
+   "run_pct_5d": 83.0,
+   "off_peak_pct": -27.1,
+   "atr14": 0.634,
    "levels": {
-    "prev_high": 1.2,
-    "prev_low": 1.0,
-    "prev_close": 1.04,
-    "high_5d": 1.2,
-    "high_20d": 1.31,
-    "run_peak": 1.2,
-    "pm_high": 1.17,
-    "pm_low": 1.06,
-    "pm_vwap": 1.074
-   },
-   "green_streak": 2,
-   "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Marker Therapeutics Inc. Common Stock",
-   "sector": "Health Care",
-   "industry": "Biotechnology: Pharmaceutical Preparations",
-   "country": "United States",
-   "exchange": null,
-   "float": 13500000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Marker Therapeutics Awarded $2.6 Million FDA Orphan Products Development Grant to Advance MT-601 in Pancreatic Cancer",
-     "url": "https://finviz.com/news/403814/marker-therapeutics-awarded-26-million-fda-orphan-products-development-grant-to-advance-mt-601-in-pancreatic-cancer",
-     "source": "Finviz",
-     "time": "2026-10-19T11:00:00+00:00"
-    },
-    {
-     "title": "Marker Therapeutics Highlights Expanded Manufacturing Support of CDMO Partner Following Formation of Kincellis Advanced Therapies",
-     "url": "https://finviz.com/news/394187/marker-therapeutics-highlights-expanded-manufacturing-support-of-cdmo-partner-following-formation-of-kincellis-advanced-therapies",
-     "source": "Finviz",
-     "time": "2026-09-22T12:00:00+00:00"
-    },
-    {
-     "title": "Marker Therapeutics Reports Year-End 2025 Corporate and Financial Results",
-     "url": "https://finviz.com/news/338503/marker-therapeutics-reports-year-end-2025-corporate-and-financial-results",
-     "source": "Finviz",
-     "time": "2026-03-18T21:31:00+00:00"
-    },
-    {
-     "title": "Profound Medical (PROF) Reports Q4 Loss, Misses Revenue Estimates",
-     "url": "https://finviz.com/news/331629/profound-medical-prof-reports-q4-loss-misses-revenue-estimates",
-     "source": "Finviz",
-     "time": "2026-03-05T22:20:00+00:00"
-    }
-   ],
-   "news_age_h": 1.8,
-   "flags": [],
-   "plan": {
-    "entry": 1.2,
-    "stop": 1.104,
-    "target": 1.392,
-    "risk_pct": 8.0,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 49.4
-  },
-  {
-   "symbol": "JG",
-   "price": 8.8,
-   "prev_close": 8.8,
-   "gap_pct": 0.0,
-   "pm": null,
-   "avg_vol_20d": 3765,
-   "yday_vol": 42200,
-   "rvol": 11.2,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 62.0,
-   "off_peak_pct": -15.1,
-   "atr14": 0.873,
-   "levels": {
-    "prev_high": 9.59,
-    "prev_low": 7.7,
-    "prev_close": 8.8,
-    "high_5d": 10.37,
-    "high_20d": 10.37,
-    "run_peak": 10.37,
-    "pm_high": null,
-    "pm_low": null,
-    "pm_vwap": null
-   },
-   "green_streak": 1,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Aurora Mobile Limited American Depositary Shares",
-   "sector": "Technology",
-   "industry": "Computer Software: Programming Data Processing",
-   "country": "China",
-   "exchange": null,
-   "float": 4240000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Aurora Mobile's JPush Enhances Channel Communications and End-User Reach for Prinx Chengshan",
-     "url": "https://finviz.com/news/403506/aurora-mobiles-jpush-enhances-channel-communications-and-end-user-reach-for-prinx-chengshan",
-     "source": "Finviz",
-     "time": "2026-10-16T11:00:00+00:00"
-    },
-    {
-     "title": "Aurora Mobile's GPTBots.ai Helps NTS Turn 38 Years of Contact Center Expertise into Human-Led AI",
-     "url": "https://finviz.com/news/402857/aurora-mobiles-gptbotsai-helps-nts-turn-38-years-of-contact-center-expertise-into-human-led-ai",
-     "source": "Finviz",
-     "time": "2026-10-15T11:00:00+00:00"
-    },
-    {
-     "title": "Aurora Mobile's JPush Strengthens Shennong Group's Messaging Infrastructure to Support Timely Delivery of Critical Business Information",
-     "url": "https://finviz.com/news/400780/aurora-mobiles-jpush-strengthens-shennong-groups-messaging-infrastructure-to-support-timely-delivery-of-critical-business-information",
-     "source": "Finviz",
-     "time": "2026-10-09T11:00:00+00:00"
-    },
-    {
-     "title": "Aurora Mobile's GPTBots.ai Helps Ruko Cut Support Ticket Response Time from Two Hours to Under 10 Minutes",
-     "url": "https://finviz.com/news/396304/aurora-mobiles-gptbotsai-helps-ruko-cut-support-ticket-response-time-from-two-hours-to-under-10-minutes",
-     "source": "Finviz",
-     "time": "2026-09-29T11:00:00+00:00"
-    }
-   ],
-   "news_age_h": 73.8,
-   "flags": [],
-   "plan": {
-    "entry": 7.259,
-    "stop": 6.403,
-    "target": 8.97,
-    "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+62.0% recently). Wait for an early panic flush into 6.74-7.78 (25-35% off the 10.37 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 33.2
-  },
-  {
-   "symbol": "GENK",
-   "price": 1.662,
-   "prev_close": 1.69,
-   "gap_pct": -1.7,
-   "pm": {
-    "last": 1.662,
-    "high": 1.67,
-    "low": 1.615,
-    "vwap": 1.662,
-    "volume": 0
-   },
-   "avg_vol_20d": 36990,
-   "yday_vol": 371100,
-   "rvol": 10.0,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 82.7,
-   "off_peak_pct": -34.3,
-   "atr14": 0.211,
-   "levels": {
-    "prev_high": 1.75,
-    "prev_low": 1.6,
-    "prev_close": 1.69,
-    "high_5d": 2.53,
-    "high_20d": 2.53,
-    "run_peak": 2.53,
-    "pm_high": 1.67,
-    "pm_low": 1.615,
-    "pm_vwap": 1.662
-   },
-   "green_streak": 0,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "GEN Restaurant Group Inc. Class A Common Stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Restaurants",
-   "country": "United States",
-   "exchange": null,
-   "float": 6560000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Chubby Group Closes $50M Series A Led by Prysm Capital at $500M Valuation; Signs Deal to Purchase 47 GEN Korean BBQ Restaurants",
-     "url": "https://finviz.com/news/403195/chubby-group-closes-50m-series-a-led-by-prysm-capital-at-500m-valuation-signs-deal-to-purchase-47-gen-korean-bbq-restaurants",
-     "source": "Finviz",
-     "time": "2026-10-15T14:53:00+00:00"
-    },
-    {
-     "title": "GEN signs $100m restaurant deal with Chubby Group",
-     "url": "https://finance.yahoo.com/news/gen-signs-100m-restaurant-deal-135122206.html",
-     "source": "Finviz",
-     "time": "2026-10-15T13:51:00+00:00"
-    },
-    {
-     "title": "Gen Korean restaurants will be sold to Chubby Cattle Group for $100 million",
-     "url": "https://www.nrn.com/mergers-acquisitions/gen-korean-restaurants-will-be-sold-to-chubby-cattle-group-for-100-million",
-     "source": "Finviz",
-     "time": "2026-10-14T13:34:00+00:00"
-    },
-    {
-     "title": "Gen Restaurant Group sells 47 restaurants for $100M to Chubby Cattle Group",
-     "url": "https://finance.yahoo.com/small-business/articles/gen-restaurant-group-sells-47-123900361.html",
-     "source": "Finviz",
-     "time": "2026-10-14T12:39:00+00:00"
-    }
-   ],
-   "news_age_h": 93.9,
-   "flags": [
-    "Shelf/Registration EFFECT filed 2026-10-08",
-    "Offering 424B3 filed 2026-10-08",
-    "Shelf/Registration S-1 filed 2026-09-30",
-    "Offering 424B5 filed 2026-08-10"
-   ],
-   "plan": {
-    "entry": 1.596,
-    "stop": 1.453,
-    "target": 1.881,
-    "risk_pct": 9.0,
-    "rr": 2.0,
-    "note": "Former runner (+82.7% recently). Wait for an early panic flush into 1.53-1.66 (34-40% off the 2.53 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 18.1
-  }
- ],
- "near_misses": [
-  {
-   "symbol": "CTSO",
-   "price": 3.89,
-   "prev_close": 4.11,
-   "gap_pct": -5.4,
-   "pm": {
-    "last": 3.89,
-    "high": 4.22,
-    "low": 3.8,
-    "vwap": 3.89,
-    "volume": 0
-   },
-   "avg_vol_20d": 11025,
-   "yday_vol": 678400,
-   "rvol": 61.5,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 62.0,
-   "off_peak_pct": -15.4,
-   "atr14": 0.445,
-   "levels": {
-    "prev_high": 4.6,
-    "prev_low": 3.01,
-    "prev_close": 4.11,
-    "high_5d": 4.6,
-    "high_20d": 6.0,
-    "run_peak": 4.6,
-    "pm_high": 4.22,
-    "pm_low": 3.8,
-    "pm_vwap": 3.89
-   },
-   "green_streak": 1,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Cytosorbents Corporation Common Stock",
-   "sector": "Health Care",
-   "industry": "Medical/Dental Instruments",
-   "country": "United States",
-   "exchange": null,
-   "float": 2710000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "CytoSorbents Announces New Data Presentations at Upcoming International Conferences in Cardiac Surgery and Critical Care",
-     "url": "https://finviz.com/news/396886/cytosorbents-announces-new-data-presentations-at-upcoming-international-conferences-in-cardiac-surgery-and-critical-care",
-     "source": "Finviz",
-     "time": "2026-09-30T11:00:00+00:00"
-    },
-    {
-     "title": "CytoSorbents Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-     "url": "https://finviz.com/news/394577/cytosorbents-regains-compliance-with-nasdaq-minimum-bid-price-requirement",
-     "source": "Finviz",
-     "time": "2026-09-23T11:00:00+00:00"
-    },
-    {
-     "title": "CytoSorbents to Present at the H.C. Wainwright 28th Annual Global Investment Conference",
-     "url": "https://finviz.com/news/390623/cytosorbents-to-present-at-the-hc-wainwright-28th-annual-global-investment-conference",
-     "source": "Finviz",
-     "time": "2026-09-10T11:00:00+00:00"
-    },
-    {
-     "title": "CytoSorbents to Present at the Moody Capital Solutions 2026 Disruptive Growth &amp; Life Sciences Conference",
-     "url": "https://www.newsfilecorp.com/release/312850/CytoSorbents-to-Present-at-the-Moody-Capital-Solutions-2026-Disruptive-Growth-Life-Sciences-Conference",
-     "source": "Finviz",
-     "time": "2026-09-04T13:09:00+00:00"
-    }
-   ],
-   "news_age_h": 457.8,
-   "flags": [
-    "Reverse split 1:20 on 2026-09-08"
-   ],
-   "plan": {
-    "entry": 3.22,
-    "stop": 2.84,
-    "target": 4.11,
-    "risk_pct": 11.8,
-    "rr": 2.3,
-    "note": "Former runner (+62.0% recently). Wait for an early panic flush into 2.99-3.45 (25-35% off the 4.60 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 80.4,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "TC",
-   "price": 1.43,
-   "prev_close": 1.47,
-   "gap_pct": -2.7,
-   "pm": {
-    "last": 1.43,
-    "high": 1.43,
-    "low": 1.37,
-    "vwap": 1.43,
-    "volume": 0
-   },
-   "avg_vol_20d": 18990,
-   "yday_vol": 889100,
-   "rvol": 46.8,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 219.2,
-   "off_peak_pct": -65.5,
-   "atr14": 0.324,
-   "levels": {
-    "prev_high": 1.48,
-    "prev_low": 1.25,
-    "prev_close": 1.47,
-    "high_5d": 4.15,
-    "high_20d": 4.15,
-    "run_peak": 4.15,
-    "pm_high": 1.43,
-    "pm_low": 1.37,
-    "pm_vwap": 1.43
-   },
-   "green_streak": 3,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Token Cat Limited American Depositary Shares",
-   "sector": "Consumer Discretionary",
-   "industry": "Business Services",
-   "country": "China",
-   "exchange": null,
-   "float": 1380000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "AZI Plans to Subscribe for US$100 Million of Token Cat Limited Shares at US$30 per Share, Strengthening Automotive Group-Buying Channels and Supporting AZI's Global Expansion Strategy",
-     "url": "https://finviz.com/news/255989/azi-plans-to-subscribe-for-us100-million-of-token-cat-limited-shares-at-us30-per-share-strengthening-automotive-group-buying-channels-and-supporting-azis-global-expansion-strategy",
-     "source": "Finviz",
-     "time": "2025-12-17T12:15:00+00:00"
-    },
-    {
-     "title": "Token Cat Limited Announces Execution of a Master Service Agreement with Better Now New York Inc to Develop a 30MW AI Data Center in the United States",
-     "url": "https://finviz.com/news/254932/token-cat-limited-announces-execution-of-a-master-service-agreement-with-better-now-new-york-inc-to-develop-a-30mw-ai-data-center-in-the-united-states",
-     "source": "Finviz",
-     "time": "2025-12-16T12:15:00+00:00"
-    },
-    {
-     "title": "Following the Appointment of Sav Persico as Chief Operating Officer, Token Cat Limited Board Approves $1 Billion Crypto Asset Investment Policy",
-     "url": "https://finviz.com/news/242971/following-the-appointment-of-sav-persico-as-chief-operating-officer-token-cat-limited-board-approves-1-billion-crypto-asset-investment-policy",
-     "source": "Finviz",
-     "time": "2025-12-02T12:15:00+00:00"
-    },
-    {
-     "title": "Token Cat Limited Appoints Renowned Blockchain Expert Sav Persico as Chief Operating Officer to Accelerate the Company's Cryptocurrency and crypto Asset Transformation Strategy",
-     "url": "https://finviz.com/news/239366/token-cat-limited-appoints-renowned-blockchain-expert-sav-persico-as-chief-operating-officer-to-accelerate-the-companys-cryptocurrency-and-crypto-asset-transformation-strategy",
-     "source": "Finviz",
-     "time": "2025-11-26T12:15:00+00:00"
-    }
-   ],
-   "news_age_h": 7344.5,
-   "flags": [],
-   "plan": {
-    "entry": 1.373,
-    "stop": 1.25,
-    "target": 1.619,
-    "risk_pct": 9.0,
-    "rr": 2.0,
-    "note": "Former runner (+219.2% recently). Wait for an early panic flush into 1.32-1.43 (66-68% off the 4.15 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 79.9,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "HUIZ",
-   "price": 1.81,
-   "prev_close": 1.73,
-   "gap_pct": 4.6,
-   "pm": {
-    "last": 1.81,
-    "high": 1.85,
-    "low": 1.7,
-    "vwap": 1.81,
-    "volume": 0
-   },
-   "avg_vol_20d": 27870,
-   "yday_vol": 7000700,
-   "rvol": 251.2,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 60.5,
-   "off_peak_pct": -9.0,
-   "atr14": 0.109,
-   "levels": {
-    "prev_high": 1.99,
-    "prev_low": 1.39,
-    "prev_close": 1.73,
-    "high_5d": 1.99,
-    "high_20d": 1.5,
-    "run_peak": 1.99,
-    "pm_high": 1.85,
-    "pm_low": 1.7,
-    "pm_vwap": 1.81
-   },
-   "green_streak": 1,
-   "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Huize Holding Limited American Depositary Shares",
-   "sector": "Finance",
-   "industry": "Specialty Insurers",
-   "country": "China",
-   "exchange": null,
-   "float": 8600000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Huize Holding Limited to Present at the 20th Annual LD Micro Main Event",
-     "url": "https://finviz.com/news/400172/huize-holding-limited-to-present-at-the-20th-annual-ld-micro-main-event",
-     "source": "Finviz",
-     "time": "2026-10-08T10:29:00+00:00"
-    },
-    {
-     "title": "Huize Holding Ltd (HUIZ) (H1 2026) Earnings Call Highlights: Record GWP and AI-Driven Growth ...",
-     "url": "https://finance.yahoo.com/healthcare/articles/huize-holding-ltd-huiz-h1-190219359.html",
-     "source": "Finviz",
-     "time": "2026-08-20T19:02:00+00:00"
-    },
-    {
-     "title": "Huize Holding Reports Record Insurance Premiums as First-Half Profit Jumps",
-     "url": "https://finviz.com/news/384248/huize-holding-reports-record-insurance-premiums-as-first-half-profit-jumps",
-     "source": "Finviz",
-     "time": "2026-08-20T14:45:00+00:00"
-    },
-    {
-     "title": "Huize Holding Limited Reports Unaudited Financial Results for the First Half of 2026",
-     "url": "https://finviz.com/news/383940/huize-holding-limited-reports-unaudited-financial-results-for-the-first-half-of-2026",
-     "source": "Finviz",
-     "time": "2026-08-20T09:00:00+00:00"
-    }
-   ],
-   "news_age_h": 266.3,
-   "flags": [],
-   "plan": {
-    "entry": 1.99,
-    "stop": 1.831,
-    "target": 2.308,
-    "risk_pct": 8.0,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 77.2,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "WORX",
-   "price": 1.38,
-   "prev_close": 1.38,
-   "gap_pct": 0.0,
-   "pm": {
-    "last": 1.38,
-    "high": 1.51,
-    "low": 1.28,
-    "vwap": 1.38,
-    "volume": 0
-   },
-   "avg_vol_20d": 138500,
-   "yday_vol": 8668200,
-   "rvol": 62.6,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 100.5,
-   "off_peak_pct": -63.4,
-   "atr14": 1.3,
-   "levels": {
-    "prev_high": 3.77,
-    "prev_low": 1.07,
-    "prev_close": 1.38,
-    "high_5d": 3.77,
-    "high_20d": 7.48,
-    "run_peak": 3.77,
-    "pm_high": 1.51,
-    "pm_low": 1.28,
-    "pm_vwap": 1.38
+    "prev_high": 5.74,
+    "prev_low": 4.06,
+    "prev_close": 5.7,
+    "high_5d": 6.79,
+    "high_20d": 6.79,
+    "run_peak": 6.79,
+    "pm_high": 5.44,
+    "pm_low": 4.639,
+    "pm_vwap": 4.95
    },
    "green_streak": 0,
    "setups": [
@@ -674,74 +313,251 @@
     "finviz": 1,
     "finviz_http": 200
    },
-   "name": "SCWorx Corp. Common Stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Services-Misc. Amusement & Recreation",
+   "name": "Lion Copper Corp. Common Shares",
+   "sector": "Basic Materials",
+   "industry": "Metal Mining",
    "country": "United States",
    "exchange": null,
-   "float": 550000.0,
+   "float": 7530000.0,
    "short_pct_float": null,
    "news": [
     {
-     "title": "SCWorx Announces Resumption of Nasdaq Trading and Highlights Improved Operating Performance and Growth Strategy",
-     "url": "https://finviz.com/news/399985/scworx-announces-resumption-of-nasdaq-trading-and-highlights-improved-operating-performance-and-growth-strategy",
+     "title": "Lion Copper Corp. Commences Trading on NASDAQ Under Symbol 'LCU' and Retains Renmark Financial Communications USA Inc.",
+     "url": "https://www.newsfilecorp.com/release/319726/Lion-Copper-Corp.-Commences-Trading-on-NASDAQ-Under-Symbol-LCU-and-Retains-Renmark-Financial-Communications-USA-Inc.",
      "source": "Finviz",
-     "time": "2026-10-07T18:23:00+00:00"
+     "time": "2026-10-19T18:02:00+00:00"
     }
    ],
-   "news_age_h": 282.4,
+   "news_age_h": 18.7,
    "flags": [
-    "Shelf/Registration S-3 filed 2026-10-16",
-    "Reverse split 1:15 on 2026-04-10",
-    "Reverse split 1:12 on 2026-08-04"
+    "Reverse split 1:27 on 2026-09-14"
    ],
    "plan": {
-    "entry": 1.325,
-    "stop": 1.206,
-    "target": 1.562,
+    "entry": 4.682,
+    "stop": 4.193,
+    "target": 5.7,
+    "risk_pct": 10.4,
+    "rr": 2.1,
+    "note": "Former runner (+83.0% recently). Wait for an early panic flush into 4.41-4.95 (27-35% off the 6.79 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 50.3
+  },
+  {
+   "symbol": "YMAT",
+   "price": 1.77,
+   "prev_close": 1.83,
+   "gap_pct": -3.3,
+   "pm": {
+    "last": 1.77,
+    "high": 1.87,
+    "low": 1.682,
+    "vwap": 1.77,
+    "volume": 0
+   },
+   "avg_vol_20d": 3562980,
+   "yday_vol": 66536700,
+   "rvol": 18.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 71.3,
+   "off_peak_pct": -47.0,
+   "atr14": 0.567,
+   "levels": {
+    "prev_high": 2.68,
+    "prev_low": 1.72,
+    "prev_close": 1.83,
+    "high_5d": 3.34,
+    "high_20d": 4.49,
+    "run_peak": 3.34,
+    "pm_high": 1.87,
+    "pm_low": 1.682,
+    "pm_vwap": 1.77
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "J-Star Holding Co. Ltd. Class A Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Recreational Games/Products/Toys",
+   "country": "Taiwan",
+   "exchange": null,
+   "float": 1580000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "J-Star Holding Advances U.S. Drone Manufacturing Plans With Houston Facility Acquisition Negotiations",
+     "url": "https://finviz.com/news/404107/j-star-holding-advances-us-drone-manufacturing-plans-with-houston-facility-acquisition-negotiations",
+     "source": "Finviz",
+     "time": "2026-10-19T15:24:00+00:00"
+    },
+    {
+     "title": "J-Star Holding Co., Ltd. Advances U.S. Drone Manufacturing Initiative; Negotiates Acquisition of Facility in the Greater Houston Area",
+     "url": "https://finviz.com/news/403967/j-star-holding-co-ltd-advances-us-drone-manufacturing-initiative-negotiates-acquisition-of-facility-in-the-greater-houston-area",
+     "source": "Finviz",
+     "time": "2026-10-19T12:30:00+00:00"
+    },
+    {
+     "title": "J-Star Holding Co., Ltd. Highlights Capital Initiatives to Fund Planned U.S. Expansion for Drone Frame Manufacturing in Houston, Texas",
+     "url": "https://finviz.com/news/400968/j-star-holding-co-ltd-highlights-capital-initiatives-to-fund-planned-us-expansion-for-drone-frame-manufacturing-in-houston-texas",
+     "source": "Finviz",
+     "time": "2026-10-09T20:05:00+00:00"
+    },
+    {
+     "title": "J-Star Holding Co., Ltd. Chairman and CEO Jonathan Chiang to Relocate to the United States to Lead Growth Initiatives",
+     "url": "https://finviz.com/news/396456/j-star-holding-co-ltd-chairman-and-ceo-jonathan-chiang-to-relocate-to-the-united-states-to-lead-growth-initiatives",
+     "source": "Finviz",
+     "time": "2026-09-29T12:26:00+00:00"
+    }
+   ],
+   "news_age_h": 21.3,
+   "flags": [
+    "Shelf/Registration EFFECT filed 2026-09-23",
+    "Shelf/Registration F-3/A filed 2026-09-14",
+    "Shelf/Registration F-3 filed 2026-09-04",
+    "Reverse split 1:5 on 2026-07-10",
+    "Recent foreign IPO (Taiwan)"
+   ],
+   "plan": {
+    "entry": 1.699,
+    "stop": 1.547,
+    "target": 2.004,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+100.5% recently). Wait for an early panic flush into 1.27-1.38 (63-66% off the 3.77 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+71.3% recently). Wait for an early panic flush into 1.63-1.77 (47-51% off the 3.34 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 74.5,
+   "score": 38.5
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "FUFU",
+   "price": 1.12,
+   "prev_close": 1.19,
+   "gap_pct": -5.9,
+   "pm": {
+    "last": 1.12,
+    "high": 1.19,
+    "low": 1.1,
+    "vwap": 1.12,
+    "volume": 0
+   },
+   "avg_vol_20d": 74755,
+   "yday_vol": 51996500,
+   "rvol": 695.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 144.9,
+   "off_peak_pct": -28.7,
+   "atr14": 0.191,
+   "levels": {
+    "prev_high": 1.57,
+    "prev_low": 1.05,
+    "prev_close": 1.19,
+    "high_5d": 1.57,
+    "high_20d": 1.61,
+    "run_peak": 1.57,
+    "pm_high": 1.19,
+    "pm_low": 1.1,
+    "pm_vwap": 1.12
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "BitFuFu Inc. Class A Ordinary Shares",
+   "sector": "Finance",
+   "industry": "Finance: Consumer Services",
+   "country": "Singapore",
+   "exchange": null,
+   "float": 16880000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "BitFuFu Launches BTC-Denominated Hashrate Token (HASH) with Finloop",
+     "url": "https://finviz.com/news/402795/bitfufu-launches-btc-denominated-hashrate-token-hash-with-finloop",
+     "source": "Finviz",
+     "time": "2026-10-15T10:00:00+00:00"
+    },
+    {
+     "title": "BitFuFu September Bitcoin Output Slips to 167 BTC, Holdings Edge Up to 1,388",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/bitfufu-september-bitcoin-output-slips-220100820.html",
+     "source": "Finviz",
+     "time": "2026-10-13T22:01:00+00:00"
+    },
+    {
+     "title": "BitFuFu Announces September 2026 Bitcoin Production and Operational Updates",
+     "url": "https://finviz.com/news/402122/bitfufu-announces-september-2026-bitcoin-production-and-operational-updates",
+     "source": "Finviz",
+     "time": "2026-10-13T21:00:00+00:00"
+    },
+    {
+     "title": "BitFuFu Announces August 2026 Bitcoin Production and Operational Updates",
+     "url": "https://finviz.com/news/388560/bitfufu-announces-august-2026-bitcoin-production-and-operational-updates",
+     "source": "Finviz",
+     "time": "2026-09-03T12:00:00+00:00"
+    }
+   ],
+   "news_age_h": 122.7,
+   "flags": [],
+   "plan": {
+    "entry": 1.07,
+    "stop": 0.969,
+    "target": 1.272,
+    "risk_pct": 9.4,
+    "rr": 2.0,
+    "note": "Former runner (+144.9% recently). Wait for an early panic flush into 1.02-1.12 (29-35% off the 1.57 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 69.5,
    "failed": [
     "no fresh news"
    ]
   },
   {
    "symbol": "XLAB",
-   "price": 2.76,
-   "prev_close": 2.35,
-   "gap_pct": 17.4,
+   "price": 2.75,
+   "prev_close": 3.06,
+   "gap_pct": -10.1,
    "pm": {
-    "last": 2.76,
-    "high": 3.28,
-    "low": 2.31,
-    "vwap": 2.76,
+    "last": 2.75,
+    "high": 2.93,
+    "low": 2.62,
+    "vwap": 2.75,
     "volume": 0
    },
-   "avg_vol_20d": 86445,
-   "yday_vol": 170455200,
-   "rvol": 1971.8,
+   "avg_vol_20d": 85500,
+   "yday_vol": 71101200,
+   "rvol": 831.6,
    "rvol_basis": "yesterday",
    "run_pct_5d": 393.6,
-   "off_peak_pct": -28.1,
-   "atr14": 0.442,
+   "off_peak_pct": -28.4,
+   "atr14": 0.467,
    "levels": {
-    "prev_high": 3.84,
-    "prev_low": 1.75,
-    "prev_close": 2.35,
+    "prev_high": 3.27,
+    "prev_low": 2.5,
+    "prev_close": 3.06,
     "high_5d": 3.84,
-    "high_20d": 3.065,
+    "high_20d": 3.84,
     "run_peak": 3.84,
-    "pm_high": 3.28,
-    "pm_low": 2.31,
-    "pm_vwap": 2.76
+    "pm_high": 2.93,
+    "pm_low": 2.62,
+    "pm_vwap": 2.75
    },
-   "green_streak": 2,
+   "green_streak": 3,
    "setups": [
-    "Morning-panic dip-buy",
-    "Breakout / multi-day runner"
+    "Morning-panic dip-buy"
    ],
    "sources": {
     "yf_raw": 0,
@@ -783,36 +599,310 @@
      "time": "2026-08-31T13:00:00+00:00"
     }
    ],
-   "news_age_h": 496.3,
+   "news_age_h": 520.2,
    "flags": [
     "Offering 424B3 filed 2026-07-07",
     "Shelf/Registration EFFECT filed 2026-07-01"
    ],
    "plan": {
-    "entry": 2.628,
+    "entry": 2.623,
     "stop": 2.371,
-    "target": 3.142,
-    "risk_pct": 9.8,
+    "target": 3.127,
+    "risk_pct": 9.6,
     "rr": 2.0,
-    "note": "Former runner (+393.6% recently). Wait for an early panic flush into 2.50-2.76 (28-35% off the 3.84 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+393.6% recently). Wait for an early panic flush into 2.50-2.75 (28-35% off the 3.84 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 69.6,
+   "score": 62.6,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "CTSO",
+   "price": 5.11,
+   "prev_close": 4.96,
+   "gap_pct": 3.0,
+   "pm": {
+    "last": 5.11,
+    "high": 5.11,
+    "low": 5.11,
+    "vwap": 5.11,
+    "volume": 0
+   },
+   "avg_vol_20d": 10730,
+   "yday_vol": 255900,
+   "rvol": 23.8,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 87.7,
+   "off_peak_pct": -4.1,
+   "atr14": 0.498,
+   "levels": {
+    "prev_high": 5.33,
+    "prev_low": 4.13,
+    "prev_close": 4.96,
+    "high_5d": 5.33,
+    "high_20d": 5.79,
+    "run_peak": 5.33,
+    "pm_high": 5.11,
+    "pm_low": 5.11,
+    "pm_vwap": 5.11
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Cytosorbents Corporation Common Stock",
+   "sector": "Health Care",
+   "industry": "Medical/Dental Instruments",
+   "country": "United States",
+   "exchange": null,
+   "float": 2710000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "CytoSorbents Announces New Data Presentations at Upcoming International Conferences in Cardiac Surgery and Critical Care",
+     "url": "https://finviz.com/news/396886/cytosorbents-announces-new-data-presentations-at-upcoming-international-conferences-in-cardiac-surgery-and-critical-care",
+     "source": "Finviz",
+     "time": "2026-09-30T11:00:00+00:00"
+    },
+    {
+     "title": "CytoSorbents Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+     "url": "https://finviz.com/news/394577/cytosorbents-regains-compliance-with-nasdaq-minimum-bid-price-requirement",
+     "source": "Finviz",
+     "time": "2026-09-23T11:00:00+00:00"
+    },
+    {
+     "title": "CytoSorbents to Present at the H.C. Wainwright 28th Annual Global Investment Conference",
+     "url": "https://finviz.com/news/390623/cytosorbents-to-present-at-the-hc-wainwright-28th-annual-global-investment-conference",
+     "source": "Finviz",
+     "time": "2026-09-10T11:00:00+00:00"
+    },
+    {
+     "title": "CytoSorbents to Present at the Moody Capital Solutions 2026 Disruptive Growth &amp; Life Sciences Conference",
+     "url": "https://www.newsfilecorp.com/release/312850/CytoSorbents-to-Present-at-the-Moody-Capital-Solutions-2026-Disruptive-Growth-Life-Sciences-Conference",
+     "source": "Finviz",
+     "time": "2026-09-04T13:09:00+00:00"
+    }
+   ],
+   "news_age_h": 481.7,
+   "flags": [
+    "Reverse split 1:20 on 2026-09-08"
+   ],
+   "plan": {
+    "entry": 5.33,
+    "stop": 4.904,
+    "target": 6.183,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 48.0,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "ADVB",
+   "price": 3.95,
+   "prev_close": 4.16,
+   "gap_pct": -5.0,
+   "pm": {
+    "last": 3.95,
+    "high": 3.95,
+    "low": 3.95,
+    "vwap": 3.95,
+    "volume": 0
+   },
+   "avg_vol_20d": 20865,
+   "yday_vol": 402800,
+   "rvol": 19.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 51.1,
+   "off_peak_pct": -29.2,
+   "atr14": 0.605,
+   "levels": {
+    "prev_high": 5.58,
+    "prev_low": 3.88,
+    "prev_close": 4.16,
+    "high_5d": 5.58,
+    "high_20d": 7.23,
+    "run_peak": 5.58,
+    "pm_high": 3.95,
+    "pm_low": 3.95,
+    "pm_vwap": 3.95
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 7,
+    "finviz_http": 200
+   },
+   "name": "Advanced Biomed Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Medical Specialities",
+   "country": "Taiwan",
+   "exchange": null,
+   "float": 950000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Advanced Biomed Inc. Announces 1 for 20 Share Consolidation",
+     "url": "https://finviz.com/news/313966/advanced-biomed-inc-announces-1-for-20-share-consolidation",
+     "source": "Finviz",
+     "time": "2026-02-18T12:00:00+00:00"
+    },
+    {
+     "title": "Advanced Biomed Inc. Announces 120-Case Feasibility Study with Chi-Mei Medical Center to Validate A+PerfusC - Integrated Perfusion 3D Cell Culture Platform for Precision Medicine and Drug Discovery",
+     "url": "https://finviz.com/news/310276/advanced-biomed-inc-announces-120-case-feasibility-study-with-chi-mei-medical-center-to-validate-aperfusc-integrated-perfusion-3d-cell-culture-platform-for-precision-medicine-and-drug-discovery",
+     "source": "Finviz",
+     "time": "2026-02-13T13:00:00+00:00"
+    },
+    {
+     "title": "Advanced Biomed sells Hong Kong subsidiary for $23,000",
+     "url": "https://finance.yahoo.com/news/advanced-biomed-sells-hong-kong-152517213.html",
+     "source": "Finviz",
+     "time": "2025-12-31T15:25:00+00:00"
+    },
+    {
+     "title": "Advanced Biomed Inc. Announces Disposal of its Hong Kong Subsidiary",
+     "url": "https://finviz.com/news/264308/advanced-biomed-inc-announces-disposal-of-its-hong-kong-subsidiary",
+     "source": "Finviz",
+     "time": "2025-12-30T15:17:00+00:00"
+    }
+   ],
+   "news_age_h": 5856.7,
+   "flags": [
+    "Reverse split 1:20 on 2026-02-20",
+    "Recent foreign IPO (Taiwan)"
+   ],
+   "plan": {
+    "entry": 3.788,
+    "stop": 3.446,
+    "target": 4.474,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+51.1% recently). Wait for an early panic flush into 3.63-3.95 (29-35% off the 5.58 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 42.2,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "TCRT",
+   "price": 2.92,
+   "prev_close": 3.13,
+   "gap_pct": -6.7,
+   "pm": {
+    "last": 2.92,
+    "high": 3.1,
+    "low": 2.81,
+    "vwap": 2.92,
+    "volume": 0
+   },
+   "avg_vol_20d": 2529240,
+   "yday_vol": 41133400,
+   "rvol": 16.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 471.4,
+   "off_peak_pct": -33.6,
+   "atr14": 0.647,
+   "levels": {
+    "prev_high": 3.49,
+    "prev_low": 2.82,
+    "prev_close": 3.13,
+    "high_5d": 4.4,
+    "high_20d": 4.4,
+    "run_peak": 4.4,
+    "pm_high": 3.1,
+    "pm_low": 2.81,
+    "pm_vwap": 2.92
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Alaunos Therapeutics Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "United States",
+   "exchange": null,
+   "float": 2330000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Another Paragon spinout goes public through reverse merger",
+     "url": "https://finance.yahoo.com/healthcare/articles/another-paragon-spinout-goes-public-203500877.html",
+     "source": "Finviz",
+     "time": "2026-10-13T20:35:00+00:00"
+    },
+    {
+     "title": "Alaunos Therapeutics Announces Acquisition of Velaris Therapeutics",
+     "url": "https://finviz.com/news/401927/alaunos-therapeutics-announces-acquisition-of-velaris-therapeutics",
+     "source": "Finviz",
+     "time": "2026-10-13T14:31:00+00:00"
+    },
+    {
+     "title": "Paragon Labs Expands Leadership Team with Former Apogee Executives; Velaris Therapeutics Acquired by Alaunos Therapeutics, Inc.",
+     "url": "https://finviz.com/news/401569/paragon-labs-expands-leadership-team-with-former-apogee-executives-velaris-therapeutics-acquired-by-alaunos-therapeutics-inc",
+     "source": "Finviz",
+     "time": "2026-10-13T11:00:00+00:00"
+    },
+    {
+     "title": "Alaunos Therapeutics, Inc. Announces Pricing of Registered Direct Offering priced at-the-market under Nasdaq rules",
+     "url": "https://finviz.com/news/393531/alaunos-therapeutics-inc-announces-pricing-of-registered-direct-offering-priced-at-the-market-under-nasdaq-rules",
+     "source": "Finviz",
+     "time": "2026-09-18T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 160.2,
+   "flags": [
+    "Offering 424B3 filed 2026-09-21"
+   ],
+   "plan": {
+    "entry": 2.803,
+    "stop": 2.552,
+    "target": 3.305,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+471.4% recently). Wait for an early panic flush into 2.69-2.92 (34-39% off the 4.40 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 40.9,
    "failed": [
     "no fresh news"
    ]
   }
  ],
  "stats": {
-  "universe": 6580,
-  "with_history": 2715,
-  "scanned_premarket": 2254,
+  "universe": 6601,
+  "with_history": 2717,
+  "scanned_premarket": 2237,
   "setup_candidates": 45,
-  "qualified": 4,
+  "qualified": 5,
   "news_sources": {
    "yf_raw": 0,
    "yf": 0,
    "yahoo_search": 0,
-   "finviz": 39
+   "finviz": 41
   },
   "finviz_http": [
    "200",

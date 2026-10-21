@@ -1,0 +1,796 @@
+{
+ "date": "2026-10-21",
+ "generated_at": "2026-10-21T08:42:07.170611-04:00",
+ "market_closed": false,
+ "rules": {
+  "price_min": 1.0,
+  "price_max": 10.0,
+  "float_max": 20000000,
+  "rvol_min": 5.0,
+  "gap_min_pct": 20.0,
+  "runner_min_pct": 50.0,
+  "runner_lookback_days": 5,
+  "news_max_age_hours": 36,
+  "news_max_age_hours_runner": 120,
+  "max_picks": 10,
+  "pm_volume_share": 0.1
+ },
+ "picks": [
+  {
+   "symbol": "WORX",
+   "price": 3.25,
+   "prev_close": 3.66,
+   "gap_pct": -11.2,
+   "pm": {
+    "last": 3.25,
+    "high": 3.608,
+    "low": 3.121,
+    "vwap": 3.25,
+    "volume": 0
+   },
+   "avg_vol_20d": 173315,
+   "yday_vol": 78557700,
+   "rvol": 453.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 328.0,
+   "off_peak_pct": -29.0,
+   "atr14": 1.499,
+   "levels": {
+    "prev_high": 4.58,
+    "prev_low": 3.17,
+    "prev_close": 3.66,
+    "high_5d": 4.58,
+    "high_20d": 7.48,
+    "run_peak": 4.58,
+    "pm_high": 3.608,
+    "pm_low": 3.121,
+    "pm_vwap": 3.25
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 2,
+    "finviz_http": 200
+   },
+   "name": "SCWorx Corp.",
+   "sector": "Healthcare",
+   "industry": "Health Information Services",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 81400.0,
+   "short_pct_float": 3.3,
+   "news": [
+    {
+     "title": "SCWorx Announces New Agreement with Healthcare System",
+     "url": "https://finviz.com/news/404085/scworx-announces-new-agreement-with-healthcare-system",
+     "source": "Finviz",
+     "time": "2026-10-19T14:10:00+00:00"
+    },
+    {
+     "title": "SCWorx Announces Resumption of Nasdaq Trading and Highlights Improved Operating Performance and Growth Strategy",
+     "url": "https://finviz.com/news/399985/scworx-announces-resumption-of-nasdaq-trading-and-highlights-improved-operating-performance-and-growth-strategy",
+     "source": "Finviz",
+     "time": "2026-10-07T18:23:00+00:00"
+    }
+   ],
+   "news_age_h": 46.5,
+   "flags": [
+    "Shelf/Registration S-3 filed 2026-10-16",
+    "Reverse split 1:15 on 2026-04-10",
+    "Reverse split 1:12 on 2026-08-04"
+   ],
+   "plan": {
+    "entry": 3.114,
+    "stop": 2.828,
+    "target": 3.684,
+    "risk_pct": 9.2,
+    "rr": 2.0,
+    "note": "Former runner (+328.0% recently). Wait for an early panic flush into 2.98-3.25 (29-35% off the 4.58 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 79.4
+  },
+  {
+   "symbol": "EVAX",
+   "price": 4.1,
+   "prev_close": 4.05,
+   "gap_pct": 1.2,
+   "pm": {
+    "last": 4.1,
+    "high": 4.17,
+    "low": 3.989,
+    "vwap": 4.1,
+    "volume": 0
+   },
+   "avg_vol_20d": 40000,
+   "yday_vol": 530200,
+   "rvol": 13.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 51.4,
+   "off_peak_pct": -0.4,
+   "atr14": 0.248,
+   "levels": {
+    "prev_high": 4.117,
+    "prev_low": 3.22,
+    "prev_close": 4.05,
+    "high_5d": 4.117,
+    "high_20d": 3.6,
+    "run_peak": 4.117,
+    "pm_high": 4.17,
+    "pm_low": 3.989,
+    "pm_vwap": 4.1
+   },
+   "green_streak": 3,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Evaxion A/S",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "country": "Denmark",
+   "exchange": "NCM",
+   "float": 5679353.0,
+   "short_pct_float": 0.7,
+   "news": [
+    {
+     "title": "Evaxion stock surges on 3-year melanoma vaccine trial data",
+     "url": "https://finance.yahoo.com/healthcare/articles/evaxion-stock-surges-3-melanoma-165802177.html",
+     "source": "Finviz",
+     "time": "2026-10-19T16:58:00+00:00"
+    },
+    {
+     "title": "INTC, EVAX, RCAT Stocks Move Higher Premarket  Whats Driving The Rally?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/intc-evax-rcat-stocks-move-102757377.html",
+     "source": "Finviz",
+     "time": "2026-10-19T10:27:00+00:00"
+    },
+    {
+     "title": "Evaxion reports sustained clinical responses for all patients at three-year follow-up in phase 2 trial with personalized cancer vaccine EVX-01",
+     "url": "https://finviz.com/news/403754/evaxion-reports-sustained-clinical-responses-for-all-patients-at-three-year-follow-up-in-phase-2-trial-with-personalized-cancer-vaccine-evx-01",
+     "source": "Finviz",
+     "time": "2026-10-19T07:00:00+00:00"
+    },
+    {
+     "title": "Evaxion will present new immune data for personalized cancer vaccine EVX-01 at the SITC 2026 Annual Meeting",
+     "url": "https://finviz.com/news/398287/evaxion-will-present-new-immune-data-for-personalized-cancer-vaccine-evx-01-at-the-sitc-2026-annual-meeting",
+     "source": "Finviz",
+     "time": "2026-10-02T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 43.7,
+   "flags": [],
+   "plan": {
+    "entry": 4.17,
+    "stop": 3.928,
+    "target": 4.653,
+    "risk_pct": 5.8,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 34.8
+  },
+  {
+   "symbol": "EXYN",
+   "price": 2.912,
+   "prev_close": 2.91,
+   "gap_pct": 0.1,
+   "pm": {
+    "last": 2.912,
+    "high": 2.932,
+    "low": 2.68,
+    "vwap": 2.912,
+    "volume": 0
+   },
+   "avg_vol_20d": 70250,
+   "yday_vol": 934000,
+   "rvol": 13.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 86.0,
+   "off_peak_pct": -12.6,
+   "atr14": 0.364,
+   "levels": {
+    "prev_high": 3.09,
+    "prev_low": 2.63,
+    "prev_close": 2.91,
+    "high_5d": 3.33,
+    "high_20d": 3.33,
+    "run_peak": 3.33,
+    "pm_high": 2.932,
+    "pm_low": 2.68,
+    "pm_vwap": 2.912
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Exyn Technologies, Inc.",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 4538210.0,
+   "short_pct_float": 2.1,
+   "news": [
+    {
+     "title": "Exyn Technologies Interim CEO Ben Williams to Appear Today on FOX Business Network's \"Varney &amp; Company\" at Approximately 9:50 a.m. ET",
+     "url": "https://finviz.com/news/404063/exyn-technologies-interim-ceo-ben-williams-to-appear-today-on-fox-business-networks-varney-company-at-approximately-9-50-am-et",
+     "source": "Finviz",
+     "time": "2026-10-19T13:30:00+00:00"
+    },
+    {
+     "title": "Exyn Technologies Joins National Laboratory-Led Autonomous Mining Project Selected Under DOE's $29.5 Million Mine of the Future Initiative",
+     "url": "https://finviz.com/news/404026/exyn-technologies-joins-national-laboratory-led-autonomous-mining-project-selected-under-does-295-million-mine-of-the-future-initiative",
+     "source": "Finviz",
+     "time": "2026-10-19T13:00:00+00:00"
+    },
+    {
+     "title": "Exyn Technologies CEO Letter Highlights Growing Pipeline and Accelerating Momentum in Defense and Physical AI",
+     "url": "https://finviz.com/news/396009/exyn-technologies-ceo-letter-highlights-growing-pipeline-and-accelerating-momentum-in-defense-and-physical-ai",
+     "source": "Finviz",
+     "time": "2026-09-28T13:05:00+00:00"
+    },
+    {
+     "title": "Exyn Technologies Extends ExynAI Autonomy to CHCNAV's X500 Drone, Expanding Its Third-Party Robotics Ecosystem",
+     "url": "https://finviz.com/news/392236/exyn-technologies-extends-exynai-autonomy-to-chcnavs-x500-drone-expanding-its-third-party-robotics-ecosystem",
+     "source": "Finviz",
+     "time": "2026-09-15T13:45:00+00:00"
+    }
+   ],
+   "news_age_h": 47.2,
+   "flags": [
+    "Offering 424B3 filed 2026-08-20",
+    "Shelf/Registration EFFECT filed 2026-07-02",
+    "Shelf/Registration S-1 filed 2026-06-29"
+   ],
+   "plan": {
+    "entry": 2.331,
+    "stop": 2.056,
+    "target": 2.91,
+    "risk_pct": 11.8,
+    "rr": 2.1,
+    "note": "Former runner (+86.0% recently). Wait for an early panic flush into 2.16-2.50 (25-35% off the 3.33 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 30.5
+  },
+  {
+   "symbol": "LCU",
+   "price": 4.55,
+   "prev_close": 4.55,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 4000,
+   "yday_vol": 33100,
+   "rvol": 8.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 75.0,
+   "off_peak_pct": -33.0,
+   "atr14": 0.722,
+   "levels": {
+    "prev_high": 5.18,
+    "prev_low": 4.41,
+    "prev_close": 4.55,
+    "high_5d": 6.79,
+    "high_20d": 6.79,
+    "run_peak": 6.79,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 1,
+    "finviz_http": 200
+   },
+   "name": "Lion Copper Corp. Common Shares",
+   "sector": "Basic Materials",
+   "industry": "Copper",
+   "country": "United States",
+   "exchange": "NGM",
+   "float": 11546920.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Lion Copper Corp. Commences Trading on NASDAQ Under Symbol 'LCU' and Retains Renmark Financial Communications USA Inc.",
+     "url": "https://www.newsfilecorp.com/release/319726/Lion-Copper-Corp.-Commences-Trading-on-NASDAQ-Under-Symbol-LCU-and-Retains-Renmark-Financial-Communications-USA-Inc.",
+     "source": "Finviz",
+     "time": "2026-10-19T18:02:00+00:00"
+    }
+   ],
+   "news_age_h": 42.7,
+   "flags": [
+    "Reverse split 1:27 on 2026-09-14"
+   ],
+   "plan": {
+    "entry": 4.368,
+    "stop": 3.977,
+    "target": 5.151,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+75.0% recently). Wait for an early panic flush into 4.19-4.55 (33-38% off the 6.79 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 19.4
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "XLAB",
+   "price": 2.845,
+   "prev_close": 2.99,
+   "gap_pct": -4.8,
+   "pm": {
+    "last": 2.845,
+    "high": 2.863,
+    "low": 2.735,
+    "vwap": 2.845,
+    "volume": 0
+   },
+   "avg_vol_20d": 84570,
+   "yday_vol": 8384200,
+   "rvol": 99.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 393.6,
+   "off_peak_pct": -25.9,
+   "atr14": 0.499,
+   "levels": {
+    "prev_high": 3.05,
+    "prev_low": 2.3,
+    "prev_close": 2.99,
+    "high_5d": 3.84,
+    "high_20d": 3.84,
+    "run_peak": 3.84,
+    "pm_high": 2.863,
+    "pm_low": 2.735,
+    "pm_vwap": 2.845
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 4,
+    "finviz_http": 200
+   },
+   "name": "Exascale Labs Holdings Inc.",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "country": "United States",
+   "exchange": "NGM",
+   "float": 14450000.0,
+   "short_pct_float": 0.2,
+   "news": [
+    {
+     "title": "Exascale Labs Holdings Inc. Reports 111% Revenue Growth for Full Fiscal Year 2026 and Provides Business Update Following Successful Nasdaq Listing",
+     "url": "https://finviz.com/news/396163/exascale-labs-holdings-inc-reports-111-revenue-growth-for-full-fiscal-year-2026-and-provides-business-update-following-successful-nasdaq-listing",
+     "source": "Finviz",
+     "time": "2026-09-28T20:30:00+00:00"
+    },
+    {
+     "title": "Exascale Labs Announces Post-Closing Board of Directors Featuring Nobel Laureate David Card",
+     "url": "https://finviz.com/news/393807/exascale-labs-announces-post-closing-board-of-directors-featuring-nobel-laureate-david-card",
+     "source": "Finviz",
+     "time": "2026-09-21T12:30:00+00:00"
+    },
+    {
+     "title": "Exascale and Compal Sign Letter of Intent to Build Data-Center-Grade Native 800 VDC Validation Platform",
+     "url": "https://finviz.com/news/391590/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform",
+     "source": "Finviz",
+     "time": "2026-09-14T12:30:00+00:00"
+    },
+    {
+     "title": "Exascale and EnergyBank Sign MOU to Develop AI Compute Powered by Full-Scale Floating Offshore Wind Turbine",
+     "url": "https://finviz.com/news/386927/exascale-and-energybank-sign-mou-to-develop-ai-compute-powered-by-full-scale-floating-offshore-wind-turbine",
+     "source": "Finviz",
+     "time": "2026-08-31T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 544.2,
+   "flags": [
+    "Offering 424B3 filed 2026-07-07",
+    "Shelf/Registration EFFECT filed 2026-07-01"
+   ],
+   "plan": {
+    "entry": 2.671,
+    "stop": 2.371,
+    "target": 3.269,
+    "risk_pct": 11.2,
+    "rr": 2.0,
+    "note": "Former runner (+393.6% recently). Wait for an early panic flush into 2.50-2.85 (26-35% off the 3.84 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 65.5,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "OLOX",
+   "price": 1.178,
+   "prev_close": 0.737,
+   "gap_pct": 59.8,
+   "pm": {
+    "last": 1.178,
+    "high": 1.23,
+    "low": 0.74,
+    "vwap": 1.178,
+    "volume": 0
+   },
+   "avg_vol_20d": 9868690,
+   "yday_vol": 727000,
+   "rvol": 0.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 6.7,
+   "off_peak_pct": 45.4,
+   "atr14": 0.167,
+   "levels": {
+    "prev_high": 0.75,
+    "prev_low": 0.6,
+    "prev_close": 0.737,
+    "high_5d": 0.81,
+    "high_20d": 1.86,
+    "run_peak": 0.81,
+    "pm_high": 1.23,
+    "pm_low": 0.74,
+    "pm_vwap": 1.178
+   },
+   "green_streak": 2,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Olenox Industries Inc.",
+   "sector": "Industrials",
+   "industry": "Metal Fabrication",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 1324553.0,
+   "short_pct_float": 5.4,
+   "news": [
+    {
+     "title": "Olenox Industries Reports September Bitcoin Production as Recent Acquisitions Expand Energy-Powered Digital Infrastructure Strategy",
+     "url": "https://finviz.com/news/405429/olenox-industries-reports-september-bitcoin-production-as-recent-acquisitions-expand-energy-powered-digital-infrastructure-strategy",
+     "source": "Finviz",
+     "time": "2026-10-21T12:30:00+00:00"
+    },
+    {
+     "title": "Olenox Expands Energy Platform With Completion of Wildboy and Odin Acquisitions, Advancing Gas-to-Power-to-Compute Strategy",
+     "url": "https://finviz.com/news/404590/olenox-expands-energy-platform-with-completion-of-wildboy-and-odin-acquisitions-advancing-gas-to-power-to-compute-strategy",
+     "source": "Finviz",
+     "time": "2026-10-20T12:30:00+00:00"
+    },
+    {
+     "title": "Olenox Industries Reports 15.63 Bitcoin Mined in August as Company Advances Energy-Powered Digital Infrastructure Strategy",
+     "url": "https://finviz.com/news/393157/olenox-industries-reports-1563-bitcoin-mined-in-august-as-company-advances-energy-powered-digital-infrastructure-strategy",
+     "source": "Finviz",
+     "time": "2026-09-17T13:00:00+00:00"
+    },
+    {
+     "title": "Olenox Industries Strengthens Capital Structure With More Than $5.25 Million Conversion to Common Equity",
+     "url": "https://finviz.com/news/388644/olenox-industries-strengthens-capital-structure-with-more-than-525-million-conversion-to-common-equity",
+     "source": "Finviz",
+     "time": "2026-09-03T12:30:00+00:00"
+    }
+   ],
+   "news_age_h": 0.2,
+   "flags": [
+    "Reverse split 1:10 on 2026-05-08"
+   ],
+   "plan": {
+    "entry": 1.23,
+    "stop": 1.178,
+    "target": 1.334,
+    "risk_pct": 4.2,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 61.6,
+   "failed": [
+    "RVOL 0.1x < 5x"
+   ]
+  },
+  {
+   "symbol": "XCH",
+   "price": 1.81,
+   "prev_close": 1.8,
+   "gap_pct": 0.6,
+   "pm": {
+    "last": 1.81,
+    "high": 2.076,
+    "low": 1.639,
+    "vwap": 1.81,
+    "volume": 0
+   },
+   "avg_vol_20d": 58855,
+   "yday_vol": 1126100,
+   "rvol": 19.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 111.6,
+   "off_peak_pct": -44.8,
+   "atr14": 0.687,
+   "levels": {
+    "prev_high": 2.65,
+    "prev_low": 1.26,
+    "prev_close": 1.8,
+    "high_5d": 3.28,
+    "high_20d": 3.83,
+    "run_peak": 3.28,
+    "pm_high": 2.076,
+    "pm_low": 1.639,
+    "pm_vwap": 1.81
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "XCHG Limited",
+   "sector": "Industrials",
+   "industry": "Electrical Equipment & Parts",
+   "country": "Germany",
+   "exchange": "NGM",
+   "float": 1286410.0,
+   "short_pct_float": 0.0,
+   "news": [
+    {
+     "title": "XCharge Issues Statement Regarding Recent Share Price Volatility",
+     "url": "https://finviz.com/news/402273/xcharge-issues-statement-regarding-recent-share-price-volatility",
+     "source": "Finviz",
+     "time": "2026-10-14T11:30:00+00:00"
+    },
+    {
+     "title": "EnBW Deploys XCharge C7 480 kW Fast Chargers Across Its Nationwide Charging Network in Germany",
+     "url": "https://finviz.com/news/393748/enbw-deploys-xcharge-c7-480-kw-fast-chargers-across-its-nationwide-charging-network-in-germany",
+     "source": "Finviz",
+     "time": "2026-09-21T11:30:00+00:00"
+    },
+    {
+     "title": "XCharge Reports First Half 2026 Unaudited Financial Results",
+     "url": "https://finviz.com/news/393607/xcharge-reports-first-half-2026-unaudited-financial-results",
+     "source": "Finviz",
+     "time": "2026-09-18T20:05:00+00:00"
+    },
+    {
+     "title": "XCharge Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+     "url": "https://finviz.com/news/390084/xcharge-regains-compliance-with-nasdaq-minimum-bid-price-requirement",
+     "source": "Finviz",
+     "time": "2026-09-09T11:30:00+00:00"
+    }
+   ],
+   "news_age_h": 169.2,
+   "flags": [
+    "Offering 424B5 filed 2026-06-29",
+    "Reverse split 1:20 on 2026-08-21"
+   ],
+   "plan": {
+    "entry": 1.738,
+    "stop": 1.582,
+    "target": 2.049,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+111.6% recently). Wait for an early panic flush into 1.67-1.81 (45-49% off the 3.28 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 39.9,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "GOW",
+   "price": 3.922,
+   "prev_close": 4.04,
+   "gap_pct": -2.9,
+   "pm": {
+    "last": 3.922,
+    "high": 4.069,
+    "low": 3.864,
+    "vwap": 3.922,
+    "volume": 0
+   },
+   "avg_vol_20d": 1948535,
+   "yday_vol": 7223700,
+   "rvol": 3.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 51.3,
+   "off_peak_pct": -14.2,
+   "atr14": 0.592,
+   "levels": {
+    "prev_high": 4.57,
+    "prev_low": 3.12,
+    "prev_close": 4.04,
+    "high_5d": 4.57,
+    "high_20d": 12.0,
+    "run_peak": 4.57,
+    "pm_high": 4.069,
+    "pm_low": 3.864,
+    "pm_vwap": 3.922
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 3,
+    "finviz_http": 200
+   },
+   "name": "GOWell Energy Technology",
+   "sector": "Energy",
+   "industry": "Oil & Gas Equipment & Services",
+   "country": "Singapore",
+   "exchange": "NGM",
+   "float": 3440000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "GOWell Energy Technology Reports Operating Subsidiary's First Half 2026 Financial Results and Provides Corporate Update",
+     "url": "https://finviz.com/news/405101/gowell-energy-technology-reports-operating-subsidiarys-first-half-2026-financial-results-and-provides-corporate-update",
+     "source": "Finviz",
+     "time": "2026-10-21T11:00:00+00:00"
+    },
+    {
+     "title": "GOWell to Host First Half 2026 Financial Results &amp; Corporate Update Webinar on October 21, 2026",
+     "url": "https://finviz.com/news/400098/gowell-to-host-first-half-2026-financial-results-corporate-update-webinar-on-october-21-2026",
+     "source": "Finviz",
+     "time": "2026-10-07T21:00:00+00:00"
+    },
+    {
+     "title": "GOWell Energy Technology Commences Trading on Nasdaq Under Ticker Symbol \"GOW\"",
+     "url": "https://finviz.com/news/395893/gowell-energy-technology-commences-trading-on-nasdaq-under-ticker-symbol-gow",
+     "source": "Finviz",
+     "time": "2026-09-28T12:00:00+00:00"
+    }
+   ],
+   "news_age_h": 1.7,
+   "flags": [
+    "Offering 424B3 filed 2026-09-24",
+    "Shelf/Registration EFFECT filed 2026-08-11"
+   ],
+   "plan": {
+    "entry": 3.199,
+    "stop": 2.822,
+    "target": 4.04,
+    "risk_pct": 11.8,
+    "rr": 2.2,
+    "note": "Former runner (+51.3% recently). Wait for an early panic flush into 2.97-3.43 (25-35% off the 4.57 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 37.3,
+   "failed": [
+    "RVOL 3.7x < 5x"
+   ]
+  },
+  {
+   "symbol": "PLUT",
+   "price": 2.0,
+   "prev_close": 2.0,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 24240,
+   "yday_vol": 250700,
+   "rvol": 10.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 70.1,
+   "off_peak_pct": -20.0,
+   "atr14": 0.6,
+   "levels": {
+    "prev_high": 2.5,
+    "prev_low": 1.76,
+    "prev_close": 2.0,
+    "high_5d": 2.5,
+    "high_20d": 3.19,
+    "run_peak": 2.5,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 3,
+    "finviz_http": 200
+   },
+   "name": "Plutus Financial Group Limited",
+   "sector": "Financial Services",
+   "industry": "Capital Markets",
+   "country": "Hong Kong",
+   "exchange": "NCM",
+   "float": 5030042.0,
+   "short_pct_float": 0.1,
+   "news": [
+    {
+     "title": "Plutus Financial Group Limited Announces Exercise of Underwriter's Over-Allotment Option",
+     "url": "https://www.globenewswire.com/news-release/2025/03/04/3036886/0/en/Plutus-Financial-Group-Limited-Announces-Exercise-of-Underwriter-s-Over-Allotment-Option.html",
+     "source": "Finviz",
+     "time": "2025-03-04T18:58:00+00:00"
+    },
+    {
+     "title": "Plutus Financial Group Limited Announces Closing of Initial Public Offering",
+     "url": "https://www.globenewswire.com/news-release/2025/02/06/3022231/0/en/Plutus-Financial-Group-Limited-Announces-Closing-of-Initial-Public-Offering.html",
+     "source": "Finviz",
+     "time": "2025-02-06T16:17:00+00:00"
+    },
+    {
+     "title": "Plutus Financial Group Limited Announces Pricing of Initial Public Offering",
+     "url": "https://www.globenewswire.com/news-release/2025/02/05/3021022/0/en/Plutus-Financial-Group-Limited-Announces-Pricing-of-Initial-Public-Offering.html",
+     "source": "Finviz",
+     "time": "2025-02-05T11:30:00+00:00"
+    }
+   ],
+   "news_age_h": 14297.7,
+   "flags": [],
+   "plan": {
+    "entry": 1.75,
+    "stop": 1.544,
+    "target": 2.163,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+70.1% recently). Wait for an early panic flush into 1.62-1.88 (25-35% off the 2.50 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 35.3,
+   "failed": [
+    "no fresh news"
+   ]
+  }
+ ],
+ "stats": {
+  "universe": 6574,
+  "with_history": 2704,
+  "scanned_premarket": 2225,
+  "setup_candidates": 45,
+  "qualified": 4,
+  "news_sources": {
+   "yf_raw": 0,
+   "yf": 0,
+   "yahoo_search": 0,
+   "finviz": 39
+  },
+  "finviz_http": [
+   "200"
+  ]
+ }
+}

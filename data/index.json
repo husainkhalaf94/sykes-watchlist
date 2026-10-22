@@ -1,5 +1,17 @@
 [
  {
+  "date": "2026-10-22",
+  "count": 5,
+  "tickers": [
+   "POM",
+   "STAK",
+   "VIVO",
+   "EVAX",
+   "WORX"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-21",
   "count": 4,
   "tickers": [

@@ -1,5 +1,15 @@
 [
  {
+  "date": "2026-10-23",
+  "count": 3,
+  "tickers": [
+   "CLIK",
+   "PDC",
+   "WORX"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-22",
   "count": 5,
   "tickers": [

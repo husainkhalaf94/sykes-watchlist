@@ -1,0 +1,742 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23T08:40:01.189367-04:00",
+ "market_closed": false,
+ "rules": {
+  "price_min": 1.0,
+  "price_max": 10.0,
+  "float_max": 20000000,
+  "rvol_min": 5.0,
+  "gap_min_pct": 20.0,
+  "runner_min_pct": 50.0,
+  "runner_lookback_days": 5,
+  "news_max_age_hours": 36,
+  "news_max_age_hours_runner": 120,
+  "max_picks": 10,
+  "pm_volume_share": 0.1
+ },
+ "picks": [
+  {
+   "symbol": "CLIK",
+   "price": 1.22,
+   "prev_close": 1.29,
+   "gap_pct": -5.4,
+   "pm": {
+    "last": 1.22,
+    "high": 1.65,
+    "low": 1.18,
+    "vwap": 1.22,
+    "volume": 0
+   },
+   "avg_vol_20d": 52785,
+   "yday_vol": 4349500,
+   "rvol": 82.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 52.8,
+   "off_peak_pct": -26.1,
+   "atr14": 0.116,
+   "levels": {
+    "prev_high": 1.65,
+    "prev_low": 1.15,
+    "prev_close": 1.29,
+    "high_5d": 1.65,
+    "high_20d": 1.4,
+    "run_peak": 1.65,
+    "pm_high": 1.65,
+    "pm_low": 1.18,
+    "pm_vwap": 1.22
+   },
+   "green_streak": 4,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Click Holdings Limited Class A Ordinary Share",
+   "sector": "Consumer Discretionary",
+   "industry": "Diversified Commercial Services",
+   "country": "Hong Kong",
+   "exchange": null,
+   "float": 7440000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "CLICK HOLDINGS LIMITED CEO JEFFREY CHAN ISSUES LETTER TO SHAREHOLDERS HIGHLIGHTING 61.9% REVENUE GROWTH, SWING TO OPERATING PROFIT AND RECORD NET INCOME OF HK$14.6 MILLION",
+     "url": "https://finviz.com/news/407211/click-holdings-limited-ceo-jeffrey-chan-issues-letter-to-shareholders-highlighting-619-revenue-growth-swing-to-operating-profit-and-record-net-income-of-hk146-million",
+     "source": "Finviz",
+     "time": "2026-10-23T12:00:00+00:00"
+    },
+    {
+     "title": "Click Holdings Limited (NASDAQ: CLIK) Reports Record Full-Year Results: Revenue, Gross Profit and Net Income Hit New Highs; Every Segment Delivers Record Revenue",
+     "url": "https://finviz.com/news/406662/click-holdings-limited-nasdaq-clik-reports-record-full-year-results-revenue-gross-profit-and-net-income-hit-new-highs-every-segment-delivers-record-revenue",
+     "source": "Finviz",
+     "time": "2026-10-22T15:10:00+00:00"
+    },
+    {
+     "title": "CLIK Notes Morningstar Quantitative Fair Value of $2.02 vs Last Close of $1.09; 46% Discount; Book Value Yield in Global Top 1%",
+     "url": "https://finviz.com/news/400505/clik-notes-morningstar-quantitative-fair-value-of-202-vs-last-close-of-109-46-discount-book-value-yield-in-global-top-1",
+     "source": "Finviz",
+     "time": "2026-10-08T15:00:00+00:00"
+    },
+    {
+     "title": "CLIK Upgrades Care U into a Full Premium Silver-Economy Platform: Live Central Clinic Adds Rehabilitation from Day One, Lifts Margin, and Sets the Hong Kong Model for Mainland China",
+     "url": "https://finviz.com/news/399909/clik-upgrades-care-u-into-a-full-premium-silver-economy-platform-live-central-clinic-adds-rehabilitation-from-day-one-lifts-margin-and-sets-the-hong-kong-model-for-mainland-china",
+     "source": "Finviz",
+     "time": "2026-10-07T13:30:00+00:00"
+    }
+   ],
+   "news_age_h": 0.7,
+   "flags": [
+    "Shelf/Registration EFFECT filed 2026-09-10",
+    "Shelf/Registration F-3/A filed 2026-09-03",
+    "Shelf/Registration F-3 filed 2026-08-25",
+    "Offering 424B3 filed 2026-07-21"
+   ],
+   "plan": {
+    "entry": 1.146,
+    "stop": 1.019,
+    "target": 1.401,
+    "risk_pct": 11.1,
+    "rr": 2.0,
+    "note": "Former runner (+52.8% recently). Wait for an early panic flush into 1.07-1.22 (26-35% off the 1.65 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 84.4
+  },
+  {
+   "symbol": "PDC",
+   "price": 3.02,
+   "prev_close": 3.02,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 29980,
+   "yday_vol": 175500,
+   "rvol": 5.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 12.5,
+   "off_peak_pct": -4.1,
+   "atr14": 0.403,
+   "levels": {
+    "prev_high": 3.09,
+    "prev_low": 2.3,
+    "prev_close": 3.02,
+    "high_5d": 3.15,
+    "high_20d": 4.15,
+    "run_peak": 3.15,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Perpetuals.com Ltd American Depositary Shares",
+   "sector": "Technology",
+   "industry": "EDP Services",
+   "country": "Japan",
+   "exchange": null,
+   "float": 3020000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Perpetuals Partners with European Institute of Management to Offer Financial Markets Certificate Programs to 600,000+ UpsideOnly Users",
+     "url": "https://finviz.com/news/404450/perpetuals-partners-with-european-institute-of-management-to-offer-financial-markets-certificate-programs-to-600000-upsideonly-users",
+     "source": "Finviz",
+     "time": "2026-10-20T12:00:00+00:00"
+    },
+    {
+     "title": "Nasdaq-Listed Perpetuals.com Files Notice to Offer Tokenized U.S. Stocks",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/nasdaq-listed-perpetuals-com-files-170800219.html",
+     "source": "Finviz",
+     "time": "2026-10-14T17:08:00+00:00"
+    },
+    {
+     "title": "Perpetuals Moves to Offer Tokenized U.S. Stocks Under SEC Innovation Exemption",
+     "url": "https://finviz.com/news/402293/perpetuals-moves-to-offer-tokenized-us-stocks-under-sec-innovation-exemption",
+     "source": "Finviz",
+     "time": "2026-10-14T12:00:00+00:00"
+    },
+    {
+     "title": "Perpetuals to Participate at Upcoming Investor Conferences",
+     "url": "https://finviz.com/news/400813/perpetuals-to-participate-at-upcoming-investor-conferences",
+     "source": "Finviz",
+     "time": "2026-10-09T12:00:00+00:00"
+    }
+   ],
+   "news_age_h": 72.7,
+   "flags": [],
+   "plan": {
+    "entry": 3.09,
+    "stop": 2.929,
+    "target": 3.411,
+    "risk_pct": 5.2,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 28.1
+  },
+  {
+   "symbol": "WORX",
+   "price": 2.64,
+   "prev_close": 2.61,
+   "gap_pct": 1.2,
+   "pm": {
+    "last": 2.64,
+    "high": 2.87,
+    "low": 2.62,
+    "vwap": 2.64,
+    "volume": 0
+   },
+   "avg_vol_20d": 547580,
+   "yday_vol": 3311000,
+   "rvol": 6.0,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 328.0,
+   "off_peak_pct": -42.3,
+   "atr14": 1.555,
+   "levels": {
+    "prev_high": 3.0,
+    "prev_low": 2.27,
+    "prev_close": 2.61,
+    "high_5d": 4.58,
+    "high_20d": 7.48,
+    "run_peak": 4.58,
+    "pm_high": 2.87,
+    "pm_low": 2.62,
+    "pm_vwap": 2.64
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 2,
+    "finviz_http": 200
+   },
+   "name": "SCWorx Corp. Common Stock",
+   "sector": "Consumer Discretionary",
+   "industry": "Services-Misc. Amusement & Recreation",
+   "country": "United States",
+   "exchange": null,
+   "float": 550000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "SCWorx Announces New Agreement with Healthcare System",
+     "url": "https://finviz.com/news/404085/scworx-announces-new-agreement-with-healthcare-system",
+     "source": "Finviz",
+     "time": "2026-10-19T14:10:00+00:00"
+    },
+    {
+     "title": "SCWorx Announces Resumption of Nasdaq Trading and Highlights Improved Operating Performance and Growth Strategy",
+     "url": "https://finviz.com/news/399985/scworx-announces-resumption-of-nasdaq-trading-and-highlights-improved-operating-performance-and-growth-strategy",
+     "source": "Finviz",
+     "time": "2026-10-07T18:23:00+00:00"
+    }
+   ],
+   "news_age_h": 94.5,
+   "flags": [
+    "Shelf/Registration S-3 filed 2026-10-16",
+    "Reverse split 1:15 on 2026-04-10",
+    "Reverse split 1:12 on 2026-08-04"
+   ],
+   "plan": {
+    "entry": 2.534,
+    "stop": 2.307,
+    "target": 2.988,
+    "risk_pct": 9.0,
+    "rr": 2.0,
+    "note": "Former runner (+328.0% recently). Wait for an early panic flush into 2.43-2.64 (42-47% off the 4.58 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 22.1
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "POM",
+   "price": 1.56,
+   "prev_close": 2.03,
+   "gap_pct": -23.2,
+   "pm": {
+    "last": 1.56,
+    "high": 1.87,
+    "low": 1.53,
+    "vwap": 1.56,
+    "volume": 0
+   },
+   "avg_vol_20d": 45370,
+   "yday_vol": 14360200,
+   "rvol": 316.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 595.2,
+   "off_peak_pct": -48.2,
+   "atr14": 0.431,
+   "levels": {
+    "prev_high": 2.73,
+    "prev_low": 1.48,
+    "prev_close": 2.03,
+    "high_5d": 3.01,
+    "high_20d": 3.01,
+    "run_peak": 3.01,
+    "pm_high": 1.87,
+    "pm_low": 1.53,
+    "pm_vwap": 1.56
+   },
+   "green_streak": 0,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "POMDOCTOR LIMITED Class A Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Other Specialty Stores",
+   "country": "China",
+   "exchange": null,
+   "float": null,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "POMDOCTOR LIMITED Announces the Termination of Its ADR Program and Trade Class A Ordinary Shares on Nasdaq",
+     "url": "https://finviz.com/news/403964/pomdoctor-limited-announces-the-termination-of-its-adr-program-and-trade-class-a-ordinary-shares-on-nasdaq",
+     "source": "Finviz",
+     "time": "2026-10-19T12:30:00+00:00"
+    },
+    {
+     "title": "POMDOCTOR LIMITED Highlights the Shift from Reactive Treatment to Predictive Healthcare",
+     "url": "https://finviz.com/news/401160/pomdoctor-limited-highlights-the-shift-from-reactive-treatment-to-predictive-healthcare",
+     "source": "Finviz",
+     "time": "2026-10-12T12:00:00+00:00"
+    },
+    {
+     "title": "POMDOCTOR LIMITED Announces Receipt of Nasdaq Staff Delisting Determination",
+     "url": "https://finviz.com/news/400961/pomdoctor-limited-announces-receipt-of-nasdaq-staff-delisting-determination",
+     "source": "Finviz",
+     "time": "2026-10-09T20:05:00+00:00"
+    },
+    {
+     "title": "POMDOCTOR LIMITED Accelerates AI-Enabled Chronic Disease Management and RWD Commercialization",
+     "url": "https://finviz.com/news/396970/pomdoctor-limited-accelerates-ai-enabled-chronic-disease-management-and-rwd-commercialization",
+     "source": "Finviz",
+     "time": "2026-09-30T12:00:00+00:00"
+    }
+   ],
+   "news_age_h": 96.2,
+   "flags": [
+    "Reverse split 1:18 on 2026-06-22",
+    "Recent foreign IPO (China)"
+   ],
+   "plan": {
+    "entry": 1.498,
+    "stop": 1.363,
+    "target": 2.03,
+    "risk_pct": 9.0,
+    "rr": 4.0,
+    "note": "Former runner (+595.2% recently). Wait for an early panic flush into 1.44-1.56 (48-52% off the 3.01 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 67.3,
+   "failed": [
+    "float unknown"
+   ]
+  },
+  {
+   "symbol": "XLAB",
+   "price": 4.76,
+   "prev_close": 4.71,
+   "gap_pct": 1.1,
+   "pm": {
+    "last": 4.76,
+    "high": 5.21,
+    "low": 4.18,
+    "vwap": 4.76,
+    "volume": 0
+   },
+   "avg_vol_20d": 82420,
+   "yday_vol": 67383900,
+   "rvol": 817.6,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 523.4,
+   "off_peak_pct": -1.9,
+   "atr14": 0.635,
+   "levels": {
+    "prev_high": 4.85,
+    "prev_low": 3.08,
+    "prev_close": 4.71,
+    "high_5d": 4.85,
+    "high_20d": 3.84,
+    "run_peak": 4.85,
+    "pm_high": 5.21,
+    "pm_low": 4.18,
+    "pm_vwap": 4.76
+   },
+   "green_streak": 1,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 4,
+    "finviz_http": 200
+   },
+   "name": "Exascale Labs Holdings Inc. Class A Common Stock",
+   "sector": "Technology",
+   "industry": "Computer Software: Prepackaged Software",
+   "country": "United States",
+   "exchange": null,
+   "float": 14450000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Exascale Labs Holdings Inc. Reports 111% Revenue Growth for Full Fiscal Year 2026 and Provides Business Update Following Successful Nasdaq Listing",
+     "url": "https://finviz.com/news/396163/exascale-labs-holdings-inc-reports-111-revenue-growth-for-full-fiscal-year-2026-and-provides-business-update-following-successful-nasdaq-listing",
+     "source": "Finviz",
+     "time": "2026-09-28T20:30:00+00:00"
+    },
+    {
+     "title": "Exascale Labs Announces Post-Closing Board of Directors Featuring Nobel Laureate David Card",
+     "url": "https://finviz.com/news/393807/exascale-labs-announces-post-closing-board-of-directors-featuring-nobel-laureate-david-card",
+     "source": "Finviz",
+     "time": "2026-09-21T12:30:00+00:00"
+    },
+    {
+     "title": "Exascale and Compal Sign Letter of Intent to Build Data-Center-Grade Native 800 VDC Validation Platform",
+     "url": "https://finviz.com/news/391590/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform",
+     "source": "Finviz",
+     "time": "2026-09-14T12:30:00+00:00"
+    },
+    {
+     "title": "Exascale and EnergyBank Sign MOU to Develop AI Compute Powered by Full-Scale Floating Offshore Wind Turbine",
+     "url": "https://finviz.com/news/386927/exascale-and-energybank-sign-mou-to-develop-ai-compute-powered-by-full-scale-floating-offshore-wind-turbine",
+     "source": "Finviz",
+     "time": "2026-08-31T13:00:00+00:00"
+    }
+   ],
+   "news_age_h": 592.2,
+   "flags": [
+    "Offering 424B3 filed 2026-07-07",
+    "Shelf/Registration EFFECT filed 2026-07-01"
+   ],
+   "plan": {
+    "entry": 5.21,
+    "stop": 4.793,
+    "target": 6.044,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 64.0,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "XCUR",
+   "price": 1.15,
+   "prev_close": 1.13,
+   "gap_pct": 1.8,
+   "pm": {
+    "last": 1.15,
+    "high": 1.18,
+    "low": 1.15,
+    "vwap": 1.15,
+    "volume": 0
+   },
+   "avg_vol_20d": 31660,
+   "yday_vol": 422200,
+   "rvol": 13.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 20.4,
+   "off_peak_pct": -11.5,
+   "atr14": 0.126,
+   "levels": {
+    "prev_high": 1.28,
+    "prev_low": 1.08,
+    "prev_close": 1.13,
+    "high_5d": 1.3,
+    "high_20d": 1.3,
+    "run_peak": 1.3,
+    "pm_high": 1.18,
+    "pm_low": 1.15,
+    "pm_vwap": 1.15
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Exicure Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "United States",
+   "exchange": null,
+   "float": 3730000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Exicure Receives Nasdaq Extension to Regain Compliance with Stockholders' Equity Requirement",
+     "url": "https://finviz.com/news/392580/exicure-receives-nasdaq-extension-to-regain-compliance-with-stockholders-equity-requirement",
+     "source": "Finviz",
+     "time": "2026-09-16T12:00:00+00:00"
+    },
+    {
+     "title": "Exicure to Settle GPCR Therapeutics Clinical Milestone Payment Through Equity Issuance",
+     "url": "https://finviz.com/news/376114/exicure-to-settle-gpcr-therapeutics-clinical-milestone-payment-through-equity-issuance",
+     "source": "Finviz",
+     "time": "2026-08-03T13:24:00+00:00"
+    },
+    {
+     "title": "Exicure Announces Board and Committee Changes",
+     "url": "https://finviz.com/news/364991/exicure-announces-board-and-committee-changes",
+     "source": "Finviz",
+     "time": "2026-06-30T12:40:00+00:00"
+    },
+    {
+     "title": "Exicure Announces Receipt of Nasdaq Notice Regarding Minimum Stockholders' Equity Requirement",
+     "url": "https://finviz.com/news/360969/exicure-announces-receipt-of-nasdaq-notice-regarding-minimum-stockholders-equity-requirement",
+     "source": "Finviz",
+     "time": "2026-06-10T20:01:00+00:00"
+    }
+   ],
+   "news_age_h": 888.7,
+   "flags": [],
+   "plan": {
+    "entry": 1.28,
+    "stop": 1.178,
+    "target": 1.485,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 37.0,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "SAIQ",
+   "price": 6.69,
+   "prev_close": 5.28,
+   "gap_pct": 26.7,
+   "pm": {
+    "last": 6.69,
+    "high": 6.96,
+    "low": 6.32,
+    "vwap": 6.69,
+    "volume": 0
+   },
+   "avg_vol_20d": 4939365,
+   "yday_vol": 25061600,
+   "rvol": 5.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 184.6,
+   "off_peak_pct": -24.4,
+   "atr14": 2.048,
+   "levels": {
+    "prev_high": 8.85,
+    "prev_low": 5.115,
+    "prev_close": 5.28,
+    "high_5d": 8.85,
+    "high_20d": 12.95,
+    "run_peak": 8.85,
+    "pm_high": 6.96,
+    "pm_low": 6.32,
+    "pm_vwap": 6.69
+   },
+   "green_streak": 0,
+   "setups": [
+    "Supernova gapper",
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 6,
+    "finviz_http": 200
+   },
+   "name": "WISeSat.Space Holdings Corp. Ordinary Shares",
+   "sector": "Consumer Discretionary",
+   "industry": "Telecommunications Equipment",
+   "country": "British Virgin Islands",
+   "exchange": null,
+   "float": 2210000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "WISeSat.Space and SEALSQ Advance Satellite Cybersecurity Hardening as FOSSA Launches New 6U Satellite Aboard SpaceX Falcon 9",
+     "url": "https://finviz.com/news/404507/wisesatspace-and-sealsq-advance-satellite-cybersecurity-hardening-as-fossa-launches-new-6u-satellite-aboard-spacex-falcon-9",
+     "source": "Finviz",
+     "time": "2026-10-20T12:00:00+00:00"
+    },
+    {
+     "title": "WISeSat.Space Advances Post-Quantum-Ready Satellite Communications to Support U.S. Quantum-Security Objectives",
+     "url": "https://finviz.com/news/401347/wisesatspace-advances-post-quantum-ready-satellite-communications-to-support-us-quantum-security-objectives",
+     "source": "Finviz",
+     "time": "2026-10-12T16:47:00+00:00"
+    },
+    {
+     "title": "WISeSat.Space and FOSSA Systems Confirm October 2026 Satellite Launch, Advancing the QSOC Constellation Roadmap",
+     "url": "https://finviz.com/news/400376/wisesatspace-and-fossa-systems-confirm-october-2026-satellite-launch-advancing-the-qsoc-constellation-roadmap",
+     "source": "Finviz",
+     "time": "2026-10-08T12:30:00+00:00"
+    },
+    {
+     "title": "WISeSat.Space Nasdaq Opening Bell to Spotlight Quantum-Resilient Space Infrastructure Strategy",
+     "url": "https://finviz.com/news/399924/wisesatspace-nasdaq-opening-bell-to-spotlight-quantum-resilient-space-infrastructure-strategy",
+     "source": "Finviz",
+     "time": "2026-10-07T14:02:00+00:00"
+    }
+   ],
+   "news_age_h": 72.7,
+   "flags": [
+    "Offering 424B3 filed 2026-08-19",
+    "Shelf/Registration EFFECT filed 2026-08-13"
+   ],
+   "plan": {
+    "entry": 6.96,
+    "stop": 6.69,
+    "target": 7.5,
+    "risk_pct": 3.9,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 36.6,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "AAME",
+   "price": 1.39,
+   "prev_close": 1.58,
+   "gap_pct": -12.0,
+   "pm": {
+    "last": 1.39,
+    "high": 1.441,
+    "low": 1.37,
+    "vwap": 1.39,
+    "volume": 0
+   },
+   "avg_vol_20d": 16065,
+   "yday_vol": 165600,
+   "rvol": 10.3,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 60.2,
+   "off_peak_pct": -15.8,
+   "atr14": 0.117,
+   "levels": {
+    "prev_high": 1.63,
+    "prev_low": 1.43,
+    "prev_close": 1.58,
+    "high_5d": 1.65,
+    "high_20d": 1.65,
+    "run_peak": 1.65,
+    "pm_high": 1.441,
+    "pm_low": 1.37,
+    "pm_vwap": 1.39
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Atlantic American Corporation Common Stock",
+   "sector": "Finance",
+   "industry": "Life Insurance",
+   "country": "United States",
+   "exchange": null,
+   "float": 20290000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Atlantic American Corporation Receives Expected Nasdaq Staff Delisting Determination Related to Delayed Filing of Periodic Reports",
+     "url": "https://finviz.com/news/406972/atlantic-american-corporation-receives-expected-nasdaq-staff-delisting-determination-related-to-delayed-filing-of-periodic-reports",
+     "source": "Finviz",
+     "time": "2026-10-22T20:47:00+00:00"
+    },
+    {
+     "title": "Atlantic American Corporation Receives Nasdaq Notice Regarding Delayed Second Quarter Form 10-Q Filing",
+     "url": "https://finviz.com/news/385957/atlantic-american-corporation-receives-nasdaq-notice-regarding-delayed-second-quarter-form-10-q-filing",
+     "source": "Finviz",
+     "time": "2026-08-26T20:39:00+00:00"
+    },
+    {
+     "title": "Atlantic American Corporation Receives Nasdaq Notice Regarding Delayed Form 10-Q Filing",
+     "url": "https://finviz.com/news/356718/atlantic-american-corporation-receives-nasdaq-notice-regarding-delayed-form-10-q-filing",
+     "source": "Finviz",
+     "time": "2026-05-22T20:39:00+00:00"
+    },
+    {
+     "title": "Atlantic American Corporation Receives Nasdaq Notice Regarding Delayed Form 10-K Filing",
+     "url": "https://finviz.com/news/346398/atlantic-american-corporation-receives-nasdaq-notice-regarding-delayed-form-10-k-filing",
+     "source": "Finviz",
+     "time": "2026-04-21T20:26:00+00:00"
+    }
+   ],
+   "news_age_h": 15.9,
+   "flags": [],
+   "plan": {
+    "entry": 1.155,
+    "stop": 1.019,
+    "target": 1.58,
+    "risk_pct": 11.8,
+    "rr": 3.1,
+    "note": "Former runner (+60.2% recently). Wait for an early panic flush into 1.07-1.24 (25-35% off the 1.65 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 31.2,
+   "failed": [
+    "float 20.3M > 20M"
+   ]
+  }
+ ],
+ "stats": {
+  "universe": 6592,
+  "with_history": 2717,
+  "scanned_premarket": 2197,
+  "setup_candidates": 45,
+  "qualified": 3,
+  "news_sources": {
+   "yf_raw": 0,
+   "yf": 0,
+   "yahoo_search": 1,
+   "finviz": 34
+  },
+  "finviz_http": [
+   "200"
+  ]
+ }
+}

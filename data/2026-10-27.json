@@ -1,0 +1,756 @@
+{
+ "date": "2026-10-27",
+ "generated_at": "2026-10-27T08:48:02.012953-04:00",
+ "market_closed": false,
+ "rules": {
+  "price_min": 1.0,
+  "price_max": 10.0,
+  "float_max": 20000000,
+  "rvol_min": 5.0,
+  "gap_min_pct": 20.0,
+  "runner_min_pct": 50.0,
+  "runner_lookback_days": 5,
+  "news_max_age_hours": 36,
+  "news_max_age_hours_runner": 120,
+  "max_picks": 10,
+  "pm_volume_share": 0.1
+ },
+ "picks": [
+  {
+   "symbol": "BOLT",
+   "price": 6.57,
+   "prev_close": 6.59,
+   "gap_pct": -0.3,
+   "pm": {
+    "last": 6.57,
+    "high": 6.75,
+    "low": 6.362,
+    "vwap": 6.57,
+    "volume": 0
+   },
+   "avg_vol_20d": 20150,
+   "yday_vol": 419100,
+   "rvol": 20.8,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 97.1,
+   "off_peak_pct": -15.6,
+   "atr14": 0.658,
+   "levels": {
+    "prev_high": 6.865,
+    "prev_low": 6.2,
+    "prev_close": 6.59,
+    "high_5d": 7.78,
+    "high_20d": 7.78,
+    "run_peak": 7.78,
+    "pm_high": 6.75,
+    "pm_low": 6.362,
+    "pm_vwap": 6.57
+   },
+   "green_streak": 3,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Bolt Biotherapeutics Inc. Common Stock",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "United States",
+   "exchange": null,
+   "float": 1640000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Bolt Biotherapeutics Announces Acquisition of Prana Therapies and $120 Million Concurrent Private Placement to Advance PRA-216 in Multiple High-Value Inflammatory Indications",
+     "url": "https://finviz.com/news/407284/bolt-biotherapeutics-announces-acquisition-of-prana-therapies-and-120-million-concurrent-private-placement-to-advance-pra-216-in-multiple-high-value-inflammatory-indications",
+     "source": "Finviz",
+     "time": "2026-10-23T13:08:00+00:00"
+    },
+    {
+     "title": "Bolt Biotherapeutics Reports Second Quarter 2026 Financial Results and Provides Business Update",
+     "url": "https://finviz.com/news/380788/bolt-biotherapeutics-reports-second-quarter-2026-financial-results-and-provides-business-update",
+     "source": "Finviz",
+     "time": "2026-08-11T20:05:00+00:00"
+    },
+    {
+     "title": "Bolt Biotherapeutics Inc.: Q1 Earnings Snapshot",
+     "url": "https://finance.yahoo.com/news/bolt-biotherapeutics-inc-q1-earnings-201820648.html",
+     "source": "Finviz",
+     "time": "2026-05-12T20:18:00+00:00"
+    },
+    {
+     "title": "Bolt Biotherapeutics Reports First Quarter 2026 Financial Results and Provides Business Update",
+     "url": "https://finviz.com/news/353568/bolt-biotherapeutics-reports-first-quarter-2026-financial-results-and-provides-business-update",
+     "source": "Finviz",
+     "time": "2026-05-12T20:05:00+00:00"
+    }
+   ],
+   "news_age_h": 95.7,
+   "flags": [],
+   "plan": {
+    "entry": 5.446,
+    "stop": 4.804,
+    "target": 6.73,
+    "risk_pct": 11.8,
+    "rr": 2.0,
+    "note": "Former runner (+97.1% recently). Wait for an early panic flush into 5.06-5.83 (25-35% off the 7.78 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 47.4
+  },
+  {
+   "symbol": "INM",
+   "price": 1.626,
+   "prev_close": 1.59,
+   "gap_pct": 2.3,
+   "pm": {
+    "last": 1.626,
+    "high": 1.65,
+    "low": 1.62,
+    "vwap": 1.626,
+    "volume": 0
+   },
+   "avg_vol_20d": 43435,
+   "yday_vol": 294300,
+   "rvol": 6.8,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 22.8,
+   "off_peak_pct": 0.3,
+   "atr14": 0.072,
+   "levels": {
+    "prev_high": 1.621,
+    "prev_low": 1.41,
+    "prev_close": 1.59,
+    "high_5d": 1.621,
+    "high_20d": 1.54,
+    "run_peak": 1.621,
+    "pm_high": 1.65,
+    "pm_low": 1.62,
+    "pm_vwap": 1.626
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "InMed Pharmaceuticals Inc. Common Shares",
+   "sector": "Health Care",
+   "industry": "Biotechnology: Pharmaceutical Preparations",
+   "country": "Canada",
+   "exchange": null,
+   "float": 4640000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "InMed Announces CVR Distribution Record Date in Connection with Proposed Merger",
+     "url": "https://finviz.com/news/408323/inmed-announces-cvr-distribution-record-date-in-connection-with-proposed-merger",
+     "source": "Finviz",
+     "time": "2026-10-27T00:01:00+00:00"
+    },
+    {
+     "title": "How Much Downside Is Left In Liquidia Stock?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/much-downside-left-liquidia-stock-014710370.html",
+     "source": "Finviz",
+     "time": "2026-10-15T01:47:00+00:00"
+    },
+    {
+     "title": "InMed Pharmaceuticals Receives Nasdaq Notification Regarding Minimum Shareholders' Equity Compliance",
+     "url": "https://www.newsfilecorp.com/release/315023/InMed-Pharmaceuticals-Receives-Nasdaq-Notification-Regarding-Minimum-Shareholders-Equity-Compliance",
+     "source": "Finviz",
+     "time": "2026-09-18T20:45:00+00:00"
+    },
+    {
+     "title": "InMed Reports Full Year Fiscal 2026 Financial Results and Provides Corporate Update",
+     "url": "https://www.newsfilecorp.com/release/313685/InMed-Reports-Full-Year-Fiscal-2026-Financial-Results-and-Provides-Corporate-Update",
+     "source": "Finviz",
+     "time": "2026-09-09T20:30:00+00:00"
+    }
+   ],
+   "news_age_h": 12.8,
+   "flags": [
+    "Shelf/Registration EFFECT filed 2026-10-01",
+    "Offering 424B3 filed 2026-10-01"
+   ],
+   "plan": {
+    "entry": 1.65,
+    "stop": 1.542,
+    "target": 1.865,
+    "risk_pct": 6.5,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 34.0
+  },
+  {
+   "symbol": "EPOW",
+   "price": 3.8,
+   "prev_close": 3.92,
+   "gap_pct": -3.1,
+   "pm": {
+    "last": 3.8,
+    "high": 3.818,
+    "low": 3.8,
+    "vwap": 3.8,
+    "volume": 0
+   },
+   "avg_vol_20d": 34500,
+   "yday_vol": 205600,
+   "rvol": 6.0,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 59.4,
+   "off_peak_pct": -15.7,
+   "atr14": 0.431,
+   "levels": {
+    "prev_high": 4.51,
+    "prev_low": 3.3,
+    "prev_close": 3.92,
+    "high_5d": 4.51,
+    "high_20d": 5.908,
+    "run_peak": 4.51,
+    "pm_high": 3.818,
+    "pm_low": 3.8,
+    "pm_vwap": 3.8
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "E-Power Inc. Class A Ordinary Shares",
+   "sector": "Miscellaneous",
+   "industry": "Industrial Machinery/Components",
+   "country": "China",
+   "exchange": null,
+   "float": 2060000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "E-Power's Guizhou Joint Venture Receives RMB 110 Million of RMB 200 Million Capital Increase at RMB 2.0 Billion Post-Money Valuation",
+     "url": "https://finviz.com/news/407844/e-powers-guizhou-joint-venture-receives-rmb-110-million-of-rmb-200-million-capital-increase-at-rmb-20-billion-post-money-valuation",
+     "source": "Finviz",
+     "time": "2026-10-26T15:00:00+00:00"
+    },
+    {
+     "title": "E-Power's Mid-Sulfur Coke Anode Route Achieves 3.2% Higher Specific Capacity Than Conventional Low-Sulfur Coke",
+     "url": "https://finviz.com/news/407303/e-powers-mid-sulfur-coke-anode-route-achieves-32-higher-specific-capacity-than-conventional-low-sulfur-coke",
+     "source": "Finviz",
+     "time": "2026-10-23T14:00:00+00:00"
+    },
+    {
+     "title": "E-Power Inc. Announces Pricing of Approximately $1.87 Million Registered Direct Offering",
+     "url": "https://finviz.com/news/396671/e-power-inc-announces-pricing-of-approximately-187-million-registered-direct-offering",
+     "source": "Finviz",
+     "time": "2026-09-29T15:59:00+00:00"
+    },
+    {
+     "title": "E-Power Receives RMB 61.8 Million (US$9.2 Million) in Full Payment for Completed Phase of RMB 343 Million Anode Contract",
+     "url": "https://finviz.com/news/394702/e-power-receives-rmb-618-million-us92-million-in-full-payment-for-completed-phase-of-rmb-343-million-anode-contract",
+     "source": "Finviz",
+     "time": "2026-09-23T12:30:00+00:00"
+    }
+   ],
+   "news_age_h": 21.8,
+   "flags": [
+    "Offering 424B5 filed 2026-09-30",
+    "Shelf/Registration EFFECT filed 2026-07-30",
+    "Shelf/Registration F-3 filed 2026-07-24",
+    "Reverse split 1:25 on 2026-09-18"
+   ],
+   "plan": {
+    "entry": 3.157,
+    "stop": 2.785,
+    "target": 3.92,
+    "risk_pct": 11.8,
+    "rr": 2.1,
+    "note": "Former runner (+59.4% recently). Wait for an early panic flush into 2.93-3.38 (25-35% off the 4.51 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 25.5
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "CLRO",
+   "price": 6.06,
+   "prev_close": 4.97,
+   "gap_pct": 21.9,
+   "pm": {
+    "last": 6.06,
+    "high": 6.71,
+    "low": 4.4,
+    "vwap": 6.06,
+    "volume": 0
+   },
+   "avg_vol_20d": 1612565,
+   "yday_vol": 82809200,
+   "rvol": 51.4,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 261.1,
+   "off_peak_pct": 3.6,
+   "atr14": 0.744,
+   "levels": {
+    "prev_high": 5.85,
+    "prev_low": 4.02,
+    "prev_close": 4.97,
+    "high_5d": 5.85,
+    "high_20d": 6.0,
+    "run_peak": 5.85,
+    "pm_high": 6.71,
+    "pm_low": 4.4,
+    "pm_vwap": 6.06
+   },
+   "green_streak": 3,
+   "setups": [
+    "Supernova gapper",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "ClearOne Inc. Common Stock",
+   "sector": "Utilities",
+   "industry": "Telecommunications Equipment",
+   "country": "United States",
+   "exchange": null,
+   "float": 710000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Are TCBK, CLRO, SOLS Obtaining Fair Deals for their Shareholders?",
+     "url": "https://finviz.com/news/368112/are-tcbk-clro-sols-obtaining-fair-deals-for-their-shareholders",
+     "source": "Finviz",
+     "time": "2026-07-14T20:10:00+00:00"
+    },
+    {
+     "title": "ClearOne Announces Entry into Merger Agreement with Cortigent, Inc., a Wholly-Owned Subsidiary of Vivani Medical",
+     "url": "https://www.businesswire.com/news/home/20260702293602/en/",
+     "source": "Finviz",
+     "time": "2026-07-02T12:00:00+00:00"
+    },
+    {
+     "title": "ClearOne Announces Closure of Asset Sale Transaction",
+     "url": "https://www.businesswire.com/news/home/20251027211798/en",
+     "source": "Finviz",
+     "time": "2025-10-27T13:30:00+00:00"
+    },
+    {
+     "title": "The Zacks Analyst Blog Highlights SAP, Novartis, Philip Morris International, ImmuCell and ClearOne",
+     "url": "https://finviz.com/news/188333/the-zacks-analyst-blog-highlights-sap-novartis-philip-morris-international-immucell-and-clearone",
+     "source": "Finviz",
+     "time": "2025-10-09T13:37:00+00:00"
+    }
+   ],
+   "news_age_h": 2512.6,
+   "flags": [
+    "Shelf/Registration S-1/A filed 2026-09-04",
+    "Shelf/Registration S-1 filed 2026-08-10"
+   ],
+   "plan": {
+    "entry": 6.71,
+    "stop": 6.06,
+    "target": 8.01,
+    "risk_pct": 9.7,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 90.1,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "BRAI",
+   "price": 3.158,
+   "prev_close": 2.12,
+   "gap_pct": 49.0,
+   "pm": {
+    "last": 3.158,
+    "high": 3.4,
+    "low": 2.84,
+    "vwap": 3.158,
+    "volume": 0
+   },
+   "avg_vol_20d": 35940,
+   "yday_vol": 4734400,
+   "rvol": 131.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 45.1,
+   "off_peak_pct": -37.5,
+   "atr14": 0.651,
+   "levels": {
+    "prev_high": 5.05,
+    "prev_low": 2.1,
+    "prev_close": 2.12,
+    "high_5d": 5.05,
+    "high_20d": 5.65,
+    "run_peak": 5.05,
+    "pm_high": 3.4,
+    "pm_low": 2.84,
+    "pm_vwap": 3.158
+   },
+   "green_streak": 0,
+   "setups": [
+    "Supernova gapper"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Braiin Limited Common Stock",
+   "sector": "Technology",
+   "industry": "EDP Services",
+   "country": "Australia",
+   "exchange": null,
+   "float": 206090000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform",
+     "url": "https://finviz.com/news/407764/braiin-targets-usd-569-billion-cx-software-market-with-agentic-ai-expansion-and-major-upgrade-to-radius-cx-platform",
+     "source": "Finviz",
+     "time": "2026-10-26T13:00:00+00:00"
+    },
+    {
+     "title": "Braiin Ltd. to Participate in AI Panel at 2026 Maxim Growth Summit",
+     "url": "https://finviz.com/news/400833/braiin-ltd-to-participate-in-ai-panel-at-2026-maxim-growth-summit",
+     "source": "Finviz",
+     "time": "2026-10-09T12:30:00+00:00"
+    },
+    {
+     "title": "Braiin Ltd. to Present at the H.C. Wainwright 28th Annual Global Investment Conference",
+     "url": "https://finviz.com/news/391517/braiin-ltd-to-present-at-the-hc-wainwright-28th-annual-global-investment-conference",
+     "source": "Finviz",
+     "time": "2026-09-14T12:00:00+00:00"
+    },
+    {
+     "title": "Braiin's Agentic AI Targets US$110B+ Global Relocation Market: Company Partners with Muval to Expand into UK and US",
+     "url": "https://finviz.com/news/374154/braiins-agentic-ai-targets-us110b-global-relocation-market-company-partners-with-muval-to-expand-into-uk-and-us",
+     "source": "Finviz",
+     "time": "2026-07-29T12:30:00+00:00"
+    }
+   ],
+   "news_age_h": 23.8,
+   "flags": [],
+   "plan": {
+    "entry": 3.4,
+    "stop": 3.158,
+    "target": 3.884,
+    "risk_pct": 7.1,
+    "rr": 2.0,
+    "note": "Wait for the open. Buy only on a clean break of the pre-market high with heavy volume; skip if it fades below pre-market VWAP. Sykes rule: take profits into the spike, cut fast."
+   },
+   "score": 89.7,
+   "failed": [
+    "float 206.1M > 20M"
+   ]
+  },
+  {
+   "symbol": "CENN",
+   "price": 2.64,
+   "prev_close": 2.64,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 10695,
+   "yday_vol": 935400,
+   "rvol": 87.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 40.5,
+   "off_peak_pct": -12.6,
+   "atr14": 0.346,
+   "levels": {
+    "prev_high": 3.02,
+    "prev_low": 2.27,
+    "prev_close": 2.64,
+    "high_5d": 3.02,
+    "high_20d": 4.48,
+    "run_peak": 3.02,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Cenntro Inc. Common Stock",
+   "sector": "Industrials",
+   "industry": "Auto Manufacturing",
+   "country": "New Zealand",
+   "exchange": null,
+   "float": 1070000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Cenntro Regains Compliance with Nasdaq Minimum Bid Price Rule",
+     "url": "https://www.businesswire.com/news/home/20260428698147/en",
+     "source": "Finviz",
+     "time": "2026-04-28T20:30:00+00:00"
+    },
+    {
+     "title": "Cenntro Granted 180-Day Extension to Meet Nasdaq Minimum Bid Price Requirement",
+     "url": "https://www.businesswire.com/news/home/20251024331708/en/",
+     "source": "Finviz",
+     "time": "2025-10-24T20:30:00+00:00"
+    },
+    {
+     "title": "Cenntro Signs Strategic Partnership Agreement with Electricove Maroc for EV Assembly in Morocco",
+     "url": "https://www.businesswire.com/news/home/20250722363149/en/",
+     "source": "Finviz",
+     "time": "2025-07-22T13:00:00+00:00"
+    },
+    {
+     "title": "Cenntro Announces Orders for 260 Newly Introduced Logistar 210 Model",
+     "url": "https://www.businesswire.com/news/home/20250715930897/en/Cenntro",
+     "source": "Finviz",
+     "time": "2025-07-15T12:31:00+00:00"
+    }
+   ],
+   "news_age_h": 4360.3,
+   "flags": [
+    "Offering 424B5 filed 2026-10-13",
+    "Reverse split 1:60 on 2026-04-13"
+   ],
+   "plan": {
+    "entry": 3.02,
+    "stop": 2.778,
+    "target": 3.503,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 76.9,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "XTND",
+   "price": 2.2,
+   "prev_close": 2.18,
+   "gap_pct": 0.9,
+   "pm": {
+    "last": 2.2,
+    "high": 2.258,
+    "low": 2.04,
+    "vwap": 2.2,
+    "volume": 0
+   },
+   "avg_vol_20d": 1047765,
+   "yday_vol": 41042900,
+   "rvol": 39.2,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 83.7,
+   "off_peak_pct": -27.9,
+   "atr14": 0.279,
+   "levels": {
+    "prev_high": 3.05,
+    "prev_low": 1.7,
+    "prev_close": 2.18,
+    "high_5d": 3.05,
+    "high_20d": 4.04,
+    "run_peak": 3.05,
+    "pm_high": 2.258,
+    "pm_low": 2.04,
+    "pm_vwap": 2.2
+   },
+   "green_streak": 2,
+   "setups": [
+    "Morning-panic dip-buy",
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 17,
+    "finviz_http": 200
+   },
+   "name": "Xtend AI Robotics Inc. Common Stock",
+   "sector": "Industrials",
+   "industry": "Military/Government/Technical",
+   "country": "",
+   "exchange": null,
+   "float": 177830000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "XTEND Secures $2.35 Million Middle East Defense Order for XOS-Powered SCORPIO 1000 Systems One Day After Reporting Nine-Month Revenue Above Full-Year 2025",
+     "url": "https://www.businesswire.com/news/home/20261027034179/en/Img1",
+     "source": "Finviz",
+     "time": "2026-10-27T12:30:00+00:00"
+    },
+    {
+     "title": "XTEND Reports Preliminary Third Quarter 2026 Results, Names Former Navy SEAL Captain Matt McGraw U.S. CEO, and Issues Letter to Shareholders",
+     "url": "https://finviz.com/news/407729/xtend-reports-preliminary-third-quarter-2026-results-names-former-navy-seal-captain-matt-mcgraw-us-ceo-and-issues-letter-to-shareholders",
+     "source": "Finviz",
+     "time": "2026-10-26T12:30:00+00:00"
+    },
+    {
+     "title": "XTEND Awarded $40.5 Million Order for 6,000 STRIKER Systems Following Drone Dominance Program Gauntlet II",
+     "url": "https://finviz.com/news/401891/xtend-awarded-405-million-order-for-6000-striker-systems-following-drone-dominance-program-gauntlet-ii",
+     "source": "Finviz",
+     "time": "2026-10-13T13:25:00+00:00"
+    },
+    {
+     "title": "XTEND to Showcase Physical AI Ecosystem and XOS-Powered Robotic Platforms at AUSA 2026",
+     "url": "https://finviz.com/news/401299/xtend-to-showcase-physical-ai-ecosystem-and-xos-powered-robotic-platforms-at-ausa-2026",
+     "source": "Finviz",
+     "time": "2026-10-12T13:25:00+00:00"
+    }
+   ],
+   "news_age_h": 0.3,
+   "flags": [
+    "Shelf/Registration S-3ASR filed 2026-09-04",
+    "Shelf/Registration EFFECT filed 2026-08-11",
+    "Offering 424B3 filed 2026-08-11"
+   ],
+   "plan": {
+    "entry": 2.091,
+    "stop": 1.883,
+    "target": 2.507,
+    "risk_pct": 9.9,
+    "rr": 2.0,
+    "note": "Former runner (+83.7% recently). Wait for an early panic flush into 1.98-2.20 (28-35% off the 3.05 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+   },
+   "score": 64.2,
+   "failed": [
+    "float 177.8M > 20M"
+   ]
+  },
+  {
+   "symbol": "EFOI",
+   "price": 3.9,
+   "prev_close": 3.77,
+   "gap_pct": 3.4,
+   "pm": {
+    "last": 3.9,
+    "high": 4.07,
+    "low": 3.76,
+    "vwap": 3.9,
+    "volume": 0
+   },
+   "avg_vol_20d": 16885,
+   "yday_vol": 352300,
+   "rvol": 20.9,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 51.9,
+   "off_peak_pct": -1.3,
+   "atr14": 0.278,
+   "levels": {
+    "prev_high": 3.95,
+    "prev_low": 2.93,
+    "prev_close": 3.77,
+    "high_5d": 3.95,
+    "high_20d": 3.37,
+    "run_peak": 3.95,
+    "pm_high": 4.07,
+    "pm_low": 3.76,
+    "pm_vwap": 3.9
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Energy Focus Inc. Common Stock",
+   "sector": "Consumer Discretionary",
+   "industry": "Building Products",
+   "country": "United States",
+   "exchange": null,
+   "float": 3290000.0,
+   "short_pct_float": null,
+   "news": [
+    {
+     "title": "Energy Focus (EFOI) Anticipates Multi-Fold Revenue Surge in Australia Driven by Strategic Partnerships and Evolving Energy Subsidies",
+     "url": "https://www.businesswire.com/news/home/20260505258529/en",
+     "source": "Finviz",
+     "time": "2026-05-05T13:00:00+00:00"
+    },
+    {
+     "title": "Energy Focus, Inc. Announces Strategic Entry into Japan's Energy Storage Market",
+     "url": "https://www.businesswire.com/news/home/20260420682943/en",
+     "source": "Finviz",
+     "time": "2026-04-20T13:00:00+00:00"
+    },
+    {
+     "title": "BC-Most Active Stocks",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143018281.html",
+     "source": "Finviz",
+     "time": "2026-04-17T14:30:00+00:00"
+    },
+    {
+     "title": "Energy Focus Highlights Progress on Data Center Projects, Expands Infrastructure Pipeline",
+     "url": "https://finance.yahoo.com/m/8cf3234f-3c7e-3d53-a033-4e747cbd40a5/energy-focus-highlights.html",
+     "source": "Finviz",
+     "time": "2026-04-17T14:04:00+00:00"
+    }
+   ],
+   "news_age_h": 4199.8,
+   "flags": [],
+   "plan": {
+    "entry": 4.07,
+    "stop": 3.744,
+    "target": 4.721,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 47.1,
+   "failed": [
+    "no fresh news"
+   ]
+  }
+ ],
+ "stats": {
+  "universe": 6583,
+  "with_history": 2722,
+  "scanned_premarket": 2201,
+  "setup_candidates": 45,
+  "qualified": 3,
+  "news_sources": {
+   "yf_raw": 0,
+   "yf": 0,
+   "yahoo_search": 0,
+   "finviz": 40
+  },
+  "finviz_http": [
+   "200",
+   "404"
+  ]
+ }
+}

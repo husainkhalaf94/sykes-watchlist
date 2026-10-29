@@ -1,5 +1,18 @@
 [
  {
+  "date": "2026-10-29",
+  "count": 6,
+  "tickers": [
+   "BOOM",
+   "ELPW",
+   "MWYN",
+   "PLUR",
+   "NUWE",
+   "MGN"
+  ],
+  "market_closed": false
+ },
+ {
   "date": "2026-10-28",
   "count": 5,
   "tickers": [

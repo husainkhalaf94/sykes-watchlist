@@ -1,6 +1,6 @@
 {
- "date": "2026-10-29",
- "generated_at": "2026-10-29T08:54:44.061783-04:00",
+ "date": "2026-10-30",
+ "generated_at": "2026-10-30T08:53:42.275655-04:00",
  "market_closed": false,
  "rules": {
   "price_min": 1.0,
@@ -17,123 +17,37 @@
  },
  "picks": [
   {
-   "symbol": "BOOM",
-   "price": 8.1,
-   "prev_close": 7.73,
-   "gap_pct": 4.8,
+   "symbol": "CETX",
+   "price": 1.65,
+   "prev_close": 1.78,
+   "gap_pct": -7.3,
    "pm": {
-    "last": 8.1,
-    "high": 8.1,
-    "low": 7.69,
-    "vwap": 8.1,
+    "last": 1.65,
+    "high": 1.66,
+    "low": 1.53,
+    "vwap": 1.65,
     "volume": 0
    },
-   "avg_vol_20d": 113470,
-   "yday_vol": 7649400,
-   "rvol": 67.4,
+   "avg_vol_20d": 27205,
+   "yday_vol": 38282400,
+   "rvol": 1407.2,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 53.0,
-   "off_peak_pct": 4.7,
-   "atr14": 0.411,
+   "run_pct_5d": 82.1,
+   "off_peak_pct": -46.8,
+   "atr14": 0.19,
    "levels": {
-    "prev_high": 7.74,
-    "prev_low": 6.62,
-    "prev_close": 7.73,
-    "high_5d": 7.74,
-    "high_20d": 6.19,
-    "run_peak": 7.74,
-    "pm_high": 8.1,
-    "pm_low": 7.69,
-    "pm_vwap": 8.1
+    "prev_high": 3.1,
+    "prev_low": 1.68,
+    "prev_close": 1.78,
+    "high_5d": 3.1,
+    "high_20d": 2.09,
+    "run_peak": 3.1,
+    "pm_high": 1.66,
+    "pm_low": 1.53,
+    "pm_vwap": 1.65
    },
    "green_streak": 1,
    "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "DMC Global Inc. Common Stock",
-   "sector": "Industrials",
-   "industry": "Industrial Specialties",
-   "country": "United States",
-   "exchange": null,
-   "float": 18160000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "DMC Global: Q3 Earnings Snapshot",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/dmc-global-q3-earnings-snapshot-183421933.html",
-     "source": "Finviz",
-     "time": "2026-10-28T18:34:00+00:00"
-    },
-    {
-     "title": "DMC Global Blows Past Estimates On Broad Margin Gains, But Tariff Refunds And A Seasonal Q4 Step-Down Temper The Beat",
-     "url": "https://finviz.com/news/409514/dmc-global-blows-past-estimates-on-broad-margin-gains-but-tariff-refunds-and-a-seasonal-q4-step-down-temper-the-beat",
-     "source": "Finviz",
-     "time": "2026-10-27T22:07:00+00:00"
-    },
-    {
-     "title": "DMC Global Reports Third Quarter Financial Results",
-     "url": "https://finviz.com/news/409269/dmc-global-reports-third-quarter-financial-results",
-     "source": "Finviz",
-     "time": "2026-10-27T20:05:00+00:00"
-    },
-    {
-     "title": "DMC Global to Report Third Quarter Financial Results on October 27, 2026",
-     "url": "https://finviz.com/news/402238/dmc-global-to-report-third-quarter-financial-results-on-october-27-2026",
-     "source": "Finviz",
-     "time": "2026-10-14T11:00:00+00:00"
-    }
-   ],
-   "news_age_h": 18.3,
-   "flags": [],
-   "plan": {
-    "entry": 8.1,
-    "stop": 7.498,
-    "target": 9.304,
-    "risk_pct": 7.4,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 76.6
-  },
-  {
-   "symbol": "ELPW",
-   "price": 2.63,
-   "prev_close": 3.0,
-   "gap_pct": -12.3,
-   "pm": {
-    "last": 2.63,
-    "high": 2.86,
-    "low": 2.59,
-    "vwap": 2.63,
-    "volume": 0
-   },
-   "avg_vol_20d": 481755,
-   "yday_vol": 40435700,
-   "rvol": 83.9,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 55.0,
-   "off_peak_pct": -23.5,
-   "atr14": 0.225,
-   "levels": {
-    "prev_high": 3.44,
-    "prev_low": 2.58,
-    "prev_close": 3.0,
-    "high_5d": 3.44,
-    "high_20d": 3.06,
-    "run_peak": 3.44,
-    "pm_high": 2.86,
-    "pm_low": 2.59,
-    "pm_vwap": 2.63
-   },
-   "green_streak": 4,
-   "setups": [
     "Morning-panic dip-buy"
    ],
    "sources": {
@@ -143,264 +57,86 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Elong Power Holding Limited Class A Ordinary Shares",
-   "sector": "Miscellaneous",
-   "industry": "Industrial Machinery/Components",
-   "country": "China",
-   "exchange": null,
-   "float": 850000.0,
-   "short_pct_float": null,
+   "name": "Cemtrex Inc.",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 1721141.0,
+   "short_pct_float": 12.5,
    "news": [
     {
-     "title": "Elong Power Signs $25.5 Million Annual Distribution Agreement Through Hong Kong Subsidiary",
-     "url": "https://finviz.com/news/410188/elong-power-signs-255-million-annual-distribution-agreement-through-hong-kong-subsidiary",
+     "title": "Cemtrex Reports Preliminary Fourth Quarter and Fiscal Year 2026 Results",
+     "url": "https://finviz.com/news/411408/cemtrex-reports-preliminary-fourth-quarter-and-fiscal-year-2026-results",
      "source": "Finviz",
-     "time": "2026-10-28T15:58:00+00:00"
+     "time": "2026-10-29T12:00:00+00:00"
     },
     {
-     "title": "Elong Power Holding Limited (NASDAQ: ELPW) Announces Subsidiary's Entry into a US$25.5 Million Annual Cooperation Agreement, Marking a Critical Step Forward in Its Global Distribution Expansion",
-     "url": "https://finviz.com/news/409720/elong-power-holding-limited-nasdaq-elpw-announces-subsidiarys-entry-into-a-us255-million-annual-cooperation-agreement-marking-a-critical-step-forward-in-its-global-distribution-expansion",
+     "title": "Cemtrex's Vicon Secures Approximately $2.8 Million in Orders from U.S. Federal Government Agency",
+     "url": "https://finviz.com/news/393119/cemtrexs-vicon-secures-approximately-28-million-in-orders-from-us-federal-government-agency",
      "source": "Finviz",
-     "time": "2026-10-28T08:00:00+00:00"
+     "time": "2026-09-17T12:30:00+00:00"
     },
     {
-     "title": "Elong Power Holding Limited Announces First Half 2026 Financial Results",
-     "url": "https://finviz.com/news/398996/elong-power-holding-limited-announces-first-half-2026-financial-results",
+     "title": "Cemtrex Reports Third Quarter Fiscal 2026 Financial Results",
+     "url": "https://finviz.com/news/382482/cemtrex-reports-third-quarter-fiscal-2026-financial-results",
      "source": "Finviz",
-     "time": "2026-10-06T09:00:00+00:00"
+     "time": "2026-08-14T20:05:00+00:00"
     },
     {
-     "title": "Elong Power Holding Limited Announces the Change of Effective Date of its 1 for 45 Share Consolidations",
-     "url": "https://finviz.com/news/378800/elong-power-holding-limited-announces-the-change-of-effective-date-of-its-1-for-45-share-consolidations",
+     "title": "Cemtrex's Vicon Secures Approximately $900,000 Order to Equip U.S. Corrections Facility End-to-End",
+     "url": "https://finviz.com/news/374994/cemtrexs-vicon-secures-approximately-900000-order-to-equip-us-corrections-facility-end-to-end",
      "source": "Finviz",
-     "time": "2026-08-06T15:50:00+00:00"
+     "time": "2026-07-30T12:30:00+00:00"
     }
    ],
-   "news_age_h": 20.9,
+   "news_age_h": 24.9,
    "flags": [
-    "Offering 424B3 filed 2026-09-10",
-    "Shelf/Registration EFFECT filed 2026-09-03",
-    "Shelf/Registration F-1/A filed 2026-09-01",
-    "Shelf/Registration F-1 filed 2026-08-24",
-    "Reverse split 1:16 on 2025-12-26",
-    "Reverse split 1:80 on 2026-03-12",
-    "Reverse split 1:45 on 2026-08-10"
+    "Reverse split 1:10 on 2026-06-05"
    ],
    "plan": {
-    "entry": 2.408,
-    "stop": 2.124,
-    "target": 3.0,
-    "risk_pct": 11.8,
-    "rr": 2.1,
-    "note": "Former runner (+55.0% recently). Wait for an early panic flush into 2.24-2.58 (25-35% off the 3.44 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 74.6
-  },
-  {
-   "symbol": "MWYN",
-   "price": 1.38,
-   "prev_close": 1.41,
-   "gap_pct": -2.1,
-   "pm": {
-    "last": 1.38,
-    "high": 1.48,
-    "low": 1.38,
-    "vwap": 1.38,
-    "volume": 0
-   },
-   "avg_vol_20d": 249965,
-   "yday_vol": 2602000,
-   "rvol": 10.4,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 50.9,
-   "off_peak_pct": -50.7,
-   "atr14": 0.449,
-   "levels": {
-    "prev_high": 2.8,
-    "prev_low": 1.376,
-    "prev_close": 1.41,
-    "high_5d": 2.8,
-    "high_20d": 2.705,
-    "run_peak": 2.8,
-    "pm_high": 1.48,
-    "pm_low": 1.38,
-    "pm_vwap": 1.38
-   },
-   "green_streak": 0,
-   "setups": [
-    "Morning-panic dip-buy"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 14,
-    "finviz_http": 200
-   },
-   "name": "Marwynn Holdings Inc. Common stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Food Distributors",
-   "country": "United States",
-   "exchange": null,
-   "float": 13000000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Marwynn Holdings Signs Non-Binding MOU with Grenada National Resort to Evaluate Solar-Powered AI Data Center Campus",
-     "url": "https://finviz.com/news/410117/marwynn-holdings-signs-non-binding-mou-with-grenada-national-resort-to-evaluate-solar-powered-ai-data-center-campus",
-     "source": "Finviz",
-     "time": "2026-10-28T15:00:00+00:00"
-    },
-    {
-     "title": "Marwynn Signs MOU with OmniX to Supply AI Computing and Evaluate Real-World Asset Securities Infrastructure",
-     "url": "https://finviz.com/news/400910/marwynn-signs-mou-with-omnix-to-supply-ai-computing-and-evaluate-real-world-asset-securities-infrastructure",
-     "source": "Finviz",
-     "time": "2026-10-09T15:00:00+00:00"
-    },
-    {
-     "title": "Marwynn Holdings' EcoLoopX Appoints Frank Xu as New Sales Director to Drive Commercial E-Waste Recycling and Supply Chain Expansion",
-     "url": "https://finviz.com/news/360453/marwynn-holdings-ecoloopx-appoints-frank-xu-as-new-sales-director-to-drive-commercial-e-waste-recycling-and-supply-chain-expansion",
-     "source": "Finviz",
-     "time": "2026-06-09T12:00:00+00:00"
-    },
-    {
-     "title": "Marwynn Holdings Announces Strategic Expansion into Battery Recycling Infrastructure with Plans for EcoLoopX Black Mass Production Facility",
-     "url": "https://finviz.com/news/349830/marwynn-holdings-announces-strategic-expansion-into-battery-recycling-infrastructure-with-plans-for-ecoloopx-black-mass-production-facility",
-     "source": "Finviz",
-     "time": "2026-05-01T12:00:00+00:00"
-    }
-   ],
-   "news_age_h": 21.9,
-   "flags": [],
-   "plan": {
-    "entry": 1.325,
-    "stop": 1.206,
-    "target": 1.562,
+    "entry": 1.584,
+    "stop": 1.442,
+    "target": 1.868,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+50.9% recently). Wait for an early panic flush into 1.27-1.38 (51-55% off the 2.80 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+82.1% recently). Wait for an early panic flush into 1.52-1.65 (47-51% off the 3.10 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 31.4
-  },
-  {
-   "symbol": "PLUR",
-   "price": 1.23,
-   "prev_close": 1.23,
-   "gap_pct": 0.0,
-   "pm": null,
-   "avg_vol_20d": 13210,
-   "yday_vol": 227500,
-   "rvol": 17.2,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 57.1,
-   "off_peak_pct": -14.0,
-   "atr14": 0.141,
-   "levels": {
-    "prev_high": 1.43,
-    "prev_low": 1.19,
-    "prev_close": 1.23,
-    "high_5d": 1.43,
-    "high_20d": 1.36,
-    "run_peak": 1.43,
-    "pm_high": null,
-    "pm_low": null,
-    "pm_vwap": null
-   },
-   "green_streak": 3,
-   "setups": [
-    "Morning-panic dip-buy",
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Pluri Inc. Common Stock",
-   "sector": "Health Care",
-   "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-   "country": "Israel",
-   "exchange": null,
-   "float": 8330000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Pluri to Host Investor Conference Calls to Discuss Updates and Strategic Developments",
-     "url": "https://finviz.com/news/408806/pluri-to-host-investor-conference-calls-to-discuss-updates-and-strategic-developments",
-     "source": "Finviz",
-     "time": "2026-10-27T13:00:00+00:00"
-    },
-    {
-     "title": "Pluri and ZEO ScientifiX Partner to Expand U.S. Manufacturing and Commercial Platform",
-     "url": "https://finviz.com/news/407584/pluri-and-zeo-scientifix-partner-to-expand-us-manufacturing-and-commercial-platform",
-     "source": "Finviz",
-     "time": "2026-10-26T11:05:00+00:00"
-    },
-    {
-     "title": "Pluri and ZEO ScientifiX Partner to Expand U.S. Manufacturing and Commercial Platform for Regenerative Medicine",
-     "url": "https://finviz.com/news/407563/pluri-and-zeo-scientifix-partner-to-expand-us-manufacturing-and-commercial-platform-for-regenerative-medicine",
-     "source": "Finviz",
-     "time": "2026-10-26T11:00:00+00:00"
-    },
-    {
-     "title": "Pluri Chairman and Active Investor Alejandro Weinstein to Acquire EIB Loan, in Strong Vote of Confidence in the Company",
-     "url": "https://finviz.com/news/405425/pluri-chairman-and-active-investor-alejandro-weinstein-to-acquire-eib-loan-in-strong-vote-of-confidence-in-the-company",
-     "source": "Finviz",
-     "time": "2026-10-21T12:30:00+00:00"
-    }
-   ],
-   "news_age_h": 47.9,
-   "flags": [
-    "Shelf/Registration EFFECT filed 2026-10-15",
-    "Shelf/Registration S-1 filed 2026-10-06",
-    "Shelf/Registration S-3 filed 2026-09-11",
-    "Offering 424B5 filed 2026-08-28"
-   ],
-   "plan": {
-    "entry": 1.001,
-    "stop": 0.883,
-    "target": 1.237,
-    "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+57.1% recently). Wait for an early panic flush into 0.93-1.07 (25-35% off the 1.43 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
-   },
-   "score": 28.3
+   "score": 87.7
   },
   {
    "symbol": "NUWE",
-   "price": 6.73,
-   "prev_close": 5.66,
-   "gap_pct": 18.9,
+   "price": 5.4,
+   "prev_close": 5.78,
+   "gap_pct": -6.6,
    "pm": {
-    "last": 6.73,
-    "high": 7.316,
-    "low": 5.311,
-    "vwap": 6.73,
+    "last": 5.4,
+    "high": 6.01,
+    "low": 5.3,
+    "vwap": 5.4,
     "volume": 0
    },
-   "avg_vol_20d": 170445,
-   "yday_vol": 2134000,
-   "rvol": 12.5,
+   "avg_vol_20d": 151065,
+   "yday_vol": 14678500,
+   "rvol": 97.2,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 1759.4,
-   "off_peak_pct": 13.1,
-   "atr14": 0.552,
+   "run_pct_5d": 2134.4,
+   "off_peak_pct": -24.5,
+   "atr14": 0.659,
    "levels": {
-    "prev_high": 5.7,
-    "prev_low": 4.42,
-    "prev_close": 5.66,
-    "high_5d": 5.95,
+    "prev_high": 7.15,
+    "prev_low": 5.61,
+    "prev_close": 5.78,
+    "high_5d": 7.15,
     "high_20d": 5.95,
-    "run_peak": 5.95,
-    "pm_high": 7.316,
-    "pm_low": 5.311,
-    "pm_vwap": 6.73
+    "run_peak": 7.15,
+    "pm_high": 6.01,
+    "pm_low": 5.3,
+    "pm_vwap": 5.4
    },
-   "green_streak": 2,
+   "green_streak": 3,
    "setups": [
-    "Breakout / multi-day runner"
+    "Morning-panic dip-buy"
    ],
    "sources": {
     "yf_raw": 0,
@@ -409,13 +145,13 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Nuwellis Inc. Common Stock",
-   "sector": "Health Care",
-   "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+   "name": "Nuwellis, Inc.",
+   "sector": "Healthcare",
+   "industry": "Medical Devices",
    "country": "United States",
-   "exchange": null,
-   "float": 350000.0,
-   "short_pct_float": null,
+   "exchange": "NCM",
+   "float": 383697.0,
+   "short_pct_float": 2.5,
    "news": [
     {
      "title": "Nuwellis Announces Acceptance of Multicenter Pediatric Aquadex Study in Pediatric Nephrology",
@@ -442,7 +178,7 @@
      "time": "2026-09-17T14:23:00+00:00"
     }
    ],
-   "news_age_h": 48.9,
+   "news_age_h": 72.9,
    "flags": [
     "Shelf/Registration EFFECT filed 2026-08-26",
     "Offering 424B3 filed 2026-08-26",
@@ -452,142 +188,48 @@
     "Reverse split 1:9 on 2026-10-27"
    ],
    "plan": {
-    "entry": 7.316,
-    "stop": 6.731,
-    "target": 8.487,
-    "risk_pct": 8.0,
+    "entry": 5.005,
+    "stop": 4.415,
+    "target": 6.185,
+    "risk_pct": 11.8,
     "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+    "note": "Former runner (+2134.4% recently). Wait for an early panic flush into 4.65-5.36 (25-35% off the 7.15 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 28.2
+   "score": 68.3
   },
   {
-   "symbol": "MGN",
-   "price": 3.6,
-   "prev_close": 3.59,
+   "symbol": "BOOM",
+   "price": 8.504,
+   "prev_close": 8.48,
    "gap_pct": 0.3,
    "pm": {
-    "last": 3.6,
-    "high": 3.6,
-    "low": 3.26,
-    "vwap": 3.6,
+    "last": 8.504,
+    "high": 8.82,
+    "low": 8.21,
+    "vwap": 8.504,
     "volume": 0
    },
-   "avg_vol_20d": 135290,
-   "yday_vol": 884700,
-   "rvol": 6.5,
+   "avg_vol_20d": 112800,
+   "yday_vol": 2123200,
+   "rvol": 18.8,
    "rvol_basis": "yesterday",
-   "run_pct_5d": 105.1,
-   "off_peak_pct": -10.0,
-   "atr14": 0.47,
+   "run_pct_5d": 75.5,
+   "off_peak_pct": -4.2,
+   "atr14": 0.483,
    "levels": {
-    "prev_high": 4.0,
-    "prev_low": 2.57,
-    "prev_close": 3.59,
-    "high_5d": 4.0,
-    "high_20d": 4.165,
-    "run_peak": 4.0,
-    "pm_high": 3.6,
-    "pm_low": 3.26,
-    "pm_vwap": 3.6
+    "prev_high": 8.88,
+    "prev_low": 7.66,
+    "prev_close": 8.48,
+    "high_5d": 8.88,
+    "high_20d": 7.74,
+    "run_peak": 8.88,
+    "pm_high": 8.82,
+    "pm_low": 8.21,
+    "pm_vwap": 8.504
    },
-   "green_streak": 3,
+   "green_streak": 2,
    "setups": [
     "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 14,
-    "finviz_http": 200
-   },
-   "name": "Megan Holdings Limited Class A Ordinary Shares",
-   "sector": "Consumer Staples",
-   "industry": "Farming/Seeds/Milling",
-   "country": "Malaysia",
-   "exchange": null,
-   "float": 870000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Megan Holdings Limited Announces Pricing of Up to $7.5 Million Follow-on Public Offering",
-     "url": "https://finviz.com/news/410076/megan-holdings-limited-announces-pricing-of-up-to-75-million-follow-on-public-offering",
-     "source": "Finviz",
-     "time": "2026-10-28T13:20:00+00:00"
-    },
-    {
-     "title": "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
-     "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-bullish-signals-amid-dirty-volume?mod=IBD_FV",
-     "source": "Finviz",
-     "time": "2026-08-08T14:21:00+00:00"
-    },
-    {
-     "title": "MGN Shareholders Have Rights If You Lost Money Investing in Megan Holdings Limited Contact Robbins LLP for Information About Recovering Your Losses",
-     "url": "https://www.businesswire.com/news/home/20260724473230/en/",
-     "source": "Finviz",
-     "time": "2026-07-24T14:10:00+00:00"
-    },
-    {
-     "title": "Did You Lose Money Investing in Megan Holdings Limited? Robbins LLP Urges Investors with Significant Losses to Contact the Firm for Information About Their Rights Against MGN",
-     "url": "https://finviz.com/news/368608/did-you-lose-money-investing-in-megan-holdings-limited-robbins-llp-urges-investors-with-significant-losses-to-contact-the-firm-for-information-about-their-rights-against-mgn",
-     "source": "Finviz",
-     "time": "2026-07-15T14:00:00+00:00"
-    }
-   ],
-   "news_age_h": 23.6,
-   "flags": [
-    "Shelf/Registration EFFECT filed 2026-10-27",
-    "Shelf/Registration F-1 filed 2026-10-20",
-    "Reverse split 1:40 on 2026-09-08",
-    "Reverse split 1:30 on 2026-09-17",
-    "Recent foreign IPO (Malaysia)"
-   ],
-   "plan": {
-    "entry": 4.0,
-    "stop": 3.68,
-    "target": 4.64,
-    "risk_pct": 8.0,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 22.2
-  }
- ],
- "near_misses": [
-  {
-   "symbol": "CHSN",
-   "price": 1.29,
-   "prev_close": 1.46,
-   "gap_pct": -11.6,
-   "pm": {
-    "last": 1.29,
-    "high": 1.4,
-    "low": 1.26,
-    "vwap": 1.29,
-    "volume": 0
-   },
-   "avg_vol_20d": 144450,
-   "yday_vol": 73764300,
-   "rvol": 510.7,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 104.8,
-   "off_peak_pct": -24.1,
-   "atr14": 0.16,
-   "levels": {
-    "prev_high": 1.7,
-    "prev_low": 0.877,
-    "prev_close": 1.46,
-    "high_5d": 1.7,
-    "high_20d": 1.13,
-    "run_peak": 1.7,
-    "pm_high": 1.4,
-    "pm_low": 1.26,
-    "pm_vwap": 1.29
-   },
-   "green_streak": 5,
-   "setups": [
-    "Morning-panic dip-buy"
    ],
    "sources": {
     "yf_raw": 0,
@@ -596,85 +238,259 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Chanson International Holding Class A Ordinary Shares",
-   "sector": "Consumer Staples",
-   "industry": "Packaged Foods",
-   "country": "China",
-   "exchange": null,
-   "float": 2100000.0,
-   "short_pct_float": null,
+   "name": "DMC Global Inc.",
+   "sector": "Industrials",
+   "industry": "Conglomerates",
+   "country": "United States",
+   "exchange": "NMS",
+   "float": 18156556.0,
+   "short_pct_float": 0.7,
    "news": [
     {
-     "title": "Chanson International Holding Announces First Half of Fiscal Year 2026 Financial Results",
-     "url": "https://finviz.com/news/393486/chanson-international-holding-announces-first-half-of-fiscal-year-2026-financial-results",
+     "title": "DMC Global: Q3 Earnings Snapshot",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/dmc-global-q3-earnings-snapshot-183421933.html",
      "source": "Finviz",
-     "time": "2026-09-18T12:00:00+00:00"
+     "time": "2026-10-28T18:34:00+00:00"
     },
     {
-     "title": "Chanson International Holding Advances Growth Strategy Through AI-Driven Intelligent Manufacturing and Industrial Upgrade",
-     "url": "https://finviz.com/news/351957/chanson-international-holding-advances-growth-strategy-through-ai-driven-intelligent-manufacturing-and-industrial-upgrade",
+     "title": "DMC Global Blows Past Estimates On Broad Margin Gains, But Tariff Refunds And A Seasonal Q4 Step-Down Temper The Beat",
+     "url": "https://finviz.com/news/409514/dmc-global-blows-past-estimates-on-broad-margin-gains-but-tariff-refunds-and-a-seasonal-q4-step-down-temper-the-beat",
      "source": "Finviz",
-     "time": "2026-05-07T12:00:00+00:00"
+     "time": "2026-10-27T22:07:00+00:00"
     },
     {
-     "title": "Chanson International Holding Announces 100 for 1 Share Consolidation",
-     "url": "https://finviz.com/news/350706/chanson-international-holding-announces-100-for-1-share-consolidation",
+     "title": "DMC Global Reports Third Quarter Financial Results",
+     "url": "https://finviz.com/news/409269/dmc-global-reports-third-quarter-financial-results",
      "source": "Finviz",
-     "time": "2026-05-05T12:30:00+00:00"
+     "time": "2026-10-27T20:05:00+00:00"
     },
     {
-     "title": "Chanson International Holding Announces Fiscal Year 2025 Financial Results",
-     "url": "https://finviz.com/news/345955/chanson-international-holding-announces-fiscal-year-2025-financial-results",
+     "title": "DMC Global to Report Third Quarter Financial Results on October 27, 2026",
+     "url": "https://finviz.com/news/402238/dmc-global-to-report-third-quarter-financial-results-on-october-27-2026",
      "source": "Finviz",
-     "time": "2026-04-20T20:30:00+00:00"
+     "time": "2026-10-14T11:00:00+00:00"
     }
    ],
-   "news_age_h": 984.9,
+   "news_age_h": 42.3,
+   "flags": [],
+   "plan": {
+    "entry": 8.88,
+    "stop": 8.226,
+    "target": 10.189,
+    "risk_pct": 7.4,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 28.5
+  },
+  {
+   "symbol": "TOYO",
+   "price": 4.71,
+   "prev_close": 4.7,
+   "gap_pct": 0.2,
+   "pm": {
+    "last": 4.71,
+    "high": 4.76,
+    "low": 4.6,
+    "vwap": 4.71,
+    "volume": 0
+   },
+   "avg_vol_20d": 323665,
+   "yday_vol": 1960600,
+   "rvol": 6.1,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 27.5,
+   "off_peak_pct": -0.4,
+   "atr14": 0.207,
+   "levels": {
+    "prev_high": 4.73,
+    "prev_low": 3.92,
+    "prev_close": 4.7,
+    "high_5d": 4.73,
+    "high_20d": 4.55,
+    "run_peak": 4.73,
+    "pm_high": 4.76,
+    "pm_low": 4.6,
+    "pm_vwap": 4.71
+   },
+   "green_streak": 2,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "TOYO Co., Ltd",
+   "sector": "Technology",
+   "industry": "Solar",
+   "country": "Japan",
+   "exchange": "NCM",
+   "float": 14569297.0,
+   "short_pct_float": 9.7,
+   "news": [
+    {
+     "title": "TOYO Confirms U.S. Customs and Border Protection Release of Ethiopia-Produced Solar Cells",
+     "url": "https://finviz.com/news/411516/toyo-confirms-us-customs-and-border-protection-release-of-ethiopia-produced-solar-cells",
+     "source": "Finviz",
+     "time": "2026-10-29T12:30:00+00:00"
+    },
+    {
+     "title": "TOYO Celebrates Completed 2 GW Module Expansion at Texas Facility with Ribbon-Cutting Ceremony",
+     "url": "https://finviz.com/news/399762/toyo-celebrates-completed-2-gw-module-expansion-at-texas-facility-with-ribbon-cutting-ceremony",
+     "source": "Finviz",
+     "time": "2026-10-07T12:00:00+00:00"
+    },
+    {
+     "title": "TOYO Announces Approximately $240 Million in Binding U.S. Solar Module Supply Agreements Through First Half of 2027",
+     "url": "https://finviz.com/news/395951/toyo-announces-approximately-240-million-in-binding-us-solar-module-supply-agreements-through-first-half-of-2027",
+     "source": "Finviz",
+     "time": "2026-09-28T12:15:00+00:00"
+    },
+    {
+     "title": "TOYO Co., Ltd. Provides Second Half 2026 Business Outlook",
+     "url": "https://finviz.com/news/395905/toyo-co-ltd-provides-second-half-2026-business-outlook",
+     "source": "Finviz",
+     "time": "2026-09-28T12:00:00+00:00"
+    }
+   ],
+   "news_age_h": 24.4,
+   "flags": [],
+   "plan": {
+    "entry": 4.76,
+    "stop": 4.559,
+    "target": 5.162,
+    "risk_pct": 4.2,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 22.6
+  }
+ ],
+ "near_misses": [
+  {
+   "symbol": "PCLA",
+   "price": 9.79,
+   "prev_close": 11.1,
+   "gap_pct": -11.8,
+   "pm": {
+    "last": 9.79,
+    "high": 10.782,
+    "low": 8.98,
+    "vwap": 9.79,
+    "volume": 0
+   },
+   "avg_vol_20d": 22580,
+   "yday_vol": 29659700,
+   "rvol": 1313.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 113.1,
+   "off_peak_pct": -21.0,
+   "atr14": 0.822,
+   "levels": {
+    "prev_high": 12.4,
+    "prev_low": 7.56,
+    "prev_close": 11.1,
+    "high_5d": 12.4,
+    "high_20d": 6.98,
+    "run_peak": 12.4,
+    "pm_high": 10.782,
+    "pm_low": 8.98,
+    "pm_vwap": 9.79
+   },
+   "green_streak": 1,
+   "setups": [
+    "Morning-panic dip-buy"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 10,
+    "finviz_http": 200
+   },
+   "name": "PicoCELA Inc.",
+   "sector": "Communication Services",
+   "industry": "Telecom Services",
+   "country": "Japan",
+   "exchange": "NCM",
+   "float": 340529.0,
+   "short_pct_float": 0.8,
+   "news": [
+    {
+     "title": "PicoCELA Inc. Announces Closing of Public Offering",
+     "url": "https://finviz.com/news/67246/picocela-inc-announces-closing-of-public-offering",
+     "source": "Finviz",
+     "time": "2025-05-27T21:29:00+00:00"
+    },
+    {
+     "title": "PicoCELA Inc. Announces Pricing of Public Offering",
+     "url": "https://finviz.com/news/65019/picocela-inc-announces-pricing-of-public-offering",
+     "source": "Finviz",
+     "time": "2025-05-23T12:05:00+00:00"
+    },
+    {
+     "title": "PicoCELA Inc. Issues  Restricted Common Shares to Nikken Lease Kogyo Co. Ltd.",
+     "url": "https://www.prnewswire.com/news-releases/picocela-inc-issues--restricted-common-shares-to-nikken-lease-kogyo-co-ltd-302443886.html",
+     "source": "Finviz",
+     "time": "2025-05-01T09:06:00+00:00"
+    },
+    {
+     "title": "PicoCELA Inc. Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency",
+     "url": "https://www.prnewswire.com/news-releases/picocela-inc-receives-nasdaq-notification-regarding-minimum-bid-price-deficiency-302437818.html",
+     "source": "Finviz",
+     "time": "2025-04-24T21:00:00+00:00"
+    }
+   ],
+   "news_age_h": 12495.4,
    "flags": [
-    "Reverse split 1:100 on 2026-05-07"
+    "Reverse split 1:30 on 2026-01-26"
    ],
    "plan": {
-    "entry": 1.19,
-    "stop": 1.05,
-    "target": 1.47,
+    "entry": 8.68,
+    "stop": 7.657,
+    "target": 11.1,
     "risk_pct": 11.8,
-    "rr": 2.0,
-    "note": "Former runner (+104.8% recently). Wait for an early panic flush into 1.10-1.27 (25-35% off the 1.70 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "rr": 2.4,
+    "note": "Former runner (+113.1% recently). Wait for an early panic flush into 8.06-9.30 (25-35% off the 12.40 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 83.5,
+   "score": 85.4,
    "failed": [
     "no fresh news"
    ]
   },
   {
    "symbol": "CENN",
-   "price": 1.95,
-   "prev_close": 1.99,
-   "gap_pct": -2.0,
+   "price": 1.66,
+   "prev_close": 1.755,
+   "gap_pct": -5.4,
    "pm": {
-    "last": 1.95,
-    "high": 1.95,
-    "low": 1.818,
-    "vwap": 1.95,
+    "last": 1.66,
+    "high": 1.68,
+    "low": 1.66,
+    "vwap": 1.66,
     "volume": 0
    },
-   "avg_vol_20d": 12650,
-   "yday_vol": 3581200,
-   "rvol": 283.1,
+   "avg_vol_20d": 13180,
+   "yday_vol": 1942900,
+   "rvol": 147.4,
    "rvol_basis": "yesterday",
    "run_pct_5d": 62.8,
-   "off_peak_pct": -44.3,
-   "atr14": 0.459,
+   "off_peak_pct": -52.6,
+   "atr14": 0.471,
    "levels": {
-    "prev_high": 2.49,
-    "prev_low": 1.69,
-    "prev_close": 1.99,
+    "prev_high": 2.129,
+    "prev_low": 1.655,
+    "prev_close": 1.755,
     "high_5d": 3.5,
     "high_20d": 4.295,
     "run_peak": 3.5,
-    "pm_high": 1.95,
-    "pm_low": 1.818,
-    "pm_vwap": 1.95
+    "pm_high": 1.68,
+    "pm_low": 1.66,
+    "pm_vwap": 1.66
    },
    "green_streak": 0,
    "setups": [
@@ -687,13 +503,13 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Cenntro Inc. Common Stock",
-   "sector": "Industrials",
-   "industry": "Auto Manufacturing",
-   "country": "New Zealand",
-   "exchange": null,
-   "float": 1070000.0,
-   "short_pct_float": null,
+   "name": "Cenntro Inc.",
+   "sector": "Consumer Cyclical",
+   "industry": "Auto Manufacturers",
+   "country": "United States",
+   "exchange": "NCM",
+   "float": 2336725.0,
+   "short_pct_float": 0.2,
    "news": [
     {
      "title": "Cenntro Regains Compliance with Nasdaq Minimum Bid Price Rule",
@@ -720,55 +536,206 @@
      "time": "2025-07-15T12:31:00+00:00"
     }
    ],
-   "news_age_h": 4408.4,
+   "news_age_h": 4432.4,
    "flags": [
     "Offering 424B5 filed 2026-10-13",
     "Reverse split 1:60 on 2026-04-13"
    ],
    "plan": {
-    "entry": 1.872,
-    "stop": 1.704,
-    "target": 2.207,
+    "entry": 1.594,
+    "stop": 1.451,
+    "target": 1.879,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+62.8% recently). Wait for an early panic flush into 1.79-1.95 (44-49% off the 3.50 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+62.8% recently). Wait for an early panic flush into 1.53-1.66 (53-56% off the 3.50 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 77.7,
+   "score": 77.8,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "JFIN",
+   "price": 1.8,
+   "prev_close": 1.72,
+   "gap_pct": 4.7,
+   "pm": {
+    "last": 1.8,
+    "high": 1.85,
+    "low": 1.685,
+    "vwap": 1.8,
+    "volume": 0
+   },
+   "avg_vol_20d": 37935,
+   "yday_vol": 10908100,
+   "rvol": 287.5,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 51.6,
+   "off_peak_pct": -4.2,
+   "atr14": 0.153,
+   "levels": {
+    "prev_high": 1.88,
+    "prev_low": 1.32,
+    "prev_close": 1.72,
+    "high_5d": 1.88,
+    "high_20d": 1.438,
+    "run_peak": 1.88,
+    "pm_high": 1.85,
+    "pm_low": 1.685,
+    "pm_vwap": 1.8
+   },
+   "green_streak": 1,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 18,
+    "finviz_http": 200
+   },
+   "name": "Jiayin Group Inc.",
+   "sector": "Financial Services",
+   "industry": "Credit Services",
+   "country": "China",
+   "exchange": "NGM",
+   "float": 16780339.0,
+   "short_pct_float": 1.0,
+   "news": [
+    {
+     "title": "Jiayin Group Inc (JFIN) (Q2 2026) Earnings Call Highlights: Navigating Industry Headwinds with ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/jiayin-group-inc-jfin-q2-190117452.html",
+     "source": "Finviz",
+     "time": "2026-08-28T19:01:00+00:00"
+    },
+    {
+     "title": "Jiayin Group Inc. Reports Second Quarter 2026 Unaudited Financial Results",
+     "url": "https://finviz.com/news/386523/jiayin-group-inc-reports-second-quarter-2026-unaudited-financial-results",
+     "source": "Finviz",
+     "time": "2026-08-28T10:00:00+00:00"
+    },
+    {
+     "title": "Jiayin Group Inc. to Release Second Quarter 2026 Unaudited Financial Results on Friday, August 28, 2026",
+     "url": "https://finviz.com/news/384438/jiayin-group-inc-to-release-second-quarter-2026-unaudited-financial-results-on-friday-august-28-2026",
+     "source": "Finviz",
+     "time": "2026-08-21T10:00:00+00:00"
+    },
+    {
+     "title": "Jiayin Group Inc. Releases 2025 Environmental, Social and Governance (ESG) Report",
+     "url": "https://finviz.com/news/383957/jiayin-group-inc-releases-2025-environmental-social-and-governance-esg-report",
+     "source": "Finviz",
+     "time": "2026-08-20T10:00:00+00:00"
+    }
+   ],
+   "news_age_h": 1505.9,
+   "flags": [],
+   "plan": {
+    "entry": 1.88,
+    "stop": 1.73,
+    "target": 2.181,
+    "risk_pct": 8.0,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 69.1,
+   "failed": [
+    "no fresh news"
+   ]
+  },
+  {
+   "symbol": "EWAV",
+   "price": 9.94,
+   "prev_close": 9.94,
+   "gap_pct": 0.0,
+   "pm": null,
+   "avg_vol_20d": 8425,
+   "yday_vol": 511200,
+   "rvol": 60.7,
+   "rvol_basis": "yesterday",
+   "run_pct_5d": 0.6,
+   "off_peak_pct": -0.1,
+   "atr14": 0.015,
+   "levels": {
+    "prev_high": 9.95,
+    "prev_low": 9.93,
+    "prev_close": 9.94,
+    "high_5d": 9.95,
+    "high_20d": 9.96,
+    "run_peak": 9.95,
+    "pm_high": null,
+    "pm_low": null,
+    "pm_vwap": null
+   },
+   "green_streak": 1,
+   "setups": [
+    "Breakout / multi-day runner"
+   ],
+   "sources": {
+    "yf_raw": 0,
+    "yf": 0,
+    "yahoo_search": 0,
+    "finviz": 0,
+    "finviz_http": 200
+   },
+   "name": "East West Ave Acquisition Corp.",
+   "sector": "Financial Services",
+   "industry": "Shell Companies",
+   "country": "United States",
+   "exchange": "NGM",
+   "float": 8518694.0,
+   "short_pct_float": null,
+   "news": [],
+   "news_age_h": null,
+   "flags": [
+    "SPAC",
+    "Offering 424B4 filed 2026-08-03",
+    "Shelf/Registration EFFECT filed 2026-07-13"
+   ],
+   "plan": {
+    "entry": 9.95,
+    "stop": 9.642,
+    "target": 10.566,
+    "risk_pct": 3.1,
+    "rr": 2.0,
+    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
+   },
+   "score": 66.5,
    "failed": [
     "no fresh news"
    ]
   },
   {
    "symbol": "BRAI",
-   "price": 3.33,
-   "prev_close": 3.6,
-   "gap_pct": -7.5,
+   "price": 3.109,
+   "prev_close": 3.06,
+   "gap_pct": 1.6,
    "pm": {
-    "last": 3.33,
-    "high": 3.39,
-    "low": 3.15,
-    "vwap": 3.33,
+    "last": 3.109,
+    "high": 3.2,
+    "low": 3.061,
+    "vwap": 3.109,
     "volume": 0
    },
-   "avg_vol_20d": 42630,
-   "yday_vol": 56713100,
-   "rvol": 1330.4,
+   "avg_vol_20d": 43760,
+   "yday_vol": 3400400,
+   "rvol": 77.7,
    "rvol_basis": "yesterday",
    "run_pct_5d": 157.1,
-   "off_peak_pct": -38.3,
+   "off_peak_pct": -42.4,
    "atr14": 0.893,
    "levels": {
-    "prev_high": 5.4,
-    "prev_low": 3.15,
-    "prev_close": 3.6,
+    "prev_high": 3.6,
+    "prev_low": 3.06,
+    "prev_close": 3.06,
     "high_5d": 5.4,
-    "high_20d": 5.62,
+    "high_20d": 5.5,
     "run_peak": 5.4,
-    "pm_high": 3.39,
-    "pm_low": 3.15,
-    "pm_vwap": 3.33
+    "pm_high": 3.2,
+    "pm_low": 3.061,
+    "pm_vwap": 3.109
    },
-   "green_streak": 2,
+   "green_streak": 0,
    "setups": [
     "Morning-panic dip-buy"
    ],
@@ -779,13 +746,13 @@
     "finviz": 18,
     "finviz_http": 200
    },
-   "name": "Braiin Limited Common Stock",
+   "name": "Braiin Limited",
    "sector": "Technology",
-   "industry": "EDP Services",
+   "industry": "Computer Hardware",
    "country": "Australia",
-   "exchange": null,
-   "float": 206090000.0,
-   "short_pct_float": null,
+   "exchange": "NGM",
+   "float": 39980659.0,
+   "short_pct_float": 0.5,
    "news": [
     {
      "title": "Braiin Targets USD 56.9 Billion CX Software Market with Agentic AI Expansion and Major Upgrade to RADIUS CX Platform",
@@ -812,215 +779,35 @@
      "time": "2026-07-29T12:30:00+00:00"
     }
    ],
-   "news_age_h": 71.9,
-   "flags": [],
+   "news_age_h": 95.9,
+   "flags": [
+    "Recent foreign IPO (Australia)"
+   ],
    "plan": {
-    "entry": 3.197,
-    "stop": 2.91,
-    "target": 3.77,
+    "entry": 2.985,
+    "stop": 2.717,
+    "target": 3.519,
     "risk_pct": 9.0,
     "rr": 2.0,
-    "note": "Former runner (+157.1% recently). Wait for an early panic flush into 3.06-3.33 (38-43% off the 5.40 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
+    "note": "Former runner (+157.1% recently). Wait for an early panic flush into 2.86-3.11 (42-47% off the 5.40 peak), then buy the first strong bounce/reversal candle. No bounce = no trade."
    },
-   "score": 67.0,
+   "score": 61.6,
    "failed": [
-    "float 206.1M > 20M"
-   ]
-  },
-  {
-   "symbol": "FTFT",
-   "price": 2.969,
-   "prev_close": 2.89,
-   "gap_pct": 2.7,
-   "pm": {
-    "last": 2.969,
-    "high": 3.03,
-    "low": 2.76,
-    "vwap": 2.969,
-    "volume": 0
-   },
-   "avg_vol_20d": 399985,
-   "yday_vol": 15925500,
-   "rvol": 39.8,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 82.8,
-   "off_peak_pct": -9.8,
-   "atr14": 0.38,
-   "levels": {
-    "prev_high": 3.29,
-    "prev_low": 1.88,
-    "prev_close": 2.89,
-    "high_5d": 3.29,
-    "high_20d": 3.85,
-    "run_peak": 3.29,
-    "pm_high": 3.03,
-    "pm_low": 2.76,
-    "pm_vwap": 2.969
-   },
-   "green_streak": 2,
-   "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Future FinTech Group Inc. Common Stock",
-   "sector": "Consumer Discretionary",
-   "industry": "Business Services",
-   "country": "China",
-   "exchange": null,
-   "float": 5780000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Did Future FinTech Group Inc. Insiders Breach their Fiduciary Duties to Shareholders?",
-     "url": "https://finviz.com/news/395530/did-future-fintech-group-inc-insiders-breach-their-fiduciary-duties-to-shareholders",
-     "source": "Finviz",
-     "time": "2026-09-25T11:21:00+00:00"
-    },
-    {
-     "title": "Future Fintech Group Announces Reverse Stock Split",
-     "url": "https://finviz.com/news/366779/future-fintech-group-announces-reverse-stock-split",
-     "source": "Finviz",
-     "time": "2026-07-08T21:26:00+00:00"
-    },
-    {
-     "title": "Future FinTech Enters into Strategic Cooperation Agreement with Maxing Technology Limited to Build a Global Payment Ecosystem",
-     "url": "https://finviz.com/news/337502/future-fintech-enters-into-strategic-cooperation-agreement-with-maxing-technology-limited-to-build-a-global-payment-ecosystem",
-     "source": "Finviz",
-     "time": "2026-03-16T12:30:00+00:00"
-    },
-    {
-     "title": "Future FinTech Group Inc. Announces Reverse Stock Split with Marketplace Effective Date on January 20, 2026",
-     "url": "https://finviz.com/news/276035/future-fintech-group-inc-announces-reverse-stock-split-with-marketplace-effective-date-on-january-20-2026",
-     "source": "Finviz",
-     "time": "2026-01-14T14:00:00+00:00"
-    }
-   ],
-   "news_age_h": 817.6,
-   "flags": [
-    "Reverse split 1:4 on 2026-01-20",
-    "Reverse split 1:4 on 2026-07-13",
-    "Reverse split 1:4 on 2026-08-31"
-   ],
-   "plan": {
-    "entry": 3.29,
-    "stop": 3.027,
-    "target": 3.816,
-    "risk_pct": 8.0,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 58.1,
-   "failed": [
-    "no fresh news"
-   ]
-  },
-  {
-   "symbol": "LUNG",
-   "price": 2.56,
-   "prev_close": 2.52,
-   "gap_pct": 1.6,
-   "pm": {
-    "last": 2.56,
-    "high": 2.6,
-    "low": 2.5,
-    "vwap": 2.56,
-    "volume": 0
-   },
-   "avg_vol_20d": 270770,
-   "yday_vol": 7263500,
-   "rvol": 26.8,
-   "rvol_basis": "yesterday",
-   "run_pct_5d": 54.7,
-   "off_peak_pct": -7.6,
-   "atr14": 0.154,
-   "levels": {
-    "prev_high": 2.77,
-    "prev_low": 2.31,
-    "prev_close": 2.52,
-    "high_5d": 2.77,
-    "high_20d": 2.025,
-    "run_peak": 2.77,
-    "pm_high": 2.6,
-    "pm_low": 2.5,
-    "pm_vwap": 2.56
-   },
-   "green_streak": 3,
-   "setups": [
-    "Breakout / multi-day runner"
-   ],
-   "sources": {
-    "yf_raw": 0,
-    "yf": 0,
-    "yahoo_search": 0,
-    "finviz": 18,
-    "finviz_http": 200
-   },
-   "name": "Pulmonx Corporation Common Stock",
-   "sector": "Health Care",
-   "industry": "Medical/Dental Instruments",
-   "country": "United States",
-   "exchange": null,
-   "float": 38450000.0,
-   "short_pct_float": null,
-   "news": [
-    {
-     "title": "Pulmonx Returns To Revenue Growth And Beats On Cost Discipline, But The Revenue Guide Stays Unchanged",
-     "url": "https://finviz.com/news/409526/pulmonx-returns-to-revenue-growth-and-beats-on-cost-discipline-but-the-revenue-guide-stays-unchanged",
-     "source": "Finviz",
-     "time": "2026-10-27T22:03:00+00:00"
-    },
-    {
-     "title": "Pulmonx Reports Third Quarter 2026 Financial Results",
-     "url": "https://finviz.com/news/409258/pulmonx-reports-third-quarter-2026-financial-results",
-     "source": "Finviz",
-     "time": "2026-10-27T20:05:00+00:00"
-    },
-    {
-     "title": "Pulmonx to Report Third Quarter 2026 Financial Results on October 27, 2026",
-     "url": "https://finviz.com/news/402032/pulmonx-to-report-third-quarter-2026-financial-results-on-october-27-2026",
-     "source": "Finviz",
-     "time": "2026-10-13T20:05:00+00:00"
-    },
-    {
-     "title": "Pulmonx Shares Fall Following Recent Gains",
-     "url": "https://finviz.com/news/388639/pulmonx-shares-fall-following-recent-gains",
-     "source": "Finviz",
-     "time": "2026-09-03T12:28:00+00:00"
-    }
-   ],
-   "news_age_h": 38.9,
-   "flags": [],
-   "plan": {
-    "entry": 2.77,
-    "stop": 2.548,
-    "target": 3.213,
-    "risk_pct": 8.0,
-    "rr": 2.0,
-    "note": "Multi-day runner. Buy the break of yesterday's / pre-market high if it holds on volume; day 2-3 is the sweet spot, be cautious past day 3."
-   },
-   "score": 36.8,
-   "failed": [
-    "float 38.5M > 20M"
+    "float 40.0M > 20M"
    ]
   }
  ],
  "stats": {
-  "universe": 6598,
-  "with_history": 2697,
-  "scanned_premarket": 2182,
+  "universe": 6572,
+  "with_history": 2684,
+  "scanned_premarket": 2170,
   "setup_candidates": 45,
-  "qualified": 6,
+  "qualified": 4,
   "news_sources": {
    "yf_raw": 0,
    "yf": 0,
    "yahoo_search": 0,
-   "finviz": 44
+   "finviz": 40
   },
   "finviz_http": [
    "200",
